@@ -3,109 +3,108 @@
     "id": 15,
     "source": "GitHub Engineering",
     "title": "How GitHub gave every repository a durable owner",
-    "summary": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the foundation for everything that followed.",
-    "tag": "Architecture",
-    "time": "3 min read",
+    "summary": "GitHub assigned a validated owner to every one of its 14,000+ internal repositories and archived 8,000 inactive ones, because unowned repositories kept breaking security workflows and incident response.",
+    "tag": "Security",
+    "time": "8 min read",
     "accent": "cyan",
     "published": "Jul 9, 2026",
     "publishedAt": "2026-07-09T16:29:37.000Z",
     "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
-    "details": [],
+    "details": [
+      "Sync ownership from systems you already have before asking teams to fill anything in by hand — it bought day-one coverage of ~1,500 repositories.",
+      "Prefer archiving to deletion: a reversible action can be applied org-wide instead of debated repository by repository.",
+      "Give any bulk automation a low-water-mark threshold that halts it when it exceeds a conservative limit."
+    ],
     "featured": true
   },
   {
     "id": 16,
     "source": "GitHub Engineering",
     "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
-    "summary": "Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation.",
-    "tag": "Engineering",
-    "time": "3 min read",
+    "summary": "GitHub describes generating documentation pull requests automatically as features merge, with the engineer who approved the feature pulled in as reviewer, closing the usual lag between release and docs.",
+    "tag": "AI engineering",
+    "time": "7 min read",
     "accent": "purple",
     "published": "Jul 8, 2026",
     "publishedAt": "2026-07-08T21:11:56.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
-    "details": []
+    "details": [
+      "Map milestones to release branches so the agent never has to decide where its output belongs.",
+      "Give the agent a scoped app token and route writes through a narrow handler rather than granting it direct write access.",
+      "Open drafts only, and reassign review to whoever approved the original feature — existing expertise instead of new review burden."
+    ],
+    "featured": false
   },
   {
     "id": 17,
     "source": "GitHub Engineering",
     "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
-    "summary": "Go from an empty repository to a live custom domain with HTTPS in about 14 minutes, without manually editing a single DNS record.",
-    "tag": "AI engineering",
-    "time": "3 min read",
+    "summary": "A walkthrough of taking a GitHub Pages site to a custom domain with HTTPS in about 14 minutes, with registrar DNS records configured through the Copilot CLI instead of by hand.",
+    "tag": "DevOps",
+    "time": "5 min read",
     "accent": "amber",
     "published": "Jul 8, 2026",
     "publishedAt": "2026-07-08T16:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
-    "details": []
+    "details": [
+      "Driving a registrar API from the CLI removes the manual DNS step while keeping an approval checkpoint before records change.",
+      "Build resolution and HTTP-status checks into the deploy itself so success is confirmed rather than assumed.",
+      "The skill pattern generalizes to any registrar with an API, so the workflow is not tied to one provider."
+    ],
+    "featured": false
   },
   {
     "id": 18,
     "source": "Vercel",
     "title": "Introducing the new Vercel Agent",
-    "summary": "Today we're expanding Vercel Agent . It started by triaging alerts and reviewing your pull requests. Now it has a home in your dashboard, where it can investigate production, answer questions about your projects, and take action once you approve it.",
+    "summary": "Vercel’s agent now works inside the dashboard, investigating production issues and proposing fixes for approval rather than applying them directly.",
     "tag": "AI engineering",
-    "time": "3 min read",
+    "time": "6 min read",
     "accent": "cyan",
     "published": "Jul 8, 2026",
     "publishedAt": "2026-07-08T06:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-agent",
-    "details": []
-  },
-  {
-    "id": 11,
-    "source": "GitHub Engineering",
-    "title": "$100 million for open source: A milestone built by the community",
-    "summary": "Celebrating $100 million contributed by the community to the people who build and sustain open source every day.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 20, 2026",
-    "publishedAt": "2026-07-20T16:00:00.000Z",
-    "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 12,
-    "source": "GitHub Engineering",
-    "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
-    "summary": "New to GitHub? This beginner's guide explains version control, repositories, and pull requests—plus everything else you need to start working confidently on GitHub.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 15, 2026",
-    "publishedAt": "2026-07-15T17:29:31.000Z",
-    "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
-    "details": [],
+    "details": [
+      "Plan-to-permission gives the agent short-lived capability for the tasks it named, limiting the blast radius of one bad prompt.",
+      "Running generated code in a sandboxed microVM lets changes be validated against real builds before a human sees them.",
+      "Immutable deployments make autonomous action tolerable — a bad deploy is one rollback away, so the model need not be perfect."
+    ],
     "featured": false
   },
   {
     "id": 13,
     "source": "Vercel",
     "title": "How Speechify serves 500,000 dynamic pages to 60 million users on Vercel",
-    "summary": "Speechify started as a tool for people with dyslexia. Cliff Weitzman, Founder & CEO, built it because reading was challenging and audio made it much easier. That initial use case led Speechify to tens of millions of users and an Apple Design Award for inclusion.",
-    "tag": "DevOps",
-    "time": "4 min read",
+    "summary": "Speechify serves 500,000+ dynamic pages across 40+ languages, and describes cutting infrastructure cost roughly in half by leaning on caching rather than scaling the database with traffic.",
+    "tag": "Architecture",
+    "time": "5 min read",
     "accent": "amber",
     "published": "Jul 15, 2026",
     "publishedAt": "2026-07-15T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
-    "details": [],
+    "details": [
+      "Cache dynamic content — A/B variants, localized pages — so database cost stops scaling linearly with traffic.",
+      "Instant rollback changes deployment from a risk to be managed into a routine a small team can ship through daily.",
+      "Offloading patching and autoscaling to the platform is what let a small growth team keep shipping instead of maintaining."
+    ],
     "featured": false
   },
   {
     "id": 14,
     "source": "Vercel",
     "title": "Open-weight models surge to 29% of volume, price per token flattens",
-    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs, giving us a view of what AI usage actually looks like in today’s enterprise. We publish that view here. See the Production Index reports published in May and June .",
+    "summary": "Open-weight models now carry 29% of token volume at 4% of spend, while Anthropic takes 61% of spend on 32% of tokens — a split that argues for routing by risk rather than by default.",
     "tag": "AI engineering",
-    "time": "4 min read",
+    "time": "6 min read",
     "accent": "emerald",
     "published": "Jul 13, 2026",
     "publishedAt": "2026-07-13T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
-    "details": [],
+    "details": [
+      "Route high-volume, low-risk work to cheap open-weight models and keep frontier models for work where being wrong is expensive.",
+      "GLM 5.2 reached the top ten within two weeks of launch, so treat model choice as swappable configuration rather than a fixed dependency.",
+      "No provider leads every modality — text, image, and video have different winners, so plan for multi-provider routing."
+    ],
     "featured": false
   },
   {

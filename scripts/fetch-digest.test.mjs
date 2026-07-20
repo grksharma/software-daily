@@ -64,6 +64,8 @@ test('safeUrl strips query and fragment used for tracking or spoofing', () => {
 test('clean strips control characters and bidi overrides', () => {
   // Ranges are built from escape sequences so this file stays plain ASCII —
   // literal control bytes here would make git treat the test as binary.
+  // The control-character range is the point of the test, hence the exemption.
+  // oxlint-disable-next-line no-control-regex
   const CONTROL = new RegExp('[\\u0000-\\u001f\\u007f-\\u009f]')
   const BIDI = new RegExp('[\\u202a-\\u202e\\u2066-\\u2069]')
   const ZERO_WIDTH = new RegExp('[\\u200b-\\u200f]')

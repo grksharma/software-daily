@@ -47,7 +47,10 @@ const SOURCES = [
     name: 'GitHub Engineering',
     feed: 'https://github.blog/feed/',
     host: 'github.blog',
-    sections: ['engineering', 'ai-and-ml', 'security', 'open-source', 'developer-skills'],
+    // Narrowed after the first live run: `open-source` carried a funding
+    // announcement and `developer-skills` a beginners' tutorial, neither of
+    // which is the long-form engineering writing this digest is for.
+    sections: ['engineering', 'ai-and-ml', 'security'],
     accent: 'cyan',
     tag: 'Engineering',
   },
