@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-slate-100 antialiased font-body selection:bg-tech-cyan/30 selection:text-white;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+/* Custom glassmorphism utilities */
+.glass-card {
+  @apply bg-brand-surface/75 border border-white/5 shadow-2xl rounded-2xl backdrop-blur-md transition-all duration-300 hover:border-white/10;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-surfaceLight rounded-full hover:bg-slate-500;
+}
+
+/* Float animation for the banner/logo */
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(2deg); }
+}
+
+.animate-float {
+  animation: float 6s infinite ease-in-out;
+}
+
+/* Custom Markdown Content Styling */
+.prose-custom {
+  @apply text-slate-300 leading-relaxed text-sm;
+}
+.prose-custom p {
+  @apply mb-4;
+}
+.prose-custom h3 {
+  @apply text-lg font-bold text-white mb-3 mt-5;
+}
+.prose-custom h4 {
+  @apply text-base font-bold text-white mb-2 mt-4;
+}
+.prose-custom ul {
+  @apply list-disc list-inside mb-4 pl-2;
+}
+.prose-custom ol {
+  @apply list-decimal list-inside mb-4 pl-2;
+}
+.prose-custom li {
+  @apply mb-1.5;
+}
+.prose-custom code {
+  @apply font-mono bg-brand-dark px-1.5 py-0.5 rounded text-tech-cyan text-xs;
+}
+.prose-custom pre {
+  @apply bg-brand-dark border border-white/5 rounded-lg p-3 my-4 overflow-x-auto;
+}
+.prose-custom pre code {
+  @apply p-0 text-white bg-transparent;
+}
