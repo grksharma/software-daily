@@ -1,5 +1,45 @@
 [
   {
+    "id": 19,
+    "source": "Vercel",
+    "title": "Vercel acquires Better Auth to accelerate open source auth",
+    "summary": "Vercel is acquiring Better Auth , the company behind the open source TypeScript authentication library , which has 4.7M+ weekly npm downloads and more than 850 contributors. Founder Bereket Engida and the core team are joining Vercel to continue their work on Better Auth and agent identity.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 7, 2026",
+    "publishedAt": "2026-07-07T07:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-acquires-better-auth",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 20,
+    "source": "GitHub Engineering",
+    "title": "How GitHub used secret scanning to reach inbox zero",
+    "summary": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 2, 2026",
+    "publishedAt": "2026-07-02T16:00:00.000Z",
+    "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
+    "details": []
+  },
+  {
+    "id": 21,
+    "source": "Vercel",
+    "title": "Vercel Ship 2026 recap",
+    "summary": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and thousands of people gathered across London, Berlin, and New York to do just that at Vercel Ship 2026.",
+    "tag": "Infrastructure",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Jun 30, 2026",
+    "publishedAt": "2026-06-30T16:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+    "details": []
+  },
+  {
     "id": 15,
     "source": "GitHub Engineering",
     "title": "How GitHub gave every repository a durable owner",
@@ -15,7 +55,7 @@
       "Prefer archiving to deletion: a reversible action can be applied org-wide instead of debated repository by repository.",
       "Give any bulk automation a low-water-mark threshold that halts it when it exceeds a conservative limit."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 16,
