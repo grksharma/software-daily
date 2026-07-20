@@ -22,9 +22,9 @@ export default {
         }
       },
       fontFamily: {
-        heading: ['Outfit', 'sans-serif'],
-        body: ['Inter', 'sans-serif'],
-        mono: ['Fira Code', 'monospace'],
+        heading: ['Outfit Variable', 'Outfit', 'system-ui', 'sans-serif'],
+        body: ['Inter Variable', 'Inter', 'system-ui', 'sans-serif'],
+        mono: ['Fira Code Variable', 'Fira Code', 'ui-monospace', 'monospace'],
       },
       boxShadow: {
         glow: '0 0 20px rgba(0, 208, 255, 0.2)',

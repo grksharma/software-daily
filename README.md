@@ -15,3 +15,78 @@ npm run dev
 npm run lint
 npm run build
 ```
+
+## Layout
+
+```
+index.html              Document shell, SEO and Open Graph metadata
+src/main.jsx            Entry point; loads fonts then global styles
+src/App.jsx             Page composition and the two dialogs
+src/data/stories.js     Story content; topics and tags derive from it
+src/hooks/              useLocalStorage (persistence), useDialog (a11y)
+src/App.css             Layout and component styles
+src/index.css           Tailwind layers and base typography
+```
+
+## Adding a story
+
+Append to the `stories` array in `src/data/stories.js`. The filter pills, the
+topic ranking, and their counts are all derived from the `tag` field, so they
+stay in sync automatically — reuse an existing tag rather than inventing a
+near-duplicate. `featured: true` adds the "Editor's pick" treatment; `details`
+supplies the "Why it matters" bullets in the briefing modal.
+
+## Fonts
+
+Outfit (headings), Inter (body), and Fira Code (mono) are self-hosted via
+`@fontsource-variable/*` and imported in `src/main.jsx`. The matching family
+names — `Outfit Variable`, `Inter Variable`, `Fira Code Variable` — are what
+`tailwind.config.js` references, so keep the two in sync when changing a face.
+
+## Daily updates
+
+The digest updates itself from public engineering feeds. Two jobs run daily and
+both publish straight to `main`:
+
+| Job | When | What it does |
+| --- | --- | --- |
+| `.github/workflows/daily-digest.yml` | 06:17 UTC | Runs `npm run digest`, verifies the build, commits. Runs in the cloud, so it works whether or not your machine is on. |
+| Local scheduled task `software-daily-digest` | 12:23 local | Reads each newly ingested article and writes the real summary and "Why it matters" bullets, then commits. Only runs while the app is open. |
+
+The split is deliberate: the Action does the mechanical, deterministic part
+(fetch, validate, dedupe) with no API key. The local pass does the part that
+needs judgment. A story ingested by the Action shows a feed-derived summary and
+no bullets until the editorial pass reaches it — the briefing modal renders
+without the "Why it matters" section rather than showing an empty heading.
+
+```bash
+npm run digest:dry   # see what would be added, change nothing
+npm run digest       # fetch and write
+npm test             # ingest guardrails
+```
+
+### Sources
+
+Configured in `SOURCES` at the top of `scripts/fetch-digest.mjs`. Each source
+declares a `host` and a list of `sections`. The section filter is what keeps the
+digest editorial: Vercel's feed is roughly 6:1 changelog-to-blog, so without
+`sections: ['blog']` the digest fills with release notes and pricing promos.
+
+### Guardrails
+
+The job ingests untrusted third-party content and publishes it without review,
+so `scripts/fetch-digest.test.mjs` asserts that it cannot be abused. Content is
+data, never instructions. Entry URLs must resolve to an allowlisted host and
+section over https — lookalike domains (`github.blog.attacker.net`) and
+`javascript:`/`data:` schemes are rejected. Markup is stripped rather than
+escaped, control characters and bidi overrides are removed, fields are
+length-capped, and output goes through `JSON.stringify` so nothing can break out
+of the data file. A run that fails the tests, lint, or build commits nothing.
+
+## Notes
+
+- The reading list and subscribe state persist to `localStorage` under the
+  `software-daily:*` keys. There is no backend: subscribing stores the address
+  in the browser only, and the dialog says so.
+- `index.html` has a TODO for the canonical URL, `og:url`, and an `og:image`.
+  These need the real production domain and are deliberately left unset.
