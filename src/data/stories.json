@@ -1,5 +1,58 @@
 [
   {
+    "id": 15,
+    "source": "GitHub Engineering",
+    "title": "How GitHub gave every repository a durable owner",
+    "summary": "GitHub had over 14,000 repositories. Fewer than half had clear ownership. Here's how we gave every active repository a validated owner in under 45 days, archived the rest, and made ownership the foundation for everything that followed.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 9, 2026",
+    "publishedAt": "2026-07-09T16:29:37.000Z",
+    "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 16,
+    "source": "GitHub Engineering",
+    "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
+    "summary": "Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 8, 2026",
+    "publishedAt": "2026-07-08T21:11:56.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
+    "details": []
+  },
+  {
+    "id": 17,
+    "source": "GitHub Engineering",
+    "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
+    "summary": "Go from an empty repository to a live custom domain with HTTPS in about 14 minutes, without manually editing a single DNS record.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 8, 2026",
+    "publishedAt": "2026-07-08T16:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
+    "details": []
+  },
+  {
+    "id": 18,
+    "source": "Vercel",
+    "title": "Introducing the new Vercel Agent",
+    "summary": "Today we're expanding Vercel Agent . It started by triaging alerts and reviewing your pull requests. Now it has a home in your dashboard, where it can investigate production, answer questions about your projects, and take action once you approve it.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 8, 2026",
+    "publishedAt": "2026-07-08T06:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-agent",
+    "details": []
+  },
+  {
     "id": 11,
     "source": "GitHub Engineering",
     "title": "$100 million for open source: A milestone built by the community",
@@ -11,7 +64,7 @@
     "publishedAt": "2026-07-20T16:00:00.000Z",
     "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 12,
@@ -24,7 +77,8 @@
     "published": "Jul 15, 2026",
     "publishedAt": "2026-07-15T17:29:31.000Z",
     "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 13,
@@ -37,7 +91,8 @@
     "published": "Jul 15, 2026",
     "publishedAt": "2026-07-15T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 14,
@@ -50,7 +105,8 @@
     "published": "Jul 13, 2026",
     "publishedAt": "2026-07-13T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 1,
