@@ -1,5 +1,113 @@
 [
   {
+    "id": 34,
+    "source": "Cloudflare",
+    "title": "Introducing Meerkat: an experiment in global consensus",
+    "summary": "Cloudflare is testing a new consensus algorithm called QuePaxa in a service called Meerkat, aiming to keep control-plane data consistent across data centers without a single leader node.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 8, 2026",
+    "publishedAt": "2026-07-08T12:00:00.000Z",
+    "url": "https://blog.cloudflare.com/meerkat-introduction/",
+    "details": [
+      "Leader-based consensus systems like Raft can stall or become unavailable when the leader fails or the network degrades, which is a bigger risk across globally distributed data centers.",
+      "QuePaxa removes the need for a single leader, letting concurrent proposals cooperate instead of triggering disruptive re-election pauses.",
+      "In tests under adversarial network conditions, Meerkat sustained roughly 10x the throughput of Raft and Multi-Paxos, showing the consensus algorithm choice matters for real-world resilience."
+    ],
+    "featured": false
+  },
+  {
+    "id": 35,
+    "source": "Cloudflare",
+    "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
+    "summary": "Cloudflare became a founding signatory of the UK government's Cyber Resilience Pledge, a voluntary commitment to board-level security oversight, baseline protections, and vetted suppliers.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 7, 2026",
+    "publishedAt": "2026-07-07T12:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
+    "details": [
+      "The pledge asks organizations to commit to board-level accountability for cybersecurity rather than leaving it solely to technical teams.",
+      "Cloudflare ties its participation to concrete practices, such as requiring critical suppliers to hold ISO 27001 and SOC 2 Type II certifications.",
+      "The announcement cites UK-specific risk data, including that 43% of surveyed British businesses reported a cyber incident in the past year, as context for why pledges like this matter."
+    ],
+    "featured": false
+  },
+  {
+    "id": 36,
+    "source": "Cloudflare",
+    "title": "Your Worker can now have its own cache in front of it",
+    "summary": "Cloudflare launched Workers Cache, letting a Worker cache its own responses in front of it using standard HTTP headers instead of separate CDN configuration.",
+    "tag": "Infrastructure",
+    "time": "5 min read",
+    "accent": "emerald",
+    "published": "Jul 6, 2026",
+    "publishedAt": "2026-07-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-cache/",
+    "details": [
+      "Enabling the cache is a one-line change in the Wrangler config, and caching behavior is then controlled with familiar Cache-Control and Vary headers.",
+      "The cache is two-tiered: a nearby regional tier is checked first, then a shared upper tier, so once any location fills the cache, other regions can hit it too.",
+      "Because ctx.props can scope cache keys per user, developers can cache responses from authenticated, multi-tenant APIs without leaking one user's data to another."
+    ],
+    "featured": false
+  },
+  {
+    "id": 37,
+    "source": "Cloudflare",
+    "title": "Making AI search smarter",
+    "summary": "Cloudflare is piloting ways to pay creators when AI systems use their content in search answers, instead of only rewarding pages that get crawled.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
+    "details": [
+      "AI-generated search summaries sharply cut referral traffic to original sources, with one cited study finding users click through only about 8% of the time when a summary is shown.",
+      "Cloudflare says over half of the crawl traffic it sees hits pages that haven't actually changed, so its new signal-based approach aims to cut wasted crawling rather than just block it.",
+      "A 'pay-per-query' pilot with partners like Ceramic.ai would compensate publishers when their content is actually used in an answer, not just when a bot crawls it."
+    ],
+    "featured": false
+  },
+  {
+    "id": 38,
+    "source": "Cloudflare",
+    "title": "Your site, your rules: new AI traffic options for all customers",
+    "summary": "Cloudflare now lets site owners separately allow or block three kinds of AI bots (search, agent, and training crawlers) instead of one all-or-nothing switch.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "details": [
+      "Site owners can now distinguish bots that index content for search, bots acting on a person's behalf in real time, and bots scraping content to train models.",
+      "Starting September 15, 2026, new domains will block Training and Agent bots on ad-monetized pages by default, while Search bots stay allowed, unless the owner opts out.",
+      "A new optional robots.txt signal lets sites specify how their content may be used, ranging from no storage at all to full summarization and reproduction."
+    ],
+    "featured": false
+  },
+  {
+    "id": 39,
+    "source": "Cloudflare",
+    "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+    "summary": "Cloudflare opened a waitlist for Monetization Gateway, letting sites charge small stablecoin payments per request for pages, APIs, or datasets using the x402 protocol.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/monetization-gateway/",
+    "details": [
+      "The flow rides on HTTP's existing 402 Payment Required status code: a client requests a resource, gets a price back, pays, and resubmits the request with proof of payment.",
+      "Payments settle peer-to-peer in stablecoins in under a second, a design aimed at AI agents that read a resource once rather than maintain a subscription.",
+      "No account signup is required from the payer; Cloudflare's model treats the payment itself as the credential that unlocks the resource."
+    ],
+    "featured": false
+  },
+  {
     "id": 28,
     "source": "Cloudflare",
     "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
@@ -15,7 +123,7 @@
       "The new Extended DNS Error 33 signals in the response itself that a Negative Trust Anchor was applied, giving operators direct visibility.",
       "Tooling is adopting it — kdig names EDE 33 and an Unbound pull request is in review — so the transparency spreads across the ecosystem."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 29,
@@ -123,7 +231,7 @@
       "One API, control plane, and audit trail cover the whole DNS stack instead of stitching separate tools together.",
       "Resolver policies run through Cloudflare Gateway, so which users and devices see which view is enforced by the same Zero Trust layer."
     ],
-    "featured": false
+    "featured": true
   },
   {
     "id": 23,
