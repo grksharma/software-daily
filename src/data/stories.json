@@ -1,5 +1,84 @@
 [
   {
+    "id": 40,
+    "source": "Cloudflare",
+    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
+    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals and detail the new infrastructure required to support a sustainable web economy.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 41,
+    "source": "Cloudflare",
+    "title": "Unmasking the crawls with Attribution Business Insights",
+    "summary": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T06:00:00.000Z",
+    "url": "https://blog.cloudflare.com/attribution-business-insights/",
+    "details": []
+  },
+  {
+    "id": 42,
+    "source": "Netflix",
+    "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
+    "summary": "The Netflix homepage is the first thing users see when they open the app and the primary way they discover content to enjoy. Almost every part of it is personalized, including which rows appear, which entities show up within those rows, and how everything is arranged on the page.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jun 29, 2026",
+    "publishedAt": "2026-06-29T13:01:02.000Z",
+    "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
+    "details": []
+  },
+  {
+    "id": 43,
+    "source": "Vercel",
+    "title": "Vercel Open Source Program: Spring 2026 cohort",
+    "summary": "The world runs on open source software. The frameworks, libraries, and tools we rely on are made possible by communities that share ideas and build in the open.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jun 29, 2026",
+    "publishedAt": "2026-06-29T13:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-open-source-program-spring-2026-cohort",
+    "details": []
+  },
+  {
+    "id": 44,
+    "source": "Dropbox",
+    "title": "How we used DSPy to turn AI evaluations into better responses in Dash chat",
+    "summary": "We used DSPy to improve LLM judges and optimize our chat experience, creating an evaluation-driven feedback loop that produced better outputs.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jun 25, 2026",
+    "publishedAt": "2026-06-25T16:30:00.000Z",
+    "url": "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat",
+    "details": []
+  },
+  {
+    "id": 45,
+    "source": "Vercel",
+    "title": "AI SDK 7",
+    "summary": "AI SDK, with over 16 million weekly downloads, is the TypeScript SDK for building AI applications, features, frameworks, and agents across any model provider. It's the same layer eve , Vercel's open-source agent framework, is built on.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jun 25, 2026",
+    "publishedAt": "2026-06-25T13:00:00.000Z",
+    "url": "https://vercel.com/blog/ai-sdk-7",
+    "details": []
+  },
+  {
     "id": 34,
     "source": "Cloudflare",
     "title": "Introducing Meerkat: an experiment in global consensus",
@@ -231,7 +310,7 @@
       "One API, control plane, and audit trail cover the whole DNS stack instead of stitching separate tools together.",
       "Resolver policies run through Cloudflare Gateway, so which users and devices see which view is enforced by the same Zero Trust layer."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 23,
@@ -601,57 +680,6 @@
       "Frontend and backend services can deploy and roll back atomically.",
       "Internal service bindings avoid routing sensitive traffic over the public internet.",
       "Shared previews make cross-service changes easier to validate before release."
-    ],
-    "featured": false
-  },
-  {
-    "id": 8,
-    "source": "Vercel",
-    "title": "Vercel and Shopify are rebuilding Hydrogen",
-    "summary": "Vercel and Shopify describe a new, open-source and runtime-agnostic direction for Hydrogen.",
-    "tag": "Frontend",
-    "time": "8 min read",
-    "accent": "amber",
-    "published": "Jun 30, 2026",
-    "url": "https://vercel.com/blog/vercel-and-shopify-are-rebuilding-hydrogen",
-    "details": [
-      "The project aims to make commerce tooling more portable across runtimes.",
-      "Framework decisions can preserve an ecosystem while reducing hosting lock-in.",
-      "Open source remains the coordination layer for platform and community contributions."
-    ],
-    "featured": false
-  },
-  {
-    "id": 9,
-    "source": "OpenAI Developers",
-    "title": "Mastering remote engineering work from your phone",
-    "summary": "How Remote in the ChatGPT mobile app helps start, steer, review, and organize engineering work away from a desk.",
-    "tag": "Developer tools",
-    "time": "6 min read",
-    "accent": "cyan",
-    "published": "Jun 23, 2026",
-    "url": "https://developers.openai.com/blog/mastering-codex-remote-for-engineering",
-    "details": [
-      "Remote engineering needs clear task boundaries and review checkpoints.",
-      "Mobile steering works best when agents leave concise, inspectable progress updates.",
-      "Use remote sessions to unblock work, then review material changes deliberately."
-    ],
-    "featured": false
-  },
-  {
-    "id": 10,
-    "source": "OpenAI Developers",
-    "title": "Using skills to accelerate OSS maintenance",
-    "summary": "How reusable skills and GitHub Actions can streamline maintenance in the OpenAI Agents SDK repositories.",
-    "tag": "Developer tools",
-    "time": "7 min read",
-    "accent": "purple",
-    "published": "Mar 9, 2026",
-    "url": "https://developers.openai.com/blog/skills-agents-sdk",
-    "details": [
-      "Skills make repeated repository workflows easier to apply consistently.",
-      "Automated maintenance still benefits from project-specific context and guardrails.",
-      "GitHub Actions can turn validated workflows into repeatable operational work."
     ],
     "featured": false
   }
