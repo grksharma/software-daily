@@ -12,13 +12,15 @@
       content="The sharpest software writing, thoughtfully curated into one calm daily read. A hand-picked digest of engineering, AI, and infrastructure stories."
     />
     <!--
-      TODO: once the production domain is known, add the absolute canonical and
-      og:url here, e.g.
+      TODO: once the production domain is known, add the absolute canonical,
+      og:url, and og:image here — all three need the real origin, e.g.
         <link rel="canonical" href="https://your-domain.com/" />
         <meta property="og:url" content="https://your-domain.com/" />
-      Both are omitted rather than guessed: a canonical pointing at the wrong
-      host is worse for SEO than none at all. Add an og:image (1200x630) too so
-      shared links render a card instead of bare text.
+        <meta property="og:image" content="https://your-domain.com/og-image.png" />
+      They are omitted rather than guessed: a canonical pointing at the wrong
+      host is worse for SEO than none at all, and og:image must be absolute.
+      The share-card artwork is ready at public/og-image.svg — export it to
+      public/og-image.png (1200x630) first, since most scrapers reject SVG.
     -->
 
     <meta property="og:type" content="website" />

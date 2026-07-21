@@ -3,80 +3,109 @@
     "id": 40,
     "source": "Cloudflare",
     "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
-    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals and detail the new infrastructure required to support a sustainable web economy.",
-    "tag": "AI engineering",
-    "time": "4 min read",
+    "summary": "Cloudflare’s one-year report on the \"agentic internet\": non-human traffic has passed half of all internet traffic, and a market for licensing content to AI is starting to form.",
+    "tag": "Infrastructure",
+    "time": "6 min read",
     "accent": "amber",
     "published": "Jul 1, 2026",
     "publishedAt": "2026-07-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
-    "details": [],
+    "details": [
+      "AI training crawlers jumped from 22% to 52% of crawler requests between spring 2025 and June 2026 — the crawl mix has flipped toward training.",
+      "Roughly 2.5 billion people now use generative AI regularly, a platform shift reportedly moving about twice as fast as smartphone adoption.",
+      "Over 50 publisher–AI licensing deals since 2023 show content has real economic value, though the terms are still bespoke rather than standardized."
+    ],
     "featured": true
   },
   {
     "id": 41,
     "source": "Cloudflare",
     "title": "Unmasking the crawls with Attribution Business Insights",
-    "summary": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
+    "summary": "Cloudflare added a dashboard showing website owners how AI crawlers behave — bot-vs-human traffic, and how many times each crawler visits per referral it sends back.",
+    "tag": "Security",
+    "time": "5 min read",
     "accent": "purple",
     "published": "Jul 1, 2026",
     "publishedAt": "2026-07-01T06:00:00.000Z",
     "url": "https://blog.cloudflare.com/attribution-business-insights/",
-    "details": []
+    "details": [
+      "Crawl-to-referral ratios run from 118:1 up to nearly 50,000:1, so AI crawlers take far more than they send back compared with traditional search.",
+      "Traffic is broken down by operator and crawlers are classified as training, search, or agent, with volume and bandwidth per bot.",
+      "It is meant to inform licensing negotiations and sits alongside — not inside — the existing bot-management rules."
+    ],
+    "featured": false
   },
   {
     "id": 42,
     "source": "Netflix",
     "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
-    "summary": "The Netflix homepage is the first thing users see when they open the app and the primary way they discover content to enjoy. Almost every part of it is personalized, including which rows appear, which entities show up within those rows, and how everything is arranged on the page.",
-    "tag": "Architecture",
-    "time": "4 min read",
+    "summary": "Netflix built a single generative transformer that constructs a personalized homepage end-to-end, replacing its traditional multi-stage recommendation pipeline.",
+    "tag": "AI engineering",
+    "time": "9 min read",
     "accent": "purple",
     "published": "Jun 29, 2026",
     "publishedAt": "2026-06-29T13:01:02.000Z",
     "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
-    "details": []
+    "details": [
+      "Custom tokens mapped to Netflix rows and titles, instead of a generic text tokenizer, cut sequence length ~75% and let business rules be enforced by masking tokens.",
+      "Enriching the user-context prompt cut loss ~6.9%, while scaling the model from 120M to 900M parameters gained only ~1.3% — representation mattered more than raw size.",
+      "Generating only the first few high-attention titles per row, then scoring the rest in one pass, cut end-to-end latency ~20% versus the production baseline."
+    ],
+    "featured": false
   },
   {
     "id": 43,
     "source": "Vercel",
     "title": "Vercel Open Source Program: Spring 2026 cohort",
-    "summary": "The world runs on open source software. The frameworks, libraries, and tools we rely on are made possible by communities that share ideas and build in the open.",
-    "tag": "DevOps",
-    "time": "3 min read",
+    "summary": "Vercel named the 33 open-source projects in its Spring 2026 funding cohort, each getting platform credits and support — ecosystem news rather than a technical deep-dive.",
+    "tag": "Developer tools",
+    "time": "4 min read",
     "accent": "cyan",
     "published": "Jun 29, 2026",
     "publishedAt": "2026-06-29T13:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-open-source-program-spring-2026-cohort",
-    "details": []
+    "details": [
+      "Each of the 33 selected projects receives $3,600 in Vercel platform credits plus support.",
+      "Selection spans frameworks, libraries, and developer tooling across the open-source ecosystem.",
+      "The \"Spring 2026 cohort\" framing points to a recurring, cohort-based program rather than a one-off grant."
+    ],
+    "featured": false
   },
   {
     "id": 44,
     "source": "Dropbox",
     "title": "How we used DSPy to turn AI evaluations into better responses in Dash chat",
-    "summary": "We used DSPy to improve LLM judges and optimize our chat experience, creating an evaluation-driven feedback loop that produced better outputs.",
+    "summary": "Dropbox built an automated feedback loop with DSPy: calibrate LLM judges against human labels, then use those judges to optimize its Dash chat agent’s prompts.",
     "tag": "AI engineering",
-    "time": "3 min read",
+    "time": "8 min read",
     "accent": "purple",
     "published": "Jun 25, 2026",
     "publishedAt": "2026-06-25T16:30:00.000Z",
     "url": "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat",
-    "details": []
+    "details": [
+      "Scoring the agent across separate dimensions — intent, tool use, context selection, grounding, task completion — shows where failures happen instead of one blunt score.",
+      "Human-labeled rubrics come first; DSPy’s GEPA and MIPROv2 then optimize toward agreement with humans, not an abstract quality metric.",
+      "Prompt edits were kept small and reviewed, doubling experiment velocity while guarding against runaway optimization in production."
+    ],
+    "featured": false
   },
   {
     "id": 45,
     "source": "Vercel",
     "title": "AI SDK 7",
-    "summary": "AI SDK, with over 16 million weekly downloads, is the TypeScript SDK for building AI applications, features, frameworks, and agents across any model provider. It's the same layer eve , Vercel's open-source agent framework, is built on.",
+    "summary": "Vercel’s AI SDK 7 targets production agents: a unified reasoning option across providers, durable workflows that survive restarts, and built-in OpenTelemetry observability.",
     "tag": "AI engineering",
-    "time": "3 min read",
+    "time": "6 min read",
     "accent": "purple",
     "published": "Jun 25, 2026",
     "publishedAt": "2026-06-25T13:00:00.000Z",
     "url": "https://vercel.com/blog/ai-sdk-7",
-    "details": []
+    "details": [
+      "A single reasoning option and typed tool/runtime contexts replace provider-specific reasoning APIs and unsafe credential passing.",
+      "A new workflow package lets agents persist state across steps and survive process restarts and deploys — closing a real production gap.",
+      "Redesigned telemetry with OpenTelemetry and per-step stats gives visibility into agent behavior without wiring callbacks everywhere."
+    ],
+    "featured": false
   },
   {
     "id": 34,

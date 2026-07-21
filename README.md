@@ -99,5 +99,8 @@ of the data file. A run that fails the tests, lint, or build commits nothing.
 - The reading list and subscribe state persist to `localStorage` under the
   `software-daily:*` keys. There is no backend: subscribing stores the address
   in the browser only, and the dialog says so.
-- `index.html` has a TODO for the canonical URL, `og:url`, and an `og:image`.
-  These need the real production domain and are deliberately left unset.
+- `index.html` has a TODO for the canonical URL, `og:url`, and `og:image`. All
+  three need the real production origin (an `og:image` must be an absolute URL),
+  so they are deliberately left unset. The share-card artwork is ready at
+  `public/og-image.svg`; export it to `public/og-image.png` (1200x630) before
+  wiring `og:image`, since most scrapers reject SVG.
