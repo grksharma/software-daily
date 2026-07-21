@@ -67,18 +67,29 @@ npm test             # ingest guardrails
 
 ### Sources
 
-Configured in `SOURCES` at the top of `scripts/fetch-digest.mjs`. Each source
-declares a `host` and a list of `sections`. The section filter is what keeps the
-digest editorial: Vercel's feed is roughly 6:1 changelog-to-blog, so without
-`sections: ['blog']` the digest fills with release notes and pricing promos.
+Configured in `SOURCES` at the top of `scripts/fetch-digest.mjs`. The set is a
+curated slice of the [engineering-blogs](https://github.com/kilimchoi/engineering-blogs)
+list — currently GitHub, Vercel, Netflix, Cloudflare, Dropbox, Lyft, Slack,
+Spotify, and Mozilla Hacks. That list has 400+ feeds, so candidates were verified
+live, current, and genuinely engineering-focused before being added; dead feeds,
+business/marketing blogs (Stripe's general feed), and patch-note feeds (Discord)
+were left out.
+
+Each source declares a `host`; entries linking anywhere else are dropped. Every
+source lives on its own domain, which keeps that check strong — feeds on a shared
+host (`medium.com/…`) were excluded for that reason. `sections` is optional: when
+present it narrows a mixed feed by the first path segment (Vercel's feed is ~6:1
+changelog-to-blog, so `sections: ['blog']` keeps out release notes and promos);
+when absent, the blog lives at its host root and any top-level slug is accepted
+(`netflixtechblog.com/<slug>`).
 
 ### Guardrails
 
 The job ingests untrusted third-party content and publishes it without review,
 so `scripts/fetch-digest.test.mjs` asserts that it cannot be abused. Content is
-data, never instructions. Entry URLs must resolve to an allowlisted host and
-section over https — lookalike domains (`github.blog.attacker.net`) and
-`javascript:`/`data:` schemes are rejected. Markup is stripped rather than
+data, never instructions. Entry URLs must resolve to an allowlisted host over
+https — lookalike domains (`github.blog.attacker.net`) and `javascript:`/`data:`
+schemes are rejected. Markup is stripped rather than
 escaped, control characters and bidi overrides are removed, fields are
 length-capped, and output goes through `JSON.stringify` so nothing can break out
 of the data file. A run that fails the tests, lint, or build commits nothing.

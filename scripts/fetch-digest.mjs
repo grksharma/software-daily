@@ -31,37 +31,44 @@ const HERE = dirname(fileURLToPath(import.meta.url))
 const DATA_FILE = resolve(HERE, '../src/data/stories.json')
 
 /**
- * Feeds to ingest.
+ * Feeds to ingest. A curated slice of the engineering-blogs list at
+ * https://github.com/kilimchoi/engineering-blogs — the full list is 400+ feeds,
+ * many dead or off-topic, so entries here were verified live, current, and
+ * genuinely engineering-focused before being added.
  *
  * `host` is the only host accepted for that feed's entries — an entry linking
- * anywhere else is discarded.
+ * anywhere else is discarded. Every source below lives on its own domain, which
+ * keeps that guarantee strong; feeds hosted on a shared domain (medium.com/…)
+ * were left out for that reason.
  *
- * `sections` narrows further by URL path, which is what keeps the digest
- * editorial. Both publishers mix long-form writing with other content in a
- * single feed: Vercel's is roughly 6:1 changelog-to-blog (release notes and
- * pricing promos), and GitHub's includes company news. Without this filter the
- * digest fills up with "X is 35% off" rather than writing worth reading.
+ * `sections` is optional. When present it narrows a mixed feed by the first path
+ * segment — Vercel's feed is ~6:1 changelog-to-blog, GitHub's carries company
+ * news — keeping the digest to long-form writing. Blogs that live at their host
+ * root (netflixtechblog.com/<slug>) declare no sections.
+ *
+ * Deliberately excluded despite being live: Stripe (feed is the business blog,
+ * not engineering), Discord (mostly product patch notes), and any feed whose
+ * newest post was months old.
  */
 const SOURCES = [
   {
     name: 'GitHub Engineering',
     feed: 'https://github.blog/feed/',
     host: 'github.blog',
-    // Narrowed after the first live run: `open-source` carried a funding
+    // Narrowed after an earlier run: `open-source` carried a funding
     // announcement and `developer-skills` a beginners' tutorial, neither of
     // which is the long-form engineering writing this digest is for.
     sections: ['engineering', 'ai-and-ml', 'security'],
-    accent: 'cyan',
     tag: 'Engineering',
   },
-  {
-    name: 'Vercel',
-    feed: 'https://vercel.com/atom',
-    host: 'vercel.com',
-    sections: ['blog'],
-    accent: 'amber',
-    tag: 'DevOps',
-  },
+  { name: 'Vercel', feed: 'https://vercel.com/atom', host: 'vercel.com', sections: ['blog'], tag: 'DevOps' },
+  { name: 'Netflix', feed: 'https://netflixtechblog.com/feed', host: 'netflixtechblog.com', tag: 'Architecture' },
+  { name: 'Cloudflare', feed: 'https://blog.cloudflare.com/rss', host: 'blog.cloudflare.com', tag: 'Infrastructure' },
+  { name: 'Dropbox', feed: 'https://dropbox.tech/feed', host: 'dropbox.tech', tag: 'Engineering' },
+  { name: 'Lyft', feed: 'https://eng.lyft.com/feed', host: 'eng.lyft.com', tag: 'Engineering' },
+  { name: 'Slack', feed: 'https://slack.engineering/rss', host: 'slack.engineering', tag: 'Infrastructure' },
+  { name: 'Spotify', feed: 'https://engineering.atspotify.com/feed', host: 'engineering.atspotify.com', tag: 'Engineering' },
+  { name: 'Mozilla Hacks', feed: 'https://hacks.mozilla.org/feed/', host: 'hacks.mozilla.org', tag: 'Frontend' },
 ]
 
 /** Hard caps. Anything longer is truncated; anything absurd is rejected outright. */
@@ -69,10 +76,13 @@ const LIMITS = {
   title: 140,
   summary: 320,
   source: 60,
-  maxNewPerRun: 4,
+  maxNewPerRun: 6,
   maxTotalStories: 40,
   maxFeedBytes: 5_000_000,
-  maxAgeDays: 21,
+  // Several strong engineering blogs post roughly monthly, so a tight window
+  // would starve the digest of them. 45 days keeps the feed fresh without
+  // dropping a good post that happens to land between runs.
+  maxAgeDays: 45,
 }
 
 /** Tag inference from title/summary keywords. Falls back to the source default. */
@@ -195,8 +205,14 @@ export function parseFeed(xml) {
 }
 
 /**
- * Reject anything that is not an https URL on the expected host, in one of the
- * source's allowed sections. Returns the normalised URL or null.
+ * Reject anything that is not an https URL on the source's host. Returns the
+ * normalised URL or null.
+ *
+ * `source.sections` is optional. When present, the first path segment must be
+ * one of the allowed sections and a bare section landing page is rejected — this
+ * is how a mixed feed (Vercel: blog + changelog + docs) is narrowed to just the
+ * editorial part. When absent, the blog lives at its host root and its posts are
+ * top-level slugs (netflixtechblog.com/<slug>), so any non-root path is allowed.
  */
 export function safeUrl(raw, source) {
   try {
@@ -206,11 +222,13 @@ export function safeUrl(raw, source) {
     const host = url.hostname.replace(/^www\./, '')
     if (host !== source.host && !host.endsWith(`.${source.host}`)) return null
 
-    const [section] = url.pathname.split('/').filter(Boolean)
-    if (!section || !source.sections.includes(section)) return null
+    const segments = url.pathname.split('/').filter(Boolean)
+    if (segments.length === 0) return null // the bare host root is not a story
 
-    // A section landing page is not a story.
-    if (url.pathname.replace(/\/+$/, '') === `/${section}`) return null
+    if (source.sections) {
+      if (!source.sections.includes(segments[0])) return null
+      if (segments.length === 1) return null // a section landing page is not a story
+    }
 
     url.hash = ''
     url.search = ''

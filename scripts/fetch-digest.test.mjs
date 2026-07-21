@@ -61,6 +61,19 @@ test('safeUrl strips query and fragment used for tracking or spoofing', () => {
   )
 })
 
+test('safeUrl accepts root-hosted blog slugs when no sections are declared', () => {
+  // Blogs like Netflix live at the host root, so posts are top-level slugs.
+  const netflix = { host: 'netflixtechblog.com' }
+  assert.equal(
+    safeUrl('https://netflixtechblog.com/in-house-llm-serving-abc123?source=rss', netflix),
+    'https://netflixtechblog.com/in-house-llm-serving-abc123',
+  )
+  // Still on-host only, still https only, still not the bare root.
+  assert.equal(safeUrl('https://netflixtechblog.com/', netflix), null)
+  assert.equal(safeUrl('https://medium.com/@someone/post', netflix), null)
+  assert.equal(safeUrl('http://netflixtechblog.com/post', netflix), null)
+})
+
 test('clean strips control characters and bidi overrides', () => {
   // Ranges are built from escape sequences so this file stays plain ASCII —
   // literal control bytes here would make git treat the test as binary.

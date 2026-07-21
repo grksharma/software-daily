@@ -1,49 +1,171 @@
 [
   {
+    "id": 22,
+    "source": "Cloudflare",
+    "title": "Cloudflare Internal DNS is now generally available",
+    "summary": "Cloudflare now runs public and private DNS from one control plane, so internal and external name resolution stop living in separate systems that drift apart.",
+    "tag": "Infrastructure",
+    "time": "6 min read",
+    "accent": "emerald",
+    "published": "Jul 21, 2026",
+    "publishedAt": "2026-07-20T20:59:31.000Z",
+    "url": "https://blog.cloudflare.com/internal-dns/",
+    "details": [
+      "Treating internal and external resolution as two views over shared zones removes the sync drift that split-horizon DNS usually causes.",
+      "One API, control plane, and audit trail cover the whole DNS stack instead of stitching separate tools together.",
+      "Resolver policies run through Cloudflare Gateway, so which users and devices see which view is enforced by the same Zero Trust layer."
+    ],
+    "featured": true
+  },
+  {
+    "id": 23,
+    "source": "Spotify",
+    "title": "Content Ingestion & Podcast Video Incident Report",
+    "summary": "A Spotify post-mortem: video transcoding hit capacity and delayed podcast publishing for hours, after a quality upgrade quietly raised the cost of processing each episode.",
+    "tag": "Infrastructure",
+    "time": "7 min read",
+    "accent": "emerald",
+    "published": "Jul 20, 2026",
+    "publishedAt": "2026-07-20T16:24:48.000Z",
+    "url": "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/",
+    "details": [
+      "Plan capacity against spikes like bulk content delivery, not steady-state averages — the headroom to absorb them is the whole point.",
+      "A quality improvement raised per-episode processing cost, but capacity was not recalculated; feature changes need a downstream capacity review.",
+      "Monitoring fired about four hours before formal incident response began — early alerts need a clear escalation path, not just a dashboard."
+    ],
+    "featured": false
+  },
+  {
+    "id": 24,
+    "source": "Dropbox",
+    "title": "How our universal content processing platform Riviera evolved for AI and beyond",
+    "summary": "Dropbox rebuilt its file-processing platform around small reusable transformations instead of one pipeline per format — and that same platform now feeds its AI features.",
+    "tag": "Architecture",
+    "time": "9 min read",
+    "accent": "emerald",
+    "published": "Jul 20, 2026",
+    "publishedAt": "2026-07-20T15:00:00.000Z",
+    "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
+    "details": [
+      "Breaking each job into small reusable transformations means a PDF-to-image step written once is shared everywhere, instead of a new service per file type.",
+      "A plugin model separates request coordination from execution, so product teams add transformations without destabilising the core.",
+      "Because the platform was shared, the AI product reused existing document processing rather than rebuilding it — and one improvement benefits search, previews, and AI at once."
+    ],
+    "featured": false
+  },
+  {
+    "id": 25,
+    "source": "Netflix",
+    "title": "In-House LLM Serving at Netflix",
+    "summary": "Netflix built its own LLM inference stack rather than only calling hosted APIs, trading raw benchmark speed for control, customization, and an easier path from research to production.",
+    "tag": "AI engineering",
+    "time": "8 min read",
+    "accent": "purple",
+    "published": "Jul 18, 2026",
+    "publishedAt": "2026-07-17T21:32:39.000Z",
+    "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
+    "details": [
+      "They chose vLLM over TensorRT-LLM because it loads custom model architectures without a compile pipeline — iteration speed can matter more than peak throughput.",
+      "Exposing an OpenAI-compatible API alongside gRPC let teams move from hosted models to self-hosted ones with almost no code change.",
+      "Production surfaced gaps the design missed: constrained decoding bottlenecked on CPU work until a newer engine version processed it batch-at-a-time."
+    ],
+    "featured": false
+  },
+  {
+    "id": 26,
+    "source": "Cloudflare",
+    "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+    "summary": "Cloudflare added WAF rules blocking two high-severity WordPress vulnerabilities — but is explicit that the rules only buy time and are no substitute for patching.",
+    "tag": "Security",
+    "time": "5 min read",
+    "accent": "cyan",
+    "published": "Jul 18, 2026",
+    "publishedAt": "2026-07-17T21:30:43.000Z",
+    "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
+    "details": [
+      "A WAF rule reduces exposure while you patch, but is not a fix: upgrade affected WordPress (6.8+) to a patched release.",
+      "Check any ruleset-level overrides so the new blocking rules actually stay enabled on your site.",
+      "Watch Security Events for requests matching the rules to catch exploitation of the SQL-injection and remote-code-execution CVEs."
+    ],
+    "featured": false
+  },
+  {
+    "id": 27,
+    "source": "Slack",
+    "title": "Shipyard: How We Built Slack’s Next-Generation EC2 Platform",
+    "summary": "Slack replaced continuously-patched servers with immutable, versioned machine images, so instances are rebuilt from a known artifact rather than mutated in place.",
+    "tag": "Infrastructure",
+    "time": "8 min read",
+    "accent": "purple",
+    "published": "Jul 14, 2026",
+    "publishedAt": "2026-07-14T16:10:08.000Z",
+    "url": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/",
+    "details": [
+      "A shared base image carries OS hardening and agents while service teams layer their own on top — global patching without duplicated foundations.",
+      "Splitting \"bake\" (packages into the image) from \"provision\" (env settings at boot) cuts startup to seconds and removes configuration drift.",
+      "An automated reaper gracefully replaces tainted or aged instances, with rate limits and a global pause button to protect capacity."
+    ],
+    "featured": false
+  },
+  {
     "id": 19,
     "source": "Vercel",
     "title": "Vercel acquires Better Auth to accelerate open source auth",
-    "summary": "Vercel is acquiring Better Auth , the company behind the open source TypeScript authentication library , which has 4.7M+ weekly npm downloads and more than 850 contributors. Founder Bereket Engida and the core team are joining Vercel to continue their work on Better Auth and agent identity.",
+    "summary": "Vercel acquired the open-source Better Auth library, keeping it MIT-licensed while steering it toward giving AI agents their own scoped, revocable identities.",
     "tag": "AI engineering",
-    "time": "4 min read",
+    "time": "5 min read",
     "accent": "purple",
     "published": "Jul 7, 2026",
     "publishedAt": "2026-07-07T07:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-acquires-better-auth",
-    "details": [],
-    "featured": true
+    "details": [
+      "Better Auth stays free and MIT-licensed under its existing name, so current users and contributors are unaffected.",
+      "The roadmap centers on agent identity — agents acting under scoped, individually revocable permissions instead of blanket trust.",
+      "Multi-framework support continues; the core team moving to Vercel is about accelerating the same open governance, not restricting it."
+    ],
+    "featured": false
   },
   {
     "id": 20,
     "source": "GitHub Engineering",
     "title": "How GitHub used secret scanning to reach inbox zero",
-    "summary": "GitHub had 20,000+ secret scanning alerts across 15,000 repositories. Here's how we separated signal from noise, built remediation workflows, and reached inbox zero in nine months.",
-    "tag": "Engineering",
-    "time": "3 min read",
+    "summary": "GitHub drove 20,000+ exposed secrets across 15,000 repos to zero open alerts in nine months by triaging noise, checking which secrets still worked, and making hygiene a measured fundamental.",
+    "tag": "Security",
+    "time": "7 min read",
     "accent": "cyan",
     "published": "Jul 2, 2026",
     "publishedAt": "2026-07-02T16:00:00.000Z",
     "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
-    "details": []
+    "details": [
+      "Five repositories held ~18,000 of the alerts (test fixtures, dead credentials) — triage the noise first and most of the work disappears.",
+      "Automated validity checks, like a read-only API call with a token, route only still-active secrets to owners rather than revoked ones.",
+      "Folding secret hygiene into an Engineering Fundamentals program teams are measured on turned a security-team silo into shared accountability."
+    ],
+    "featured": false
   },
   {
     "id": 21,
     "source": "Vercel",
     "title": "Vercel Ship 2026 recap",
-    "summary": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and thousands of people gathered across London, Berlin, and New York to do just that at Vercel Ship 2026.",
-    "tag": "Infrastructure",
-    "time": "5 min read",
+    "summary": "Vercel’s Ship 2026 recap centers the platform on building and running AI agents, alongside full-stack deploys (Docker, Python backends) and enterprise security features.",
+    "tag": "DevOps",
+    "time": "6 min read",
     "accent": "amber",
     "published": "Jun 30, 2026",
     "publishedAt": "2026-06-30T16:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-ship-2026-recap",
-    "details": []
+    "details": [
+      "An agent stack — AI SDK, Workflow SDK, Sandbox, Connect for credentials, and the open-source eve framework — treats an agent as a directory you scaffold, run, and deploy.",
+      "Full-stack support widened: Docker containers via a registry, backends like FastAPI and Flask, and marketplace databases including Aurora and DynamoDB.",
+      "Enterprise governance arrived — Passport for identity, a Security Dashboard, and Bring Your Own Cloud for AWS."
+    ],
+    "featured": false
   },
   {
     "id": 15,
     "source": "GitHub Engineering",
     "title": "How GitHub gave every repository a durable owner",
-    "summary": "GitHub assigned a validated owner to every one of its 14,000+ internal repositories and archived 8,000 inactive ones, because unowned repositories kept breaking security workflows and incident response.",
+    "summary": "GitHub gave every one of its 14,000+ internal repositories a validated owner and archived 8,000 inactive ones, because unowned repos kept breaking security workflows and incident response.",
     "tag": "Security",
     "time": "8 min read",
     "accent": "cyan",
@@ -61,7 +183,7 @@
     "id": 16,
     "source": "GitHub Engineering",
     "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
-    "summary": "GitHub describes generating documentation pull requests automatically as features merge, with the engineer who approved the feature pulled in as reviewer, closing the usual lag between release and docs.",
+    "summary": "GitHub generates documentation pull requests automatically as features merge, pulling in the engineer who approved the feature as reviewer — closing the usual lag between release and docs.",
     "tag": "AI engineering",
     "time": "7 min read",
     "accent": "purple",
