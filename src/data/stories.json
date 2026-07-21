@@ -3,80 +3,109 @@
     "id": 28,
     "source": "Cloudflare",
     "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
-    "summary": "When a failed DNSSEC key rollover took down the .al TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
+    "summary": "When Albania’s .al domain broke from a botched DNSSEC rollover, Cloudflare’s 1.1.1.1 kept it reachable but now returns an error code so clients can see DNS security was bypassed.",
     "tag": "Infrastructure",
-    "time": "4 min read",
+    "time": "6 min read",
     "accent": "amber",
     "published": "Jul 14, 2026",
     "publishedAt": "2026-07-14T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
-    "details": [],
+    "details": [
+      "Restoring a broken DNSSEC domain via a Negative Trust Anchor used to be silent — clients could not tell a bypassed answer from a spoofed one.",
+      "The new Extended DNS Error 33 signals in the response itself that a Negative Trust Anchor was applied, giving operators direct visibility.",
+      "Tooling is adopting it — kdig names EDE 33 and an Unbound pull request is in review — so the transparency spreads across the ecosystem."
+    ],
     "featured": true
   },
   {
     "id": 29,
     "source": "Netflix",
     "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
-    "summary": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez-Silva & Nathan Fisher A deep dive into the engineering challenges of building a real-time service dependency map at Netflix scale: from streaming architectures and distributed aggregation pipelines to time-travel queries and the methodology that made it work.",
+    "summary": "Netflix built a real-time system that maps which services talk to which across its infrastructure, processing millions of network flow records per second instead of batching them hourly.",
     "tag": "Architecture",
-    "time": "4 min read",
+    "time": "9 min read",
     "accent": "purple",
     "published": "Jul 13, 2026",
     "publishedAt": "2026-07-13T22:44:11.000Z",
     "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8",
-    "details": []
+    "details": [
+      "Continuous streaming with backpressure slows the pipeline to a sustainable rate under a spike or GC pause instead of collapsing — an advantage batching does not give.",
+      "A three-stage pipeline with multiple redistribution points spread load when some instances saw 100x the traffic of others; one design choice solved several problems.",
+      "They dropped immutable data structures on the hot path — a Scala norm — after profiling showed GC costing more CPU than the real work. Measure before assuming."
+    ],
+    "featured": false
   },
   {
     "id": 30,
     "source": "Cloudflare",
     "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
-    "summary": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey. By turning session-level behavior into bot detection signals, it identifies advanced automation with higher precision — while reducing friction for…",
-    "tag": "Infrastructure",
-    "time": "4 min read",
+    "summary": "Cloudflare’s Precursor detects bots by watching how a visitor behaves across a whole session, rather than judging them at a single checkpoint like a CAPTCHA.",
+    "tag": "Security",
+    "time": "7 min read",
     "accent": "emerald",
     "published": "Jul 13, 2026",
     "publishedAt": "2026-07-13T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/introducing-precursor/",
-    "details": []
+    "details": [
+      "Consistent human behavior over time is hard to fake, so session-long analysis catches bots that can pass an individual challenge.",
+      "Because signals accumulate across the session, refreshing the page or restarting a challenge does not reset detection.",
+      "It collects the minimum useful signal — keystroke timing, not the keys themselves — kept internal and not tied to a user’s identity."
+    ],
+    "featured": false
   },
   {
     "id": 31,
     "source": "Cloudflare",
     "title": "Improving Smart Tiered Cache for Public Cloud Regions",
-    "summary": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
+    "summary": "Cloudflare fixed a case where caching in front of anycast cloud origins sent traffic across continents, by letting customers name their cloud region so it picks the right upper-tier data center.",
     "tag": "Infrastructure",
-    "time": "3 min read",
+    "time": "6 min read",
     "accent": "cyan",
     "published": "Jul 10, 2026",
     "publishedAt": "2026-07-10T12:00:00.000Z",
     "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
-    "details": []
+    "details": [
+      "Anycast origins on AWS/GCP/Azure could hairpin traffic — an Asian request routed to Chicago to fetch from Singapore — adding hundreds of milliseconds.",
+      "A cloud region hint like aws:us-east-1, set via dashboard, API, or Terraform, tells Cloudflare which upper tier is genuinely closest.",
+      "It matches origin IPs against provider range files and tier data refreshed every 15 minutes, with geographic fallback until real latency data builds up."
+    ],
+    "featured": false
   },
   {
     "id": 32,
     "source": "Lyft",
     "title": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding",
-    "summary": "Most onboarding journeys follow a familiar arc: orientation sessions, benefits enrollment, setting up your laptop, and gradually finding your footing over the first few weeks. Mine followed that arc too, but with an additional thread running alongside it from the very start.",
-    "tag": "Engineering",
-    "time": "4 min read",
+    "summary": "A new Lyft engineer took an AI analytics assistant from prototype to a company-wide service during onboarding, and writes up the production realities that onboarding decks leave out.",
+    "tag": "AI engineering",
+    "time": "7 min read",
     "accent": "amber",
     "published": "Jul 9, 2026",
     "publishedAt": "2026-07-09T22:01:15.000Z",
     "url": "https://eng.lyft.com/from-day-1-to-production-building-lyfts-analytics-rides-intelligence-assistant-as-onboarding-5c5643c192d9",
-    "details": []
+    "details": [
+      "The real lessons were unglamorous production problems — auth plugin incompatibility, Envoy session config, streaming chunk sizing — that you only learn by hitting them.",
+      "Mature internal frameworks (Lyft Node Service, Envoy, metaservice) worked as real tools, letting a newcomer ship meaningfully from week one.",
+      "A staff engineer pointing to an existing service with the same streaming pattern turned a multi-day debug into an afternoon — cross-team guidance compounds."
+    ],
+    "featured": false
   },
   {
     "id": 33,
     "source": "Cloudflare",
     "title": "Why we cannot wait for better post-quantum signature algorithms",
-    "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
+    "summary": "Cloudflare argues we should deploy the ML-DSA post-quantum signature scheme now despite its bulk, because better alternatives will not be widely ready until the mid-2030s — too late.",
+    "tag": "Security",
+    "time": "8 min read",
     "accent": "purple",
     "published": "Jul 9, 2026",
     "publishedAt": "2026-07-09T13:40:47.000Z",
     "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
-    "details": []
+    "details": [
+      "Better schemes (FN-DSA, SQIsign, multivariate) are not expected to be broadly available until 2033–2035, and the quantum threat arrives too soon to wait.",
+      "There is no post-quantum equivalent of an all-round winner like Ed25519 — only specialists and balanced-but-unremarkable generalists like ML-DSA.",
+      "You cannot cut over all at once, so a long period supporting both old and new signatures is needed to avoid downgrade attacks."
+    ],
+    "featured": false
   },
   {
     "id": 22,
