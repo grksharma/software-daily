@@ -11,17 +11,7 @@
       name="description"
       content="The sharpest software writing, thoughtfully curated into one calm daily read. A hand-picked digest of engineering, AI, and infrastructure stories."
     />
-    <!--
-      TODO: once the production domain is known, add the absolute canonical,
-      og:url, and og:image here — all three need the real origin, e.g.
-        <link rel="canonical" href="https://your-domain.com/" />
-        <meta property="og:url" content="https://your-domain.com/" />
-        <meta property="og:image" content="https://your-domain.com/og-image.png" />
-      They are omitted rather than guessed: a canonical pointing at the wrong
-      host is worse for SEO than none at all, and og:image must be absolute.
-      The share-card artwork is ready at public/og-image.svg — export it to
-      public/og-image.png (1200x630) first, since most scrapers reject SVG.
-    -->
+    <link rel="canonical" href="https://softwaredaily.vercel.app/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Software Daily" />
@@ -30,13 +20,20 @@
       property="og:description"
       content="The sharpest software writing, thoughtfully curated into one calm daily read."
     />
+    <meta property="og:url" content="https://softwaredaily.vercel.app/" />
+    <!-- Raster PNG (not the SVG source): X, Facebook, and LinkedIn reject SVG og:images. -->
+    <meta property="og:image" content="https://softwaredaily.vercel.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Software Daily — keep up without keeping up." />
 
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Software Daily — your daily developer signal" />
     <meta
       name="twitter:description"
       content="The sharpest software writing, thoughtfully curated into one calm daily read."
     />
+    <meta name="twitter:image" content="https://softwaredaily.vercel.app/og-image.png" />
   </head>
   <body>
     <div id="root"></div>

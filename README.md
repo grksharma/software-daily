@@ -99,8 +99,15 @@ of the data file. A run that fails the tests, lint, or build commits nothing.
 - The reading list and subscribe state persist to `localStorage` under the
   `software-daily:*` keys. There is no backend: subscribing stores the address
   in the browser only, and the dialog says so.
-- `index.html` has a TODO for the canonical URL, `og:url`, and `og:image`. All
-  three need the real production origin (an `og:image` must be an absolute URL),
-  so they are deliberately left unset. The share-card artwork is ready at
-  `public/og-image.svg`; export it to `public/og-image.png` (1200x630) before
-  wiring `og:image`, since most scrapers reject SVG.
+- Canonical, `og:url`, and `og:image` in `index.html` point at
+  `https://softwaredaily.vercel.app/`. The share card is `public/og-image.png`
+  (1200x630); its source artwork is `public/og-image.svg`. To regenerate the PNG
+  after editing the SVG:
+
+  ```bash
+  npx @resvg/resvg-js-cli public/og-image.svg -o public/og-image.png -w 1200
+  ```
+
+  The rasterizer is intentionally not a project dependency — it is only needed
+  when the artwork changes, and X/Facebook/LinkedIn require the PNG (they reject
+  SVG og:images).
