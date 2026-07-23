@@ -1,5 +1,84 @@
 [
   {
+    "id": 58,
+    "source": "Vercel",
+    "title": "Introducing the new Vercel Agent",
+    "summary": "Today we're expanding Vercel Agent . It started by triaging alerts and reviewing your pull requests. Now it has a home in your dashboard, where it can investigate production, answer questions about your projects, and take action once you approve it.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 21, 2026",
+    "publishedAt": "2026-07-21T04:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-agent",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 59,
+    "source": "GitHub Engineering",
+    "title": "The cost of saying yes has changed",
+    "summary": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 17, 2026",
+    "publishedAt": "2026-07-17T16:46:47.000Z",
+    "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+    "details": []
+  },
+  {
+    "id": 60,
+    "source": "Vercel",
+    "title": "How Speechify serves 500,000 dynamic pages to 60 million users on Vercel",
+    "summary": "Speechify started as a tool for people with dyslexia. Cliff Weitzman, Founder & CEO, built it because reading was challenging and audio made it much easier. That initial use case led Speechify to tens of millions of users and an Apple Design Award for inclusion.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Jul 15, 2026",
+    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
+    "details": []
+  },
+  {
+    "id": 61,
+    "source": "Vercel",
+    "title": "Open-weight models surge to 29% of volume, price per token flattens",
+    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs, giving us a view of what AI usage actually looks like in today’s enterprise. We publish that view here. See the Production Index reports published in May and June .",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Jul 13, 2026",
+    "publishedAt": "2026-07-13T07:00:00.000Z",
+    "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+    "details": []
+  },
+  {
+    "id": 62,
+    "source": "GitHub Engineering",
+    "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
+    "summary": "Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 8, 2026",
+    "publishedAt": "2026-07-08T21:11:56.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
+    "details": []
+  },
+  {
+    "id": 63,
+    "source": "Cloudflare",
+    "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
+    "summary": "Self-Managed OAuth is now available to all developers on Cloudflare. Here's how we executed a zero-downtime migration of our core OAuth engine to make it happen.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jun 24, 2026",
+    "publishedAt": "2026-06-24T06:00:00.000Z",
+    "url": "https://blog.cloudflare.com/oauth-for-all/",
+    "details": []
+  },
+  {
     "id": 52,
     "source": "GitHub Engineering",
     "title": "Copilot vs. raw API access: What are you actually paying for?",
@@ -15,7 +94,7 @@
       "Copilot adds things raw APIs don't: org-wide policy controls, pooled AI credits, usage dashboards, and a bring-your-own-key option to use that workflow with an external provider's billing.",
       "Raw API access still makes sense if you need full control over prompts, retrieval, routing, logs, and security — infrastructure Copilot's harness otherwise handles for you."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 53,
@@ -32,7 +111,8 @@
       "A new permanent, invite-only VIP program pays much more (up to $30,000+ for critical findings) to researchers who've already proven a track record of solid reports.",
       "The public program's payouts are now flat and lower than before — for example $250 for low severity and $10,000 for critical, down from the previous variable scale.",
       "New researchers must clear a HackerOne signal threshold; those below it get four initial submissions to build a track record before limits apply. Changes take effect July 27, 2026."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 54,
@@ -49,7 +129,8 @@
       "The problem wasn't the tools themselves — it was that the agent used them to browse the whole repository instead of investigating just the pull request's changes.",
       "GitHub rewrote the tool instructions so the agent anchors to the diff first, narrows with grep/glob before opening files, and reads only the specific line ranges it needs.",
       "Those prompt changes cut the average review cost by roughly 20% without touching the underlying tools or hurting review quality."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 55,
@@ -66,7 +147,8 @@
       "Any HTTP service that listens on the $PORT environment variable can deploy from a Dockerfile.vercel file, with no local daemon, registry, or cluster to manage.",
       "Containers get the same infrastructure as Vercel's other deployments: automatic preview URLs per commit, traffic-based autoscaling, and unified logs, traces, and metrics.",
       "Billing is for actual CPU execution time rather than idle time, and optimized boot images let containers start quickly despite running in a full container."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 56,
@@ -83,7 +165,8 @@
       "Frontend, backend, and other services in a project deploy and roll back atomically, with a shared preview environment so a full change set can be reviewed together.",
       "It supports FastAPI, Flask, Express, Hono, Go, and Rust with zero-config deployment, plus internal service-to-service communication that never touches the public internet.",
       "It bundles what full-stack apps need — databases from Neon, Supabase, or AWS, Blob storage, background queues/workflows/cron, and short-lived credentials instead of stored secrets."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 57,
@@ -96,7 +179,8 @@
     "published": "Jun 29, 2026",
     "publishedAt": "2026-06-29T07:00:00.000Z",
     "url": "https://vercel.com/blog/realtime-voice-agents-on-ai-gateway",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 46,
@@ -587,114 +671,6 @@
       "They chose vLLM over TensorRT-LLM because it loads custom model architectures without a compile pipeline — iteration speed can matter more than peak throughput.",
       "Exposing an OpenAI-compatible API alongside gRPC let teams move from hosted models to self-hosted ones with almost no code change.",
       "Production surfaced gaps the design missed: constrained decoding bottlenecked on CPU work until a newer engine version processed it batch-at-a-time."
-    ],
-    "featured": false
-  },
-  {
-    "id": 26,
-    "source": "Cloudflare",
-    "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
-    "summary": "Cloudflare added WAF rules blocking two high-severity WordPress vulnerabilities — but is explicit that the rules only buy time and are no substitute for patching.",
-    "tag": "Security",
-    "time": "5 min read",
-    "accent": "cyan",
-    "published": "Jul 18, 2026",
-    "publishedAt": "2026-07-17T21:30:43.000Z",
-    "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
-    "details": [
-      "A WAF rule reduces exposure while you patch, but is not a fix: upgrade affected WordPress (6.8+) to a patched release.",
-      "Check any ruleset-level overrides so the new blocking rules actually stay enabled on your site.",
-      "Watch Security Events for requests matching the rules to catch exploitation of the SQL-injection and remote-code-execution CVEs."
-    ],
-    "featured": false
-  },
-  {
-    "id": 27,
-    "source": "Slack",
-    "title": "Shipyard: How We Built Slack’s Next-Generation EC2 Platform",
-    "summary": "Slack replaced continuously-patched servers with immutable, versioned machine images, so instances are rebuilt from a known artifact rather than mutated in place.",
-    "tag": "Infrastructure",
-    "time": "8 min read",
-    "accent": "purple",
-    "published": "Jul 14, 2026",
-    "publishedAt": "2026-07-14T16:10:08.000Z",
-    "url": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/",
-    "details": [
-      "A shared base image carries OS hardening and agents while service teams layer their own on top — global patching without duplicated foundations.",
-      "Splitting \"bake\" (packages into the image) from \"provision\" (env settings at boot) cuts startup to seconds and removes configuration drift.",
-      "An automated reaper gracefully replaces tainted or aged instances, with rate limits and a global pause button to protect capacity."
-    ],
-    "featured": false
-  },
-  {
-    "id": 19,
-    "source": "Vercel",
-    "title": "Vercel acquires Better Auth to accelerate open source auth",
-    "summary": "Vercel acquired the open-source Better Auth library, keeping it MIT-licensed while steering it toward giving AI agents their own scoped, revocable identities.",
-    "tag": "AI engineering",
-    "time": "5 min read",
-    "accent": "purple",
-    "published": "Jul 7, 2026",
-    "publishedAt": "2026-07-07T07:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-acquires-better-auth",
-    "details": [
-      "Better Auth stays free and MIT-licensed under its existing name, so current users and contributors are unaffected.",
-      "The roadmap centers on agent identity — agents acting under scoped, individually revocable permissions instead of blanket trust.",
-      "Multi-framework support continues; the core team moving to Vercel is about accelerating the same open governance, not restricting it."
-    ],
-    "featured": false
-  },
-  {
-    "id": 20,
-    "source": "GitHub Engineering",
-    "title": "How GitHub used secret scanning to reach inbox zero",
-    "summary": "GitHub drove 20,000+ exposed secrets across 15,000 repos to zero open alerts in nine months by triaging noise, checking which secrets still worked, and making hygiene a measured fundamental.",
-    "tag": "Security",
-    "time": "7 min read",
-    "accent": "cyan",
-    "published": "Jul 2, 2026",
-    "publishedAt": "2026-07-02T16:00:00.000Z",
-    "url": "https://github.blog/security/application-security/how-github-used-secret-scanning-to-reach-inbox-zero/",
-    "details": [
-      "Five repositories held ~18,000 of the alerts (test fixtures, dead credentials) — triage the noise first and most of the work disappears.",
-      "Automated validity checks, like a read-only API call with a token, route only still-active secrets to owners rather than revoked ones.",
-      "Folding secret hygiene into an Engineering Fundamentals program teams are measured on turned a security-team silo into shared accountability."
-    ],
-    "featured": false
-  },
-  {
-    "id": 21,
-    "source": "Vercel",
-    "title": "Vercel Ship 2026 recap",
-    "summary": "Vercel’s Ship 2026 recap centers the platform on building and running AI agents, alongside full-stack deploys (Docker, Python backends) and enterprise security features.",
-    "tag": "DevOps",
-    "time": "6 min read",
-    "accent": "amber",
-    "published": "Jun 30, 2026",
-    "publishedAt": "2026-06-30T16:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-ship-2026-recap",
-    "details": [
-      "An agent stack — AI SDK, Workflow SDK, Sandbox, Connect for credentials, and the open-source eve framework — treats an agent as a directory you scaffold, run, and deploy.",
-      "Full-stack support widened: Docker containers via a registry, backends like FastAPI and Flask, and marketplace databases including Aurora and DynamoDB.",
-      "Enterprise governance arrived — Passport for identity, a Security Dashboard, and Bring Your Own Cloud for AWS."
-    ],
-    "featured": false
-  },
-  {
-    "id": 15,
-    "source": "GitHub Engineering",
-    "title": "How GitHub gave every repository a durable owner",
-    "summary": "GitHub gave every one of its 14,000+ internal repositories a validated owner and archived 8,000 inactive ones, because unowned repos kept breaking security workflows and incident response.",
-    "tag": "Security",
-    "time": "8 min read",
-    "accent": "cyan",
-    "published": "Jul 9, 2026",
-    "publishedAt": "2026-07-09T16:29:37.000Z",
-    "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
-    "details": [
-      "Sync ownership from systems you already have before asking teams to fill anything in by hand — it bought day-one coverage of ~1,500 repositories.",
-      "Prefer archiving to deletion: a reversible action can be applied org-wide instead of debated repository by repository.",
-      "Give any bulk automation a low-water-mark threshold that halts it when it exceeds a conservative limit."
     ],
     "featured": false
   }
