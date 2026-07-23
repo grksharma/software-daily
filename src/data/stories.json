@@ -1,43 +1,156 @@
 [
   {
+    "id": 52,
+    "source": "GitHub Engineering",
+    "title": "Copilot vs. raw API access: What are you actually paying for?",
+    "summary": "Now that Copilot bills at listed API rates, the real choice isn't price — it's GitHub's integrated workflow and token-efficient harness versus building your own stack.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 23, 2026",
+    "publishedAt": "2026-07-22T19:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
+    "details": [
+      "GitHub's internal harness reached similar task-resolution results while using fewer tokens than raw API calls across benchmarks like SWE-bench Verified and TerminalBench 2.0.",
+      "Copilot adds things raw APIs don't: org-wide policy controls, pooled AI credits, usage dashboards, and a bring-your-own-key option to use that workflow with an external provider's billing.",
+      "Raw API access still makes sense if you need full control over prompts, retrieval, routing, logs, and security — infrastructure Copilot's harness otherwise handles for you."
+    ],
+    "featured": true
+  },
+  {
+    "id": 53,
+    "source": "GitHub Engineering",
+    "title": "Next chapter: Restructuring GitHub’s bug bounty program",
+    "summary": "GitHub is restructuring its bug bounty program: lower flat public payouts, a new invite-only VIP tier that pays far more, and stricter rules meant to cut low-effort reports.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 22, 2026",
+    "publishedAt": "2026-07-22T16:00:00.000Z",
+    "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+    "details": [
+      "A new permanent, invite-only VIP program pays much more (up to $30,000+ for critical findings) to researchers who've already proven a track record of solid reports.",
+      "The public program's payouts are now flat and lower than before — for example $250 for low severity and $10,000 for critical, down from the previous variable scale.",
+      "New researchers must clear a HackerOne signal threshold; those below it get four initial submissions to build a track record before limits apply. Changes take effect July 27, 2026."
+    ]
+  },
+  {
+    "id": 54,
+    "source": "GitHub Engineering",
+    "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
+    "summary": "Switching Copilot code review to the CLI's grep/glob/view tools first made reviews worse, until GitHub rewrote its prompts to stop the agent browsing the whole repo.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 10, 2026",
+    "publishedAt": "2026-07-10T15:57:47.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
+    "details": [
+      "The problem wasn't the tools themselves — it was that the agent used them to browse the whole repository instead of investigating just the pull request's changes.",
+      "GitHub rewrote the tool instructions so the agent anchors to the diff first, narrows with grep/glob before opening files, and reads only the specific line ranges it needs.",
+      "Those prompt changes cut the average review cost by roughly 20% without touching the underlying tools or hurting review quality."
+    ]
+  },
+  {
+    "id": 55,
+    "source": "Vercel",
+    "title": "Run any Dockerfile on Vercel",
+    "summary": "Vercel now runs any Dockerfile-based service — Go, Rails, Spring Boot, Express, and more — as a first-class deployment with autoscaling and pay-per-use pricing.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jun 30, 2026",
+    "publishedAt": "2026-06-30T16:00:00.000Z",
+    "url": "https://vercel.com/blog/dockerfile-on-vercel",
+    "details": [
+      "Any HTTP service that listens on the $PORT environment variable can deploy from a Dockerfile.vercel file, with no local daemon, registry, or cluster to manage.",
+      "Containers get the same infrastructure as Vercel's other deployments: automatic preview URLs per commit, traffic-based autoscaling, and unified logs, traces, and metrics.",
+      "Billing is for actual CPU execution time rather than idle time, and optimized boot images let containers start quickly despite running in a full container."
+    ]
+  },
+  {
+    "id": 56,
+    "source": "Vercel",
+    "title": "Vercel Services: Run full stack on Vercel",
+    "summary": "Vercel Services, now in public beta, lets a frontend and a backend like FastAPI or Express live in one project that deploys and rolls back together.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Jun 30, 2026",
+    "publishedAt": "2026-06-30T04:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-services-run-full-stack-on-vercel",
+    "details": [
+      "Frontend, backend, and other services in a project deploy and roll back atomically, with a shared preview environment so a full change set can be reviewed together.",
+      "It supports FastAPI, Flask, Express, Hono, Go, and Rust with zero-config deployment, plus internal service-to-service communication that never touches the public internet.",
+      "It bundles what full-stack apps need — databases from Neon, Supabase, or AWS, Blob storage, background queues/workflows/cron, and short-lived credentials instead of stored secrets."
+    ]
+  },
+  {
+    "id": 57,
+    "source": "Vercel",
+    "title": "Build realtime voice agents on AI Gateway",
+    "summary": "AI Gateway now supports audio/voice. You can add realtime voice, text to speech, and speech to text with the same calls you already use for text, image, and video, routed through AI Gateway alongside every other modality.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jun 29, 2026",
+    "publishedAt": "2026-06-29T07:00:00.000Z",
+    "url": "https://vercel.com/blog/realtime-voice-agents-on-ai-gateway",
+    "details": []
+  },
+  {
     "id": 46,
     "source": "GitHub Engineering",
     "title": "How to build interactive experiences with canvases",
-    "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks.",
+    "summary": "GitHub Copilot's new canvases turn chat into a live, clickable workspace — a /create-canvas command builds interfaces like an issue triage board or a codebase diagram.",
     "tag": "AI engineering",
     "time": "3 min read",
     "accent": "cyan",
     "published": "Jul 21, 2026",
     "publishedAt": "2026-07-21T16:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-    "details": [],
-    "featured": true
+    "details": [
+      "Canvases are custom interactive interfaces the agent builds and updates live, not just chat — you click, drag, and filter instead of only typing prompts.",
+      "Examples GitHub built include a swipeable issue-triage card, a draggable codebase architecture diagram, and a cleanup view for stale Copilot worktree sessions.",
+      "Other canvases coach you on writing better prompts, or search Slack, Teams, email, and docs to find who has expertise on a given file or topic."
+    ],
+    "featured": false
   },
   {
     "id": 47,
     "source": "Cloudflare",
     "title": "How the 2026 World Cup affected Internet traffic",
-    "summary": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament.",
+    "summary": "Cloudflare's 2026 World Cup traffic data shows late-night kickoffs more than doubled some countries' internet traffic, while halftime produced spikes or dips depending on how each country watches.",
     "tag": "Infrastructure",
     "time": "3 min read",
     "accent": "purple",
     "published": "Jul 21, 2026",
     "publishedAt": "2026-07-21T12:59:40.000Z",
     "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
-    "details": []
+    "details": [
+      "Matches with midnight-to-8am kickoffs pushed some countries' traffic to more than double their normal level; daytime matches barely moved traffic since people were already online.",
+      "Argentina vs. Switzerland was the single most traffic-moving match (1.26x), and Argentina generated the strongest traffic bump of any team across all of its matches (1.17x).",
+      "44 countries saw traffic rise during halftime and hydration breaks as fans checked their phones, while 8 countries that pause video streams instead saw traffic dip."
+    ],
+    "featured": false
   },
   {
     "id": 48,
     "source": "Vercel",
     "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
-    "summary": "Customer-requested features shipped in as little as 30 minutes",
+    "summary": "Searchable, which tracks how brands show up in AI search tools, uses Vercel's AI Gateway to ship customer-requested features in about 30 minutes without swapping keys or SDKs.",
     "tag": "DevOps",
     "time": "3 min read",
     "accent": "purple",
     "published": "Jul 21, 2026",
     "publishedAt": "2026-07-21T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
-    "details": []
+    "details": [
+      "Searchable monitors brand visibility across AI search engines like ChatGPT, Perplexity, and Claude, and gives guidance on how to improve it.",
+      "Centralizing model access through Vercel's AI Gateway let them drop manual SDK integration and key management, cutting time-to-ship for a requested feature to about 30 minutes.",
+      "The team reports a 5x increase in development velocity while processing over 100 billion tokens, and can test different AI models without rotating API keys."
+    ],
+    "featured": false
   },
   {
     "id": 49,
@@ -50,7 +163,8 @@
     "published": "Jun 30, 2026",
     "publishedAt": "2026-06-30T04:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-and-shopify-are-rebuilding-hydrogen",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 50,
@@ -63,7 +177,8 @@
     "published": "Jun 25, 2026",
     "publishedAt": "2026-06-25T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/rollbacks-for-workflows/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 51,
@@ -76,7 +191,8 @@
     "published": "Jun 25, 2026",
     "publishedAt": "2026-06-25T07:00:00.000Z",
     "url": "https://vercel.com/blog/teaching-agents-product-design-at-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 40,
@@ -581,112 +697,5 @@
       "Give any bulk automation a low-water-mark threshold that halts it when it exceeds a conservative limit."
     ],
     "featured": false
-  },
-  {
-    "id": 16,
-    "source": "GitHub Engineering",
-    "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
-    "summary": "GitHub generates documentation pull requests automatically as features merge, pulling in the engineer who approved the feature as reviewer — closing the usual lag between release and docs.",
-    "tag": "AI engineering",
-    "time": "7 min read",
-    "accent": "purple",
-    "published": "Jul 8, 2026",
-    "publishedAt": "2026-07-08T21:11:56.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
-    "details": [
-      "Map milestones to release branches so the agent never has to decide where its output belongs.",
-      "Give the agent a scoped app token and route writes through a narrow handler rather than granting it direct write access.",
-      "Open drafts only, and reassign review to whoever approved the original feature — existing expertise instead of new review burden."
-    ],
-    "featured": false
-  },
-  {
-    "id": 17,
-    "source": "GitHub Engineering",
-    "title": "How GitHub Copilot enables zero DNS configuration for GitHub Pages",
-    "summary": "A walkthrough of taking a GitHub Pages site to a custom domain with HTTPS in about 14 minutes, with registrar DNS records configured through the Copilot CLI instead of by hand.",
-    "tag": "DevOps",
-    "time": "5 min read",
-    "accent": "amber",
-    "published": "Jul 8, 2026",
-    "publishedAt": "2026-07-08T16:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
-    "details": [
-      "Driving a registrar API from the CLI removes the manual DNS step while keeping an approval checkpoint before records change.",
-      "Build resolution and HTTP-status checks into the deploy itself so success is confirmed rather than assumed.",
-      "The skill pattern generalizes to any registrar with an API, so the workflow is not tied to one provider."
-    ],
-    "featured": false
-  },
-  {
-    "id": 18,
-    "source": "Vercel",
-    "title": "Introducing the new Vercel Agent",
-    "summary": "Vercel’s agent now works inside the dashboard, investigating production issues and proposing fixes for approval rather than applying them directly.",
-    "tag": "AI engineering",
-    "time": "6 min read",
-    "accent": "cyan",
-    "published": "Jul 8, 2026",
-    "publishedAt": "2026-07-08T06:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-agent",
-    "details": [
-      "Plan-to-permission gives the agent short-lived capability for the tasks it named, limiting the blast radius of one bad prompt.",
-      "Running generated code in a sandboxed microVM lets changes be validated against real builds before a human sees them.",
-      "Immutable deployments make autonomous action tolerable — a bad deploy is one rollback away, so the model need not be perfect."
-    ],
-    "featured": false
-  },
-  {
-    "id": 13,
-    "source": "Vercel",
-    "title": "How Speechify serves 500,000 dynamic pages to 60 million users on Vercel",
-    "summary": "Speechify serves 500,000+ dynamic pages across 40+ languages, and describes cutting infrastructure cost roughly in half by leaning on caching rather than scaling the database with traffic.",
-    "tag": "Architecture",
-    "time": "5 min read",
-    "accent": "amber",
-    "published": "Jul 15, 2026",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
-    "details": [
-      "Cache dynamic content — A/B variants, localized pages — so database cost stops scaling linearly with traffic.",
-      "Instant rollback changes deployment from a risk to be managed into a routine a small team can ship through daily.",
-      "Offloading patching and autoscaling to the platform is what let a small growth team keep shipping instead of maintaining."
-    ],
-    "featured": false
-  },
-  {
-    "id": 14,
-    "source": "Vercel",
-    "title": "Open-weight models surge to 29% of volume, price per token flattens",
-    "summary": "Open-weight models now carry 29% of token volume at 4% of spend, while Anthropic takes 61% of spend on 32% of tokens — a split that argues for routing by risk rather than by default.",
-    "tag": "AI engineering",
-    "time": "6 min read",
-    "accent": "emerald",
-    "published": "Jul 13, 2026",
-    "publishedAt": "2026-07-13T07:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
-    "details": [
-      "Route high-volume, low-risk work to cheap open-weight models and keep frontier models for work where being wrong is expensive.",
-      "GLM 5.2 reached the top ten within two weeks of launch, so treat model choice as swappable configuration rather than a fixed dependency.",
-      "No provider leads every modality — text, image, and video have different winners, so plan for multi-provider routing."
-    ],
-    "featured": false
-  },
-  {
-    "id": 1,
-    "source": "GitHub Engineering",
-    "title": "The cost of saying yes has changed",
-    "summary": "AI lowers the cost of producing a first patch, but review and long-term ownership still determine whether a change is actually cheap.",
-    "tag": "Engineering",
-    "time": "6 min read",
-    "accent": "cyan",
-    "featured": false,
-    "published": "Jul 17, 2026",
-    "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-    "details": [
-      "Treat an agent-produced patch as a price check, not the finished product.",
-      "Reviewability and ownership—not initial implementation time—remain the real engineering cost.",
-      "Constrain small experiments to make scope discussions evidence-led."
-    ]
   }
 ]
