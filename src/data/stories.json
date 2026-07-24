@@ -1,5 +1,113 @@
 [
   {
+    "id": 64,
+    "source": "Cloudflare",
+    "title": "Introducing Cache Response Rules",
+    "summary": "Cloudflare's new Cache Response Rules strip cache-blocking headers like Set-Cookie and adjust Cache-Control after the origin responds, so misconfigured origins stop blocking cacheable content.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 24, 2026",
+    "publishedAt": "2026-07-23T18:40:38.000Z",
+    "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
+    "details": [
+      "Origin servers often send headers like Set-Cookie or an overly restrictive Cache-Control that make otherwise cacheable content bypass the cache entirely.",
+      "The new rules run after the origin's response arrives but before Cloudflare writes it to cache, so they can strip or rewrite headers such as Set-Cookie, ETag, and Cache-Control without touching the origin server.",
+      "A cloudflare_only flag lets teams adjust Cloudflare's own caching behavior separately from what headers the visitor's browser sees."
+    ],
+    "featured": true
+  },
+  {
+    "id": 65,
+    "source": "GitHub Engineering",
+    "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+    "summary": "GitHub's Dependabot now waits three days by default before opening pull requests for new package versions, giving maintainers and researchers time to catch malicious releases first.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 23, 2026",
+    "publishedAt": "2026-07-23T16:00:00.000Z",
+    "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+    "details": [
+      "Supply-chain attacks exploit how fast automated tooling pulls in new package versions — one compromised npm package spread for about two hours before it was caught.",
+      "The three-day cooldown applies only to routine version updates; security patches still arrive immediately, and the delay is configurable per project via a cooldown option in dependabot.yml.",
+      "A review of past incidents found malicious versions of packages like axios and ua-parser-js were typically caught within a few hours of publication — well inside the new cooldown window."
+    ],
+    "featured": false
+  },
+  {
+    "id": 66,
+    "source": "Cloudflare",
+    "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+    "summary": "Cloudflare rolled out WAF rules blocking two high-severity WordPress bugs — a SQL injection and an unauthenticated remote-code-execution flaw — while sites finish updating to patched versions.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 18, 2026",
+    "publishedAt": "2026-07-17T21:30:43.000Z",
+    "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
+    "details": [
+      "One flaw (CVE-2026-63030) lets an unauthenticated attacker execute code via the REST API's batch endpoint when a persistent object cache isn't in use — no login or user interaction needed.",
+      "The other (CVE-2026-60137) is a SQL injection affecting WordPress 6.8 and later, where crafted input can alter database queries.",
+      "The WAF rules are a stopgap, not a fix — WordPress has released patched versions (6.8.6, 6.9.5, 7.0.2, 7.1 Beta 2), and sites still need to update."
+    ],
+    "featured": false
+  },
+  {
+    "id": 67,
+    "source": "Slack",
+    "title": "Shipyard: How We Built Slack’s Next-Generation EC2 Platform",
+    "summary": "Slack rebuilt its EC2 platform, Shipyard, to treat servers as immutable, replaceable images instead of continuously patched machines — bringing container-style discipline to raw EC2 instances.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 14, 2026",
+    "publishedAt": "2026-07-14T16:10:08.000Z",
+    "url": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/",
+    "details": [
+      "Instead of continuously patching long-lived servers, Shipyard bakes a shared 'slack-zero' base image with OS hardening and monitoring, and lets teams build their own AMIs on top of it.",
+      "Instances are replaced rather than patched: AWS Instance Refresh and Karpenter cycle out old machines, while a component called 'The Reaper' automatically retires instances past their lifespan or with security issues.",
+      "A deployment orchestrator called Gondola runs metric-driven safety checks during rollout and can automatically roll back a change if something looks wrong."
+    ],
+    "featured": false
+  },
+  {
+    "id": 68,
+    "source": "GitHub Engineering",
+    "title": "How GitHub gave every repository a durable owner",
+    "summary": "GitHub gave every one of its internal repositories a validated owner, archiving thousands nobody claimed, to fix security workflows that stalled when no one knew who to contact about a repo.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 9, 2026",
+    "publishedAt": "2026-07-09T16:29:37.000Z",
+    "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+    "details": [
+      "Fewer than half of GitHub's 14,000+ internal repositories had clear ownership, which slowed down security work like scanning remediation since nobody knew who to contact.",
+      "GitHub tracked ownership with two fields — an ownership type (Service Catalog, Team, or Individual) and a validated owner name — auto-populating about 1,500 repos from its existing service catalog.",
+      "An automated job opened 30-day warning issues on unowned repos and archived those left unclaimed, cutting active repositories from 11,000 to about 3,000 in under 45 days."
+    ],
+    "featured": false
+  },
+  {
+    "id": 69,
+    "source": "Vercel",
+    "title": "Vercel acquires Better Auth to accelerate open source auth",
+    "summary": "Vercel is acquiring Better Auth, the open-source TypeScript auth library with 4.7M+ weekly downloads, to build 'Agent Auth' — scoped, revocable identities for AI agents.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 7, 2026",
+    "publishedAt": "2026-07-07T07:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-acquires-better-auth",
+    "details": [
+      "Better Auth is a framework-agnostic authentication library developers can self-host and own, rather than depending on a hosted auth vendor.",
+      "The library stays free and open source under its MIT license, keeps its name, and continues under its existing community governance model — this is a team acquisition, not a shutdown.",
+      "A key motivation is Agent Auth: giving individual AI agents their own identity and scoped, revocable permissions instead of having them all act under one shared credential."
+    ],
+    "featured": false
+  },
+  {
     "id": 58,
     "source": "Vercel",
     "title": "Introducing the new Vercel Agent",
@@ -15,7 +123,7 @@
       "It runs under its own identity for auditability and executes generated code in an isolated microVM sandbox, not against live systems directly.",
       "Beyond alert triage, it can trace cost spikes to the code change that caused them and evaluate whether a feature flag is safe to roll out."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 59,
@@ -32,7 +140,8 @@
       "A change is genuinely cheap only when it avoids touching authorization, product contracts, billing, or anything that creates a new support obligation.",
       "Instead of arguing about scope in meetings, ask for a small constrained attempt with minimal patches and tests, then review the actual diff.",
       "A trivial-looking diff that nobody wants to maintain long-term is still a liability, not a bargain, even if it was fast to generate."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 60,
@@ -49,7 +158,8 @@
       "Combining Vercel Data Cache, incremental static regeneration, and Next.js Cache Components let pages render once and then serve from the edge until content changes.",
       "Switching to fluid compute for automatic scaling cut infrastructure costs by half while handling hundreds of thousands of daily visitors.",
       "Instant rollbacks and continuous deployment let a small growth team ship every 2-3 days without a dedicated platform engineering team."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 61,
@@ -66,7 +176,8 @@
       "Open-weight models now handle 29% of tokens but under 4% of spend, showing enterprises are routing routine work to cheaper models.",
       "Frontier providers still dominate high-stakes work: Anthropic alone takes 61% of spend on just 32% of tokens across coding agents and back-office tasks.",
       "A newly released open-weight model (GLM 5.2) captured 76% of its model family’s tokens within two weeks, showing how fast enterprise adoption can shift."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 62,
@@ -83,20 +194,26 @@
       "The workflow reads a merged pull request’s diff, decides whether docs are needed, and drafts content directly in the docs repo following existing conventions.",
       "Instead of writing directly, the agent emits structured intent that a separate, permission-scoped handler turns into a real draft PR, keeping humans in control.",
       "The same subject matter expert who reviewed the original code change is automatically assigned to review the generated docs, keeping accuracy high."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 63,
     "source": "Cloudflare",
     "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
-    "summary": "Self-Managed OAuth is now available to all developers on Cloudflare. Here's how we executed a zero-downtime migration of our core OAuth engine to make it happen.",
+    "summary": "Cloudflare opened self-managed OAuth to all developers, replacing manual partner-only onboarding, after migrating its core OAuth engine from Hydra 1.x to 2.x with zero downtime.",
     "tag": "Infrastructure",
-    "time": "3 min read",
+    "time": "4 min read",
     "accent": "purple",
     "published": "Jun 24, 2026",
     "publishedAt": "2026-06-24T06:00:00.000Z",
     "url": "https://blog.cloudflare.com/oauth-for-all/",
-    "details": []
+    "details": [
+      "Previously only a small set of manually onboarded partners could use real OAuth flows against the Cloudflare API — everyone else fell back to API tokens for delegated access.",
+      "The underlying OAuth engine, Hydra, was upgraded from 1.x to 2.x using a blue-green deployment, with schema migrations rewritten as non-locking operations to avoid downtime on live tables.",
+      "The upgrade cut API P95 latency by 45% (185ms to 101ms) and CPU usage by 37%, while the live cutover itself moved over 130 million database rows in about three hours."
+    ],
+    "featured": false
   },
   {
     "id": 52,
@@ -300,14 +417,18 @@
     "id": 51,
     "source": "Vercel",
     "title": "Teaching agents product design at Vercel",
-    "summary": "Coding agents can produce working UI fast, but what's harder is a different shape. They can copy your product's style, match its patterns, and try to follow its conventions. What they cannot do is understand why those patterns exist. Code shows agents what shipped, not why one component, phrase, or interaction became…",
-    "tag": "DevOps",
+    "summary": "Vercel built a system of agent instructions, automated linters, and a feedback-gathering workflow so coding agents can learn why its UI patterns exist, not just copy them.",
+    "tag": "AI engineering",
     "time": "4 min read",
     "accent": "emerald",
     "published": "Jun 25, 2026",
     "publishedAt": "2026-06-25T07:00:00.000Z",
     "url": "https://vercel.com/blog/teaching-agents-product-design-at-vercel",
-    "details": [],
+    "details": [
+      "Coding agents can copy a codebase's visual style but can't tell why a pattern exists, because that reasoning lives in design reviews and Slack threads, not in the code itself.",
+      "Vercel splits enforcement into two layers: linters that catch deterministic rule violations automatically (like nested modals), and an agent skill that supplies judgment-based context for less mechanical decisions.",
+      "A feedback-gathering workflow pulls input from Slack, Figma, and GitHub to keep guidelines current, and the system is tested with before/after fixtures to check whether agents actually generalize guidance to new interfaces."
+    ],
     "featured": false
   },
   {
@@ -595,114 +716,6 @@
       "Anycast origins on AWS/GCP/Azure could hairpin traffic — an Asian request routed to Chicago to fetch from Singapore — adding hundreds of milliseconds.",
       "A cloud region hint like aws:us-east-1, set via dashboard, API, or Terraform, tells Cloudflare which upper tier is genuinely closest.",
       "It matches origin IPs against provider range files and tier data refreshed every 15 minutes, with geographic fallback until real latency data builds up."
-    ],
-    "featured": false
-  },
-  {
-    "id": 32,
-    "source": "Lyft",
-    "title": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding",
-    "summary": "A new Lyft engineer took an AI analytics assistant from prototype to a company-wide service during onboarding, and writes up the production realities that onboarding decks leave out.",
-    "tag": "AI engineering",
-    "time": "7 min read",
-    "accent": "amber",
-    "published": "Jul 9, 2026",
-    "publishedAt": "2026-07-09T22:01:15.000Z",
-    "url": "https://eng.lyft.com/from-day-1-to-production-building-lyfts-analytics-rides-intelligence-assistant-as-onboarding-5c5643c192d9",
-    "details": [
-      "The real lessons were unglamorous production problems — auth plugin incompatibility, Envoy session config, streaming chunk sizing — that you only learn by hitting them.",
-      "Mature internal frameworks (Lyft Node Service, Envoy, metaservice) worked as real tools, letting a newcomer ship meaningfully from week one.",
-      "A staff engineer pointing to an existing service with the same streaming pattern turned a multi-day debug into an afternoon — cross-team guidance compounds."
-    ],
-    "featured": false
-  },
-  {
-    "id": 33,
-    "source": "Cloudflare",
-    "title": "Why we cannot wait for better post-quantum signature algorithms",
-    "summary": "Cloudflare argues we should deploy the ML-DSA post-quantum signature scheme now despite its bulk, because better alternatives will not be widely ready until the mid-2030s — too late.",
-    "tag": "Security",
-    "time": "8 min read",
-    "accent": "purple",
-    "published": "Jul 9, 2026",
-    "publishedAt": "2026-07-09T13:40:47.000Z",
-    "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
-    "details": [
-      "Better schemes (FN-DSA, SQIsign, multivariate) are not expected to be broadly available until 2033–2035, and the quantum threat arrives too soon to wait.",
-      "There is no post-quantum equivalent of an all-round winner like Ed25519 — only specialists and balanced-but-unremarkable generalists like ML-DSA.",
-      "You cannot cut over all at once, so a long period supporting both old and new signatures is needed to avoid downgrade attacks."
-    ],
-    "featured": false
-  },
-  {
-    "id": 22,
-    "source": "Cloudflare",
-    "title": "Cloudflare Internal DNS is now generally available",
-    "summary": "Cloudflare now runs public and private DNS from one control plane, so internal and external name resolution stop living in separate systems that drift apart.",
-    "tag": "Infrastructure",
-    "time": "6 min read",
-    "accent": "emerald",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-20T20:59:31.000Z",
-    "url": "https://blog.cloudflare.com/internal-dns/",
-    "details": [
-      "Treating internal and external resolution as two views over shared zones removes the sync drift that split-horizon DNS usually causes.",
-      "One API, control plane, and audit trail cover the whole DNS stack instead of stitching separate tools together.",
-      "Resolver policies run through Cloudflare Gateway, so which users and devices see which view is enforced by the same Zero Trust layer."
-    ],
-    "featured": false
-  },
-  {
-    "id": 23,
-    "source": "Spotify",
-    "title": "Content Ingestion & Podcast Video Incident Report",
-    "summary": "A Spotify post-mortem: video transcoding hit capacity and delayed podcast publishing for hours, after a quality upgrade quietly raised the cost of processing each episode.",
-    "tag": "Infrastructure",
-    "time": "7 min read",
-    "accent": "emerald",
-    "published": "Jul 20, 2026",
-    "publishedAt": "2026-07-20T16:24:48.000Z",
-    "url": "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/",
-    "details": [
-      "Plan capacity against spikes like bulk content delivery, not steady-state averages — the headroom to absorb them is the whole point.",
-      "A quality improvement raised per-episode processing cost, but capacity was not recalculated; feature changes need a downstream capacity review.",
-      "Monitoring fired about four hours before formal incident response began — early alerts need a clear escalation path, not just a dashboard."
-    ],
-    "featured": false
-  },
-  {
-    "id": 24,
-    "source": "Dropbox",
-    "title": "How our universal content processing platform Riviera evolved for AI and beyond",
-    "summary": "Dropbox rebuilt its file-processing platform around small reusable transformations instead of one pipeline per format — and that same platform now feeds its AI features.",
-    "tag": "Architecture",
-    "time": "9 min read",
-    "accent": "emerald",
-    "published": "Jul 20, 2026",
-    "publishedAt": "2026-07-20T15:00:00.000Z",
-    "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
-    "details": [
-      "Breaking each job into small reusable transformations means a PDF-to-image step written once is shared everywhere, instead of a new service per file type.",
-      "A plugin model separates request coordination from execution, so product teams add transformations without destabilising the core.",
-      "Because the platform was shared, the AI product reused existing document processing rather than rebuilding it — and one improvement benefits search, previews, and AI at once."
-    ],
-    "featured": false
-  },
-  {
-    "id": 25,
-    "source": "Netflix",
-    "title": "In-House LLM Serving at Netflix",
-    "summary": "Netflix built its own LLM inference stack rather than only calling hosted APIs, trading raw benchmark speed for control, customization, and an easier path from research to production.",
-    "tag": "AI engineering",
-    "time": "8 min read",
-    "accent": "purple",
-    "published": "Jul 18, 2026",
-    "publishedAt": "2026-07-17T21:32:39.000Z",
-    "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
-    "details": [
-      "They chose vLLM over TensorRT-LLM because it loads custom model architectures without a compile pipeline — iteration speed can matter more than peak throughput.",
-      "Exposing an OpenAI-compatible API alongside gRPC let teams move from hosted models to self-hosted ones with almost no code change.",
-      "Production surfaced gaps the design missed: constrained decoding bottlenecked on CPU work until a newer engine version processed it batch-at-a-time."
     ],
     "featured": false
   }
