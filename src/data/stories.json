@@ -3,67 +3,87 @@
     "id": 58,
     "source": "Vercel",
     "title": "Introducing the new Vercel Agent",
-    "summary": "Today we're expanding Vercel Agent . It started by triaging alerts and reviewing your pull requests. Now it has a home in your dashboard, where it can investigate production, answer questions about your projects, and take action once you approve it.",
+    "summary": "Vercel Agent now lives in your dashboard as an AI assistant that investigates production issues, reviews pull requests, and proposes fixes, but only acts once you approve its plan.",
     "tag": "AI engineering",
     "time": "3 min read",
     "accent": "amber",
     "published": "Jul 21, 2026",
     "publishedAt": "2026-07-21T04:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-agent",
-    "details": [],
+    "details": [
+      "The agent works read-only by default and must propose a specific plan before it can touch anything, so it never silently changes production.",
+      "It runs under its own identity for auditability and executes generated code in an isolated microVM sandbox, not against live systems directly.",
+      "Beyond alert triage, it can trace cost spikes to the code change that caused them and evaluate whether a feature flag is safe to roll out."
+    ],
     "featured": true
   },
   {
     "id": 59,
     "source": "GitHub Engineering",
     "title": "The cost of saying yes has changed",
-    "summary": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era.",
-    "tag": "AI engineering",
+    "summary": "AI has made writing code cheap, but owning and maintaining it is just as expensive as before, so the real skill now is judging which changes are actually cheap to accept.",
+    "tag": "Engineering",
     "time": "3 min read",
     "accent": "cyan",
     "published": "Jul 17, 2026",
     "publishedAt": "2026-07-17T16:46:47.000Z",
     "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-    "details": []
+    "details": [
+      "A change is genuinely cheap only when it avoids touching authorization, product contracts, billing, or anything that creates a new support obligation.",
+      "Instead of arguing about scope in meetings, ask for a small constrained attempt with minimal patches and tests, then review the actual diff.",
+      "A trivial-looking diff that nobody wants to maintain long-term is still a liability, not a bargain, even if it was fast to generate."
+    ]
   },
   {
     "id": 60,
     "source": "Vercel",
     "title": "How Speechify serves 500,000 dynamic pages to 60 million users on Vercel",
-    "summary": "Speechify started as a tool for people with dyslexia. Cliff Weitzman, Founder & CEO, built it because reading was challenging and audio made it much easier. That initial use case led Speechify to tens of millions of users and an Apple Design Award for inclusion.",
+    "summary": "Speechify rebuilt its infrastructure on Next.js and Vercel to serve over 500,000 dynamically generated pages in 40+ languages to 60 million users without static generation.",
     "tag": "DevOps",
     "time": "4 min read",
     "accent": "emerald",
     "published": "Jul 15, 2026",
     "publishedAt": "2026-07-15T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
-    "details": []
+    "details": [
+      "Combining Vercel Data Cache, incremental static regeneration, and Next.js Cache Components let pages render once and then serve from the edge until content changes.",
+      "Switching to fluid compute for automatic scaling cut infrastructure costs by half while handling hundreds of thousands of daily visitors.",
+      "Instant rollbacks and continuous deployment let a small growth team ship every 2-3 days without a dedicated platform engineering team."
+    ]
   },
   {
     "id": 61,
     "source": "Vercel",
     "title": "Open-weight models surge to 29% of volume, price per token flattens",
-    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs, giving us a view of what AI usage actually looks like in today’s enterprise. We publish that view here. See the Production Index reports published in May and June .",
+    "summary": "Vercel’s AI Gateway data shows open-weight models jumped from 11% to 29% of token volume in two months, while average price per token stayed flat despite frontier prices rising.",
     "tag": "AI engineering",
     "time": "4 min read",
     "accent": "cyan",
     "published": "Jul 13, 2026",
     "publishedAt": "2026-07-13T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
-    "details": []
+    "details": [
+      "Open-weight models now handle 29% of tokens but under 4% of spend, showing enterprises are routing routine work to cheaper models.",
+      "Frontier providers still dominate high-stakes work: Anthropic alone takes 61% of spend on just 32% of tokens across coding agents and back-office tasks.",
+      "A newly released open-weight model (GLM 5.2) captured 76% of its model family’s tokens within two weeks, showing how fast enterprise adoption can shift."
+    ]
   },
   {
     "id": 62,
     "source": "GitHub Engineering",
     "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
-    "summary": "Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation.",
-    "tag": "Engineering",
+    "summary": "The GitHub Aspire team built an agentic workflow that automatically drafts documentation pull requests whenever a product feature merges, cutting the usual weeks-long documentation lag.",
+    "tag": "Developer tools",
     "time": "3 min read",
     "accent": "purple",
     "published": "Jul 8, 2026",
     "publishedAt": "2026-07-08T21:11:56.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
-    "details": []
+    "details": [
+      "The workflow reads a merged pull request’s diff, decides whether docs are needed, and drafts content directly in the docs repo following existing conventions.",
+      "Instead of writing directly, the agent emits structured intent that a separate, permission-scoped handler turns into a real draft PR, keeping humans in control.",
+      "The same subject matter expert who reviewed the original code change is automatically assigned to review the generated docs, keeping accuracy high."
+    ]
   },
   {
     "id": 63,
@@ -172,14 +192,18 @@
     "id": 57,
     "source": "Vercel",
     "title": "Build realtime voice agents on AI Gateway",
-    "summary": "AI Gateway now supports audio/voice. You can add realtime voice, text to speech, and speech to text with the same calls you already use for text, image, and video, routed through AI Gateway alongside every other modality.",
+    "summary": "Vercel added voice to its AI Gateway, letting developers add realtime voice conversations, text-to-speech, and speech-to-text using the same API calls they already use for text and image.",
     "tag": "AI engineering",
     "time": "3 min read",
     "accent": "purple",
     "published": "Jun 29, 2026",
     "publishedAt": "2026-06-29T07:00:00.000Z",
     "url": "https://vercel.com/blog/realtime-voice-agents-on-ai-gateway",
-    "details": [],
+    "details": [
+      "Realtime voice supports low-latency two-way conversation where a user can interrupt the model mid-response, useful for voice assistants.",
+      "A single useRealtime hook in AI SDK 7 manages the WebSocket connection and microphone capture, with authentication handled server-side so API keys never reach the browser.",
+      "All three audio modes get the same provider routing, spend controls, and observability as Gateway’s existing text, image, and video traffic."
+    ],
     "featured": false
   },
   {
@@ -240,28 +264,36 @@
     "id": 49,
     "source": "Vercel",
     "title": "Vercel and Shopify are rebuilding Hydrogen",
-    "summary": "Hydrogen made headless storefronts easy to ship, but not portable. At Vercel Ship 26 in New York, we announced that we are working with Shopify to rebuild it from the ground up, a shared bet on a more open web.",
+    "summary": "Vercel and Shopify are rebuilding Hydrogen from scratch so headless storefronts are no longer locked into one platform, betting on a more open, portable web stack.",
     "tag": "Frontend",
     "time": "3 min read",
     "accent": "amber",
     "published": "Jun 30, 2026",
     "publishedAt": "2026-06-30T04:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-and-shopify-are-rebuilding-hydrogen",
-    "details": [],
+    "details": [
+      "The new Hydrogen splits into a core layer of shared Shopify API utilities, so developers stop rewriting the same glue code like money formatting by hand.",
+      "A client layer ships pre-built state management and cart/form handling, removing the need to reimplement common storefront logic every time.",
+      "The server layer runs on frameworks like Next.js, Nuxt, and SvelteKit instead of a proprietary runtime, so a store can run anywhere JavaScript does."
+    ],
     "featured": false
   },
   {
     "id": 50,
     "source": "Cloudflare",
     "title": "How we built saga rollbacks for Cloudflare Workflows",
-    "summary": "Cloudflare Workflows, our durable execution engine for multi-step applications, now supports saga-style rollbacks, allowing developers to specify a compensating action for each step.do().",
+    "summary": "Cloudflare Workflows now supports the saga pattern, letting developers attach a rollback function to each step so a failed multi-step process can automatically undo what already succeeded.",
     "tag": "Architecture",
     "time": "3 min read",
     "accent": "amber",
     "published": "Jun 25, 2026",
     "publishedAt": "2026-06-25T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/rollbacks-for-workflows/",
-    "details": [],
+    "details": [
+      "Each step.do() call can take a rollback function that runs only if the overall workflow ultimately fails, receiving that step’s original output.",
+      "Rollbacks run in reverse order of execution and rely on persistent step history to know exactly which steps actually completed.",
+      "This removes the need for developers to hand-write compensation logic to track successes and failures outside of the step definitions themselves."
+    ],
     "featured": false
   },
   {
