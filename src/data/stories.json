@@ -1,5 +1,84 @@
 [
   {
+    "id": 70,
+    "source": "Cloudflare",
+    "title": "Cloudflare Internal DNS is now generally available",
+    "summary": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 20, 2026",
+    "publishedAt": "2026-07-20T20:59:31.000Z",
+    "url": "https://blog.cloudflare.com/internal-dns/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 71,
+    "source": "Spotify",
+    "title": "Content Ingestion & Podcast Video Incident Report",
+    "summary": "Over the past two months, podcast creators have experienced a series of reliability issues on Spotify. This...",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 20, 2026",
+    "publishedAt": "2026-07-20T16:24:48.000Z",
+    "url": "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/",
+    "details": []
+  },
+  {
+    "id": 72,
+    "source": "Dropbox",
+    "title": "How our universal content processing platform Riviera evolved for AI and beyond",
+    "summary": "Riviera is the Dropbox content processing platform that’s been iteratively improving content transformation in our products for roughly a decade.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 20, 2026",
+    "publishedAt": "2026-07-20T15:00:00.000Z",
+    "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
+    "details": []
+  },
+  {
+    "id": 73,
+    "source": "Netflix",
+    "title": "In-House LLM Serving at Netflix",
+    "summary": "Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under…",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Jul 17, 2026",
+    "publishedAt": "2026-07-17T21:32:39.000Z",
+    "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
+    "details": []
+  },
+  {
+    "id": 74,
+    "source": "Lyft",
+    "title": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding",
+    "summary": "Most onboarding journeys follow a familiar arc: orientation sessions, benefits enrollment, setting up your laptop, and gradually finding your footing over the first few weeks. Mine followed that arc too, but with an additional thread running alongside it from the very start.",
+    "tag": "Engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 9, 2026",
+    "publishedAt": "2026-07-09T22:01:15.000Z",
+    "url": "https://eng.lyft.com/from-day-1-to-production-building-lyfts-analytics-rides-intelligence-assistant-as-onboarding-5c5643c192d9",
+    "details": []
+  },
+  {
+    "id": 75,
+    "source": "Cloudflare",
+    "title": "Why we cannot wait for better post-quantum signature algorithms",
+    "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 9, 2026",
+    "publishedAt": "2026-07-09T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
+    "details": []
+  },
+  {
     "id": 64,
     "source": "Cloudflare",
     "title": "Introducing Cache Response Rules",
@@ -15,7 +94,7 @@
       "The new rules run after the origin's response arrives but before Cloudflare writes it to cache, so they can strip or rewrite headers such as Set-Cookie, ETag, and Cache-Control without touching the origin server.",
       "A cloudflare_only flag lets teams adjust Cloudflare's own caching behavior separately from what headers the visitor's browser sees."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 65,
@@ -608,114 +687,6 @@
       "AI-generated search summaries sharply cut referral traffic to original sources, with one cited study finding users click through only about 8% of the time when a summary is shown.",
       "Cloudflare says over half of the crawl traffic it sees hits pages that haven't actually changed, so its new signal-based approach aims to cut wasted crawling rather than just block it.",
       "A 'pay-per-query' pilot with partners like Ceramic.ai would compensate publishers when their content is actually used in an answer, not just when a bot crawls it."
-    ],
-    "featured": false
-  },
-  {
-    "id": 38,
-    "source": "Cloudflare",
-    "title": "Your site, your rules: new AI traffic options for all customers",
-    "summary": "Cloudflare now lets site owners separately allow or block three kinds of AI bots (search, agent, and training crawlers) instead of one all-or-nothing switch.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 1, 2026",
-    "publishedAt": "2026-07-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-    "details": [
-      "Site owners can now distinguish bots that index content for search, bots acting on a person's behalf in real time, and bots scraping content to train models.",
-      "Starting September 15, 2026, new domains will block Training and Agent bots on ad-monetized pages by default, while Search bots stay allowed, unless the owner opts out.",
-      "A new optional robots.txt signal lets sites specify how their content may be used, ranging from no storage at all to full summarization and reproduction."
-    ],
-    "featured": false
-  },
-  {
-    "id": 39,
-    "source": "Cloudflare",
-    "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
-    "summary": "Cloudflare opened a waitlist for Monetization Gateway, letting sites charge small stablecoin payments per request for pages, APIs, or datasets using the x402 protocol.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Jul 1, 2026",
-    "publishedAt": "2026-07-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/monetization-gateway/",
-    "details": [
-      "The flow rides on HTTP's existing 402 Payment Required status code: a client requests a resource, gets a price back, pays, and resubmits the request with proof of payment.",
-      "Payments settle peer-to-peer in stablecoins in under a second, a design aimed at AI agents that read a resource once rather than maintain a subscription.",
-      "No account signup is required from the payer; Cloudflare's model treats the payment itself as the credential that unlocks the resource."
-    ],
-    "featured": false
-  },
-  {
-    "id": 28,
-    "source": "Cloudflare",
-    "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
-    "summary": "When Albania’s .al domain broke from a botched DNSSEC rollover, Cloudflare’s 1.1.1.1 kept it reachable but now returns an error code so clients can see DNS security was bypassed.",
-    "tag": "Infrastructure",
-    "time": "6 min read",
-    "accent": "amber",
-    "published": "Jul 14, 2026",
-    "publishedAt": "2026-07-14T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
-    "details": [
-      "Restoring a broken DNSSEC domain via a Negative Trust Anchor used to be silent — clients could not tell a bypassed answer from a spoofed one.",
-      "The new Extended DNS Error 33 signals in the response itself that a Negative Trust Anchor was applied, giving operators direct visibility.",
-      "Tooling is adopting it — kdig names EDE 33 and an Unbound pull request is in review — so the transparency spreads across the ecosystem."
-    ],
-    "featured": false
-  },
-  {
-    "id": 29,
-    "source": "Netflix",
-    "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
-    "summary": "Netflix built a real-time system that maps which services talk to which across its infrastructure, processing millions of network flow records per second instead of batching them hourly.",
-    "tag": "Architecture",
-    "time": "9 min read",
-    "accent": "purple",
-    "published": "Jul 13, 2026",
-    "publishedAt": "2026-07-13T22:44:11.000Z",
-    "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8",
-    "details": [
-      "Continuous streaming with backpressure slows the pipeline to a sustainable rate under a spike or GC pause instead of collapsing — an advantage batching does not give.",
-      "A three-stage pipeline with multiple redistribution points spread load when some instances saw 100x the traffic of others; one design choice solved several problems.",
-      "They dropped immutable data structures on the hot path — a Scala norm — after profiling showed GC costing more CPU than the real work. Measure before assuming."
-    ],
-    "featured": false
-  },
-  {
-    "id": 30,
-    "source": "Cloudflare",
-    "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
-    "summary": "Cloudflare’s Precursor detects bots by watching how a visitor behaves across a whole session, rather than judging them at a single checkpoint like a CAPTCHA.",
-    "tag": "Security",
-    "time": "7 min read",
-    "accent": "emerald",
-    "published": "Jul 13, 2026",
-    "publishedAt": "2026-07-13T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/introducing-precursor/",
-    "details": [
-      "Consistent human behavior over time is hard to fake, so session-long analysis catches bots that can pass an individual challenge.",
-      "Because signals accumulate across the session, refreshing the page or restarting a challenge does not reset detection.",
-      "It collects the minimum useful signal — keystroke timing, not the keys themselves — kept internal and not tied to a user’s identity."
-    ],
-    "featured": false
-  },
-  {
-    "id": 31,
-    "source": "Cloudflare",
-    "title": "Improving Smart Tiered Cache for Public Cloud Regions",
-    "summary": "Cloudflare fixed a case where caching in front of anycast cloud origins sent traffic across continents, by letting customers name their cloud region so it picks the right upper-tier data center.",
-    "tag": "Infrastructure",
-    "time": "6 min read",
-    "accent": "cyan",
-    "published": "Jul 10, 2026",
-    "publishedAt": "2026-07-10T12:00:00.000Z",
-    "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
-    "details": [
-      "Anycast origins on AWS/GCP/Azure could hairpin traffic — an Asian request routed to Chicago to fetch from Singapore — adding hundreds of milliseconds.",
-      "A cloud region hint like aws:us-east-1, set via dashboard, API, or Terraform, tells Cloudflare which upper tier is genuinely closest.",
-      "It matches origin IPs against provider range files and tier data refreshed every 15 minutes, with geographic fallback until real latency data builds up."
     ],
     "featured": false
   }
