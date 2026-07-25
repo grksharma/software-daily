@@ -1,56 +1,170 @@
 [
   {
+    "id": 76,
+    "source": "Cloudflare",
+    "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+    "summary": "Cloudflare found that transit providers rewrite the BGP ORIGIN attribute on about 70% of paths to steer traffic their way, and argues routers should stop trusting it during route selection.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 24, 2026",
+    "publishedAt": "2026-07-24T17:25:28.000Z",
+    "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
+    "details": [
+      "Testing across many vantage points found that roughly 70% of BGP paths have their ORIGIN value rewritten by a transit provider, differing from what the originating network set.",
+      "About a quarter of the top 50 transit providers manipulate ORIGIN because it's evaluated early in BGP's path-selection process, making it an effective (if standards-violating) lever for winning traffic.",
+      "Cloudflare recommends routers stop giving ORIGIN weight in route selection and proposes reviving an expired IETF draft for scrubbing the attribute."
+    ],
+    "featured": true
+  },
+  {
+    "id": 77,
+    "source": "Cloudflare",
+    "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
+    "summary": "A broken DNSSEC key rollover took .al offline. Cloudflare restored access by bypassing validation, and 1.1.1.1 now returns a distinct error code (EDE 33) whenever it does this.",
+    "tag": "Security",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Jul 14, 2026",
+    "publishedAt": "2026-07-14T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
+    "details": [
+      "On July 3, 2026, .al's operator published a new DNSKEY without keeping the old one referenced in the root's DS record, breaking the chain of trust for the whole TLD.",
+      "Cloudflare's 1.1.1.1 worked around the outage with a Negative Trust Anchor, which tells the resolver to treat the zone as unsigned and skip DNSSEC validation rather than fail every query.",
+      "The resolver now returns EDE code 33 alongside EDE 9 whenever an NTA is active, giving clients a machine-readable signal that validation was bypassed instead of silently succeeding."
+    ]
+  },
+  {
+    "id": 78,
+    "source": "Netflix",
+    "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
+    "summary": "Netflix built a real-time system that maps service-to-service call graphs from network flow logs, replacing a slow batch process so engineers can trace live traffic during incidents.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Jul 14, 2026",
+    "publishedAt": "2026-07-13T22:44:11.000Z",
+    "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8",
+    "details": [
+      "A three-stage streaming pipeline resolves raw network flow logs into direct service-to-service edges (turning load-balancer hops into real caller/callee pairs) before persisting them to a graph database.",
+      "Backpressure propagates upstream stage by stage — down to pausing the Kafka consumer — whenever the graph database can't keep up with writes, instead of dropping data or falling over.",
+      "Netflix cut heap allocation by over 50% by switching hot-path aggregators from immutable to mutable data structures, and replaced gRPC with Server-Sent Events between stages to reduce serialization overhead."
+    ]
+  },
+  {
+    "id": 79,
+    "source": "Cloudflare",
+    "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
+    "summary": "Cloudflare launched Precursor, a bot-detection system that watches behavioral signals like mouse movement and typing rhythm across a session rather than at a single checkpoint challenge.",
+    "tag": "Security",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 13, 2026",
+    "publishedAt": "2026-07-13T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/introducing-precursor/",
+    "details": [
+      "A lightweight script injected into pages collects pointer movement, keystroke timing, focus changes, and visibility events, then sends them to Cloudflare for evaluation.",
+      "Detection looks for patterns bots struggle to fake convincingly, such as natural mouse-movement curves, hesitation before clicks, and small tremor-like corrections.",
+      "Signals accumulate across the whole session instead of resetting on a page refresh, and keyboard data captures only timing and rhythm — not the actual keys typed — for privacy."
+    ]
+  },
+  {
+    "id": 80,
+    "source": "Cloudflare",
+    "title": "Improving Smart Tiered Cache for Public Cloud Regions",
+    "summary": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 10, 2026",
+    "publishedAt": "2026-07-10T12:00:00.000Z",
+    "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
+    "details": []
+  },
+  {
+    "id": 81,
+    "source": "Cloudflare",
+    "title": "Your site, your rules: new AI traffic options for all customers",
+    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "details": []
+  },
+  {
     "id": 70,
     "source": "Cloudflare",
     "title": "Cloudflare Internal DNS is now generally available",
-    "summary": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
+    "summary": "Cloudflare's Internal DNS service is now generally available, letting companies run private and public DNS on one platform instead of separate internal and external systems.",
     "tag": "Infrastructure",
     "time": "3 min read",
     "accent": "cyan",
     "published": "Jul 20, 2026",
     "publishedAt": "2026-07-20T20:59:31.000Z",
     "url": "https://blog.cloudflare.com/internal-dns/",
-    "details": [],
-    "featured": true
+    "details": [
+      "Internal Zones and DNS Views let one shared zone serve different records to internal versus external resolvers, replacing manual split-horizon DNS syncing across separate systems.",
+      "Queries route through a Gateway Resolver that evaluates policy before deciding whether to answer from internal authoritative DNS or public resolution.",
+      "DNS policy can now enforce Zero Trust identity checks, positioning the service as a replacement for legacy on-prem DNS appliances and cloud-locked resolvers."
+    ],
+    "featured": false
   },
   {
     "id": 71,
     "source": "Spotify",
     "title": "Content Ingestion & Podcast Video Incident Report",
-    "summary": "Over the past two months, podcast creators have experienced a series of reliability issues on Spotify. This...",
+    "summary": "Spotify's video podcast transcoding pipeline hit capacity limits in June, delaying video episodes by hours; the postmortem covers what caused it and how they're preventing a repeat.",
     "tag": "Engineering",
     "time": "3 min read",
     "accent": "amber",
     "published": "Jul 20, 2026",
     "publishedAt": "2026-07-20T16:24:48.000Z",
     "url": "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/",
-    "details": []
+    "details": [
+      "Four factors compounded at once: thin capacity headroom, a batch reprocessing job running concurrently, higher per-episode costs from a recent quality upgrade, and a scheduling bug that cut throughput by about 10%.",
+      "Creators unaware of the backlog re-uploaded their episodes, adding further load and worsening the delay.",
+      "Spotify added 67% more transcoding capacity and is building earlier alerting, better capacity planning, and prioritization of real-time publishing over background jobs."
+    ],
+    "featured": false
   },
   {
     "id": 72,
     "source": "Dropbox",
     "title": "How our universal content processing platform Riviera evolved for AI and beyond",
-    "summary": "Riviera is the Dropbox content processing platform that’s been iteratively improving content transformation in our products for roughly a decade.",
-    "tag": "AI engineering",
+    "summary": "Dropbox describes how its internal content-processing platform Riviera grew from a single preview feature into a shared system handling hundreds of thousands of transformations per second.",
+    "tag": "Infrastructure",
     "time": "3 min read",
     "accent": "cyan",
     "published": "Jul 20, 2026",
     "publishedAt": "2026-07-20T15:00:00.000Z",
     "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
-    "details": []
+    "details": [
+      "Riviera uses a plugin-style architecture where each transformation type has one dedicated backend worker, giving a single point of maintenance and scaling per capability instead of per product.",
+      "Complex transformations reuse simpler building blocks — for example, PowerPoint rendering reuses the same PDF-to-image step used for plain PDFs — cutting duplicated engineering work.",
+      "When Dropbox's AI assistant Dash launched, it reused Riviera's existing transformations rather than needing new infrastructure, showing the payoff of building reusable platform pieces early."
+    ],
+    "featured": false
   },
   {
     "id": 73,
     "source": "Netflix",
     "title": "In-House LLM Serving at Netflix",
-    "summary": "Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under…",
+    "summary": "Netflix explains why it runs LLM inference itself inside its existing production stack rather than only calling hosted APIs, and the trade-offs it hit doing so.",
     "tag": "AI engineering",
     "time": "4 min read",
     "accent": "cyan",
     "published": "Jul 17, 2026",
     "publishedAt": "2026-07-17T21:32:39.000Z",
     "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
-    "details": []
+    "details": [
+      "Netflix picked vLLM over TensorRT-LLM because it better supported custom model architectures, gave more debugging visibility, and matched what its researchers already knew.",
+      "The platform exposes both gRPC and an OpenAI-compatible HTTP API, so teams can switch from a hosted model to a self-hosted one with minimal code changes.",
+      "An early per-request approach to constrained decoding bottlenecked on CPU at scale; moving to vLLM's batch-level, C++ implementation fixed it but required carefully handling partial prefills and KV-cache preemption."
+    ],
+    "featured": false
   },
   {
     "id": 74,
@@ -63,7 +177,8 @@
     "published": "Jul 9, 2026",
     "publishedAt": "2026-07-09T22:01:15.000Z",
     "url": "https://eng.lyft.com/from-day-1-to-production-building-lyfts-analytics-rides-intelligence-assistant-as-onboarding-5c5643c192d9",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 75,
@@ -76,7 +191,8 @@
     "published": "Jul 9, 2026",
     "publishedAt": "2026-07-09T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 64,
@@ -579,114 +695,6 @@
       "Each of the 33 selected projects receives $3,600 in Vercel platform credits plus support.",
       "Selection spans frameworks, libraries, and developer tooling across the open-source ecosystem.",
       "The \"Spring 2026 cohort\" framing points to a recurring, cohort-based program rather than a one-off grant."
-    ],
-    "featured": false
-  },
-  {
-    "id": 44,
-    "source": "Dropbox",
-    "title": "How we used DSPy to turn AI evaluations into better responses in Dash chat",
-    "summary": "Dropbox built an automated feedback loop with DSPy: calibrate LLM judges against human labels, then use those judges to optimize its Dash chat agent’s prompts.",
-    "tag": "AI engineering",
-    "time": "8 min read",
-    "accent": "purple",
-    "published": "Jun 25, 2026",
-    "publishedAt": "2026-06-25T16:30:00.000Z",
-    "url": "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat",
-    "details": [
-      "Scoring the agent across separate dimensions — intent, tool use, context selection, grounding, task completion — shows where failures happen instead of one blunt score.",
-      "Human-labeled rubrics come first; DSPy’s GEPA and MIPROv2 then optimize toward agreement with humans, not an abstract quality metric.",
-      "Prompt edits were kept small and reviewed, doubling experiment velocity while guarding against runaway optimization in production."
-    ],
-    "featured": false
-  },
-  {
-    "id": 45,
-    "source": "Vercel",
-    "title": "AI SDK 7",
-    "summary": "Vercel’s AI SDK 7 targets production agents: a unified reasoning option across providers, durable workflows that survive restarts, and built-in OpenTelemetry observability.",
-    "tag": "AI engineering",
-    "time": "6 min read",
-    "accent": "purple",
-    "published": "Jun 25, 2026",
-    "publishedAt": "2026-06-25T13:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-sdk-7",
-    "details": [
-      "A single reasoning option and typed tool/runtime contexts replace provider-specific reasoning APIs and unsafe credential passing.",
-      "A new workflow package lets agents persist state across steps and survive process restarts and deploys — closing a real production gap.",
-      "Redesigned telemetry with OpenTelemetry and per-step stats gives visibility into agent behavior without wiring callbacks everywhere."
-    ],
-    "featured": false
-  },
-  {
-    "id": 34,
-    "source": "Cloudflare",
-    "title": "Introducing Meerkat: an experiment in global consensus",
-    "summary": "Cloudflare is testing a new consensus algorithm called QuePaxa in a service called Meerkat, aiming to keep control-plane data consistent across data centers without a single leader node.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Jul 8, 2026",
-    "publishedAt": "2026-07-08T12:00:00.000Z",
-    "url": "https://blog.cloudflare.com/meerkat-introduction/",
-    "details": [
-      "Leader-based consensus systems like Raft can stall or become unavailable when the leader fails or the network degrades, which is a bigger risk across globally distributed data centers.",
-      "QuePaxa removes the need for a single leader, letting concurrent proposals cooperate instead of triggering disruptive re-election pauses.",
-      "In tests under adversarial network conditions, Meerkat sustained roughly 10x the throughput of Raft and Multi-Paxos, showing the consensus algorithm choice matters for real-world resilience."
-    ],
-    "featured": false
-  },
-  {
-    "id": 35,
-    "source": "Cloudflare",
-    "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
-    "summary": "Cloudflare became a founding signatory of the UK government's Cyber Resilience Pledge, a voluntary commitment to board-level security oversight, baseline protections, and vetted suppliers.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 7, 2026",
-    "publishedAt": "2026-07-07T12:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
-    "details": [
-      "The pledge asks organizations to commit to board-level accountability for cybersecurity rather than leaving it solely to technical teams.",
-      "Cloudflare ties its participation to concrete practices, such as requiring critical suppliers to hold ISO 27001 and SOC 2 Type II certifications.",
-      "The announcement cites UK-specific risk data, including that 43% of surveyed British businesses reported a cyber incident in the past year, as context for why pledges like this matter."
-    ],
-    "featured": false
-  },
-  {
-    "id": 36,
-    "source": "Cloudflare",
-    "title": "Your Worker can now have its own cache in front of it",
-    "summary": "Cloudflare launched Workers Cache, letting a Worker cache its own responses in front of it using standard HTTP headers instead of separate CDN configuration.",
-    "tag": "Infrastructure",
-    "time": "5 min read",
-    "accent": "emerald",
-    "published": "Jul 6, 2026",
-    "publishedAt": "2026-07-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-cache/",
-    "details": [
-      "Enabling the cache is a one-line change in the Wrangler config, and caching behavior is then controlled with familiar Cache-Control and Vary headers.",
-      "The cache is two-tiered: a nearby regional tier is checked first, then a shared upper tier, so once any location fills the cache, other regions can hit it too.",
-      "Because ctx.props can scope cache keys per user, developers can cache responses from authenticated, multi-tenant APIs without leaking one user's data to another."
-    ],
-    "featured": false
-  },
-  {
-    "id": 37,
-    "source": "Cloudflare",
-    "title": "Making AI search smarter",
-    "summary": "Cloudflare is piloting ways to pay creators when AI systems use their content in search answers, instead of only rewarding pages that get crawled.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Jul 1, 2026",
-    "publishedAt": "2026-07-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
-    "details": [
-      "AI-generated search summaries sharply cut referral traffic to original sources, with one cited study finding users click through only about 8% of the time when a summary is shown.",
-      "Cloudflare says over half of the crawl traffic it sees hits pages that haven't actually changed, so its new signal-based approach aims to cut wasted crawling rather than just block it.",
-      "A 'pay-per-query' pilot with partners like Ceramic.ai would compensate publishers when their content is actually used in an answer, not just when a bot crawls it."
     ],
     "featured": false
   }
