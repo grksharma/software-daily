@@ -1,5 +1,84 @@
 [
   {
+    "id": 82,
+    "source": "Cloudflare",
+    "title": "Introducing Meerkat: an experiment in global consensus",
+    "summary": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 8, 2026",
+    "publishedAt": "2026-07-08T12:00:00.000Z",
+    "url": "https://blog.cloudflare.com/meerkat-introduction/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 83,
+    "source": "Cloudflare",
+    "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
+    "summary": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 7, 2026",
+    "publishedAt": "2026-07-07T12:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
+    "details": []
+  },
+  {
+    "id": 84,
+    "source": "Cloudflare",
+    "title": "Your Worker can now have its own cache in front of it",
+    "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 6, 2026",
+    "publishedAt": "2026-07-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-cache/",
+    "details": []
+  },
+  {
+    "id": 85,
+    "source": "Cloudflare",
+    "title": "Making AI search smarter",
+    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
+    "details": []
+  },
+  {
+    "id": 86,
+    "source": "Cloudflare",
+    "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
+    "summary": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, with no payments stack of your own to build.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/monetization-gateway/",
+    "details": []
+  },
+  {
+    "id": 87,
+    "source": "Vercel",
+    "title": "Vercel Ship 2026 recap",
+    "summary": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and thousands of people gathered across London, Berlin, and New York to do just that at Vercel Ship 2026.",
+    "tag": "Infrastructure",
+    "time": "5 min read",
+    "accent": "cyan",
+    "published": "Jun 30, 2026",
+    "publishedAt": "2026-06-30T16:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+    "details": []
+  },
+  {
     "id": 76,
     "source": "Cloudflare",
     "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
@@ -15,7 +94,7 @@
       "About a quarter of the top 50 transit providers manipulate ORIGIN because it's evaluated early in BGP's path-selection process, making it an effective (if standards-violating) lever for winning traffic.",
       "Cloudflare recommends routers stop giving ORIGIN weight in route selection and proposes reviving an expired IETF draft for scrubbing the attribute."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 77,
@@ -32,7 +111,8 @@
       "On July 3, 2026, .al's operator published a new DNSKEY without keeping the old one referenced in the root's DS record, breaking the chain of trust for the whole TLD.",
       "Cloudflare's 1.1.1.1 worked around the outage with a Negative Trust Anchor, which tells the resolver to treat the zone as unsigned and skip DNSSEC validation rather than fail every query.",
       "The resolver now returns EDE code 33 alongside EDE 9 whenever an NTA is active, giving clients a machine-readable signal that validation was bypassed instead of silently succeeding."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 78,
@@ -49,7 +129,8 @@
       "A three-stage streaming pipeline resolves raw network flow logs into direct service-to-service edges (turning load-balancer hops into real caller/callee pairs) before persisting them to a graph database.",
       "Backpressure propagates upstream stage by stage — down to pausing the Kafka consumer — whenever the graph database can't keep up with writes, instead of dropping data or falling over.",
       "Netflix cut heap allocation by over 50% by switching hot-path aggregators from immutable to mutable data structures, and replaced gRPC with Server-Sent Events between stages to reduce serialization overhead."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 79,
@@ -66,7 +147,8 @@
       "A lightweight script injected into pages collects pointer movement, keystroke timing, focus changes, and visibility events, then sends them to Cloudflare for evaluation.",
       "Detection looks for patterns bots struggle to fake convincingly, such as natural mouse-movement curves, hesitation before clicks, and small tremor-like corrections.",
       "Signals accumulate across the whole session instead of resetting on a page refresh, and keyboard data captures only timing and rhythm — not the actual keys typed — for privacy."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 80,
@@ -79,7 +161,8 @@
     "published": "Jul 10, 2026",
     "publishedAt": "2026-07-10T12:00:00.000Z",
     "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 81,
@@ -92,7 +175,8 @@
     "published": "Jul 1, 2026",
     "publishedAt": "2026-07-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 70,
@@ -587,114 +671,6 @@
       "The new Hydrogen splits into a core layer of shared Shopify API utilities, so developers stop rewriting the same glue code like money formatting by hand.",
       "A client layer ships pre-built state management and cart/form handling, removing the need to reimplement common storefront logic every time.",
       "The server layer runs on frameworks like Next.js, Nuxt, and SvelteKit instead of a proprietary runtime, so a store can run anywhere JavaScript does."
-    ],
-    "featured": false
-  },
-  {
-    "id": 50,
-    "source": "Cloudflare",
-    "title": "How we built saga rollbacks for Cloudflare Workflows",
-    "summary": "Cloudflare Workflows now supports the saga pattern, letting developers attach a rollback function to each step so a failed multi-step process can automatically undo what already succeeded.",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jun 25, 2026",
-    "publishedAt": "2026-06-25T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/rollbacks-for-workflows/",
-    "details": [
-      "Each step.do() call can take a rollback function that runs only if the overall workflow ultimately fails, receiving that step’s original output.",
-      "Rollbacks run in reverse order of execution and rely on persistent step history to know exactly which steps actually completed.",
-      "This removes the need for developers to hand-write compensation logic to track successes and failures outside of the step definitions themselves."
-    ],
-    "featured": false
-  },
-  {
-    "id": 51,
-    "source": "Vercel",
-    "title": "Teaching agents product design at Vercel",
-    "summary": "Vercel built a system of agent instructions, automated linters, and a feedback-gathering workflow so coding agents can learn why its UI patterns exist, not just copy them.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Jun 25, 2026",
-    "publishedAt": "2026-06-25T07:00:00.000Z",
-    "url": "https://vercel.com/blog/teaching-agents-product-design-at-vercel",
-    "details": [
-      "Coding agents can copy a codebase's visual style but can't tell why a pattern exists, because that reasoning lives in design reviews and Slack threads, not in the code itself.",
-      "Vercel splits enforcement into two layers: linters that catch deterministic rule violations automatically (like nested modals), and an agent skill that supplies judgment-based context for less mechanical decisions.",
-      "A feedback-gathering workflow pulls input from Slack, Figma, and GitHub to keep guidelines current, and the system is tested with before/after fixtures to check whether agents actually generalize guidance to new interfaces."
-    ],
-    "featured": false
-  },
-  {
-    "id": 40,
-    "source": "Cloudflare",
-    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
-    "summary": "Cloudflare’s one-year report on the \"agentic internet\": non-human traffic has passed half of all internet traffic, and a market for licensing content to AI is starting to form.",
-    "tag": "Infrastructure",
-    "time": "6 min read",
-    "accent": "amber",
-    "published": "Jul 1, 2026",
-    "publishedAt": "2026-07-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
-    "details": [
-      "AI training crawlers jumped from 22% to 52% of crawler requests between spring 2025 and June 2026 — the crawl mix has flipped toward training.",
-      "Roughly 2.5 billion people now use generative AI regularly, a platform shift reportedly moving about twice as fast as smartphone adoption.",
-      "Over 50 publisher–AI licensing deals since 2023 show content has real economic value, though the terms are still bespoke rather than standardized."
-    ],
-    "featured": false
-  },
-  {
-    "id": 41,
-    "source": "Cloudflare",
-    "title": "Unmasking the crawls with Attribution Business Insights",
-    "summary": "Cloudflare added a dashboard showing website owners how AI crawlers behave — bot-vs-human traffic, and how many times each crawler visits per referral it sends back.",
-    "tag": "Security",
-    "time": "5 min read",
-    "accent": "purple",
-    "published": "Jul 1, 2026",
-    "publishedAt": "2026-07-01T06:00:00.000Z",
-    "url": "https://blog.cloudflare.com/attribution-business-insights/",
-    "details": [
-      "Crawl-to-referral ratios run from 118:1 up to nearly 50,000:1, so AI crawlers take far more than they send back compared with traditional search.",
-      "Traffic is broken down by operator and crawlers are classified as training, search, or agent, with volume and bandwidth per bot.",
-      "It is meant to inform licensing negotiations and sits alongside — not inside — the existing bot-management rules."
-    ],
-    "featured": false
-  },
-  {
-    "id": 42,
-    "source": "Netflix",
-    "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
-    "summary": "Netflix built a single generative transformer that constructs a personalized homepage end-to-end, replacing its traditional multi-stage recommendation pipeline.",
-    "tag": "AI engineering",
-    "time": "9 min read",
-    "accent": "purple",
-    "published": "Jun 29, 2026",
-    "publishedAt": "2026-06-29T13:01:02.000Z",
-    "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
-    "details": [
-      "Custom tokens mapped to Netflix rows and titles, instead of a generic text tokenizer, cut sequence length ~75% and let business rules be enforced by masking tokens.",
-      "Enriching the user-context prompt cut loss ~6.9%, while scaling the model from 120M to 900M parameters gained only ~1.3% — representation mattered more than raw size.",
-      "Generating only the first few high-attention titles per row, then scoring the rest in one pass, cut end-to-end latency ~20% versus the production baseline."
-    ],
-    "featured": false
-  },
-  {
-    "id": 43,
-    "source": "Vercel",
-    "title": "Vercel Open Source Program: Spring 2026 cohort",
-    "summary": "Vercel named the 33 open-source projects in its Spring 2026 funding cohort, each getting platform credits and support — ecosystem news rather than a technical deep-dive.",
-    "tag": "Developer tools",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Jun 29, 2026",
-    "publishedAt": "2026-06-29T13:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-open-source-program-spring-2026-cohort",
-    "details": [
-      "Each of the 33 selected projects receives $3,600 in Vercel platform credits plus support.",
-      "Selection spans frameworks, libraries, and developer tooling across the open-source ecosystem.",
-      "The \"Spring 2026 cohort\" framing points to a recurring, cohort-based program rather than a one-off grant."
     ],
     "featured": false
   }
