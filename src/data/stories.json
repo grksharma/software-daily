@@ -1,5 +1,84 @@
 [
   {
+    "id": 88,
+    "source": "Cloudflare",
+    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
+    "summary": "One year after declaring Content Independence Day, a dynamic market for monetized content has officially emerged. In this report, we examine how the rise of autonomous AI agents is upending traditional search referrals and detail the new infrastructure required to support a sustainable web economy.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 89,
+    "source": "Cloudflare",
+    "title": "Unmasking the crawls with Attribution Business Insights",
+    "summary": "Cloudflare’s new Attribution Business Insights dashboard helps website owners understand crawler behavior, appetite, and potential value, fueling business-level conversations around crawl compensation.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T06:00:00.000Z",
+    "url": "https://blog.cloudflare.com/attribution-business-insights/",
+    "details": []
+  },
+  {
+    "id": 90,
+    "source": "Netflix",
+    "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
+    "summary": "The Netflix homepage is the first thing users see when they open the app and the primary way they discover content to enjoy. Almost every part of it is personalized, including which rows appear, which entities show up within those rows, and how everything is arranged on the page.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Jun 29, 2026",
+    "publishedAt": "2026-06-29T13:01:02.000Z",
+    "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
+    "details": []
+  },
+  {
+    "id": 91,
+    "source": "Vercel",
+    "title": "Vercel Open Source Program: Spring 2026 cohort",
+    "summary": "The world runs on open source software. The frameworks, libraries, and tools we rely on are made possible by communities that share ideas and build in the open.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jun 29, 2026",
+    "publishedAt": "2026-06-29T13:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-open-source-program-spring-2026-cohort",
+    "details": []
+  },
+  {
+    "id": 92,
+    "source": "Dropbox",
+    "title": "How we used DSPy to turn AI evaluations into better responses in Dash chat",
+    "summary": "We used DSPy to improve LLM judges and optimize our chat experience, creating an evaluation-driven feedback loop that produced better outputs.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jun 25, 2026",
+    "publishedAt": "2026-06-25T16:30:00.000Z",
+    "url": "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat",
+    "details": []
+  },
+  {
+    "id": 93,
+    "source": "Vercel",
+    "title": "AI SDK 7",
+    "summary": "AI SDK, with over 16 million weekly downloads, is the TypeScript SDK for building AI applications, features, frameworks, and agents across any model provider. It's the same layer eve , Vercel's open-source agent framework, is built on.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jun 25, 2026",
+    "publishedAt": "2026-06-25T13:00:00.000Z",
+    "url": "https://vercel.com/blog/ai-sdk-7",
+    "details": []
+  },
+  {
     "id": 82,
     "source": "Cloudflare",
     "title": "Introducing Meerkat: an experiment in global consensus",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-07-08T12:00:00.000Z",
     "url": "https://blog.cloudflare.com/meerkat-introduction/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 83,
@@ -24,7 +103,8 @@
     "published": "Jul 7, 2026",
     "publishedAt": "2026-07-07T12:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 84,
@@ -37,7 +117,8 @@
     "published": "Jul 6, 2026",
     "publishedAt": "2026-07-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-cache/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 85,
@@ -50,7 +131,8 @@
     "published": "Jul 1, 2026",
     "publishedAt": "2026-07-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 86,
@@ -63,7 +145,8 @@
     "published": "Jul 1, 2026",
     "publishedAt": "2026-07-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/monetization-gateway/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 87,
@@ -76,7 +159,8 @@
     "published": "Jun 30, 2026",
     "publishedAt": "2026-06-30T16:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-ship-2026-recap",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 76,
@@ -563,114 +647,6 @@
       "Any HTTP service that listens on the $PORT environment variable can deploy from a Dockerfile.vercel file, with no local daemon, registry, or cluster to manage.",
       "Containers get the same infrastructure as Vercel's other deployments: automatic preview URLs per commit, traffic-based autoscaling, and unified logs, traces, and metrics.",
       "Billing is for actual CPU execution time rather than idle time, and optimized boot images let containers start quickly despite running in a full container."
-    ],
-    "featured": false
-  },
-  {
-    "id": 56,
-    "source": "Vercel",
-    "title": "Vercel Services: Run full stack on Vercel",
-    "summary": "Vercel Services, now in public beta, lets a frontend and a backend like FastAPI or Express live in one project that deploys and rolls back together.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Jun 30, 2026",
-    "publishedAt": "2026-06-30T04:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-services-run-full-stack-on-vercel",
-    "details": [
-      "Frontend, backend, and other services in a project deploy and roll back atomically, with a shared preview environment so a full change set can be reviewed together.",
-      "It supports FastAPI, Flask, Express, Hono, Go, and Rust with zero-config deployment, plus internal service-to-service communication that never touches the public internet.",
-      "It bundles what full-stack apps need — databases from Neon, Supabase, or AWS, Blob storage, background queues/workflows/cron, and short-lived credentials instead of stored secrets."
-    ],
-    "featured": false
-  },
-  {
-    "id": 57,
-    "source": "Vercel",
-    "title": "Build realtime voice agents on AI Gateway",
-    "summary": "Vercel added voice to its AI Gateway, letting developers add realtime voice conversations, text-to-speech, and speech-to-text using the same API calls they already use for text and image.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jun 29, 2026",
-    "publishedAt": "2026-06-29T07:00:00.000Z",
-    "url": "https://vercel.com/blog/realtime-voice-agents-on-ai-gateway",
-    "details": [
-      "Realtime voice supports low-latency two-way conversation where a user can interrupt the model mid-response, useful for voice assistants.",
-      "A single useRealtime hook in AI SDK 7 manages the WebSocket connection and microphone capture, with authentication handled server-side so API keys never reach the browser.",
-      "All three audio modes get the same provider routing, spend controls, and observability as Gateway’s existing text, image, and video traffic."
-    ],
-    "featured": false
-  },
-  {
-    "id": 46,
-    "source": "GitHub Engineering",
-    "title": "How to build interactive experiences with canvases",
-    "summary": "GitHub Copilot's new canvases turn chat into a live, clickable workspace — a /create-canvas command builds interfaces like an issue triage board or a codebase diagram.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T16:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-    "details": [
-      "Canvases are custom interactive interfaces the agent builds and updates live, not just chat — you click, drag, and filter instead of only typing prompts.",
-      "Examples GitHub built include a swipeable issue-triage card, a draggable codebase architecture diagram, and a cleanup view for stale Copilot worktree sessions.",
-      "Other canvases coach you on writing better prompts, or search Slack, Teams, email, and docs to find who has expertise on a given file or topic."
-    ],
-    "featured": false
-  },
-  {
-    "id": 47,
-    "source": "Cloudflare",
-    "title": "How the 2026 World Cup affected Internet traffic",
-    "summary": "Cloudflare's 2026 World Cup traffic data shows late-night kickoffs more than doubled some countries' internet traffic, while halftime produced spikes or dips depending on how each country watches.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T12:59:40.000Z",
-    "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
-    "details": [
-      "Matches with midnight-to-8am kickoffs pushed some countries' traffic to more than double their normal level; daytime matches barely moved traffic since people were already online.",
-      "Argentina vs. Switzerland was the single most traffic-moving match (1.26x), and Argentina generated the strongest traffic bump of any team across all of its matches (1.17x).",
-      "44 countries saw traffic rise during halftime and hydration breaks as fans checked their phones, while 8 countries that pause video streams instead saw traffic dip."
-    ],
-    "featured": false
-  },
-  {
-    "id": 48,
-    "source": "Vercel",
-    "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
-    "summary": "Searchable, which tracks how brands show up in AI search tools, uses Vercel's AI Gateway to ship customer-requested features in about 30 minutes without swapping keys or SDKs.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
-    "details": [
-      "Searchable monitors brand visibility across AI search engines like ChatGPT, Perplexity, and Claude, and gives guidance on how to improve it.",
-      "Centralizing model access through Vercel's AI Gateway let them drop manual SDK integration and key management, cutting time-to-ship for a requested feature to about 30 minutes.",
-      "The team reports a 5x increase in development velocity while processing over 100 billion tokens, and can test different AI models without rotating API keys."
-    ],
-    "featured": false
-  },
-  {
-    "id": 49,
-    "source": "Vercel",
-    "title": "Vercel and Shopify are rebuilding Hydrogen",
-    "summary": "Vercel and Shopify are rebuilding Hydrogen from scratch so headless storefronts are no longer locked into one platform, betting on a more open, portable web stack.",
-    "tag": "Frontend",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jun 30, 2026",
-    "publishedAt": "2026-06-30T04:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-and-shopify-are-rebuilding-hydrogen",
-    "details": [
-      "The new Hydrogen splits into a core layer of shared Shopify API utilities, so developers stop rewriting the same glue code like money formatting by hand.",
-      "A client layer ships pre-built state management and cart/form handling, removing the need to reimplement common storefront logic every time.",
-      "The server layer runs on frameworks like Next.js, Nuxt, and SvelteKit instead of a proprietary runtime, so a store can run anywhere JavaScript does."
     ],
     "featured": false
   }
