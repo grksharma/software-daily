@@ -1,5 +1,84 @@
 [
   {
+    "id": 94,
+    "source": "GitHub Engineering",
+    "title": "How to build interactive experiences with canvases",
+    "summary": "Canvases turn AI into interactive workspaces where you can visualize information, explore workflows, and take action across complex tasks.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 21, 2026",
+    "publishedAt": "2026-07-21T16:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 95,
+    "source": "Cloudflare",
+    "title": "How the 2026 World Cup affected Internet traffic",
+    "summary": "We analyzed global HTTP traffic to explore how kickoff times, streaming habits, and hydration breaks reshaped online activity worldwide. From late-night traffic surges to halftime browsing spikes, here is how the world connected during the global tournament.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 21, 2026",
+    "publishedAt": "2026-07-21T12:59:40.000Z",
+    "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
+    "details": []
+  },
+  {
+    "id": 96,
+    "source": "Vercel",
+    "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
+    "summary": "Customer-requested features shipped in as little as 30 minutes",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 21, 2026",
+    "publishedAt": "2026-07-21T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
+    "details": []
+  },
+  {
+    "id": 97,
+    "source": "Vercel",
+    "title": "Vercel and Shopify are rebuilding Hydrogen",
+    "summary": "Hydrogen made headless storefronts easy to ship, but not portable. At Vercel Ship 26 in New York, we announced that we are working with Shopify to rebuild it from the ground up, a shared bet on a more open web.",
+    "tag": "Frontend",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jun 30, 2026",
+    "publishedAt": "2026-06-30T04:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-and-shopify-are-rebuilding-hydrogen",
+    "details": []
+  },
+  {
+    "id": 98,
+    "source": "Vercel",
+    "title": "Vercel Services: Run full stack on Vercel",
+    "summary": "To a user, an app with a Next.js frontend and a FastAPI backend feels like one product, and the same should be true for the engineers who build it. Instead, the two pieces are often deployed across different clouds with different development and deployment workflows.",
+    "tag": "Frontend",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Jun 30, 2026",
+    "publishedAt": "2026-06-30T04:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-services-run-full-stack-on-vercel",
+    "details": []
+  },
+  {
+    "id": 99,
+    "source": "Vercel",
+    "title": "Build realtime voice agents on AI Gateway",
+    "summary": "AI Gateway now supports audio/voice. You can add realtime voice, text to speech, and speech to text with the same calls you already use for text, image, and video, routed through AI Gateway alongside every other modality.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jun 29, 2026",
+    "publishedAt": "2026-06-29T07:00:00.000Z",
+    "url": "https://vercel.com/blog/realtime-voice-agents-on-ai-gateway",
+    "details": []
+  },
+  {
     "id": 88,
     "source": "Cloudflare",
     "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-07-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/agentic-internet-bot-report/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 89,
@@ -24,7 +103,8 @@
     "published": "Jul 1, 2026",
     "publishedAt": "2026-07-01T06:00:00.000Z",
     "url": "https://blog.cloudflare.com/attribution-business-insights/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 90,
@@ -37,7 +117,8 @@
     "published": "Jun 29, 2026",
     "publishedAt": "2026-06-29T13:01:02.000Z",
     "url": "https://netflixtechblog.com/genpage-towards-end-to-end-generative-homepage-construction-at-netflix-77146fba8a08",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 91,
@@ -50,7 +131,8 @@
     "published": "Jun 29, 2026",
     "publishedAt": "2026-06-29T13:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-open-source-program-spring-2026-cohort",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 92,
@@ -63,7 +145,8 @@
     "published": "Jun 25, 2026",
     "publishedAt": "2026-06-25T16:30:00.000Z",
     "url": "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 93,
@@ -76,7 +159,8 @@
     "published": "Jun 25, 2026",
     "publishedAt": "2026-06-25T13:00:00.000Z",
     "url": "https://vercel.com/blog/ai-sdk-7",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 82,
@@ -539,114 +623,6 @@
       "Open-weight models now handle 29% of tokens but under 4% of spend, showing enterprises are routing routine work to cheaper models.",
       "Frontier providers still dominate high-stakes work: Anthropic alone takes 61% of spend on just 32% of tokens across coding agents and back-office tasks.",
       "A newly released open-weight model (GLM 5.2) captured 76% of its model family’s tokens within two weeks, showing how fast enterprise adoption can shift."
-    ],
-    "featured": false
-  },
-  {
-    "id": 62,
-    "source": "GitHub Engineering",
-    "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
-    "summary": "The GitHub Aspire team built an agentic workflow that automatically drafts documentation pull requests whenever a product feature merges, cutting the usual weeks-long documentation lag.",
-    "tag": "Developer tools",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 8, 2026",
-    "publishedAt": "2026-07-08T21:11:56.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
-    "details": [
-      "The workflow reads a merged pull request’s diff, decides whether docs are needed, and drafts content directly in the docs repo following existing conventions.",
-      "Instead of writing directly, the agent emits structured intent that a separate, permission-scoped handler turns into a real draft PR, keeping humans in control.",
-      "The same subject matter expert who reviewed the original code change is automatically assigned to review the generated docs, keeping accuracy high."
-    ],
-    "featured": false
-  },
-  {
-    "id": 63,
-    "source": "Cloudflare",
-    "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
-    "summary": "Cloudflare opened self-managed OAuth to all developers, replacing manual partner-only onboarding, after migrating its core OAuth engine from Hydra 1.x to 2.x with zero downtime.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Jun 24, 2026",
-    "publishedAt": "2026-06-24T06:00:00.000Z",
-    "url": "https://blog.cloudflare.com/oauth-for-all/",
-    "details": [
-      "Previously only a small set of manually onboarded partners could use real OAuth flows against the Cloudflare API — everyone else fell back to API tokens for delegated access.",
-      "The underlying OAuth engine, Hydra, was upgraded from 1.x to 2.x using a blue-green deployment, with schema migrations rewritten as non-locking operations to avoid downtime on live tables.",
-      "The upgrade cut API P95 latency by 45% (185ms to 101ms) and CPU usage by 37%, while the live cutover itself moved over 130 million database rows in about three hours."
-    ],
-    "featured": false
-  },
-  {
-    "id": 52,
-    "source": "GitHub Engineering",
-    "title": "Copilot vs. raw API access: What are you actually paying for?",
-    "summary": "Now that Copilot bills at listed API rates, the real choice isn't price — it's GitHub's integrated workflow and token-efficient harness versus building your own stack.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 23, 2026",
-    "publishedAt": "2026-07-22T19:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
-    "details": [
-      "GitHub's internal harness reached similar task-resolution results while using fewer tokens than raw API calls across benchmarks like SWE-bench Verified and TerminalBench 2.0.",
-      "Copilot adds things raw APIs don't: org-wide policy controls, pooled AI credits, usage dashboards, and a bring-your-own-key option to use that workflow with an external provider's billing.",
-      "Raw API access still makes sense if you need full control over prompts, retrieval, routing, logs, and security — infrastructure Copilot's harness otherwise handles for you."
-    ],
-    "featured": false
-  },
-  {
-    "id": 53,
-    "source": "GitHub Engineering",
-    "title": "Next chapter: Restructuring GitHub’s bug bounty program",
-    "summary": "GitHub is restructuring its bug bounty program: lower flat public payouts, a new invite-only VIP tier that pays far more, and stricter rules meant to cut low-effort reports.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 22, 2026",
-    "publishedAt": "2026-07-22T16:00:00.000Z",
-    "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-    "details": [
-      "A new permanent, invite-only VIP program pays much more (up to $30,000+ for critical findings) to researchers who've already proven a track record of solid reports.",
-      "The public program's payouts are now flat and lower than before — for example $250 for low severity and $10,000 for critical, down from the previous variable scale.",
-      "New researchers must clear a HackerOne signal threshold; those below it get four initial submissions to build a track record before limits apply. Changes take effect July 27, 2026."
-    ],
-    "featured": false
-  },
-  {
-    "id": 54,
-    "source": "GitHub Engineering",
-    "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
-    "summary": "Switching Copilot code review to the CLI's grep/glob/view tools first made reviews worse, until GitHub rewrote its prompts to stop the agent browsing the whole repo.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 10, 2026",
-    "publishedAt": "2026-07-10T15:57:47.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
-    "details": [
-      "The problem wasn't the tools themselves — it was that the agent used them to browse the whole repository instead of investigating just the pull request's changes.",
-      "GitHub rewrote the tool instructions so the agent anchors to the diff first, narrows with grep/glob before opening files, and reads only the specific line ranges it needs.",
-      "Those prompt changes cut the average review cost by roughly 20% without touching the underlying tools or hurting review quality."
-    ],
-    "featured": false
-  },
-  {
-    "id": 55,
-    "source": "Vercel",
-    "title": "Run any Dockerfile on Vercel",
-    "summary": "Vercel now runs any Dockerfile-based service — Go, Rails, Spring Boot, Express, and more — as a first-class deployment with autoscaling and pay-per-use pricing.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jun 30, 2026",
-    "publishedAt": "2026-06-30T16:00:00.000Z",
-    "url": "https://vercel.com/blog/dockerfile-on-vercel",
-    "details": [
-      "Any HTTP service that listens on the $PORT environment variable can deploy from a Dockerfile.vercel file, with no local daemon, registry, or cluster to manage.",
-      "Containers get the same infrastructure as Vercel's other deployments: automatic preview URLs per commit, traffic-based autoscaling, and unified logs, traces, and metrics.",
-      "Billing is for actual CPU execution time rather than idle time, and optimized boot images let containers start quickly despite running in a full container."
     ],
     "featured": false
   }
