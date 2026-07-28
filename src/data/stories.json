@@ -1,69 +1,189 @@
 [
   {
+    "id": 112,
+    "source": "Cloudflare",
+    "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption event",
+    "summary": "Cloudflare's Q2 2026 traffic report shows earthquakes, typhoons, a fiber cut, a botched DNSSEC rollover, and government shutdowns all left similar dips in global internet traffic.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 28, 2026",
+    "publishedAt": "2026-07-28T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
+    "details": [
+      "A single DNSSEC key rollover mistake at Germany's .de registry made an entire country-code domain unreachable for about a day, showing how fragile automated DNS operations can be.",
+      "Natural disasters like typhoons and earthquakes and deliberate government shutdowns produce nearly indistinguishable traffic-drop patterns, so telling the cause apart requires context beyond the graph.",
+      "A single undersea fiber cut near Saint Lucia knocked a national ISP's traffic to zero, showing how much regional connectivity depends on a handful of physical cables."
+    ],
+    "featured": true
+  },
+  {
+    "id": 113,
+    "source": "Cloudflare",
+    "title": "Introducing Cache Response Rules",
+    "summary": "Cloudflare launched Cache Response Rules, which run after the origin server replies but before the response is cached, letting teams fix bad cache headers without touching the origin.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 24, 2026",
+    "publishedAt": "2026-07-23T18:40:38.000Z",
+    "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
+    "details": [
+      "The rules can strip problematic headers like Set-Cookie or ETag from a response so pages that should be cacheable stop being treated as private on every request.",
+      "Cache duration at Cloudflare's edge can now be set independently from the Cache-Control header sent to browsers, so a site doesn't need one duration to serve both.",
+      "The feature targets caching problems that only become visible after the origin responds, which previously required custom Workers code or origin server changes to fix."
+    ],
+    "featured": false
+  },
+  {
+    "id": 114,
+    "source": "GitHub Engineering",
+    "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+    "summary": "GitHub's Dependabot now waits three days by default before opening a pull request for a routine dependency update, giving time for malicious versions to be caught and pulled.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 23, 2026",
+    "publishedAt": "2026-07-23T16:00:00.000Z",
+    "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+    "details": [
+      "Malicious package versions have historically been caught and removed within hours of publication, but automated update tools were already pulling them into projects before that happened.",
+      "Security fixes still open pull requests immediately under the new policy; only routine, non-security version bumps are delayed by default.",
+      "Teams can tune or disable the cooldown per ecosystem via the cooldown option in dependabot.yml, and the article recommends pairing it with lockfiles and scoped build tokens for defense in depth."
+    ],
+    "featured": false
+  },
+  {
+    "id": 115,
+    "source": "Cloudflare",
+    "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+    "summary": "Cloudflare has deployed two WAF rules in response to high-severity vulnerabilities disclosed to us by the WordPress security team. The new rules protect all Cloudflare customers using affected WordPress versions, but customers should still update immediately to a patched release",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 18, 2026",
+    "publishedAt": "2026-07-17T21:30:43.000Z",
+    "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
+    "details": [],
+    "featured": false
+  },
+  {
+    "id": 116,
+    "source": "Vercel",
+    "title": "How Speechify serves 500,000 dynamic pages to 60 million users on Vercel",
+    "summary": "Speechify started as a tool for people with dyslexia. Cliff Weitzman, Founder & CEO, built it because reading was challenging and audio made it much easier. That initial use case led Speechify to tens of millions of users and an Apple Design Award for inclusion.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 15, 2026",
+    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
+    "details": [],
+    "featured": false
+  },
+  {
+    "id": 117,
+    "source": "Slack",
+    "title": "Shipyard: How We Built Slack’s Next-Generation EC2 Platform",
+    "summary": "Over the past few years, we’ve been on a journey to modernise how we run Amazon Elastic Compute Cloud (EC2) instances at Slack. In our first post, Advancing Our Chef Infrastructure, we shared how we moved from a single Chef stack to a resilient, multi-stack setup with versioned cookbook deployments and safer…",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Jul 14, 2026",
+    "publishedAt": "2026-07-14T16:10:08.000Z",
+    "url": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/",
+    "details": [],
+    "featured": false
+  },
+  {
     "id": 106,
     "source": "Spotify",
     "title": "Indexing the Data Lake for Online Point Queries",
-    "summary": "Companies like Spotify need vast quantities of data accessible at low latency for online services and,...",
+    "summary": "Spotify built an external index that maps keys straight to file and byte locations in its data lake, enabling fast single-key lookups without copying data into a separate database.",
     "tag": "Engineering",
-    "time": "3 min read",
+    "time": "5 min read",
     "accent": "emerald",
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T20:34:28.000Z",
     "url": "https://engineering.atspotify.com/2026/7/indexing-the-data-lake-for-online-point-queries/",
-    "details": [],
-    "featured": true
+    "details": [
+      "Instead of duplicating data lake contents into a dedicated key-value store, Spotify indexes the existing Parquet files directly, so the data is stored once and paid for once.",
+      "Sorting data by key and grouping related keys into fewer files before indexing sharply cuts the number of files a single lookup has to touch.",
+      "With the right file layout, a query that would otherwise scan across many files can shrink to one small ranged read of just a few kilobytes."
+    ],
+    "featured": false
   },
   {
     "id": 107,
     "source": "GitHub Engineering",
     "title": "The harness is all you need (mostly)",
-    "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.",
+    "summary": "A GitHub engineer argues developers get more value from mastering Copilot's core workflow than from constantly chasing new AI tools, and walks through building a component to prove it.",
     "tag": "AI engineering",
-    "time": "3 min read",
+    "time": "4 min read",
     "accent": "cyan",
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T18:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
-    "details": []
+    "details": [
+      "Prototyping several design variations in one throwaway file before writing real code helps clarify requirements before an AI agent starts implementing.",
+      "Asking an AI to question edge cases, like date formats or partial input, during planning surfaces ambiguity that would otherwise turn into bugs later.",
+      "Reviewing AI-written code with a second, different model can catch issues that the first model's own blind spots would have missed."
+    ],
+    "featured": false
   },
   {
     "id": 108,
     "source": "GitHub Engineering",
     "title": "GitHub Copilot app for Beginners: Getting started",
-    "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow.",
+    "summary": "A walkthrough of the GitHub Copilot app shows how to run multiple agent sessions, preview UI changes live in a canvas, and let an agent monitor and fix pull requests automatically.",
     "tag": "AI engineering",
     "time": "3 min read",
     "accent": "purple",
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T16:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
-    "details": []
+    "details": [
+      "The Copilot app lets developers run several agent sessions in parallel on different tasks within one project, instead of a single linear chat thread.",
+      "A built-in canvas lets you preview a running app in the browser and select UI elements directly to request changes to them.",
+      "Agent Merge can watch an open pull request and automatically address review feedback, fix CI failures, and resolve merge conflicts."
+    ],
+    "featured": false
   },
   {
     "id": 109,
     "source": "Vercel",
     "title": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
-    "summary": "Last week, OpenAI evaluated two models on an exploit benchmark within an isolated sandbox. Guardrails were reduced for testing, and the models found a vulnerability in their environment, accessed the internet, and reached Hugging Face's production database.",
+    "summary": "Vercel's DeepsecBench tests how well AI models catch real security vulnerabilities in code, and finds that pricier models don't proportionally find more bugs than cheaper ones.",
     "tag": "AI engineering",
-    "time": "3 min read",
+    "time": "4 min read",
     "accent": "emerald",
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T04:00:00.000Z",
     "url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
-    "details": []
+    "details": [
+      "The benchmark tests models against a secret, previously-fixed codebase so scores can't be inflated by models having memorized the answers during training.",
+      "The top-scoring model in the benchmark still found only about 31% of the known vulnerabilities, a reminder that AI code review today supplements rather than replaces human security review.",
+      "A much cheaper model found a meaningful share of vulnerabilities for a fraction of the top model's cost, showing the most expensive option isn't always the most cost-effective for security scanning."
+    ],
+    "featured": false
   },
   {
     "id": 110,
     "source": "Vercel",
     "title": "Introducing the new Vercel Agent",
-    "summary": "Today we're expanding Vercel Agent . It started by triaging alerts and reviewing your pull requests. Now it has a home in your dashboard, where it can investigate production, answer questions about your projects, and take action once you approve it.",
+    "summary": "Vercel Agent is expanding into a dashboard-based assistant that investigates production issues, flags risky pull requests, and proposes fixes, but only acts once a person approves.",
     "tag": "AI engineering",
-    "time": "3 min read",
+    "time": "4 min read",
     "accent": "cyan",
     "published": "Jul 21, 2026",
     "publishedAt": "2026-07-21T04:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-agent",
-    "details": []
+    "details": [
+      "The agent runs under its own separate identity rather than posing as the user, so every action it takes is traceable back to the agent and not a person's account.",
+      "It follows a plan-to-permission model: it proposes a specific action, is granted access only for that task, then reverts back to read-only.",
+      "Code it generates or tests runs inside isolated, short-lived Firecracker microVMs rather than against production, limiting the damage a mistake could cause."
+    ],
+    "featured": false
   },
   {
     "id": 111,
@@ -76,7 +196,8 @@
     "published": "Jul 17, 2026",
     "publishedAt": "2026-07-17T16:46:47.000Z",
     "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 100,
@@ -511,110 +632,6 @@
       "A lightweight script injected into pages collects pointer movement, keystroke timing, focus changes, and visibility events, then sends them to Cloudflare for evaluation.",
       "Detection looks for patterns bots struggle to fake convincingly, such as natural mouse-movement curves, hesitation before clicks, and small tremor-like corrections.",
       "Signals accumulate across the whole session instead of resetting on a page refresh, and keyboard data captures only timing and rhythm — not the actual keys typed — for privacy."
-    ],
-    "featured": false
-  },
-  {
-    "id": 80,
-    "source": "Cloudflare",
-    "title": "Improving Smart Tiered Cache for Public Cloud Regions",
-    "summary": "Cloudflare improved its Smart Tiered Cache so it can pick the right upper-tier data center for origins hosted on AWS, GCP, Azure, or Oracle Cloud, instead of guessing.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 10, 2026",
-    "publishedAt": "2026-07-10T12:00:00.000Z",
-    "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
-    "details": [
-      "Cloud providers' anycast IPs look equally close to several Cloudflare data centers at once, which used to cause 'hairpinning' — unnecessary cross-continent routing that added hundreds of milliseconds of latency.",
-      "Cloudflare detects this anycast behavior by checking for latencies too fast to be physically possible over a single fiber path, then lets customers add a region hint via dashboard, API, or Terraform to fix the routing.",
-      "The system continuously re-probes upper-tier latency (every 15 minutes) and refreshes cloud provider IP ranges every few hours, so tier selection adapts as conditions change instead of being set once and forgotten."
-    ],
-    "featured": false
-  },
-  {
-    "id": 81,
-    "source": "Cloudflare",
-    "title": "Your site, your rules: new AI traffic options for all customers",
-    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Jul 1, 2026",
-    "publishedAt": "2026-07-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 70,
-    "source": "Cloudflare",
-    "title": "Cloudflare Internal DNS is now generally available",
-    "summary": "Cloudflare's Internal DNS service is now generally available, letting companies run private and public DNS on one platform instead of separate internal and external systems.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 20, 2026",
-    "publishedAt": "2026-07-20T20:59:31.000Z",
-    "url": "https://blog.cloudflare.com/internal-dns/",
-    "details": [
-      "Internal Zones and DNS Views let one shared zone serve different records to internal versus external resolvers, replacing manual split-horizon DNS syncing across separate systems.",
-      "Queries route through a Gateway Resolver that evaluates policy before deciding whether to answer from internal authoritative DNS or public resolution.",
-      "DNS policy can now enforce Zero Trust identity checks, positioning the service as a replacement for legacy on-prem DNS appliances and cloud-locked resolvers."
-    ],
-    "featured": false
-  },
-  {
-    "id": 71,
-    "source": "Spotify",
-    "title": "Content Ingestion & Podcast Video Incident Report",
-    "summary": "Spotify's video podcast transcoding pipeline hit capacity limits in June, delaying video episodes by hours; the postmortem covers what caused it and how they're preventing a repeat.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 20, 2026",
-    "publishedAt": "2026-07-20T16:24:48.000Z",
-    "url": "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/",
-    "details": [
-      "Four factors compounded at once: thin capacity headroom, a batch reprocessing job running concurrently, higher per-episode costs from a recent quality upgrade, and a scheduling bug that cut throughput by about 10%.",
-      "Creators unaware of the backlog re-uploaded their episodes, adding further load and worsening the delay.",
-      "Spotify added 67% more transcoding capacity and is building earlier alerting, better capacity planning, and prioritization of real-time publishing over background jobs."
-    ],
-    "featured": false
-  },
-  {
-    "id": 72,
-    "source": "Dropbox",
-    "title": "How our universal content processing platform Riviera evolved for AI and beyond",
-    "summary": "Dropbox describes how its internal content-processing platform Riviera grew from a single preview feature into a shared system handling hundreds of thousands of transformations per second.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 20, 2026",
-    "publishedAt": "2026-07-20T15:00:00.000Z",
-    "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
-    "details": [
-      "Riviera uses a plugin-style architecture where each transformation type has one dedicated backend worker, giving a single point of maintenance and scaling per capability instead of per product.",
-      "Complex transformations reuse simpler building blocks — for example, PowerPoint rendering reuses the same PDF-to-image step used for plain PDFs — cutting duplicated engineering work.",
-      "When Dropbox's AI assistant Dash launched, it reused Riviera's existing transformations rather than needing new infrastructure, showing the payoff of building reusable platform pieces early."
-    ],
-    "featured": false
-  },
-  {
-    "id": 73,
-    "source": "Netflix",
-    "title": "In-House LLM Serving at Netflix",
-    "summary": "Netflix explains why it runs LLM inference itself inside its existing production stack rather than only calling hosted APIs, and the trade-offs it hit doing so.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Jul 17, 2026",
-    "publishedAt": "2026-07-17T21:32:39.000Z",
-    "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
-    "details": [
-      "Netflix picked vLLM over TensorRT-LLM because it better supported custom model architectures, gave more debugging visibility, and matched what its researchers already knew.",
-      "The platform exposes both gRPC and an OpenAI-compatible HTTP API, so teams can switch from a hosted model to a self-hosted one with minimal code changes.",
-      "An early per-request approach to constrained decoding bottlenecked on CPU at scale; moving to vLLM's batch-level, C++ implementation fixed it but required carefully handling partial prefills and KV-cache preemption."
     ],
     "featured": false
   }
