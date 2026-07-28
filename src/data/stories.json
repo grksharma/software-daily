@@ -1,5 +1,84 @@
 [
   {
+    "id": 106,
+    "source": "Spotify",
+    "title": "Indexing the Data Lake for Online Point Queries",
+    "summary": "Companies like Spotify need vast quantities of data accessible at low latency for online services and,...",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T20:34:28.000Z",
+    "url": "https://engineering.atspotify.com/2026/7/indexing-the-data-lake-for-online-point-queries/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 107,
+    "source": "GitHub Engineering",
+    "title": "The harness is all you need (mostly)",
+    "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T18:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+    "details": []
+  },
+  {
+    "id": 108,
+    "source": "GitHub Engineering",
+    "title": "GitHub Copilot app for Beginners: Getting started",
+    "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T16:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+    "details": []
+  },
+  {
+    "id": 109,
+    "source": "Vercel",
+    "title": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
+    "summary": "Last week, OpenAI evaluated two models on an exploit benchmark within an isolated sandbox. Guardrails were reduced for testing, and the models found a vulnerability in their environment, accessed the internet, and reached Hugging Face's production database.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
+    "details": []
+  },
+  {
+    "id": 110,
+    "source": "Vercel",
+    "title": "Introducing the new Vercel Agent",
+    "summary": "Today we're expanding Vercel Agent . It started by triaging alerts and reviewing your pull requests. Now it has a home in your dashboard, where it can investigate production, answer questions about your projects, and take action once you approve it.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 21, 2026",
+    "publishedAt": "2026-07-21T04:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-agent",
+    "details": []
+  },
+  {
+    "id": 111,
+    "source": "GitHub Engineering",
+    "title": "The cost of saying yes has changed",
+    "summary": "The cost of writing code dropped; the cost of owning it didn't. A framework for deciding which changes are actually cheap in the AI era.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 17, 2026",
+    "publishedAt": "2026-07-17T16:46:47.000Z",
+    "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+    "details": []
+  },
+  {
     "id": 100,
     "source": "Cloudflare",
     "title": "We’re open sourcing our privacy proxy CLI",
@@ -15,7 +94,7 @@
       "The tool copies curl's command syntax on purpose, so engineers who already know curl can start using it without learning a new interface.",
       "It's built to extend beyond OHTTP to other privacy protocols like MASQUE and Privacy Pass, rather than being a one-off single-purpose tool."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 101,
@@ -32,7 +111,8 @@
       "Copilot's coding harness can match raw-API task performance while using fewer tokens, because it optimizes what context and tools get sent to the model on each turn.",
       "Org-level billing pools and budget dashboards make AI spend visible and trackable, versus scattered individual API keys that hide true team costs.",
       "The practical choice is architectural: pick raw API access when you need custom data boundaries and integrations, pick Copilot for standard dev workflows already tied to GitHub."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 102,
@@ -49,7 +129,8 @@
       "A new invite-only VIP tier pays $1,000-$30,000+ with faster response times for researchers who consistently submit high-impact reports.",
       "The public program moved from payout ranges to fixed amounts ($250-$10,000) and added signal-quality requirements to cut down on low-effort submissions.",
       "New researchers still get up to four submissions before signal thresholds kick in, so the stricter bar doesn't block newcomers from getting started."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 103,
@@ -66,7 +147,8 @@
       "Switching Copilot code review to shared grep/glob/view tools initially raised cost and caught fewer issues, because those tools were tuned for broad code exploration, not for reviewing a diff.",
       "The fix wasn't new tools — it was rewriting the instructions so the agent starts from the diff, narrows searches first, then reads only the exact evidence it needs.",
       "The reworked instructions cut average review cost by about 20% while holding quality steady, showing that prompt/instruction design can matter more than the tools themselves."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 104,
@@ -79,7 +161,8 @@
     "published": "Jul 9, 2026",
     "publishedAt": "2026-07-08T21:11:56.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 105,
@@ -92,7 +175,8 @@
     "published": "Jun 30, 2026",
     "publishedAt": "2026-06-30T16:00:00.000Z",
     "url": "https://vercel.com/blog/dockerfile-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 94,
@@ -531,106 +615,6 @@
       "Netflix picked vLLM over TensorRT-LLM because it better supported custom model architectures, gave more debugging visibility, and matched what its researchers already knew.",
       "The platform exposes both gRPC and an OpenAI-compatible HTTP API, so teams can switch from a hosted model to a self-hosted one with minimal code changes.",
       "An early per-request approach to constrained decoding bottlenecked on CPU at scale; moving to vLLM's batch-level, C++ implementation fixed it but required carefully handling partial prefills and KV-cache preemption."
-    ],
-    "featured": false
-  },
-  {
-    "id": 74,
-    "source": "Lyft",
-    "title": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding",
-    "summary": "Most onboarding journeys follow a familiar arc: orientation sessions, benefits enrollment, setting up your laptop, and gradually finding your footing over the first few weeks. Mine followed that arc too, but with an additional thread running alongside it from the very start.",
-    "tag": "Engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 9, 2026",
-    "publishedAt": "2026-07-09T22:01:15.000Z",
-    "url": "https://eng.lyft.com/from-day-1-to-production-building-lyfts-analytics-rides-intelligence-assistant-as-onboarding-5c5643c192d9",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 75,
-    "source": "Cloudflare",
-    "title": "Why we cannot wait for better post-quantum signature algorithms",
-    "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best one currently available.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Jul 9, 2026",
-    "publishedAt": "2026-07-09T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 64,
-    "source": "Cloudflare",
-    "title": "Introducing Cache Response Rules",
-    "summary": "Cloudflare's new Cache Response Rules strip cache-blocking headers like Set-Cookie and adjust Cache-Control after the origin responds, so misconfigured origins stop blocking cacheable content.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 24, 2026",
-    "publishedAt": "2026-07-23T18:40:38.000Z",
-    "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
-    "details": [
-      "Origin servers often send headers like Set-Cookie or an overly restrictive Cache-Control that make otherwise cacheable content bypass the cache entirely.",
-      "The new rules run after the origin's response arrives but before Cloudflare writes it to cache, so they can strip or rewrite headers such as Set-Cookie, ETag, and Cache-Control without touching the origin server.",
-      "A cloudflare_only flag lets teams adjust Cloudflare's own caching behavior separately from what headers the visitor's browser sees."
-    ],
-    "featured": false
-  },
-  {
-    "id": 65,
-    "source": "GitHub Engineering",
-    "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
-    "summary": "GitHub's Dependabot now waits three days by default before opening pull requests for new package versions, giving maintainers and researchers time to catch malicious releases first.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 23, 2026",
-    "publishedAt": "2026-07-23T16:00:00.000Z",
-    "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
-    "details": [
-      "Supply-chain attacks exploit how fast automated tooling pulls in new package versions — one compromised npm package spread for about two hours before it was caught.",
-      "The three-day cooldown applies only to routine version updates; security patches still arrive immediately, and the delay is configurable per project via a cooldown option in dependabot.yml.",
-      "A review of past incidents found malicious versions of packages like axios and ua-parser-js were typically caught within a few hours of publication — well inside the new cooldown window."
-    ],
-    "featured": false
-  },
-  {
-    "id": 66,
-    "source": "Cloudflare",
-    "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
-    "summary": "Cloudflare rolled out WAF rules blocking two high-severity WordPress bugs — a SQL injection and an unauthenticated remote-code-execution flaw — while sites finish updating to patched versions.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 18, 2026",
-    "publishedAt": "2026-07-17T21:30:43.000Z",
-    "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
-    "details": [
-      "One flaw (CVE-2026-63030) lets an unauthenticated attacker execute code via the REST API's batch endpoint when a persistent object cache isn't in use — no login or user interaction needed.",
-      "The other (CVE-2026-60137) is a SQL injection affecting WordPress 6.8 and later, where crafted input can alter database queries.",
-      "The WAF rules are a stopgap, not a fix — WordPress has released patched versions (6.8.6, 6.9.5, 7.0.2, 7.1 Beta 2), and sites still need to update."
-    ],
-    "featured": false
-  },
-  {
-    "id": 67,
-    "source": "Slack",
-    "title": "Shipyard: How We Built Slack’s Next-Generation EC2 Platform",
-    "summary": "Slack rebuilt its EC2 platform, Shipyard, to treat servers as immutable, replaceable images instead of continuously patched machines — bringing container-style discipline to raw EC2 instances.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Jul 14, 2026",
-    "publishedAt": "2026-07-14T16:10:08.000Z",
-    "url": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/",
-    "details": [
-      "Instead of continuously patching long-lived servers, Shipyard bakes a shared 'slack-zero' base image with OS hardening and monitoring, and lets teams build their own AMIs on top of it.",
-      "Instances are replaced rather than patched: AWS Instance Refresh and Karpenter cycle out old machines, while a component called 'The Reaper' automatically retires instances past their lifespan or with security issues.",
-      "A deployment orchestrator called Gondola runs metric-driven safety checks during rollout and can automatically roll back a change if something looks wrong."
     ],
     "featured": false
   }
