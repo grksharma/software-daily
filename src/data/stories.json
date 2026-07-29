@@ -1,5 +1,84 @@
 [
   {
+    "id": 118,
+    "source": "GitHub Engineering",
+    "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+    "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 28, 2026",
+    "publishedAt": "2026-07-28T16:00:00.000Z",
+    "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 119,
+    "source": "Vercel",
+    "title": "How Sandstone grew 40x in 147 days on Vercel",
+    "summary": "7-app turborepo monorepo deployed seamlessly to multiple Vercel projects",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T14:00:00.000Z",
+    "url": "https://vercel.com/blog/how-sandstone-grew-40x-in-147-days-on-vercel",
+    "details": []
+  },
+  {
+    "id": 120,
+    "source": "Cloudflare",
+    "title": "Cloudflare Internal DNS is now generally available",
+    "summary": "Cloudflare Internal DNS brings authoritative and recursive DNS for private networks to the same global network and control plane that runs Cloudflare's Zero Trust, networking, and public DNS.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 20, 2026",
+    "publishedAt": "2026-07-20T20:59:31.000Z",
+    "url": "https://blog.cloudflare.com/internal-dns/",
+    "details": []
+  },
+  {
+    "id": 121,
+    "source": "Spotify",
+    "title": "Content Ingestion & Podcast Video Incident Report",
+    "summary": "Over the past two months, podcast creators have experienced a series of reliability issues on Spotify. This...",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 20, 2026",
+    "publishedAt": "2026-07-20T16:24:48.000Z",
+    "url": "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/",
+    "details": []
+  },
+  {
+    "id": 122,
+    "source": "Dropbox",
+    "title": "How our universal content processing platform Riviera evolved for AI and beyond",
+    "summary": "Riviera is the Dropbox content processing platform that’s been iteratively improving content transformation in our products for roughly a decade.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 20, 2026",
+    "publishedAt": "2026-07-20T15:00:00.000Z",
+    "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
+    "details": []
+  },
+  {
+    "id": 123,
+    "source": "Netflix",
+    "title": "In-House LLM Serving at Netflix",
+    "summary": "Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under…",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 17, 2026",
+    "publishedAt": "2026-07-17T21:32:39.000Z",
+    "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
+    "details": []
+  },
+  {
     "id": 112,
     "source": "Cloudflare",
     "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption event",
@@ -15,7 +94,7 @@
       "Natural disasters like typhoons and earthquakes and deliberate government shutdowns produce nearly indistinguishable traffic-drop patterns, so telling the cause apart requires context beyond the graph.",
       "A single undersea fiber cut near Saint Lucia knocked a national ISP's traffic to zero, showing how much regional connectivity depends on a handful of physical cables."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 113,
@@ -533,106 +612,6 @@
     "publishedAt": "2026-07-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
     "details": [],
-    "featured": false
-  },
-  {
-    "id": 86,
-    "source": "Cloudflare",
-    "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
-    "summary": "We're opening the waitlist for our Monetization Gateway, which will allow you to charge for any web page, dataset, API, or MCP tool behind Cloudflare. The charges will settle in stablecoins over the x402 open protocol, with no payments stack of your own to build.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Jul 1, 2026",
-    "publishedAt": "2026-07-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/monetization-gateway/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 87,
-    "source": "Vercel",
-    "title": "Vercel Ship 2026 recap",
-    "summary": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and thousands of people gathered across London, Berlin, and New York to do just that at Vercel Ship 2026.",
-    "tag": "Infrastructure",
-    "time": "5 min read",
-    "accent": "cyan",
-    "published": "Jun 30, 2026",
-    "publishedAt": "2026-06-30T16:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-ship-2026-recap",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 76,
-    "source": "Cloudflare",
-    "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
-    "summary": "Cloudflare found that transit providers rewrite the BGP ORIGIN attribute on about 70% of paths to steer traffic their way, and argues routers should stop trusting it during route selection.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 24, 2026",
-    "publishedAt": "2026-07-24T17:25:28.000Z",
-    "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
-    "details": [
-      "Testing across many vantage points found that roughly 70% of BGP paths have their ORIGIN value rewritten by a transit provider, differing from what the originating network set.",
-      "About a quarter of the top 50 transit providers manipulate ORIGIN because it's evaluated early in BGP's path-selection process, making it an effective (if standards-violating) lever for winning traffic.",
-      "Cloudflare recommends routers stop giving ORIGIN weight in route selection and proposes reviving an expired IETF draft for scrubbing the attribute."
-    ],
-    "featured": false
-  },
-  {
-    "id": 77,
-    "source": "Cloudflare",
-    "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
-    "summary": "A broken DNSSEC key rollover took .al offline. Cloudflare restored access by bypassing validation, and 1.1.1.1 now returns a distinct error code (EDE 33) whenever it does this.",
-    "tag": "Security",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Jul 14, 2026",
-    "publishedAt": "2026-07-14T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
-    "details": [
-      "On July 3, 2026, .al's operator published a new DNSKEY without keeping the old one referenced in the root's DS record, breaking the chain of trust for the whole TLD.",
-      "Cloudflare's 1.1.1.1 worked around the outage with a Negative Trust Anchor, which tells the resolver to treat the zone as unsigned and skip DNSSEC validation rather than fail every query.",
-      "The resolver now returns EDE code 33 alongside EDE 9 whenever an NTA is active, giving clients a machine-readable signal that validation was bypassed instead of silently succeeding."
-    ],
-    "featured": false
-  },
-  {
-    "id": 78,
-    "source": "Netflix",
-    "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
-    "summary": "Netflix built a real-time system that maps service-to-service call graphs from network flow logs, replacing a slow batch process so engineers can trace live traffic during incidents.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Jul 14, 2026",
-    "publishedAt": "2026-07-13T22:44:11.000Z",
-    "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8",
-    "details": [
-      "A three-stage streaming pipeline resolves raw network flow logs into direct service-to-service edges (turning load-balancer hops into real caller/callee pairs) before persisting them to a graph database.",
-      "Backpressure propagates upstream stage by stage — down to pausing the Kafka consumer — whenever the graph database can't keep up with writes, instead of dropping data or falling over.",
-      "Netflix cut heap allocation by over 50% by switching hot-path aggregators from immutable to mutable data structures, and replaced gRPC with Server-Sent Events between stages to reduce serialization overhead."
-    ],
-    "featured": false
-  },
-  {
-    "id": 79,
-    "source": "Cloudflare",
-    "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
-    "summary": "Cloudflare launched Precursor, a bot-detection system that watches behavioral signals like mouse movement and typing rhythm across a session rather than at a single checkpoint challenge.",
-    "tag": "Security",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Jul 13, 2026",
-    "publishedAt": "2026-07-13T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/introducing-precursor/",
-    "details": [
-      "A lightweight script injected into pages collects pointer movement, keystroke timing, focus changes, and visibility events, then sends them to Cloudflare for evaluation.",
-      "Detection looks for patterns bots struggle to fake convincingly, such as natural mouse-movement curves, hesitation before clicks, and small tremor-like corrections.",
-      "Signals accumulate across the whole session instead of resetting on a page refresh, and keyboard data captures only timing and rhythm — not the actual keys typed — for privacy."
-    ],
     "featured": false
   }
 ]
