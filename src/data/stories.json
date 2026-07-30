@@ -1,5 +1,84 @@
 [
   {
+    "id": 124,
+    "source": "GitHub Engineering",
+    "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+    "summary": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 29, 2026",
+    "publishedAt": "2026-07-29T16:00:00.000Z",
+    "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 125,
+    "source": "Cloudflare",
+    "title": "Post-quantum authentication to origins is now supported",
+    "summary": "Cloudflare now supports post-quantum (PQ) authentication when connecting to customer origin servers via Authenticated Origin Pulls and Custom Origin Trust Store. This is the first step towards providing PQ authentication for all Cloudflare products.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 29, 2026",
+    "publishedAt": "2026-07-29T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/",
+    "details": []
+  },
+  {
+    "id": 126,
+    "source": "Cloudflare",
+    "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
+    "summary": "By doing in-depth testing, we found nearly 70% of BGP paths experience ORIGIN attribute rewrites by transit providers seeking traffic advantages. We examine the global impact of this practice and argue for deprecating ORIGIN in route selection.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 24, 2026",
+    "publishedAt": "2026-07-24T17:25:28.000Z",
+    "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
+    "details": []
+  },
+  {
+    "id": 127,
+    "source": "Cloudflare",
+    "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
+    "summary": "When a failed DNSSEC key rollover took down the .al TLD, we deployed a Negative Trust Anchor to restore resolution. This time, though, clients didn't have to take our word for it: 1.1.1.1 returned EDE 33, a new DNS error code that signals directly in the response that DNSSEC validation was bypassed.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Jul 14, 2026",
+    "publishedAt": "2026-07-14T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
+    "details": []
+  },
+  {
+    "id": 128,
+    "source": "Netflix",
+    "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
+    "summary": "By Parth Jain , Rakesh Sukumar , Yingwu Zhao , Renzo Sanchez-Silva & Nathan Fisher A deep dive into the engineering challenges of building a real-time service dependency map at Netflix scale: from streaming architectures and distributed aggregation pipelines to time-travel queries and the methodology that made it work.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 13, 2026",
+    "publishedAt": "2026-07-13T22:44:11.000Z",
+    "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8",
+    "details": []
+  },
+  {
+    "id": 129,
+    "source": "Cloudflare",
+    "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
+    "summary": "Precursor, our new continuous behavioral validation engine for bot management, offers visibility into how humans and bots actually interact across the full user journey. By turning session-level behavior into bot detection signals, it identifies advanced automation with higher precision — while reducing friction for…",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 13, 2026",
+    "publishedAt": "2026-07-13T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/introducing-precursor/",
+    "details": []
+  },
+  {
     "id": 118,
     "source": "GitHub Engineering",
     "title": "Disrupting supply chain attacks on npm and GitHub Actions",
@@ -15,7 +94,7 @@
       "GitHub Actions changed actions/checkout defaults and added workflow execution policies so fork pull requests can no longer run untrusted code or escalate through shared caches.",
       "npm v12 disables install scripts by default and Dependabot now waits three days before applying non-security updates, cutting the time a compromised package can spread before anyone notices."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 119,
@@ -32,7 +111,8 @@
       "Preview deployments let a non-engineer flag a broken scrollbar and have it fixed in production within five minutes on a Sunday, without a formal deploy process.",
       "Non-engineers can comment directly on preview branches, which automatically turns their feedback into Linear tickets instead of Slack messages that get lost.",
       "Vercel's Secure Compute kept traffic between the app and its data layer off the public internet, avoiding the usual tradeoff of fast iteration for weaker network isolation."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 120,
@@ -49,7 +129,8 @@
       "Split-horizon DNS, serving different answers to internal vs external clients, no longer needs two parallel systems; Cloudflare's 'DNS Views' group zones by resolution context instead.",
       "The Gateway Resolver reuses Cloudflare's 1.1.1.1 infrastructure to handle recursive resolution and policy checks for private network queries, not just public ones.",
       "DNS changes propagate globally in seconds whether they're made through the dashboard, Terraform, or the API, removing a common source of drift between tools."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 121,
@@ -66,7 +147,8 @@
       "A routine batch job that reprocessed old episodes ran during peak submission hours, competing with new uploads for the same limited transcoding capacity.",
       "A software bug introduced during an infrastructure migration silently cut processing throughput by about 10%, and it went unnoticed until the capacity crunch made it visible.",
       "Roughly four hours passed between the first alerts and a formal incident response, prompting Spotify to invest in earlier capacity alerting rather than just adding more headroom."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 122,
@@ -83,7 +165,8 @@
       "Riviera handles over 300 file formats and performs hundreds of thousands of transformations per second, work that now doubles as document preparation for AI models.",
       "Instead of building format-specific services, Riviera composes reusable pipelines, like PowerPoint to PDF to images, so new use cases reuse existing conversion logic.",
       "A plugin architecture with over 100 backend worker types lets individual product teams add new transformation capabilities without touching the shared coordination layer."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 123,
@@ -100,7 +183,8 @@
       "Netflix moved from TensorRT-LLM to vLLM as its default serving engine because vLLM was easier to extend, debug, and iterate on for custom models.",
       "Exposing an OpenAI-compatible API alongside its internal gRPC interface let teams switch from hosted model APIs to Netflix's self-hosted models without rewriting client code.",
       "Netflix supports both red-black deployments for stable model interfaces and versioned deployments that run multiple model versions simultaneously for breaking changes."
-    ]
+    ],
+    "featured": false
   },
   {
     "id": 112,
@@ -559,90 +643,6 @@
     "published": "Jun 29, 2026",
     "publishedAt": "2026-06-29T13:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-open-source-program-spring-2026-cohort",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 92,
-    "source": "Dropbox",
-    "title": "How we used DSPy to turn AI evaluations into better responses in Dash chat",
-    "summary": "We used DSPy to improve LLM judges and optimize our chat experience, creating an evaluation-driven feedback loop that produced better outputs.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jun 25, 2026",
-    "publishedAt": "2026-06-25T16:30:00.000Z",
-    "url": "https://dropbox.tech/machine-learning/how-we-turned-ai-evaluations-into-better-responses-in-dash-chat",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 93,
-    "source": "Vercel",
-    "title": "AI SDK 7",
-    "summary": "AI SDK, with over 16 million weekly downloads, is the TypeScript SDK for building AI applications, features, frameworks, and agents across any model provider. It's the same layer eve , Vercel's open-source agent framework, is built on.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jun 25, 2026",
-    "publishedAt": "2026-06-25T13:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-sdk-7",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 82,
-    "source": "Cloudflare",
-    "title": "Introducing Meerkat: an experiment in global consensus",
-    "summary": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 8, 2026",
-    "publishedAt": "2026-07-08T12:00:00.000Z",
-    "url": "https://blog.cloudflare.com/meerkat-introduction/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 83,
-    "source": "Cloudflare",
-    "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
-    "summary": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 7, 2026",
-    "publishedAt": "2026-07-07T12:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 84,
-    "source": "Cloudflare",
-    "title": "Your Worker can now have its own cache in front of it",
-    "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 6, 2026",
-    "publishedAt": "2026-07-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-cache/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 85,
-    "source": "Cloudflare",
-    "title": "Making AI search smarter",
-    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 1, 2026",
-    "publishedAt": "2026-07-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
     "details": [],
     "featured": false
   }
