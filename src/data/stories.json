@@ -1,56 +1,175 @@
 [
   {
+    "id": 142,
+    "source": "Cloudflare",
+    "title": "An API for MoQ: provision your own isolated relays",
+    "summary": "Cloudflare now lets developers provision their own isolated Media over QUIC relays with separate credentials for publishers and viewers, deployable in seconds across its global network.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 31, 2026",
+    "publishedAt": "2026-07-31T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/moq-relays/",
+    "details": [
+      "Isolated relays are carved out of Cloudflare's existing global network rather than requiring dedicated servers, so they deploy in seconds without picking a region or configuring a load balancer.",
+      "Separate access tokens for publishers and subscribers mean a viewer's credentials can't be used to hijack the stream, enabling permissioned use cases like live auctions.",
+      "The API also adds support for MoQ draft-16, which lets publishers push tracks before subscribers ask for them and lets subscribers request whole namespaces of tracks at once, cutting connection latency."
+    ],
+    "featured": true
+  },
+  {
+    "id": 143,
+    "source": "GitHub Engineering",
+    "title": "How to build interactive experiences with canvases",
+    "summary": "GitHub added canvases to the Copilot app, letting an AI agent build a shared, clickable visual workspace, like a card sorter or a diagram, instead of only responding in text.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 21, 2026",
+    "publishedAt": "2026-07-21T16:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
+    "details": [
+      "Users start a canvas with a /create-canvas command describing what they want, and the canvas updates live as the agent works while the user clicks, edits, and reacts to it.",
+      "Example canvases include a swipeable issue-triage board, an interactive diagram of how a codebase's components relate, and a view of active Git worktrees that can be cleaned up with a button click.",
+      "The pattern extends beyond coding tasks: one example canvas searches Slack, Teams, email, and docs to surface who on a team has relevant expertise on a topic."
+    ],
+    "featured": false
+  },
+  {
+    "id": 144,
+    "source": "Cloudflare",
+    "title": "How the 2026 World Cup affected Internet traffic",
+    "summary": "Cloudflare's traffic data shows the 2026 World Cup reshaped internet usage worldwide, with late-night matches roughly doubling traffic and one quarterfinal moving traffic more than any final.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 21, 2026",
+    "publishedAt": "2026-07-21T12:59:40.000Z",
+    "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
+    "details": [
+      "Matches played overnight or early morning caused the biggest traffic shifts, sometimes more than doubling normal traffic, while daytime matches barely moved traffic because people were already online.",
+      "The single match that shifted a country's traffic the most wasn't a final or semifinal but Argentina's quarterfinal win over Switzerland, and Argentina's matches overall swung the typical country's traffic by about 17%.",
+      "Behavior at halftime and hydration breaks split into two camps: most of the 44 countries studied saw a traffic bump during breaks, but a smaller group, including Algeria and Tunisia, saw traffic dip, likely from heavier streaming."
+    ],
+    "featured": false
+  },
+  {
+    "id": 145,
+    "source": "Vercel",
+    "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
+    "summary": "Searchable, a startup that tracks how brands appear in AI search answers, used Vercel's AI SDK and AI Gateway to cut the time to ship a customer-requested feature down to about 30 minutes.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 21, 2026",
+    "publishedAt": "2026-07-21T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
+    "details": [
+      "Routing all model calls through Vercel's AI Gateway let the team swap between AI models to test and compare them without rotating API keys or rewriting code for each provider's SDK.",
+      "The company says the setup increased development speed by roughly 2 to 5 times and let them process over 100 billion tokens without adding proportional engineering overhead.",
+      "Searchable's product tracks brand visibility across AI answer engines like ChatGPT, Perplexity, and Claude, and recommends changes to improve it."
+    ],
+    "featured": false
+  },
+  {
+    "id": 146,
+    "source": "Cloudflare",
+    "title": "Making AI search smarter",
+    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
+    "details": [],
+    "featured": false
+  },
+  {
+    "id": 147,
+    "source": "Cloudflare",
+    "title": "Your site, your rules: new AI traffic options for all customers",
+    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 1, 2026",
+    "publishedAt": "2026-07-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
+    "details": [],
+    "featured": false
+  },
+  {
     "id": 136,
     "source": "Netflix",
     "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
-    "summary": "Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years…",
+    "summary": "Netflix built GenRec, a recommendation ranker based on a fine-tuned LLM, which matched or beat its existing production ranker while needing far less labeled training data.",
     "tag": "AI engineering",
     "time": "4 min read",
     "accent": "amber",
     "published": "Jul 30, 2026",
     "publishedAt": "2026-07-30T20:10:15.000Z",
     "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
-    "details": [],
-    "featured": true
+    "details": [
+      "GenRec turns user watch history, title metadata, and context into plain text prompts for an LLM, replacing thousands of hand-crafted numeric features with what Netflix calls context engineering.",
+      "In production A/B tests across about 10% of Netflix traffic over four weeks, GenRec improved both short-term and long-term engagement metrics while using 10 to 40 times fewer labeled examples than the existing ranker.",
+      "Netflix serves GenRec in a prefill-only mode, scoring the whole catalog in a single forward pass instead of generating text token by token, which keeps inference costs manageable at scale."
+    ],
+    "featured": false
   },
   {
     "id": 137,
     "source": "GitHub Engineering",
     "title": "Stacked sessions and pull requests in the GitHub Copilot app",
-    "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app.",
+    "summary": "A GitHub engineer used the Copilot app's stacked-sessions feature to chain AI coding sessions into dependent pull requests, modernizing an old codebase without one giant PR.",
     "tag": "AI engineering",
     "time": "3 min read",
     "accent": "cyan",
     "published": "Jul 30, 2026",
     "publishedAt": "2026-07-30T17:30:24.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
-    "details": []
+    "details": [
+      "Rather than one large pull request, each new Copilot session can branch off the previous session's unmerged branch, splitting the work into a chain of smaller, reviewable PRs that build on each other.",
+      "The workflow let the author ship a pull request for work already done and start a fresh session for the next piece of work without losing the dependency between the two branches.",
+      "Stacking sessions helped avoid scope creep while modernizing a decade-old codebase stuck on outdated dependencies like React 15 and Less, by keeping each PR focused on one concern."
+    ],
+    "featured": false
   },
   {
     "id": 138,
     "source": "Cloudflare",
     "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
-    "summary": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.",
+    "summary": "Cloudflare finished moving cdnjs, which serves about 9 billion requests a day, fully onto its own Developer Platform, and had to raise several of its own platform limits to make that work.",
     "tag": "Infrastructure",
-    "time": "3 min read",
+    "time": "4 min read",
     "accent": "amber",
     "published": "Jul 30, 2026",
     "publishedAt": "2026-07-30T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
-    "details": []
+    "details": [
+      "The migration replaced a mix of GCP Functions, a git-sync VM, and Workers with a stack built on R2 for file storage, KV for metadata, Workflows for the ingestion pipeline, and Containers for compression.",
+      "Copying millions of existing files without regenerating them was necessary to keep pinned Subresource Integrity hashes valid, and doing so exposed a Workers subrequest limit that Cloudflare then raised from 1,000 to 10 million per invocation on paid plans.",
+      "cdnjs still serves roughly 12% of all websites and a large share of the JavaScript CDN market, partly because AI coding assistants frequently reference it, having trained on 15+ years of tutorials that point to it."
+    ],
+    "featured": false
   },
   {
     "id": 139,
     "source": "Vercel",
     "title": "Shopify and Vercel are rebuilding Hydrogen for faster storefronts",
-    "summary": "Open source and runtime agnostic, runs anywhere JavaScript does",
+    "summary": "Shopify and Vercel are rebuilding Hydrogen, Shopify's headless storefront framework, to be framework- and runtime-agnostic and to speed up custom feature development for retailers.",
     "tag": "Frontend",
     "time": "3 min read",
     "accent": "purple",
     "published": "Jul 30, 2026",
     "publishedAt": "2026-07-30T04:00:00.000Z",
     "url": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
-    "details": []
+    "details": [
+      "The rebuilt Hydrogen no longer locks storefronts into one framework; it runs with Next.js, Nuxt, Svelte, or other JavaScript frameworks and ships type-safe API clients and built-in cart state.",
+      "One retailer using the new framework reported cutting feature development time from months to about a week, because common e-commerce patterns are now built into the framework instead of hand-rolled each time.",
+      "A new Standard Actions feature adds support for agentic commerce, letting AI agents take actions directly on a storefront rather than just browsing it."
+    ],
+    "featured": false
   },
   {
     "id": 140,
@@ -63,7 +182,8 @@
     "published": "Jul 7, 2026",
     "publishedAt": "2026-07-07T07:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-acquires-better-auth",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 141,
@@ -76,7 +196,8 @@
     "published": "Jul 6, 2026",
     "publishedAt": "2026-07-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-cache/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 130,
@@ -555,114 +676,6 @@
       "The benchmark tests models against a secret, previously-fixed codebase so scores can't be inflated by models having memorized the answers during training.",
       "The top-scoring model in the benchmark still found only about 31% of the known vulnerabilities, a reminder that AI code review today supplements rather than replaces human security review.",
       "A much cheaper model found a meaningful share of vulnerabilities for a fraction of the top model's cost, showing the most expensive option isn't always the most cost-effective for security scanning."
-    ],
-    "featured": false
-  },
-  {
-    "id": 110,
-    "source": "Vercel",
-    "title": "Introducing the new Vercel Agent",
-    "summary": "Vercel Agent is expanding into a dashboard-based assistant that investigates production issues, flags risky pull requests, and proposes fixes, but only acts once a person approves.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T04:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-agent",
-    "details": [
-      "The agent runs under its own separate identity rather than posing as the user, so every action it takes is traceable back to the agent and not a person's account.",
-      "It follows a plan-to-permission model: it proposes a specific action, is granted access only for that task, then reverts back to read-only.",
-      "Code it generates or tests runs inside isolated, short-lived Firecracker microVMs rather than against production, limiting the damage a mistake could cause."
-    ],
-    "featured": false
-  },
-  {
-    "id": 111,
-    "source": "GitHub Engineering",
-    "title": "The cost of saying yes has changed",
-    "summary": "GitHub argues AI made writing code cheap but not owning it, so instead of debating a feature, ask an AI agent for a constrained patch and judge the real cost from the diff.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 17, 2026",
-    "publishedAt": "2026-07-17T16:46:47.000Z",
-    "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
-    "details": [
-      "The real cost of a feature request was never the typing, it was review, understanding, and long-term maintenance, and AI hasn't made that part cheaper.",
-      "Asking for a 'constrained attempt', a minimal patch, behind a flag, with no public contract changes and included tests, turns a scope debate into something you can actually inspect.",
-      "If an AI agent can't produce a clean, constrained patch for a request, that's a signal the request is bigger or riskier than it first looked, not a reason to loosen the constraints."
-    ],
-    "featured": false
-  },
-  {
-    "id": 100,
-    "source": "Cloudflare",
-    "title": "We’re open sourcing our privacy proxy CLI",
-    "summary": "Cloudflare open-sourced pvcli, a curl-like CLI for testing and debugging privacy protocols like Oblivious HTTP without manual binary parsing.",
-    "tag": "Developer tools",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 27, 2026",
-    "publishedAt": "2026-07-27T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
-    "details": [
-      "Debugging protocols like Oblivious HTTP used to mean hand-decoding binary HTTP and hex bytes across multiple parties; pvcli wraps that into single commands with flags like --ohttp and --proxy.",
-      "The tool copies curl's command syntax on purpose, so engineers who already know curl can start using it without learning a new interface.",
-      "It's built to extend beyond OHTTP to other privacy protocols like MASQUE and Privacy Pass, rather than being a one-off single-purpose tool."
-    ],
-    "featured": false
-  },
-  {
-    "id": 101,
-    "source": "GitHub Engineering",
-    "title": "Copilot vs. raw API access: What are you actually paying for?",
-    "summary": "Now that Copilot bills at listed API rates, GitHub argues the real cost comparison against raw model APIs is about the workflow and tooling around the model, not just tokens.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 23, 2026",
-    "publishedAt": "2026-07-22T19:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
-    "details": [
-      "Copilot's coding harness can match raw-API task performance while using fewer tokens, because it optimizes what context and tools get sent to the model on each turn.",
-      "Org-level billing pools and budget dashboards make AI spend visible and trackable, versus scattered individual API keys that hide true team costs.",
-      "The practical choice is architectural: pick raw API access when you need custom data boundaries and integrations, pick Copilot for standard dev workflows already tied to GitHub."
-    ],
-    "featured": false
-  },
-  {
-    "id": 102,
-    "source": "GitHub Engineering",
-    "title": "Next chapter: Restructuring GitHub’s bug bounty program",
-    "summary": "GitHub is restructuring its bug bounty program to reward high-effort security research and filter out low-quality or AI-generated spam reports.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 22, 2026",
-    "publishedAt": "2026-07-22T16:00:00.000Z",
-    "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-    "details": [
-      "A new invite-only VIP tier pays $1,000-$30,000+ with faster response times for researchers who consistently submit high-impact reports.",
-      "The public program moved from payout ranges to fixed amounts ($250-$10,000) and added signal-quality requirements to cut down on low-effort submissions.",
-      "New researchers still get up to four submissions before signal thresholds kick in, so the stricter bar doesn't block newcomers from getting started."
-    ],
-    "featured": false
-  },
-  {
-    "id": 103,
-    "source": "GitHub Engineering",
-    "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
-    "summary": "GitHub found that giving Copilot code review the same general-purpose tools as its coding agent made reviews worse, and fixed it by rewriting the instructions for how reviewers actually work.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 10, 2026",
-    "publishedAt": "2026-07-10T15:57:47.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
-    "details": [
-      "Switching Copilot code review to shared grep/glob/view tools initially raised cost and caught fewer issues, because those tools were tuned for broad code exploration, not for reviewing a diff.",
-      "The fix wasn't new tools — it was rewriting the instructions so the agent starts from the diff, narrows searches first, then reads only the exact evidence it needs.",
-      "The reworked instructions cut average review cost by about 20% while holding quality steady, showing that prompt/instruction design can matter more than the tools themselves."
     ],
     "featured": false
   }
