@@ -1,5 +1,84 @@
 [
   {
+    "id": 136,
+    "source": "Netflix",
+    "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+    "summary": "Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years…",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T20:10:15.000Z",
+    "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 137,
+    "source": "GitHub Engineering",
+    "title": "Stacked sessions and pull requests in the GitHub Copilot app",
+    "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T17:30:24.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+    "details": []
+  },
+  {
+    "id": 138,
+    "source": "Cloudflare",
+    "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
+    "summary": "We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
+    "details": []
+  },
+  {
+    "id": 139,
+    "source": "Vercel",
+    "title": "Shopify and Vercel are rebuilding Hydrogen for faster storefronts",
+    "summary": "Open source and runtime agnostic, runs anywhere JavaScript does",
+    "tag": "Frontend",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "url": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
+    "details": []
+  },
+  {
+    "id": 140,
+    "source": "Vercel",
+    "title": "Vercel acquires Better Auth to accelerate open source auth",
+    "summary": "Vercel is acquiring Better Auth , the company behind the open source TypeScript authentication library , which has 4.7M+ weekly npm downloads and more than 850 contributors. Founder Bereket Engida and the core team are joining Vercel to continue their work on Better Auth and agent identity.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 7, 2026",
+    "publishedAt": "2026-07-07T07:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-acquires-better-auth",
+    "details": []
+  },
+  {
+    "id": 141,
+    "source": "Cloudflare",
+    "title": "Your Worker can now have its own cache in front of it",
+    "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 6, 2026",
+    "publishedAt": "2026-07-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-cache/",
+    "details": []
+  },
+  {
     "id": 130,
     "source": "Vercel",
     "title": "Open-weight models surge to 29% of volume, price per token flattens",
@@ -99,7 +178,7 @@
       "Slowing the update schedule from daily to monthly doesn't weaken security: Dependabot still opens security-fix pull requests immediately, on their own schedule.",
       "A new three-day cooldown delays routine version bumps by default, giving the community time to catch a bad release before it reaches your dependencies."
     ],
-    "featured": true
+    "featured": false
   },
   {
     "id": 125,
@@ -585,102 +664,6 @@
       "The fix wasn't new tools — it was rewriting the instructions so the agent starts from the diff, narrows searches first, then reads only the exact evidence it needs.",
       "The reworked instructions cut average review cost by about 20% while holding quality steady, showing that prompt/instruction design can matter more than the tools themselves."
     ],
-    "featured": false
-  },
-  {
-    "id": 104,
-    "source": "GitHub Engineering",
-    "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
-    "summary": "Explore how the Aspire team turns merged product changes into SME-reviewed docs pull requests, closing the gap between release and documentation.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 9, 2026",
-    "publishedAt": "2026-07-08T21:11:56.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 105,
-    "source": "Vercel",
-    "title": "Run any Dockerfile on Vercel",
-    "summary": "You have a server in a container. Maybe it's a Go service, a Rails app, a Spring Boot API, or a web server behind nginx. It speaks HTTP. It listens on a port. It just needs somewhere to run.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jun 30, 2026",
-    "publishedAt": "2026-06-30T16:00:00.000Z",
-    "url": "https://vercel.com/blog/dockerfile-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 94,
-    "source": "GitHub Engineering",
-    "title": "How to build interactive experiences with canvases",
-    "summary": "GitHub Copilot's new canvases let an agent build a live, clickable interface inside chat instead of only replying with text.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T16:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-    "details": [
-      "Typing /create-canvas plus a description makes the agent generate an interactive interface — like a swipeable issue-triage board or a draggable codebase diagram — that you can click and edit directly.",
-      "Canvases update as you interact with them: actions you take on the canvas or feedback you send back both change what the agent shows next.",
-      "GitHub's own examples include a worktree cleanup dashboard, a prompt-writing coach, and a search tool that finds who on a team has expertise on a given file."
-    ],
-    "featured": false
-  },
-  {
-    "id": 95,
-    "source": "Cloudflare",
-    "title": "How the 2026 World Cup affected Internet traffic",
-    "summary": "Cloudflare analyzed global internet traffic during the 2026 World Cup and found kickoff times and viewing habits, not just match popularity, drove the biggest swings.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T12:59:40.000Z",
-    "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
-    "details": [
-      "Matches kicking off overnight (midnight to 8am local time) more than doubled internet traffic in the affected countries, while daytime matches barely moved traffic since people were already online.",
-      "The Argentina vs. Switzerland quarterfinal caused the single largest traffic swing of the tournament, bigger than the final itself.",
-      "Short breaks mattered too: countries where fans watch on separate devices saw traffic rise during halftime, while countries that pause a single stream saw it dip instead."
-    ],
-    "featured": false
-  },
-  {
-    "id": 96,
-    "source": "Vercel",
-    "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
-    "summary": "Searchable, a startup that tracks how brands appear in AI search results, says routing all its model calls through one gateway cut feature delivery time to about 30 minutes.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
-    "details": [
-      "Using Vercel's AI Gateway as a single layer in front of multiple model providers let the team drop manual API key rotation and per-provider SDK integration work.",
-      "That consolidation let them swap or test different underlying AI models without rewriting integration code each time.",
-      "The company reports processing over 100 billion tokens through this setup while shipping customer-requested features roughly 5x faster than before."
-    ],
-    "featured": false
-  },
-  {
-    "id": 97,
-    "source": "Vercel",
-    "title": "Vercel and Shopify are rebuilding Hydrogen",
-    "summary": "Hydrogen made headless storefronts easy to ship, but not portable. At Vercel Ship 26 in New York, we announced that we are working with Shopify to rebuild it from the ground up, a shared bet on a more open web.",
-    "tag": "Frontend",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jun 30, 2026",
-    "publishedAt": "2026-06-30T04:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-and-shopify-are-rebuilding-hydrogen",
-    "details": [],
     "featured": false
   }
 ]
