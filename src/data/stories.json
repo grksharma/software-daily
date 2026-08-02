@@ -1,5 +1,84 @@
 [
   {
+    "id": 154,
+    "source": "Spotify",
+    "title": "Indexing the Data Lake for Online Point Queries",
+    "summary": "Companies like Spotify need vast quantities of data accessible at low latency for online services and,...",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T20:34:28.000Z",
+    "url": "https://engineering.atspotify.com/2026/7/indexing-the-data-lake-for-online-point-queries/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 155,
+    "source": "GitHub Engineering",
+    "title": "The harness is all you need (mostly)",
+    "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T18:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+    "details": []
+  },
+  {
+    "id": 156,
+    "source": "GitHub Engineering",
+    "title": "GitHub Copilot app for Beginners: Getting started",
+    "summary": "New to the GitHub Copilot app? Learn how to start projects, work with AI agents, explore canvases, and streamline your development workflow.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T16:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+    "details": []
+  },
+  {
+    "id": 157,
+    "source": "Vercel",
+    "title": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
+    "summary": "Last week, OpenAI evaluated two models on an exploit benchmark within an isolated sandbox. Guardrails were reduced for testing, and the models found a vulnerability in their environment, accessed the internet, and reached Hugging Face's production database.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
+    "details": []
+  },
+  {
+    "id": 158,
+    "source": "Vercel",
+    "title": "How Speechify serves 500,000 dynamic pages to 60 million users on Vercel",
+    "summary": "Speechify started as a tool for people with dyslexia. Cliff Weitzman, Founder & CEO, built it because reading was challenging and audio made it much easier. That initial use case led Speechify to tens of millions of users and an Apple Design Award for inclusion.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Jul 15, 2026",
+    "publishedAt": "2026-07-15T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
+    "details": []
+  },
+  {
+    "id": 159,
+    "source": "Slack",
+    "title": "Shipyard: How We Built Slack’s Next-Generation EC2 Platform",
+    "summary": "Over the past few years, we’ve been on a journey to modernise how we run Amazon Elastic Compute Cloud (EC2) instances at Slack. In our first post, Advancing Our Chef Infrastructure, we shared how we moved from a single Chef stack to a resilient, multi-stack setup with versioned cookbook deployments and safer…",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Jul 14, 2026",
+    "publishedAt": "2026-07-14T16:10:08.000Z",
+    "url": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/",
+    "details": []
+  },
+  {
     "id": 148,
     "source": "Netflix",
     "title": "Modeling Device Capabilities for Analytics",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-07-31T16:01:02.000Z",
     "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 149,
@@ -24,7 +103,8 @@
     "published": "Jul 31, 2026",
     "publishedAt": "2026-07-31T16:00:00.000Z",
     "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 150,
@@ -37,7 +117,8 @@
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 151,
@@ -50,7 +131,8 @@
     "published": "Jul 22, 2026",
     "publishedAt": "2026-07-22T19:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 152,
@@ -63,7 +145,8 @@
     "published": "Jul 22, 2026",
     "publishedAt": "2026-07-22T16:00:00.000Z",
     "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 153,
@@ -76,7 +159,8 @@
     "published": "Jul 21, 2026",
     "publishedAt": "2026-07-21T04:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-agent",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 142,
@@ -539,114 +623,6 @@
       "A routine batch job that reprocessed old episodes ran during peak submission hours, competing with new uploads for the same limited transcoding capacity.",
       "A software bug introduced during an infrastructure migration silently cut processing throughput by about 10%, and it went unnoticed until the capacity crunch made it visible.",
       "Roughly four hours passed between the first alerts and a formal incident response, prompting Spotify to invest in earlier capacity alerting rather than just adding more headroom."
-    ],
-    "featured": false
-  },
-  {
-    "id": 122,
-    "source": "Dropbox",
-    "title": "How our universal content processing platform Riviera evolved for AI and beyond",
-    "summary": "Dropbox explains how Riviera, its decade-old file-preview pipeline, became the content-prep layer that gets documents ready for its AI product Dash before any model sees them.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 20, 2026",
-    "publishedAt": "2026-07-20T15:00:00.000Z",
-    "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
-    "details": [
-      "Riviera handles over 300 file formats and performs hundreds of thousands of transformations per second, work that now doubles as document preparation for AI models.",
-      "Instead of building format-specific services, Riviera composes reusable pipelines, like PowerPoint to PDF to images, so new use cases reuse existing conversion logic.",
-      "A plugin architecture with over 100 backend worker types lets individual product teams add new transformation capabilities without touching the shared coordination layer."
-    ],
-    "featured": false
-  },
-  {
-    "id": 123,
-    "source": "Netflix",
-    "title": "In-House LLM Serving at Netflix",
-    "summary": "Netflix explains why it built its own LLM-serving stack instead of relying on hosted APIs, and the architecture choices, like an OpenAI-compatible API, that made the switch easy.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 17, 2026",
-    "publishedAt": "2026-07-17T21:32:39.000Z",
-    "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
-    "details": [
-      "Netflix moved from TensorRT-LLM to vLLM as its default serving engine because vLLM was easier to extend, debug, and iterate on for custom models.",
-      "Exposing an OpenAI-compatible API alongside its internal gRPC interface let teams switch from hosted model APIs to Netflix's self-hosted models without rewriting client code.",
-      "Netflix supports both red-black deployments for stable model interfaces and versioned deployments that run multiple model versions simultaneously for breaking changes."
-    ],
-    "featured": false
-  },
-  {
-    "id": 112,
-    "source": "Cloudflare",
-    "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption event",
-    "summary": "Cloudflare's Q2 2026 traffic report shows earthquakes, typhoons, a fiber cut, a botched DNSSEC rollover, and government shutdowns all left similar dips in global internet traffic.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Jul 28, 2026",
-    "publishedAt": "2026-07-28T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
-    "details": [
-      "A single DNSSEC key rollover mistake at Germany's .de registry made an entire country-code domain unreachable for about a day, showing how fragile automated DNS operations can be.",
-      "Natural disasters like typhoons and earthquakes and deliberate government shutdowns produce nearly indistinguishable traffic-drop patterns, so telling the cause apart requires context beyond the graph.",
-      "A single undersea fiber cut near Saint Lucia knocked a national ISP's traffic to zero, showing how much regional connectivity depends on a handful of physical cables."
-    ],
-    "featured": false
-  },
-  {
-    "id": 113,
-    "source": "Cloudflare",
-    "title": "Introducing Cache Response Rules",
-    "summary": "Cloudflare launched Cache Response Rules, which run after the origin server replies but before the response is cached, letting teams fix bad cache headers without touching the origin.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 24, 2026",
-    "publishedAt": "2026-07-23T18:40:38.000Z",
-    "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
-    "details": [
-      "The rules can strip problematic headers like Set-Cookie or ETag from a response so pages that should be cacheable stop being treated as private on every request.",
-      "Cache duration at Cloudflare's edge can now be set independently from the Cache-Control header sent to browsers, so a site doesn't need one duration to serve both.",
-      "The feature targets caching problems that only become visible after the origin responds, which previously required custom Workers code or origin server changes to fix."
-    ],
-    "featured": false
-  },
-  {
-    "id": 114,
-    "source": "GitHub Engineering",
-    "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
-    "summary": "GitHub's Dependabot now waits three days by default before opening a pull request for a routine dependency update, giving time for malicious versions to be caught and pulled.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 23, 2026",
-    "publishedAt": "2026-07-23T16:00:00.000Z",
-    "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
-    "details": [
-      "Malicious package versions have historically been caught and removed within hours of publication, but automated update tools were already pulling them into projects before that happened.",
-      "Security fixes still open pull requests immediately under the new policy; only routine, non-security version bumps are delayed by default.",
-      "Teams can tune or disable the cooldown per ecosystem via the cooldown option in dependabot.yml, and the article recommends pairing it with lockfiles and scoped build tokens for defense in depth."
-    ],
-    "featured": false
-  },
-  {
-    "id": 115,
-    "source": "Cloudflare",
-    "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
-    "summary": "Cloudflare shipped two free WAF rules blocking a SQL injection flaw and an unauthenticated remote-code-execution bug in recent WordPress versions, but says patching is still required.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 18, 2026",
-    "publishedAt": "2026-07-17T21:30:43.000Z",
-    "url": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
-    "details": [
-      "One vulnerability lets attackers execute code through the WordPress REST API's batch endpoint without authentication, when a persistent object cache isn't in use.",
-      "The second flaw is a SQL injection bug reachable through crafted request parameters, affecting WordPress 6.8 and later.",
-      "Both new WAF rules are available to every Cloudflare customer, including free-tier sites, and block by default, but Cloudflare is explicit that this buys time, it doesn't replace updating WordPress."
     ],
     "featured": false
   }
