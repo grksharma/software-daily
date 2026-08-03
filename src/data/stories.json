@@ -1,5 +1,84 @@
 [
   {
+    "id": 160,
+    "source": "Cloudflare",
+    "title": "Welcome to Agents Week",
+    "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 2, 2026",
+    "publishedAt": "2026-08-02T16:00:00.000Z",
+    "url": "https://blog.cloudflare.com/agents-week-welcome/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 161,
+    "source": "Cloudflare",
+    "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
+    "summary": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 28, 2026",
+    "publishedAt": "2026-07-28T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
+    "details": []
+  },
+  {
+    "id": 162,
+    "source": "Cloudflare",
+    "title": "Introducing Cache Response Rules",
+    "summary": "Perhaps you’ve seen something that should sail out of cache get dragged back to the origin by a stray Set-Cookie or Cache-Control, headers that can be difficult to change on the origin itself. Cache Response Rules is the fix, applied at the right time.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Jul 23, 2026",
+    "publishedAt": "2026-07-23T18:40:38.000Z",
+    "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
+    "details": []
+  },
+  {
+    "id": 163,
+    "source": "GitHub Engineering",
+    "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+    "summary": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 23, 2026",
+    "publishedAt": "2026-07-23T16:00:00.000Z",
+    "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+    "details": []
+  },
+  {
+    "id": 164,
+    "source": "Dropbox",
+    "title": "How our universal content processing platform Riviera evolved for AI and beyond",
+    "summary": "Riviera is the Dropbox content processing platform that’s been iteratively improving content transformation in our products for roughly a decade.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 20, 2026",
+    "publishedAt": "2026-07-20T15:00:00.000Z",
+    "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
+    "details": []
+  },
+  {
+    "id": 165,
+    "source": "Netflix",
+    "title": "In-House LLM Serving at Netflix",
+    "summary": "Most organizations consume LLMs through hosted APIs. Netflix went further — we run the full stack ourselves, from model deployment through inference, inside our existing production environment rather than a separate ML silo. Some of those decisions weren’t obvious, and a few revealed their trade-offs only under…",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 17, 2026",
+    "publishedAt": "2026-07-17T21:32:39.000Z",
+    "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
+    "details": []
+  },
+  {
     "id": 154,
     "source": "Spotify",
     "title": "Indexing the Data Lake for Online Point Queries",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-07-27T20:34:28.000Z",
     "url": "https://engineering.atspotify.com/2026/7/indexing-the-data-lake-for-online-point-queries/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 155,
@@ -24,7 +103,8 @@
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T18:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 156,
@@ -37,7 +117,8 @@
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T16:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 157,
@@ -50,7 +131,8 @@
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T04:00:00.000Z",
     "url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 158,
@@ -63,7 +145,8 @@
     "published": "Jul 15, 2026",
     "publishedAt": "2026-07-15T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 159,
@@ -76,7 +159,8 @@
     "published": "Jul 14, 2026",
     "publishedAt": "2026-07-14T16:10:08.000Z",
     "url": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 148,
@@ -515,114 +599,6 @@
       "DNSSEC validation can fail for an entire top-level domain at once if its operator breaks the chain of trust during a key rollover, as happened to .al on July 3, 2026, following a similar incident with Germany's .de two months earlier.",
       "A Negative Trust Anchor lets a resolver keep serving answers for a broken domain by skipping DNSSEC checks, but until now a response served this way looked identical to a fully validated one, with no way for a client to tell the difference.",
       "Cloudflare co-authored a new DNS Extended Error code, EDE 33, that its 1.1.1.1 resolver now attaches to every response served under a Negative Trust Anchor, so monitoring tools and applications can detect when they're getting an unverified answer."
-    ],
-    "featured": false
-  },
-  {
-    "id": 128,
-    "source": "Netflix",
-    "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
-    "summary": "Netflix explains how it built a real-time map of which services call which, and the production problems (Kafka lag, overloaded instances, GC storms) it had to solve to make it work at scale.",
-    "tag": "Architecture",
-    "time": "20 min read",
-    "accent": "amber",
-    "published": "Jul 13, 2026",
-    "publishedAt": "2026-07-13T22:44:11.000Z",
-    "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8",
-    "details": [
-      "Raw network logs only show hops through load balancers and proxies, not real application-to-application calls, so Netflix built a three-stage pipeline that regroups and resolves flows by intermediary before writing the final graph.",
-      "A single instance handling all traffic for a popular service, like an auth API called by hundreds of others, became a 'hot node' that spent more CPU on garbage collection than on actual work; splitting the pipeline into more redistribution stages spread that load out.",
-      "Netflix switched inter-stage communication from gRPC to Server-Sent Events and made aggregator objects mutable instead of immutable on the hot path, both against typical best practice, because measurements showed they cut memory pressure and CPU overhead at their scale."
-    ],
-    "featured": false
-  },
-  {
-    "id": 129,
-    "source": "Cloudflare",
-    "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
-    "summary": "Cloudflare's new Precursor tool watches behavioral signals like mouse movement and typing rhythm throughout a session, not just at one checkpoint, to tell bots and AI agents apart from humans.",
-    "tag": "Security",
-    "time": "2 min read",
-    "accent": "purple",
-    "published": "Jul 13, 2026",
-    "publishedAt": "2026-07-13T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/introducing-precursor/",
-    "details": [
-      "Instead of a one-time challenge like a CAPTCHA, Precursor collects behavioral signals continuously throughout a session, so a bot can't just reset its signature by refreshing the page.",
-      "It looks for physical constraints that are hard for automation to fake convincingly over a long session, like the natural arc of a wrist movement or the small tremor in a real hand.",
-      "The system is built to preserve privacy: it records the timing and rhythm of keystrokes rather than what was actually typed, and it evaluates aggregate patterns instead of individual actions."
-    ],
-    "featured": false
-  },
-  {
-    "id": 118,
-    "source": "GitHub Engineering",
-    "title": "Disrupting supply chain attacks on npm and GitHub Actions",
-    "summary": "GitHub breaks down recent changes to npm and GitHub Actions that make supply chain attacks harder to pull off, from safer CI defaults to delayed package publishing.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 28, 2026",
-    "publishedAt": "2026-07-28T16:00:00.000Z",
-    "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-    "details": [
-      "npm now locks high-impact accounts into a 72-hour read-only mode after an email or 2FA-recovery change, closing a window attackers used to hijack accounts.",
-      "GitHub Actions changed actions/checkout defaults and added workflow execution policies so fork pull requests can no longer run untrusted code or escalate through shared caches.",
-      "npm v12 disables install scripts by default and Dependabot now waits three days before applying non-security updates, cutting the time a compromised package can spread before anyone notices."
-    ],
-    "featured": false
-  },
-  {
-    "id": 119,
-    "source": "Vercel",
-    "title": "How Sandstone grew 40x in 147 days on Vercel",
-    "summary": "Legal-tech startup Sandstone explains how running its whole stack on Vercel, from preview deployments to feature flags, let a small team ship fast enough to grow 40x and raise a $30M Series A.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 27, 2026",
-    "publishedAt": "2026-07-27T14:00:00.000Z",
-    "url": "https://vercel.com/blog/how-sandstone-grew-40x-in-147-days-on-vercel",
-    "details": [
-      "Preview deployments let a non-engineer flag a broken scrollbar and have it fixed in production within five minutes on a Sunday, without a formal deploy process.",
-      "Non-engineers can comment directly on preview branches, which automatically turns their feedback into Linear tickets instead of Slack messages that get lost.",
-      "Vercel's Secure Compute kept traffic between the app and its data layer off the public internet, avoiding the usual tradeoff of fast iteration for weaker network isolation."
-    ],
-    "featured": false
-  },
-  {
-    "id": 120,
-    "source": "Cloudflare",
-    "title": "Cloudflare Internal DNS is now generally available",
-    "summary": "Cloudflare's Internal DNS is now generally available, letting companies manage private and public DNS from one platform instead of running separate systems for each.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 20, 2026",
-    "publishedAt": "2026-07-20T20:59:31.000Z",
-    "url": "https://blog.cloudflare.com/internal-dns/",
-    "details": [
-      "Split-horizon DNS, serving different answers to internal vs external clients, no longer needs two parallel systems; Cloudflare's 'DNS Views' group zones by resolution context instead.",
-      "The Gateway Resolver reuses Cloudflare's 1.1.1.1 infrastructure to handle recursive resolution and policy checks for private network queries, not just public ones.",
-      "DNS changes propagate globally in seconds whether they're made through the dashboard, Terraform, or the API, removing a common source of drift between tools."
-    ],
-    "featured": false
-  },
-  {
-    "id": 121,
-    "source": "Spotify",
-    "title": "Content Ingestion & Podcast Video Incident Report",
-    "summary": "Spotify's postmortem on a podcast video outage: transcoding capacity maxed out, a batch reprocessing job competed for resources, and a migration bug quietly cut throughput by 10%.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 20, 2026",
-    "publishedAt": "2026-07-20T16:24:48.000Z",
-    "url": "https://engineering.atspotify.com/2026/7/content-ingestion-and-podcast-video-incident-report/",
-    "details": [
-      "A routine batch job that reprocessed old episodes ran during peak submission hours, competing with new uploads for the same limited transcoding capacity.",
-      "A software bug introduced during an infrastructure migration silently cut processing throughput by about 10%, and it went unnoticed until the capacity crunch made it visible.",
-      "Roughly four hours passed between the first alerts and a formal incident response, prompting Spotify to invest in earlier capacity alerting rather than just adding more headroom."
     ],
     "featured": false
   }
