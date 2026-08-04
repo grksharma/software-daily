@@ -1,5 +1,84 @@
 [
   {
+    "id": 166,
+    "source": "Cloudflare",
+    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
+    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a computer of its own.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 3, 2026",
+    "publishedAt": "2026-08-03T13:15:24.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-computer/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 167,
+    "source": "Cloudflare",
+    "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
+    "summary": "Cloudflare Workers now support inbound TCP connections via Spectrum, allowing direct socket forwarding to Durable Objects and Containers. Developers can run full-duplex gRPC applications or leverage automatic gRPC-to-gRPC-web translation directly within Workers.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 3, 2026",
+    "publishedAt": "2026-08-03T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/grpc-workers/",
+    "details": []
+  },
+  {
+    "id": 168,
+    "source": "Cloudflare",
+    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
+    "summary": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specification, track spend seamlessly alongside the rest of your cloud stack.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 3, 2026",
+    "publishedAt": "2026-08-03T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/billable-usage-api/",
+    "details": []
+  },
+  {
+    "id": 169,
+    "source": "Cloudflare",
+    "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+    "summary": "Serving frontier models like Kimi and GLM means fighting for GPU memory. Here's how we quantize KV caches, compress model weights, and add integrity checks to serve them faster, cheaper, and safely.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 3, 2026",
+    "publishedAt": "2026-08-03T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+    "details": []
+  },
+  {
+    "id": 170,
+    "source": "Cloudflare",
+    "title": "Workers RPC now works across Python and JavaScript",
+    "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 3, 2026",
+    "publishedAt": "2026-08-03T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/python-workers-rpc/",
+    "details": []
+  },
+  {
+    "id": 171,
+    "source": "Vercel",
+    "title": "How Factory scaled its cloud backend to tens of millions of daily requests on Vercel",
+    "summary": "Scaled backend, internal tooling, and security without a dedicated infrastructure team",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 3, 2026",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-requests",
+    "details": []
+  },
+  {
     "id": 160,
     "source": "Cloudflare",
     "title": "Welcome to Agents Week",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-02T16:00:00.000Z",
     "url": "https://blog.cloudflare.com/agents-week-welcome/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 161,
@@ -24,7 +103,8 @@
     "published": "Jul 28, 2026",
     "publishedAt": "2026-07-28T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 162,
@@ -37,7 +117,8 @@
     "published": "Jul 23, 2026",
     "publishedAt": "2026-07-23T18:40:38.000Z",
     "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 163,
@@ -50,7 +131,8 @@
     "published": "Jul 23, 2026",
     "publishedAt": "2026-07-23T16:00:00.000Z",
     "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 164,
@@ -63,7 +145,8 @@
     "published": "Jul 20, 2026",
     "publishedAt": "2026-07-20T15:00:00.000Z",
     "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 165,
@@ -76,7 +159,8 @@
     "published": "Jul 17, 2026",
     "publishedAt": "2026-07-17T21:32:39.000Z",
     "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 154,
@@ -500,106 +584,6 @@
     "publishedAt": "2026-07-09T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
     "details": [],
-    "featured": false
-  },
-  {
-    "id": 134,
-    "source": "Cloudflare",
-    "title": "Introducing Meerkat: an experiment in global consensus",
-    "summary": "Cloudflare Research is building a global consensus service called Meerkat that uses a new consensus algorithm called QuePaxa. We plan to use Meerkat to build a strongly consistent, fault-tolerant key-value store, and other applications.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 8, 2026",
-    "publishedAt": "2026-07-08T12:00:00.000Z",
-    "url": "https://blog.cloudflare.com/meerkat-introduction/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 135,
-    "source": "Cloudflare",
-    "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
-    "summary": "The pledge is a voluntary framework inviting organizations to commit to foundational cyber security governance, board-level accountability, and supply chain rigor. For over a decade, Cloudflare has pioneered the core pillars of this framework: democratizing security, leadership accountability, and radical transparency.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 7, 2026",
-    "publishedAt": "2026-07-07T12:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 124,
-    "source": "GitHub Engineering",
-    "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
-    "summary": "How one Microsoft project cut Dependabot noise: bundle all updates into a single monthly pull request, while security fixes still land immediately.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 29, 2026",
-    "publishedAt": "2026-07-29T16:00:00.000Z",
-    "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
-    "details": [
-      "Dependabot's grouping feature can bundle every dependency update into one pull request per ecosystem instead of firing off a separate PR for each package.",
-      "Slowing the update schedule from daily to monthly doesn't weaken security: Dependabot still opens security-fix pull requests immediately, on their own schedule.",
-      "A new three-day cooldown delays routine version bumps by default, giving the community time to catch a bad release before it reaches your dependencies."
-    ],
-    "featured": false
-  },
-  {
-    "id": 125,
-    "source": "Cloudflare",
-    "title": "Post-quantum authentication to origins is now supported",
-    "summary": "Cloudflare now supports post-quantum ML-DSA signatures on the TLS connection it makes to customer origin servers, adding authentication to a rollout that previously only covered encryption.",
-    "tag": "Security",
-    "time": "8 min read",
-    "accent": "amber",
-    "published": "Jul 29, 2026",
-    "publishedAt": "2026-07-29T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/",
-    "details": [
-      "Post-quantum encryption stops an attacker from harvesting encrypted traffic now to decrypt later with a quantum computer, but it doesn't stop someone from forging a certificate to impersonate a server; that's the gap post-quantum authentication closes.",
-      "Because Cloudflare controls both ends of its connection to a customer's origin, it could roll out ML-DSA certificates ahead of the public web, which still needs new standards like Merkle Tree Certificates before it can catch up.",
-      "Shipping this required updating a TLS library that had gone unpatched for four years, and one of the backlog of changes broke a small number of customers' certificates in production, an outage the team caught and rolled back the same day."
-    ],
-    "featured": false
-  },
-  {
-    "id": 126,
-    "source": "Cloudflare",
-    "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
-    "summary": "Cloudflare found that about 70% of BGP routes have their ORIGIN attribute silently rewritten by transit providers, a routing-preference trick used to attract more paid traffic.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 24, 2026",
-    "publishedAt": "2026-07-24T17:25:28.000Z",
-    "url": "https://blog.cloudflare.com/bgp-origin-attribute/",
-    "details": [
-      "The BGP ORIGIN attribute is supposed to record how a route entered the network and, per the RFC, should never be changed by anyone else, but transit providers rewrite it anyway because routes flagged IGP get preferred in path selection.",
-      "In Cloudflare's testing, six of the sixteen Tier-1 networks manipulated ORIGIN, and doing so won them noticeably more traffic: 18% more paths on IPv4 and 40% more on IPv6.",
-      "Cloudflare's proposed fix is to stop routing decisions from relying on ORIGIN at all, arguing every implementation should just treat all routes as IGP so there's nothing left worth gaming."
-    ],
-    "featured": false
-  },
-  {
-    "id": 127,
-    "source": "Cloudflare",
-    "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
-    "summary": "When Albania's .al domain broke DNSSEC during a botched key rollover, Cloudflare bypassed validation to keep sites reachable, and for the first time told clients directly that it had done so.",
-    "tag": "Security",
-    "time": "6 min read",
-    "accent": "cyan",
-    "published": "Jul 14, 2026",
-    "publishedAt": "2026-07-14T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
-    "details": [
-      "DNSSEC validation can fail for an entire top-level domain at once if its operator breaks the chain of trust during a key rollover, as happened to .al on July 3, 2026, following a similar incident with Germany's .de two months earlier.",
-      "A Negative Trust Anchor lets a resolver keep serving answers for a broken domain by skipping DNSSEC checks, but until now a response served this way looked identical to a fully validated one, with no way for a client to tell the difference.",
-      "Cloudflare co-authored a new DNS Extended Error code, EDE 33, that its 1.1.1.1 resolver now attaches to every response served under a Negative Trust Anchor, so monitoring tools and applications can detect when they're getting an unverified answer."
-    ],
     "featured": false
   }
 ]
