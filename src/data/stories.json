@@ -1,5 +1,84 @@
 [
   {
+    "id": 172,
+    "source": "GitHub Engineering",
+    "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+    "summary": "Learn how to build tools to simplify how you work—without writing a single line of code.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 4, 2026",
+    "publishedAt": "2026-08-04T19:02:34.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 173,
+    "source": "GitHub Engineering",
+    "title": "Turn one giant AI-generated pull request to a reviewable stack",
+    "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 4, 2026",
+    "publishedAt": "2026-08-04T16:47:18.000Z",
+    "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+    "details": []
+  },
+  {
+    "id": 174,
+    "source": "Cloudflare",
+    "title": "The Agent Development Lifecycle has arrived on Cloudflare",
+    "summary": "Agents can write code faster than teams can review, deploy, and maintain it. Today we’re introducing the Agent Development Lifecycle and the Cloudflare primitives that underpin it",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 4, 2026",
+    "publishedAt": "2026-08-04T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/agent-development-lifecycle/",
+    "details": []
+  },
+  {
+    "id": 175,
+    "source": "Cloudflare",
+    "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
+    "summary": "Cloudflare Wallets will provide AI agents with native payments and verifiable identity on the web. Using the x402 protocol, agents can autonomously purchase APIs and content within clear safety guardrails.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 4, 2026",
+    "publishedAt": "2026-08-04T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/wallets/",
+    "details": []
+  },
+  {
+    "id": 176,
+    "source": "Cloudflare",
+    "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
+    "summary": "Learn how to build customizable, sandboxed CI/CD pipelines natively on Cloudflare using Workflows, Artifacts, and the CI SDK. We walk through replacing complex YAML configurations with TypeScript workflow steps and self-healing AI agents.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 4, 2026",
+    "publishedAt": "2026-08-04T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/ci-workflows/",
+    "details": []
+  },
+  {
+    "id": 177,
+    "source": "Cloudflare",
+    "title": "How Cloudflare enforces engineering standards using AI",
+    "summary": "We created the Cloudflare Codex, a governed body of engineering standards that AI agents consume across the development lifecycle. By pairing structured RFCs with agentic reviews, teams automatically enforce consistency across code, specs, and incident reports.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 4, 2026",
+    "publishedAt": "2026-08-04T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/engineering-standards-enforcement/",
+    "details": []
+  },
+  {
     "id": 166,
     "source": "Cloudflare",
     "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-03T13:15:24.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-computer/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 167,
@@ -24,7 +103,8 @@
     "published": "Aug 3, 2026",
     "publishedAt": "2026-08-03T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/grpc-workers/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 168,
@@ -37,7 +117,8 @@
     "published": "Aug 3, 2026",
     "publishedAt": "2026-08-03T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/billable-usage-api/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 169,
@@ -50,7 +131,8 @@
     "published": "Aug 3, 2026",
     "publishedAt": "2026-08-03T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 170,
@@ -63,7 +145,8 @@
     "published": "Aug 3, 2026",
     "publishedAt": "2026-08-03T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/python-workers-rpc/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 171,
@@ -76,7 +159,8 @@
     "published": "Aug 3, 2026",
     "publishedAt": "2026-08-03T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-requests",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 160,
@@ -500,90 +584,6 @@
       "One retailer using the new framework reported cutting feature development time from months to about a week, because common e-commerce patterns are now built into the framework instead of hand-rolled each time.",
       "A new Standard Actions feature adds support for agentic commerce, letting AI agents take actions directly on a storefront rather than just browsing it."
     ],
-    "featured": false
-  },
-  {
-    "id": 140,
-    "source": "Vercel",
-    "title": "Vercel acquires Better Auth to accelerate open source auth",
-    "summary": "Vercel is acquiring Better Auth , the company behind the open source TypeScript authentication library , which has 4.7M+ weekly npm downloads and more than 850 contributors. Founder Bereket Engida and the core team are joining Vercel to continue their work on Better Auth and agent identity.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 7, 2026",
-    "publishedAt": "2026-07-07T07:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-acquires-better-auth",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 141,
-    "source": "Cloudflare",
-    "title": "Your Worker can now have its own cache in front of it",
-    "summary": "We are launching Workers Cache, a regionally tiered cache that sits directly in front of your Worker entrypoints. Infinitely composable, configured via standard HTTP headers",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 6, 2026",
-    "publishedAt": "2026-07-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-cache/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 130,
-    "source": "Vercel",
-    "title": "Open-weight models surge to 29% of volume, price per token flattens",
-    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs, giving us a view of what AI usage actually looks like in today’s enterprise. We publish that view here. See the Production Index reports published in May and June .",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Jul 13, 2026",
-    "publishedAt": "2026-07-13T07:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 131,
-    "source": "Cloudflare",
-    "title": "Improving Smart Tiered Cache for Public Cloud Regions",
-    "summary": "Smart Tiered Cache allows for precise upper tier selection for origins hosted on AWS, GCP, Azure, and Oracle Cloud with customer-provided cloud region hints.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 10, 2026",
-    "publishedAt": "2026-07-10T12:00:00.000Z",
-    "url": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 132,
-    "source": "Lyft",
-    "title": "From Day 1 to Production: Building Lyft’s Analytics & Rides Intelligence Assistant as Onboarding",
-    "summary": "Most onboarding journeys follow a familiar arc: orientation sessions, benefits enrollment, setting up your laptop, and gradually finding your footing over the first few weeks. Mine followed that arc too, but with an additional thread running alongside it from the very start.",
-    "tag": "Engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 10, 2026",
-    "publishedAt": "2026-07-09T22:01:15.000Z",
-    "url": "https://eng.lyft.com/from-day-1-to-production-building-lyfts-analytics-rides-intelligence-assistant-as-onboarding-5c5643c192d9",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 133,
-    "source": "Cloudflare",
-    "title": "Why we cannot wait for better post-quantum signature algorithms",
-    "summary": "NIST is advancing nine new post-quantum signature algorithms as potential candidates for future standardization. We take a closer look at all of them, and argue that while they are in the works and show great potential, we should use ML-DSA for now — the best currently available.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 9, 2026",
-    "publishedAt": "2026-07-09T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
-    "details": [],
     "featured": false
   }
 ]
