@@ -1,5 +1,84 @@
 [
   {
+    "id": 178,
+    "source": "Cloudflare",
+    "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
+    "summary": "We're honored to announce that Cloudflare is the only vendor that has been recognized as a Visionary in both the 2026 Gartner® Magic Quadrant™ for SASE Platforms and the 2026 Gartner® Magic Quadrant™ for Security Service Edge reports.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T23:24:51.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 179,
+    "source": "Cloudflare",
+    "title": "The Agent Access Model",
+    "summary": "The Agent Access Model proposes a new architecture to secure task-scoped agents using strict identity brokering, continuous mediation, and stateful trust.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T13:00:41.000Z",
+    "url": "https://blog.cloudflare.com/the-agent-access-model/",
+    "details": []
+  },
+  {
+    "id": 180,
+    "source": "Cloudflare",
+    "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
+    "summary": "We built Cloudflare OS to equip our teams to safely rethink how they get work done with AI. The platform brings together the best of our technologies, from our Compute primitives to our Zero Trust suite. This post walks through our journey to give our users the best AI tools available.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T13:00:01.000Z",
+    "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
+    "details": []
+  },
+  {
+    "id": 181,
+    "source": "Cloudflare",
+    "title": "Cloudflare OS: an open platform for agents, apps, and work",
+    "summary": "Cloudflare OS is an open-source platform that lets everyone in your company build apps, automate work, and safely access internal systems, shaped around what your organization knows and how it operates",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-os/",
+    "details": []
+  },
+  {
+    "id": 182,
+    "source": "Cloudflare",
+    "title": "WriteGuard: fine-grained controls for MCP Servers",
+    "summary": "At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP servers, we built WriteGuard. We are now bringing those controls to Cloudflare MCP server portals through a private beta.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
+    "details": []
+  },
+  {
+    "id": 183,
+    "source": "Cloudflare",
+    "title": "Catching rogue AI behavior with identity-aware analytics",
+    "summary": "Identity-aware AI Gateway is now in open beta. User Insights turns that traffic into a behavioral baseline for every person and agent, and flags insider risk the moment it appears.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
+    "details": []
+  },
+  {
     "id": 172,
     "source": "GitHub Engineering",
     "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-04T19:02:34.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 173,
@@ -24,7 +103,8 @@
     "published": "Aug 4, 2026",
     "publishedAt": "2026-08-04T16:47:18.000Z",
     "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 174,
@@ -37,7 +117,8 @@
     "published": "Aug 4, 2026",
     "publishedAt": "2026-08-04T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/agent-development-lifecycle/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 175,
@@ -50,7 +131,8 @@
     "published": "Aug 4, 2026",
     "publishedAt": "2026-08-04T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/wallets/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 176,
@@ -63,7 +145,8 @@
     "published": "Aug 4, 2026",
     "publishedAt": "2026-08-04T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/ci-workflows/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 177,
@@ -76,7 +159,8 @@
     "published": "Aug 4, 2026",
     "publishedAt": "2026-08-04T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/engineering-standards-enforcement/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 166,
@@ -483,106 +567,6 @@
       "Routing all model calls through Vercel's AI Gateway let the team swap between AI models to test and compare them without rotating API keys or rewriting code for each provider's SDK.",
       "The company says the setup increased development speed by roughly 2 to 5 times and let them process over 100 billion tokens without adding proportional engineering overhead.",
       "Searchable's product tracks brand visibility across AI answer engines like ChatGPT, Perplexity, and Claude, and recommends changes to improve it."
-    ],
-    "featured": false
-  },
-  {
-    "id": 146,
-    "source": "Cloudflare",
-    "title": "Making AI search smarter",
-    "summary": "Search is how we find nearly everything on the web — creators, merchants, answers. AI is rewriting the rules, leaving creators caught between staying discoverable in an agentic era and getting paid for their work. Today we're launching two initiatives to help.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Jul 1, 2026",
-    "publishedAt": "2026-07-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 147,
-    "source": "Cloudflare",
-    "title": "Your site, your rules: new AI traffic options for all customers",
-    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 1, 2026",
-    "publishedAt": "2026-07-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 136,
-    "source": "Netflix",
-    "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
-    "summary": "Netflix built GenRec, a recommendation ranker based on a fine-tuned LLM, which matched or beat its existing production ranker while needing far less labeled training data.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 30, 2026",
-    "publishedAt": "2026-07-30T20:10:15.000Z",
-    "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
-    "details": [
-      "GenRec turns user watch history, title metadata, and context into plain text prompts for an LLM, replacing thousands of hand-crafted numeric features with what Netflix calls context engineering.",
-      "In production A/B tests across about 10% of Netflix traffic over four weeks, GenRec improved both short-term and long-term engagement metrics while using 10 to 40 times fewer labeled examples than the existing ranker.",
-      "Netflix serves GenRec in a prefill-only mode, scoring the whole catalog in a single forward pass instead of generating text token by token, which keeps inference costs manageable at scale."
-    ],
-    "featured": false
-  },
-  {
-    "id": 137,
-    "source": "GitHub Engineering",
-    "title": "Stacked sessions and pull requests in the GitHub Copilot app",
-    "summary": "A GitHub engineer used the Copilot app's stacked-sessions feature to chain AI coding sessions into dependent pull requests, modernizing an old codebase without one giant PR.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 30, 2026",
-    "publishedAt": "2026-07-30T17:30:24.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
-    "details": [
-      "Rather than one large pull request, each new Copilot session can branch off the previous session's unmerged branch, splitting the work into a chain of smaller, reviewable PRs that build on each other.",
-      "The workflow let the author ship a pull request for work already done and start a fresh session for the next piece of work without losing the dependency between the two branches.",
-      "Stacking sessions helped avoid scope creep while modernizing a decade-old codebase stuck on outdated dependencies like React 15 and Less, by keeping each PR focused on one concern."
-    ],
-    "featured": false
-  },
-  {
-    "id": 138,
-    "source": "Cloudflare",
-    "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
-    "summary": "Cloudflare finished moving cdnjs, which serves about 9 billion requests a day, fully onto its own Developer Platform, and had to raise several of its own platform limits to make that work.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 30, 2026",
-    "publishedAt": "2026-07-30T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
-    "details": [
-      "The migration replaced a mix of GCP Functions, a git-sync VM, and Workers with a stack built on R2 for file storage, KV for metadata, Workflows for the ingestion pipeline, and Containers for compression.",
-      "Copying millions of existing files without regenerating them was necessary to keep pinned Subresource Integrity hashes valid, and doing so exposed a Workers subrequest limit that Cloudflare then raised from 1,000 to 10 million per invocation on paid plans.",
-      "cdnjs still serves roughly 12% of all websites and a large share of the JavaScript CDN market, partly because AI coding assistants frequently reference it, having trained on 15+ years of tutorials that point to it."
-    ],
-    "featured": false
-  },
-  {
-    "id": 139,
-    "source": "Vercel",
-    "title": "Shopify and Vercel are rebuilding Hydrogen for faster storefronts",
-    "summary": "Shopify and Vercel are rebuilding Hydrogen, Shopify's headless storefront framework, to be framework- and runtime-agnostic and to speed up custom feature development for retailers.",
-    "tag": "Frontend",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 30, 2026",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "url": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
-    "details": [
-      "The rebuilt Hydrogen no longer locks storefronts into one framework; it runs with Next.js, Nuxt, Svelte, or other JavaScript frameworks and ships type-safe API clients and built-in cart state.",
-      "One retailer using the new framework reported cutting feature development time from months to about a week, because common e-commerce patterns are now built into the framework instead of hand-rolled each time.",
-      "A new Standard Actions feature adds support for agentic commerce, letting AI agents take actions directly on a storefront rather than just browsing it."
     ],
     "featured": false
   }
