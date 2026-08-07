@@ -1,5 +1,84 @@
 [
   {
+    "id": 184,
+    "source": "GitHub Engineering",
+    "title": "A guide to slash commands in the GitHub Copilot app",
+    "summary": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T19:49:34.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 185,
+    "source": "GitHub Engineering",
+    "title": "How we took malware advisories beyond npm",
+    "summary": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T16:51:12.000Z",
+    "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+    "details": []
+  },
+  {
+    "id": 186,
+    "source": "Cloudflare",
+    "title": "Cloudflare AI Search: give your agents a search engine for your data",
+    "summary": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/ai-search-easier/",
+    "details": []
+  },
+  {
+    "id": 187,
+    "source": "Cloudflare",
+    "title": "The next generation of MCP",
+    "summary": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/mcp-v2/",
+    "details": []
+  },
+  {
+    "id": 188,
+    "source": "Cloudflare",
+    "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+    "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/aeo/",
+    "details": []
+  },
+  {
+    "id": 189,
+    "source": "Cloudflare",
+    "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
+    "summary": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We're building the open tools and protocols so publishers and agents can cooperate and not collide.",
+    "tag": "Frontend",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/the-agentic-internet/",
+    "details": []
+  },
+  {
     "id": 178,
     "source": "Cloudflare",
     "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-05T23:24:51.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 179,
@@ -24,7 +103,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T13:00:41.000Z",
     "url": "https://blog.cloudflare.com/the-agent-access-model/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 180,
@@ -37,7 +117,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T13:00:01.000Z",
     "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 181,
@@ -50,7 +131,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-os/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 182,
@@ -63,7 +145,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 183,
@@ -76,7 +159,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 172,
@@ -468,106 +552,6 @@
     "publishedAt": "2026-07-22T19:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
     "details": [],
-    "featured": false
-  },
-  {
-    "id": 152,
-    "source": "GitHub Engineering",
-    "title": "Next chapter: Restructuring GitHub’s bug bounty program",
-    "summary": "GitHub is making some significant changes to its bug bounty program, shifting its focus to give researchers a better experience working with the GitHub team.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 22, 2026",
-    "publishedAt": "2026-07-22T16:00:00.000Z",
-    "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 153,
-    "source": "Vercel",
-    "title": "Introducing the new Vercel Agent",
-    "summary": "Today we're expanding Vercel Agent . It started by triaging alerts and reviewing your pull requests. Now it has a home in your dashboard, where it can investigate production, answer questions about your projects, and take action once you approve it.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T04:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-agent",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 142,
-    "source": "Cloudflare",
-    "title": "An API for MoQ: provision your own isolated relays",
-    "summary": "Cloudflare now lets developers provision their own isolated Media over QUIC relays with separate credentials for publishers and viewers, deployable in seconds across its global network.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 31, 2026",
-    "publishedAt": "2026-07-31T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/moq-relays/",
-    "details": [
-      "Isolated relays are carved out of Cloudflare's existing global network rather than requiring dedicated servers, so they deploy in seconds without picking a region or configuring a load balancer.",
-      "Separate access tokens for publishers and subscribers mean a viewer's credentials can't be used to hijack the stream, enabling permissioned use cases like live auctions.",
-      "The API also adds support for MoQ draft-16, which lets publishers push tracks before subscribers ask for them and lets subscribers request whole namespaces of tracks at once, cutting connection latency."
-    ],
-    "featured": false
-  },
-  {
-    "id": 143,
-    "source": "GitHub Engineering",
-    "title": "How to build interactive experiences with canvases",
-    "summary": "GitHub added canvases to the Copilot app, letting an AI agent build a shared, clickable visual workspace, like a card sorter or a diagram, instead of only responding in text.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T16:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
-    "details": [
-      "Users start a canvas with a /create-canvas command describing what they want, and the canvas updates live as the agent works while the user clicks, edits, and reacts to it.",
-      "Example canvases include a swipeable issue-triage board, an interactive diagram of how a codebase's components relate, and a view of active Git worktrees that can be cleaned up with a button click.",
-      "The pattern extends beyond coding tasks: one example canvas searches Slack, Teams, email, and docs to surface who on a team has relevant expertise on a topic."
-    ],
-    "featured": false
-  },
-  {
-    "id": 144,
-    "source": "Cloudflare",
-    "title": "How the 2026 World Cup affected Internet traffic",
-    "summary": "Cloudflare's traffic data shows the 2026 World Cup reshaped internet usage worldwide, with late-night matches roughly doubling traffic and one quarterfinal moving traffic more than any final.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T12:59:40.000Z",
-    "url": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
-    "details": [
-      "Matches played overnight or early morning caused the biggest traffic shifts, sometimes more than doubling normal traffic, while daytime matches barely moved traffic because people were already online.",
-      "The single match that shifted a country's traffic the most wasn't a final or semifinal but Argentina's quarterfinal win over Switzerland, and Argentina's matches overall swung the typical country's traffic by about 17%.",
-      "Behavior at halftime and hydration breaks split into two camps: most of the 44 countries studied saw a traffic bump during breaks, but a smaller group, including Algeria and Tunisia, saw traffic dip, likely from heavier streaming."
-    ],
-    "featured": false
-  },
-  {
-    "id": 145,
-    "source": "Vercel",
-    "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
-    "summary": "Searchable, a startup that tracks how brands appear in AI search answers, used Vercel's AI SDK and AI Gateway to cut the time to ship a customer-requested feature down to about 30 minutes.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
-    "details": [
-      "Routing all model calls through Vercel's AI Gateway let the team swap between AI models to test and compare them without rotating API keys or rewriting code for each provider's SDK.",
-      "The company says the setup increased development speed by roughly 2 to 5 times and let them process over 100 billion tokens without adding proportional engineering overhead.",
-      "Searchable's product tracks brand visibility across AI answer engines like ChatGPT, Perplexity, and Claude, and recommends changes to improve it."
-    ],
     "featured": false
   }
 ]
