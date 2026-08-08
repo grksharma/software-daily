@@ -1,5 +1,84 @@
 [
   {
+    "id": 190,
+    "source": "Netflix",
+    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC",
+    "summary": "This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part 2 , we discussed how we designed the storage layer to handle…",
+    "tag": "DevOps",
+    "time": "5 min read",
+    "accent": "purple",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 191,
+    "source": "Cloudflare",
+    "title": "Unveiling good and bad behaviors on the Agentic Internet",
+    "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements would be…",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:01:00.000Z",
+    "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+    "details": []
+  },
+  {
+    "id": 192,
+    "source": "Cloudflare",
+    "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+    "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
+    "details": []
+  },
+  {
+    "id": 193,
+    "source": "Cloudflare",
+    "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+    "summary": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/community-program-refresh/",
+    "details": []
+  },
+  {
+    "id": 194,
+    "source": "Cloudflare",
+    "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
+    "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applications.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+    "details": []
+  },
+  {
+    "id": 195,
+    "source": "Cloudflare",
+    "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+    "summary": "We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that runs entirely on top of Workers and was designed specifically for the Agentic Cloud.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/kitesurf/",
+    "details": []
+  },
+  {
     "id": 184,
     "source": "GitHub Engineering",
     "title": "A guide to slash commands in the GitHub Copilot app",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-06T19:49:34.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 185,
@@ -24,7 +103,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T16:51:12.000Z",
     "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 186,
@@ -37,7 +117,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/ai-search-easier/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 187,
@@ -50,7 +131,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/mcp-v2/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 188,
@@ -63,7 +145,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/aeo/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 189,
@@ -76,7 +159,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/the-agentic-internet/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 178,
@@ -467,90 +551,6 @@
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T04:00:00.000Z",
     "url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 158,
-    "source": "Vercel",
-    "title": "How Speechify serves 500,000 dynamic pages to 60 million users on Vercel",
-    "summary": "Speechify started as a tool for people with dyslexia. Cliff Weitzman, Founder & CEO, built it because reading was challenging and audio made it much easier. That initial use case led Speechify to tens of millions of users and an Apple Design Award for inclusion.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Jul 15, 2026",
-    "publishedAt": "2026-07-15T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-speechify-serves-50000-dynamic-pages-to-60-million-users-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 159,
-    "source": "Slack",
-    "title": "Shipyard: How We Built Slack’s Next-Generation EC2 Platform",
-    "summary": "Over the past few years, we’ve been on a journey to modernise how we run Amazon Elastic Compute Cloud (EC2) instances at Slack. In our first post, Advancing Our Chef Infrastructure, we shared how we moved from a single Chef stack to a resilient, multi-stack setup with versioned cookbook deployments and safer…",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Jul 14, 2026",
-    "publishedAt": "2026-07-14T16:10:08.000Z",
-    "url": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 148,
-    "source": "Netflix",
-    "title": "Modeling Device Capabilities for Analytics",
-    "summary": "by Aarti Laddha , Richard Diaz-Cool , Rishika Idnani , Venkatesh Selveraj",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 31, 2026",
-    "publishedAt": "2026-07-31T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 149,
-    "source": "GitHub Engineering",
-    "title": "Don’t stop early: Case-folding source code at memory speed",
-    "summary": "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 31, 2026",
-    "publishedAt": "2026-07-31T16:00:00.000Z",
-    "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 150,
-    "source": "Cloudflare",
-    "title": "We’re open-sourcing our privacy proxy CLI",
-    "summary": "pvcli is a curl-like tool designed to simplify the testing of complex privacy protocols like OHTTP.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 27, 2026",
-    "publishedAt": "2026-07-27T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 151,
-    "source": "GitHub Engineering",
-    "title": "Copilot vs. raw API access: What are you actually paying for?",
-    "summary": "Copilot now bills usage at listed API rates. Compare direct model access with the coding workflow, policy, and harness work around it.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 22, 2026",
-    "publishedAt": "2026-07-22T19:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/",
     "details": [],
     "featured": false
   }
