@@ -1,5 +1,84 @@
 [
   {
+    "id": 202,
+    "source": "GitHub Engineering",
+    "title": "Don’t stop early: Case-folding source code at memory speed",
+    "summary": "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 31, 2026",
+    "publishedAt": "2026-07-31T16:00:00.000Z",
+    "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 203,
+    "source": "Netflix",
+    "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+    "summary": "Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years…",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T20:10:15.000Z",
+    "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
+    "details": []
+  },
+  {
+    "id": 204,
+    "source": "GitHub Engineering",
+    "title": "Stacked sessions and pull requests in the GitHub Copilot app",
+    "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T17:30:24.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+    "details": []
+  },
+  {
+    "id": 205,
+    "source": "Vercel",
+    "title": "Shopify and Vercel are rebuilding Hydrogen for faster storefronts",
+    "summary": "Open source and runtime agnostic, runs anywhere JavaScript does",
+    "tag": "Frontend",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T04:00:00.000Z",
+    "url": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
+    "details": []
+  },
+  {
+    "id": 206,
+    "source": "GitHub Engineering",
+    "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+    "summary": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 29, 2026",
+    "publishedAt": "2026-07-29T16:00:00.000Z",
+    "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+    "details": []
+  },
+  {
+    "id": 207,
+    "source": "GitHub Engineering",
+    "title": "Disrupting supply chain attacks on npm and GitHub Actions",
+    "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 28, 2026",
+    "publishedAt": "2026-07-28T16:00:00.000Z",
+    "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
+    "details": []
+  },
+  {
     "id": 196,
     "source": "Cloudflare",
     "title": "Give any website a WebMCP interface",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/webmcp/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 197,
@@ -24,7 +103,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T00:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-agent-plugins",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 198,
@@ -37,7 +117,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T04:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-the-new-v0-api",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 199,
@@ -50,7 +131,8 @@
     "published": "Aug 4, 2026",
     "publishedAt": "2026-08-04T07:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-supports-next-js-16-3",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 200,
@@ -63,7 +145,8 @@
     "published": "Aug 3, 2026",
     "publishedAt": "2026-08-03T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 201,
@@ -76,7 +159,8 @@
     "published": "Jul 31, 2026",
     "publishedAt": "2026-07-31T16:01:02.000Z",
     "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 190,
@@ -467,90 +551,6 @@
     "published": "Aug 3, 2026",
     "publishedAt": "2026-08-03T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 170,
-    "source": "Cloudflare",
-    "title": "Workers RPC now works across Python and JavaScript",
-    "summary": "One coding agent can write a Python Worker and another can write a JavaScript Worker. At runtime, those Workers can exchange references to live objects and call their methods without defining APIs, schemas, or serialization code",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 3, 2026",
-    "publishedAt": "2026-08-03T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/python-workers-rpc/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 171,
-    "source": "Vercel",
-    "title": "How Factory scaled its cloud backend to tens of millions of daily requests on Vercel",
-    "summary": "Scaled backend, internal tooling, and security without a dedicated infrastructure team",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 3, 2026",
-    "publishedAt": "2026-08-03T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-requests",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 160,
-    "source": "Cloudflare",
-    "title": "Welcome to Agents Week",
-    "summary": "Agents Week explores how cloud infrastructure must evolve to serve autonomous agents rather than human browsers. Join us as we unpack the storage, execution, and security primitives needed for an agent-native web.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 2, 2026",
-    "publishedAt": "2026-08-02T16:00:00.000Z",
-    "url": "https://blog.cloudflare.com/agents-week-welcome/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 161,
-    "source": "Cloudflare",
-    "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
-    "summary": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This post analyzes traffic telemetry to explain how these events impacted global connectivity.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 28, 2026",
-    "publishedAt": "2026-07-28T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 162,
-    "source": "Cloudflare",
-    "title": "Introducing Cache Response Rules",
-    "summary": "Perhaps you’ve seen something that should sail out of cache get dragged back to the origin by a stray Set-Cookie or Cache-Control, headers that can be difficult to change on the origin itself. Cache Response Rules is the fix, applied at the right time.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Jul 23, 2026",
-    "publishedAt": "2026-07-23T18:40:38.000Z",
-    "url": "https://blog.cloudflare.com/introducing-cache-response-rules/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 163,
-    "source": "GitHub Engineering",
-    "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
-    "summary": "A new default three-day cooldown delays version update pull requests so maintainers and security researchers can address findings in a release before it gets into your code.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 23, 2026",
-    "publishedAt": "2026-07-23T16:00:00.000Z",
-    "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
     "details": [],
     "featured": false
   }
