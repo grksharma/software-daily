@@ -1,5 +1,84 @@
 [
   {
+    "id": 208,
+    "source": "Vercel",
+    "title": "A sandbox without a network boundary is only half a sandbox",
+    "summary": "Running untrusted code safely requires more than separating it from the host. You also have to control what that code can reach.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 209,
+    "source": "GitHub Engineering",
+    "title": "Using the GitHub Copilot SDK for Java",
+    "summary": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 10, 2026",
+    "publishedAt": "2026-08-10T19:30:00.000Z",
+    "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+    "details": []
+  },
+  {
+    "id": 210,
+    "source": "Cloudflare",
+    "title": "Everything we launched during Agents Week",
+    "summary": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made, from Wallets to Radar.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 10, 2026",
+    "publishedAt": "2026-08-10T18:34:10.000Z",
+    "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
+    "details": []
+  },
+  {
+    "id": 211,
+    "source": "Cloudflare",
+    "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
+    "summary": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to the public sector.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 10, 2026",
+    "publishedAt": "2026-08-10T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
+    "details": []
+  },
+  {
+    "id": 212,
+    "source": "Spotify",
+    "title": "Indexing the Data Lake for Online Point Queries",
+    "summary": "Companies like Spotify need vast quantities of data accessible at low latency for online services and,...",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T20:34:28.000Z",
+    "url": "https://engineering.atspotify.com/2026/7/indexing-the-data-lake-for-online-point-queries/",
+    "details": []
+  },
+  {
+    "id": 213,
+    "source": "GitHub Engineering",
+    "title": "The harness is all you need (mostly)",
+    "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T18:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+    "details": []
+  },
+  {
     "id": 202,
     "source": "GitHub Engineering",
     "title": "Don’t stop early: Case-folding source code at memory speed",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-07-31T16:00:00.000Z",
     "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 203,
@@ -24,7 +103,8 @@
     "published": "Jul 30, 2026",
     "publishedAt": "2026-07-30T20:10:15.000Z",
     "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 204,
@@ -37,7 +117,8 @@
     "published": "Jul 30, 2026",
     "publishedAt": "2026-07-30T17:30:24.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 205,
@@ -50,7 +131,8 @@
     "published": "Jul 30, 2026",
     "publishedAt": "2026-07-30T04:00:00.000Z",
     "url": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 206,
@@ -63,7 +145,8 @@
     "published": "Jul 29, 2026",
     "publishedAt": "2026-07-29T16:00:00.000Z",
     "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 207,
@@ -76,7 +159,8 @@
     "published": "Jul 28, 2026",
     "publishedAt": "2026-07-28T16:00:00.000Z",
     "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 196,
@@ -467,90 +551,6 @@
     "published": "Aug 4, 2026",
     "publishedAt": "2026-08-04T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/wallets/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 176,
-    "source": "Cloudflare",
-    "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
-    "summary": "Learn how to build customizable, sandboxed CI/CD pipelines natively on Cloudflare using Workflows, Artifacts, and the CI SDK. We walk through replacing complex YAML configurations with TypeScript workflow steps and self-healing AI agents.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 4, 2026",
-    "publishedAt": "2026-08-04T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/ci-workflows/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 177,
-    "source": "Cloudflare",
-    "title": "How Cloudflare enforces engineering standards using AI",
-    "summary": "We created the Cloudflare Codex, a governed body of engineering standards that AI agents consume across the development lifecycle. By pairing structured RFCs with agentic reviews, teams automatically enforce consistency across code, specs, and incident reports.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 4, 2026",
-    "publishedAt": "2026-08-04T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/engineering-standards-enforcement/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 166,
-    "source": "Cloudflare",
-    "title": "Your agent needs a computer, not a container — introducing @cloudflare/computer",
-    "summary": "Agents need more than just a container to scale. We're introducing @cloudflare/computer, an agent runtime that dynamically orchestrates between fast, efficient isolates and full Linux containers to give every agent a computer of its own.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 3, 2026",
-    "publishedAt": "2026-08-03T13:15:24.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-computer/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 167,
-    "source": "Cloudflare",
-    "title": "Cloudflare Workers and Containers now support inbound TCP connections and gRPC",
-    "summary": "Cloudflare Workers now support inbound TCP connections via Spectrum, allowing direct socket forwarding to Durable Objects and Containers. Developers can run full-duplex gRPC applications or leverage automatic gRPC-to-gRPC-web translation directly within Workers.",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 3, 2026",
-    "publishedAt": "2026-08-03T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/grpc-workers/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 168,
-    "source": "Cloudflare",
-    "title": "Introducing the Billable Usage API: programmatic cost visibility for Cloudflare",
-    "summary": "Cloudflare has launched a new Billable Usage API for accounts, giving developers and FinOps teams single-endpoint programmatic visibility into cost and usage across all self-serve products. Built around the FOCUS specification, track spend seamlessly alongside the rest of your cloud stack.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 3, 2026",
-    "publishedAt": "2026-08-03T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/billable-usage-api/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 169,
-    "source": "Cloudflare",
-    "title": "Smaller, faster, safer: running Kimi and GLM at scale",
-    "summary": "Serving frontier models like Kimi and GLM means fighting for GPU memory. Here's how we quantize KV caches, compress model weights, and add integrity checks to serve them faster, cheaper, and safely.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 3, 2026",
-    "publishedAt": "2026-08-03T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
     "details": [],
     "featured": false
   }
