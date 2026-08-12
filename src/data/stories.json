@@ -1,5 +1,84 @@
 [
   {
+    "id": 214,
+    "source": "Cloudflare",
+    "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+    "summary": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 215,
+    "source": "Vercel",
+    "title": "Everything hackable will get hacked",
+    "summary": "Over the past year, AI models have become much more capable of performing cybersecurity work. These changes are reshaping both the threats facing the web and the tools available to defend it. Right now, defenders have an advantage because they can use stronger models for defensive work than the open-weight models…",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T07:00:00.000Z",
+    "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
+    "details": []
+  },
+  {
+    "id": 216,
+    "source": "Vercel",
+    "title": "DeepSeek overtakes Google on volume, cost per token falls 13.6%",
+    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from May , June , and July .",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
+    "url": "https://vercel.com/blog/deepseek-overtakes-google-on-volume-cost-per-token-falls",
+    "details": []
+  },
+  {
+    "id": 217,
+    "source": "Vercel",
+    "title": "How Sandstone grew 40x in 147 days on Vercel",
+    "summary": "7-app turborepo monorepo deployed seamlessly to multiple Vercel projects",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T14:00:00.000Z",
+    "url": "https://vercel.com/blog/how-sandstone-grew-40x-in-147-days-on-vercel",
+    "details": []
+  },
+  {
+    "id": 218,
+    "source": "Vercel",
+    "title": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
+    "summary": "Last week, OpenAI evaluated two models on an exploit benchmark within an isolated sandbox. Guardrails were reduced for testing, and the models found a vulnerability in their environment, accessed the internet, and reached Hugging Face's production database.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Jul 27, 2026",
+    "publishedAt": "2026-07-27T04:00:00.000Z",
+    "url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
+    "details": []
+  },
+  {
+    "id": 219,
+    "source": "Vercel",
+    "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
+    "summary": "Customer-requested features shipped in as little as 30 minutes",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Jul 21, 2026",
+    "publishedAt": "2026-07-21T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
+    "details": []
+  },
+  {
     "id": 208,
     "source": "Vercel",
     "title": "A sandbox without a network boundary is only half a sandbox",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-11T00:00:00.000Z",
     "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 209,
@@ -24,7 +103,8 @@
     "published": "Aug 10, 2026",
     "publishedAt": "2026-08-10T19:30:00.000Z",
     "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 210,
@@ -37,7 +117,8 @@
     "published": "Aug 10, 2026",
     "publishedAt": "2026-08-10T18:34:10.000Z",
     "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 211,
@@ -50,7 +131,8 @@
     "published": "Aug 10, 2026",
     "publishedAt": "2026-08-10T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 212,
@@ -63,7 +145,8 @@
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T20:34:28.000Z",
     "url": "https://engineering.atspotify.com/2026/7/indexing-the-data-lake-for-online-point-queries/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 213,
@@ -76,7 +159,8 @@
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T18:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 202,
@@ -467,90 +551,6 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-os/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 182,
-    "source": "Cloudflare",
-    "title": "WriteGuard: fine-grained controls for MCP Servers",
-    "summary": "At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP servers, we built WriteGuard. We are now bringing those controls to Cloudflare MCP server portals through a private beta.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 183,
-    "source": "Cloudflare",
-    "title": "Catching rogue AI behavior with identity-aware analytics",
-    "summary": "Identity-aware AI Gateway is now in open beta. User Insights turns that traffic into a behavioral baseline for every person and agent, and flags insider risk the moment it appears.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 172,
-    "source": "GitHub Engineering",
-    "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
-    "summary": "Learn how to build tools to simplify how you work—without writing a single line of code.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 4, 2026",
-    "publishedAt": "2026-08-04T19:02:34.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 173,
-    "source": "GitHub Engineering",
-    "title": "Turn one giant AI-generated pull request to a reviewable stack",
-    "summary": "Instead of one huge, un-reviewable pull request, teach coding agents to decompose work into a clean, ordered stack with GitHub stacked pull requests.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 4, 2026",
-    "publishedAt": "2026-08-04T16:47:18.000Z",
-    "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 174,
-    "source": "Cloudflare",
-    "title": "The Agent Development Lifecycle has arrived on Cloudflare",
-    "summary": "Agents can write code faster than teams can review, deploy, and maintain it. Today we’re introducing the Agent Development Lifecycle and the Cloudflare primitives that underpin it",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 4, 2026",
-    "publishedAt": "2026-08-04T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/agent-development-lifecycle/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 175,
-    "source": "Cloudflare",
-    "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
-    "summary": "Cloudflare Wallets will provide AI agents with native payments and verifiable identity on the web. Using the x402 protocol, agents can autonomously purchase APIs and content within clear safety guardrails.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 4, 2026",
-    "publishedAt": "2026-08-04T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/wallets/",
     "details": [],
     "featured": false
   }
