@@ -1,5 +1,84 @@
 [
   {
+    "id": 220,
+    "source": "GitHub Engineering",
+    "title": "Write your first prompt with the GitHub Copilot app",
+    "summary": "Learn how to write your first prompt in the GitHub Copilot app, choose the right context and model, and start your first task with confidence.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 12, 2026",
+    "publishedAt": "2026-08-12T19:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 221,
+    "source": "Vercel",
+    "title": "Building a software factory for AI SDK",
+    "summary": "The AI SDK is one of the most popular open-source AI projects in the world. It serves over 20 million npm downloads a week and the repo has over 26,000 stars. Maintaining the codebase means tracking four moving targets at once:",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 12, 2026",
+    "publishedAt": "2026-08-12T00:00:00.000Z",
+    "url": "https://vercel.com/blog/building-a-software-factory-for-ai-sdk",
+    "details": []
+  },
+  {
+    "id": 222,
+    "source": "Vercel",
+    "title": "How we migrated the database behind every Vercel build",
+    "summary": "Every build on Vercel starts in the build warm pool, which is a set of standby containers that let builds begin without waiting for new compute. The pool runs on state that tracks which containers are ready, the tokens each one uses to authenticate, and the mapping that ties every running build back to the deployment…",
+    "tag": "DevOps",
+    "time": "5 min read",
+    "accent": "cyan",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T22:00:00.000Z",
+    "url": "https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build",
+    "details": []
+  },
+  {
+    "id": 223,
+    "source": "Cloudflare",
+    "title": "WriteGuard: fine-grained controls for MCP Servers",
+    "summary": "At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP servers, we built WriteGuard. We are now bringing those controls to Cloudflare MCP server portals through a private beta.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
+    "details": []
+  },
+  {
+    "id": 224,
+    "source": "Cloudflare",
+    "title": "Catching rogue AI behavior with identity-aware analytics",
+    "summary": "Identity-aware AI Gateway is now in open beta. User Insights turns that traffic into a behavioral baseline for every person and agent, and flags insider risk the moment it appears.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
+    "details": []
+  },
+  {
+    "id": 225,
+    "source": "GitHub Engineering",
+    "title": "How the GitHub legal team used Copilot CLI to streamline their workflows",
+    "summary": "Learn how to build tools to simplify how you work—without writing a single line of code.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 4, 2026",
+    "publishedAt": "2026-08-04T19:02:34.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
+    "details": []
+  },
+  {
     "id": 214,
     "source": "Cloudflare",
     "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-11T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 215,
@@ -24,7 +103,8 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T07:00:00.000Z",
     "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 216,
@@ -37,7 +117,8 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T04:00:00.000Z",
     "url": "https://vercel.com/blog/deepseek-overtakes-google-on-volume-cost-per-token-falls",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 217,
@@ -50,7 +131,8 @@
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T14:00:00.000Z",
     "url": "https://vercel.com/blog/how-sandstone-grew-40x-in-147-days-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 218,
@@ -63,7 +145,8 @@
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T04:00:00.000Z",
     "url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 219,
@@ -76,7 +159,8 @@
     "published": "Jul 21, 2026",
     "publishedAt": "2026-07-21T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 208,
@@ -467,90 +551,6 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/mcp-v2/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 188,
-    "source": "Cloudflare",
-    "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
-    "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/aeo/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 189,
-    "source": "Cloudflare",
-    "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
-    "summary": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We're building the open tools and protocols so publishers and agents can cooperate and not collide.",
-    "tag": "Frontend",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/the-agentic-internet/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 178,
-    "source": "Cloudflare",
-    "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
-    "summary": "We're honored to announce that Cloudflare is the only vendor that has been recognized as a Visionary in both the 2026 Gartner® Magic Quadrant™ for SASE Platforms and the 2026 Gartner® Magic Quadrant™ for Security Service Edge reports.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T23:24:51.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 179,
-    "source": "Cloudflare",
-    "title": "The Agent Access Model",
-    "summary": "The Agent Access Model proposes a new architecture to secure task-scoped agents using strict identity brokering, continuous mediation, and stateful trust.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T13:00:41.000Z",
-    "url": "https://blog.cloudflare.com/the-agent-access-model/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 180,
-    "source": "Cloudflare",
-    "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
-    "summary": "We built Cloudflare OS to equip our teams to safely rethink how they get work done with AI. The platform brings together the best of our technologies, from our Compute primitives to our Zero Trust suite. This post walks through our journey to give our users the best AI tools available.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T13:00:01.000Z",
-    "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 181,
-    "source": "Cloudflare",
-    "title": "Cloudflare OS: an open platform for agents, apps, and work",
-    "summary": "Cloudflare OS is an open-source platform that lets everyone in your company build apps, automate work, and safely access internal systems, shaped around what your organization knows and how it operates",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-os/",
     "details": [],
     "featured": false
   }
