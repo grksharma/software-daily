@@ -1,5 +1,84 @@
 [
   {
+    "id": 226,
+    "source": "Cloudflare",
+    "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+    "summary": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 13, 2026",
+    "publishedAt": "2026-08-13T19:58:01.000Z",
+    "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 227,
+    "source": "Spotify",
+    "title": "When Can LLMs Replace Humans in A/B Tests?",
+    "summary": "TL;DR: LLM predictions can stand in for human outcomes in A/B tests, but only by assumption, not by design....",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 13, 2026",
+    "publishedAt": "2026-08-13T18:57:22.000Z",
+    "url": "https://engineering.atspotify.com/2026/8/when-can-llms-replace-humans-in-a-b-tests/",
+    "details": []
+  },
+  {
+    "id": 228,
+    "source": "Cloudflare",
+    "title": "Certificate Transparency Monitoring is now generally available",
+    "summary": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 13, 2026",
+    "publishedAt": "2026-08-13T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
+    "details": []
+  },
+  {
+    "id": 229,
+    "source": "Vercel",
+    "title": "Inside the Vercel intern experience",
+    "summary": "The best way to learn is by shipping product to users in production, and that's why we don’t treat our interns as temporary guests. Every intern at Vercel is expected to operate like a core part of our engineering team from day one.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Aug 13, 2026",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "url": "https://vercel.com/blog/inside-the-vercel-intern-experience",
+    "details": []
+  },
+  {
+    "id": 230,
+    "source": "Cloudflare",
+    "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+    "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/aeo/",
+    "details": []
+  },
+  {
+    "id": 231,
+    "source": "Cloudflare",
+    "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
+    "summary": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We're building the open tools and protocols so publishers and agents can cooperate and not collide.",
+    "tag": "Frontend",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/the-agentic-internet/",
+    "details": []
+  },
+  {
     "id": 220,
     "source": "GitHub Engineering",
     "title": "Write your first prompt with the GitHub Copilot app",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-12T19:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 221,
@@ -24,7 +103,8 @@
     "published": "Aug 12, 2026",
     "publishedAt": "2026-08-12T00:00:00.000Z",
     "url": "https://vercel.com/blog/building-a-software-factory-for-ai-sdk",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 222,
@@ -37,7 +117,8 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T22:00:00.000Z",
     "url": "https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 223,
@@ -50,7 +131,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 224,
@@ -63,7 +145,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 225,
@@ -76,7 +159,8 @@
     "published": "Aug 4, 2026",
     "publishedAt": "2026-08-04T19:02:34.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-the-github-legal-team-used-copilot-cli-to-streamline-their-workflows/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 214,
@@ -467,90 +551,6 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/community-program-refresh/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 194,
-    "source": "Cloudflare",
-    "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
-    "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applications.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 7, 2026",
-    "publishedAt": "2026-08-07T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 195,
-    "source": "Cloudflare",
-    "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
-    "summary": "We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that runs entirely on top of Workers and was designed specifically for the Agentic Cloud.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/kitesurf/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 184,
-    "source": "GitHub Engineering",
-    "title": "A guide to slash commands in the GitHub Copilot app",
-    "summary": "Go beyond chat in the GitHub Copilot app with these slash commands. They'll help you plan, collaborate, automate, and customize your dev workflow.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T19:49:34.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 185,
-    "source": "GitHub Engineering",
-    "title": "How we took malware advisories beyond npm",
-    "summary": "GitHub malware advisories no longer stop at npm. Here's how we wired OpenSSF's malicious-packages data into the Advisory Database, and why we built the pipeline paranoid.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T16:51:12.000Z",
-    "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 186,
-    "source": "Cloudflare",
-    "title": "Cloudflare AI Search: give your agents a search engine for your data",
-    "summary": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/ai-search-easier/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 187,
-    "source": "Cloudflare",
-    "title": "The next generation of MCP",
-    "summary": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/mcp-v2/",
     "details": [],
     "featured": false
   }
