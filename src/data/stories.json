@@ -1,5 +1,84 @@
 [
   {
+    "id": 238,
+    "source": "Netflix",
+    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC",
+    "summary": "This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part 2 , we discussed how we designed the storage layer to handle…",
+    "tag": "DevOps",
+    "time": "5 min read",
+    "accent": "purple",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 239,
+    "source": "Cloudflare",
+    "title": "Unveiling good and bad behaviors on the Agentic Internet",
+    "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements would be…",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:01:00.000Z",
+    "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+    "details": []
+  },
+  {
+    "id": 240,
+    "source": "Cloudflare",
+    "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+    "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
+    "details": []
+  },
+  {
+    "id": 241,
+    "source": "Cloudflare",
+    "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+    "summary": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/community-program-refresh/",
+    "details": []
+  },
+  {
+    "id": 242,
+    "source": "Cloudflare",
+    "title": "Cloudflare AI Search: give your agents a search engine for your data",
+    "summary": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/ai-search-easier/",
+    "details": []
+  },
+  {
+    "id": 243,
+    "source": "Cloudflare",
+    "title": "The next generation of MCP",
+    "summary": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/mcp-v2/",
+    "details": []
+  },
+  {
     "id": 232,
     "source": "GitHub Engineering",
     "title": "How to bring your software delivery workflow into GitHub with agent apps",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-14T16:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 233,
@@ -24,7 +103,8 @@
     "published": "Aug 14, 2026",
     "publishedAt": "2026-08-14T13:12:12.000Z",
     "url": "https://blog.cloudflare.com/mcp-security-updates/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 234,
@@ -37,7 +117,8 @@
     "published": "Aug 14, 2026",
     "publishedAt": "2026-08-14T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-protected-by-access/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 235,
@@ -50,7 +131,8 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 236,
@@ -63,7 +145,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T19:49:34.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 237,
@@ -76,7 +159,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T16:51:12.000Z",
     "url": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 226,
@@ -467,90 +551,6 @@
     "published": "Jul 30, 2026",
     "publishedAt": "2026-07-30T04:00:00.000Z",
     "url": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 206,
-    "source": "GitHub Engineering",
-    "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
-    "summary": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 29, 2026",
-    "publishedAt": "2026-07-29T16:00:00.000Z",
-    "url": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 207,
-    "source": "GitHub Engineering",
-    "title": "Disrupting supply chain attacks on npm and GitHub Actions",
-    "summary": "Explore the changes we've shipped across npm and GitHub Actions over the past few months to disrupt supply chain attack techniques and limit their impact.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 28, 2026",
-    "publishedAt": "2026-07-28T16:00:00.000Z",
-    "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 196,
-    "source": "Cloudflare",
-    "title": "Give any website a WebMCP interface",
-    "summary": "Today we're launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human stays in control and creators keep their traffic.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/webmcp/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 197,
-    "source": "Vercel",
-    "title": "Introducing Agent Plugins",
-    "summary": "Today, Agent Plugins 1.0.0 is publicly available. Agent Plugins is an open, vendor-neutral standard for plugins that extend AI agents.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T00:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-agent-plugins",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 198,
-    "source": "Vercel",
-    "title": "Introducing the new v0 API",
-    "summary": "Today we're introducing the new v0 API : programmatic, headless access to v0's app-building agent. Send a prompt and v0 generates an app, starts a dev server in a Vercel Sandbox , and gives you a preview URL you can embed in your own UI.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-the-new-v0-api",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 199,
-    "source": "Vercel",
-    "title": "Next.js 16.3 support on Vercel",
-    "summary": "Yesterday the Next.js team announced the release of Next.js 16.3 , with leaner prefetching, immutable static assets, and instant navigations. As part of this release, we worked with the Next.js team to fully support 16.3 on Vercel, including better performance and additional observability. Applications that have…",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Aug 4, 2026",
-    "publishedAt": "2026-08-04T07:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-supports-next-js-16-3",
     "details": [],
     "featured": false
   }
