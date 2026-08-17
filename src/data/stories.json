@@ -1,5 +1,84 @@
 [
   {
+    "id": 244,
+    "source": "Cloudflare",
+    "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+    "summary": "We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that runs entirely on top of Workers and was designed specifically for the Agentic Cloud.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/kitesurf/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 245,
+    "source": "Cloudflare",
+    "title": "Give any website a WebMCP interface",
+    "summary": "Today we're launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human stays in control and creators keep their traffic.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/webmcp/",
+    "details": []
+  },
+  {
+    "id": 246,
+    "source": "Vercel",
+    "title": "Introducing Agent Plugins",
+    "summary": "Today, Agent Plugins 1.0.0 is publicly available. Agent Plugins is an open, vendor-neutral standard for plugins that extend AI agents.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T00:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-agent-plugins",
+    "details": []
+  },
+  {
+    "id": 247,
+    "source": "Cloudflare",
+    "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
+    "summary": "We're honored to announce that Cloudflare is the only vendor that has been recognized as a Visionary in both the 2026 Gartner® Magic Quadrant™ for SASE Platforms and the 2026 Gartner® Magic Quadrant™ for Security Service Edge reports.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T23:24:51.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
+    "details": []
+  },
+  {
+    "id": 248,
+    "source": "Cloudflare",
+    "title": "The Agent Access Model",
+    "summary": "The Agent Access Model proposes a new architecture to secure task-scoped agents using strict identity brokering, continuous mediation, and stateful trust.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T13:00:41.000Z",
+    "url": "https://blog.cloudflare.com/the-agent-access-model/",
+    "details": []
+  },
+  {
+    "id": 249,
+    "source": "Cloudflare",
+    "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
+    "summary": "We built Cloudflare OS to equip our teams to safely rethink how they get work done with AI. The platform brings together the best of our technologies, from our Compute primitives to our Zero Trust suite. This post walks through our journey to give our users the best AI tools available.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T13:00:01.000Z",
+    "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
+    "details": []
+  },
+  {
     "id": 238,
     "source": "Netflix",
     "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-07T16:01:02.000Z",
     "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 239,
@@ -24,7 +103,8 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T13:01:00.000Z",
     "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 240,
@@ -37,7 +117,8 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 241,
@@ -50,7 +131,8 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/community-program-refresh/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 242,
@@ -63,7 +145,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/ai-search-easier/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 243,
@@ -76,7 +159,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/mcp-v2/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 232,
@@ -467,90 +551,6 @@
     "published": "Aug 10, 2026",
     "publishedAt": "2026-08-10T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 212,
-    "source": "Spotify",
-    "title": "Indexing the Data Lake for Online Point Queries",
-    "summary": "Companies like Spotify need vast quantities of data accessible at low latency for online services and,...",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 27, 2026",
-    "publishedAt": "2026-07-27T20:34:28.000Z",
-    "url": "https://engineering.atspotify.com/2026/7/indexing-the-data-lake-for-online-point-queries/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 213,
-    "source": "GitHub Engineering",
-    "title": "The harness is all you need (mostly)",
-    "summary": "A practical GitHub Copilot workflow for prototyping, planning, implementing, and reviewing software without chasing every new AI tool.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 27, 2026",
-    "publishedAt": "2026-07-27T18:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 202,
-    "source": "GitHub Engineering",
-    "title": "Don’t stop early: Case-folding source code at memory speed",
-    "summary": "How a branch-free loop and byte-space arithmetic let GitHub case-fold every byte of code search at >45 GiB/s on a single core.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 31, 2026",
-    "publishedAt": "2026-07-31T16:00:00.000Z",
-    "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 203,
-    "source": "Netflix",
-    "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
-    "summary": "Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years…",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Jul 30, 2026",
-    "publishedAt": "2026-07-30T20:10:15.000Z",
-    "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 204,
-    "source": "GitHub Engineering",
-    "title": "Stacked sessions and pull requests in the GitHub Copilot app",
-    "summary": "Learn how I modernized an old codebase of mine using stacked sessions and pull requests in the GitHub Copilot app.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 30, 2026",
-    "publishedAt": "2026-07-30T17:30:24.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 205,
-    "source": "Vercel",
-    "title": "Shopify and Vercel are rebuilding Hydrogen for faster storefronts",
-    "summary": "Open source and runtime agnostic, runs anywhere JavaScript does",
-    "tag": "Frontend",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Jul 30, 2026",
-    "publishedAt": "2026-07-30T04:00:00.000Z",
-    "url": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
     "details": [],
     "featured": false
   }
