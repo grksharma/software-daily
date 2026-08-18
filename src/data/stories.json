@@ -1,5 +1,84 @@
 [
   {
+    "id": 250,
+    "source": "GitHub Engineering",
+    "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+    "summary": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 17, 2026",
+    "publishedAt": "2026-08-17T16:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 251,
+    "source": "Vercel",
+    "title": "Introducing the new v0 API",
+    "summary": "Today we're introducing the new v0 API : programmatic, headless access to v0's app-building agent. Send a prompt and v0 generates an app, starts a dev server in a Vercel Sandbox , and gives you a preview URL you can embed in your own UI.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-the-new-v0-api",
+    "details": []
+  },
+  {
+    "id": 252,
+    "source": "Vercel",
+    "title": "Next.js 16.3 support on Vercel",
+    "summary": "Yesterday the Next.js team announced the release of Next.js 16.3 , with leaner prefetching, immutable static assets, and instant navigations. As part of this release, we worked with the Next.js team to fully support 16.3 on Vercel, including better performance and additional observability. Applications that have…",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Aug 4, 2026",
+    "publishedAt": "2026-08-04T07:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-supports-next-js-16-3",
+    "details": []
+  },
+  {
+    "id": 253,
+    "source": "Vercel",
+    "title": "How Factory scaled its cloud backend to one billion monthly requests on Vercel",
+    "summary": "Scaled backend, internal tooling, and security without a dedicated infrastructure team",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 3, 2026",
+    "publishedAt": "2026-08-03T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel",
+    "details": []
+  },
+  {
+    "id": 254,
+    "source": "Netflix",
+    "title": "Modeling Device Capabilities for Analytics",
+    "summary": "by Aarti Laddha , Richard Diaz-Cool , Rishika Idnani , Venkatesh Selveraj",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 31, 2026",
+    "publishedAt": "2026-07-31T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8",
+    "details": []
+  },
+  {
+    "id": 255,
+    "source": "Netflix",
+    "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+    "summary": "Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years…",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Jul 30, 2026",
+    "publishedAt": "2026-07-30T20:10:15.000Z",
+    "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
+    "details": []
+  },
+  {
     "id": 244,
     "source": "Cloudflare",
     "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/kitesurf/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 245,
@@ -24,7 +103,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/webmcp/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 246,
@@ -37,7 +117,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T00:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-agent-plugins",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 247,
@@ -50,7 +131,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T23:24:51.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 248,
@@ -63,7 +145,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T13:00:41.000Z",
     "url": "https://blog.cloudflare.com/the-agent-access-model/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 249,
@@ -76,7 +159,8 @@
     "published": "Aug 5, 2026",
     "publishedAt": "2026-08-05T13:00:01.000Z",
     "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 238,
@@ -467,90 +551,6 @@
     "published": "Jul 27, 2026",
     "publishedAt": "2026-07-27T14:00:00.000Z",
     "url": "https://vercel.com/blog/how-sandstone-grew-40x-in-147-days-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 218,
-    "source": "Vercel",
-    "title": "DeepsecBench: evaluating model performance in finding cybersecurity vulnerabilities",
-    "summary": "Last week, OpenAI evaluated two models on an exploit benchmark within an isolated sandbox. Guardrails were reduced for testing, and the models found a vulnerability in their environment, accessed the internet, and reached Hugging Face's production database.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Jul 27, 2026",
-    "publishedAt": "2026-07-27T04:00:00.000Z",
-    "url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 219,
-    "source": "Vercel",
-    "title": "How Searchable ships customer-requested features in 30 minutes on Vercel",
-    "summary": "Customer-requested features shipped in as little as 30 minutes",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Jul 21, 2026",
-    "publishedAt": "2026-07-21T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-searchable-ships-customer-requested-features-in-30-minutes-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 208,
-    "source": "Vercel",
-    "title": "A sandbox without a network boundary is only half a sandbox",
-    "summary": "Running untrusted code safely requires more than separating it from the host. You also have to control what that code can reach.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 11, 2026",
-    "publishedAt": "2026-08-11T00:00:00.000Z",
-    "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 209,
-    "source": "GitHub Engineering",
-    "title": "Using the GitHub Copilot SDK for Java",
-    "summary": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 10, 2026",
-    "publishedAt": "2026-08-10T19:30:00.000Z",
-    "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 210,
-    "source": "Cloudflare",
-    "title": "Everything we launched during Agents Week",
-    "summary": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made, from Wallets to Radar.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 10, 2026",
-    "publishedAt": "2026-08-10T18:34:10.000Z",
-    "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 211,
-    "source": "Cloudflare",
-    "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
-    "summary": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to the public sector.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 10, 2026",
-    "publishedAt": "2026-08-10T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
     "details": [],
     "featured": false
   }
