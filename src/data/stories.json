@@ -1,5 +1,84 @@
 [
   {
+    "id": 262,
+    "source": "GitHub Engineering",
+    "title": "GitHub Copilot app for Beginners: Managing your work",
+    "summary": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 19, 2026",
+    "publishedAt": "2026-08-19T17:50:23.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 263,
+    "source": "Cloudflare",
+    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 19, 2026",
+    "publishedAt": "2026-08-19T16:00:28.000Z",
+    "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+    "details": []
+  },
+  {
+    "id": 264,
+    "source": "Vercel",
+    "title": "Introducing Vercel for Slack",
+    "summary": "Vercel Agent now works in Slack. Mention it the way you'd pull a teammate into a thread, and it reads the discussion, answers with the context of the platform running your app, and turns the team's decisions into changes you approve. Vercel for Slack is available today in Public Beta for Pro and Enterprise teams.",
+    "tag": "AI engineering",
+    "time": "5 min read",
+    "accent": "purple",
+    "published": "Aug 19, 2026",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-vercel-for-slack",
+    "details": []
+  },
+  {
+    "id": 265,
+    "source": "Cloudflare",
+    "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+    "summary": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+    "details": []
+  },
+  {
+    "id": 266,
+    "source": "Vercel",
+    "title": "Everything hackable will get hacked",
+    "summary": "Over the past year, AI models have become much more capable of performing cybersecurity work. These changes are reshaping both the threats facing the web and the tools available to defend it. Right now, defenders have an advantage because they can use stronger models for defensive work than the open-weight models…",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T07:00:00.000Z",
+    "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
+    "details": []
+  },
+  {
+    "id": 267,
+    "source": "Vercel",
+    "title": "DeepSeek overtakes Google on volume, cost per token falls 13.6%",
+    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from May , June , and July .",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T04:00:00.000Z",
+    "url": "https://vercel.com/blog/deepseek-overtakes-google-on-volume-cost-per-token-falls",
+    "details": []
+  },
+  {
     "id": 256,
     "source": "Dropbox",
     "title": "Improving infrastructure efficiency for growing demand in the age of AI",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-18T17:00:00.000Z",
     "url": "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 257,
@@ -24,7 +103,8 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T15:21:32.000Z",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 258,
@@ -37,7 +117,8 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T13:00:00.000Z",
     "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 259,
@@ -50,7 +131,8 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T00:00:00.000Z",
     "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 260,
@@ -63,7 +145,8 @@
     "published": "Aug 10, 2026",
     "publishedAt": "2026-08-10T19:30:00.000Z",
     "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 261,
@@ -76,7 +159,8 @@
     "published": "Aug 10, 2026",
     "publishedAt": "2026-08-10T18:34:10.000Z",
     "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 250,
@@ -467,90 +551,6 @@
     "published": "Aug 13, 2026",
     "publishedAt": "2026-08-13T04:00:00.000Z",
     "url": "https://vercel.com/blog/inside-the-vercel-intern-experience",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 230,
-    "source": "Cloudflare",
-    "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
-    "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/aeo/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 231,
-    "source": "Cloudflare",
-    "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
-    "summary": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We're building the open tools and protocols so publishers and agents can cooperate and not collide.",
-    "tag": "Frontend",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/the-agentic-internet/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 220,
-    "source": "GitHub Engineering",
-    "title": "Write your first prompt with the GitHub Copilot app",
-    "summary": "Learn how to write your first prompt in the GitHub Copilot app, choose the right context and model, and start your first task with confidence.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 12, 2026",
-    "publishedAt": "2026-08-12T19:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 221,
-    "source": "Vercel",
-    "title": "Building a software factory for AI SDK",
-    "summary": "The AI SDK is one of the most popular open-source AI projects in the world. It serves over 20 million npm downloads a week and the repo has over 26,000 stars. Maintaining the codebase means tracking four moving targets at once:",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 12, 2026",
-    "publishedAt": "2026-08-12T00:00:00.000Z",
-    "url": "https://vercel.com/blog/building-a-software-factory-for-ai-sdk",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 222,
-    "source": "Vercel",
-    "title": "How we migrated the database behind every Vercel build",
-    "summary": "Every build on Vercel starts in the build warm pool, which is a set of standby containers that let builds begin without waiting for new compute. The pool runs on state that tracks which containers are ready, the tokens each one uses to authenticate, and the mapping that ties every running build back to the deployment…",
-    "tag": "DevOps",
-    "time": "5 min read",
-    "accent": "cyan",
-    "published": "Aug 11, 2026",
-    "publishedAt": "2026-08-11T22:00:00.000Z",
-    "url": "https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 223,
-    "source": "Cloudflare",
-    "title": "WriteGuard: fine-grained controls for MCP Servers",
-    "summary": "At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP servers, we built WriteGuard. We are now bringing those controls to Cloudflare MCP server portals through a private beta.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
     "details": [],
     "featured": false
   }
