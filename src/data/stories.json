@@ -1,5 +1,84 @@
 [
   {
+    "id": 286,
+    "source": "Netflix",
+    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC",
+    "summary": "This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part 2 , we discussed how we designed the storage layer to handle…",
+    "tag": "DevOps",
+    "time": "5 min read",
+    "accent": "emerald",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 287,
+    "source": "Cloudflare",
+    "title": "Unveiling good and bad behaviors on the Agentic Internet",
+    "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements would be…",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:01:00.000Z",
+    "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+    "details": []
+  },
+  {
+    "id": 288,
+    "source": "Cloudflare",
+    "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+    "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
+    "details": []
+  },
+  {
+    "id": 289,
+    "source": "Cloudflare",
+    "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+    "summary": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/community-program-refresh/",
+    "details": []
+  },
+  {
+    "id": 290,
+    "source": "Cloudflare",
+    "title": "The next generation of MCP",
+    "summary": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/mcp-v2/",
+    "details": []
+  },
+  {
+    "id": 291,
+    "source": "Cloudflare",
+    "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+    "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/aeo/",
+    "details": []
+  },
+  {
     "id": 280,
     "source": "GitHub Engineering",
     "title": "How to bring your software delivery workflow into GitHub with agent apps",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-14T16:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 281,
@@ -24,7 +103,8 @@
     "published": "Aug 14, 2026",
     "publishedAt": "2026-08-14T13:12:12.000Z",
     "url": "https://blog.cloudflare.com/mcp-security-updates/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 282,
@@ -37,7 +117,8 @@
     "published": "Aug 14, 2026",
     "publishedAt": "2026-08-14T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-protected-by-access/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 283,
@@ -50,7 +131,8 @@
     "published": "Aug 13, 2026",
     "publishedAt": "2026-08-13T04:00:00.000Z",
     "url": "https://vercel.com/blog/inside-the-vercel-intern-experience",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 284,
@@ -63,7 +145,8 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 285,
@@ -76,7 +159,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/ai-search-easier/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 274,
@@ -467,90 +551,6 @@
     "published": "Aug 3, 2026",
     "publishedAt": "2026-08-03T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 254,
-    "source": "Netflix",
-    "title": "Modeling Device Capabilities for Analytics",
-    "summary": "by Aarti Laddha , Richard Diaz-Cool , Rishika Idnani , Venkatesh Selveraj",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 31, 2026",
-    "publishedAt": "2026-07-31T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 255,
-    "source": "Netflix",
-    "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
-    "summary": "Recommendations sit at the heart of the Netflix experience. Our current production models rely on thousands of hand‑crafted features over users, items, and interactions, along with specialized architectures for sequence modeling, feature interactions, and multi‑task objectives. This stack has evolved over many years…",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Jul 30, 2026",
-    "publishedAt": "2026-07-30T20:10:15.000Z",
-    "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 244,
-    "source": "Cloudflare",
-    "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
-    "summary": "We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that runs entirely on top of Workers and was designed specifically for the Agentic Cloud.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/kitesurf/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 245,
-    "source": "Cloudflare",
-    "title": "Give any website a WebMCP interface",
-    "summary": "Today we're launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human stays in control and creators keep their traffic.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/webmcp/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 246,
-    "source": "Vercel",
-    "title": "Introducing Agent Plugins",
-    "summary": "Today, Agent Plugins 1.0.0 is publicly available. Agent Plugins is an open, vendor-neutral standard for plugins that extend AI agents.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T00:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-agent-plugins",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 247,
-    "source": "Cloudflare",
-    "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
-    "summary": "We're honored to announce that Cloudflare is the only vendor that has been recognized as a Visionary in both the 2026 Gartner® Magic Quadrant™ for SASE Platforms and the 2026 Gartner® Magic Quadrant™ for Security Service Edge reports.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T23:24:51.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
     "details": [],
     "featured": false
   }
