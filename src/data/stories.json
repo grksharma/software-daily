@@ -1,5 +1,84 @@
 [
   {
+    "id": 292,
+    "source": "GitHub Engineering",
+    "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
+    "summary": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 24, 2026",
+    "publishedAt": "2026-08-24T20:56:32.000Z",
+    "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 293,
+    "source": "Cloudflare",
+    "title": "The Cloudflare Blog – Brought to you by EmDash",
+    "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
+    "tag": "Frontend",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 24, 2026",
+    "publishedAt": "2026-08-24T19:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
+    "details": []
+  },
+  {
+    "id": 294,
+    "source": "Mozilla Hacks",
+    "title": "Intent to Ship: JPEG XL",
+    "summary": "It isn’t often that new image formats land in browsers. In the early 2000s we had JPEG, GIF, and PNG. The 2010s gave us WebP, which was a modest step up from JPEG. But the 2020s have given us two new image formats that are a big step up from previous formats: AVIF and JPEG",
+    "tag": "Frontend",
+    "time": "5 min read",
+    "accent": "emerald",
+    "published": "Aug 24, 2026",
+    "publishedAt": "2026-08-24T15:32:15.000Z",
+    "url": "https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/",
+    "details": []
+  },
+  {
+    "id": 295,
+    "source": "Cloudflare",
+    "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
+    "summary": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We're building the open tools and protocols so publishers and agents can cooperate and not collide.",
+    "tag": "Frontend",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/the-agentic-internet/",
+    "details": []
+  },
+  {
+    "id": 296,
+    "source": "Vercel",
+    "title": "Introducing Agent Plugins",
+    "summary": "Today, Agent Plugins 1.0.0 is publicly available. Agent Plugins is an open, vendor-neutral standard for plugins that extend AI agents.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 6, 2026",
+    "publishedAt": "2026-08-06T00:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-agent-plugins",
+    "details": []
+  },
+  {
+    "id": 297,
+    "source": "Netflix",
+    "title": "Modeling Device Capabilities for Analytics",
+    "summary": "by Aarti Laddha , Richard Diaz-Cool , Rishika Idnani , Venkatesh Selveraj",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Jul 31, 2026",
+    "publishedAt": "2026-07-31T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8",
+    "details": []
+  },
+  {
     "id": 286,
     "source": "Netflix",
     "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-07T16:01:02.000Z",
     "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 287,
@@ -24,7 +103,8 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T13:01:00.000Z",
     "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 288,
@@ -37,7 +117,8 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 289,
@@ -50,7 +131,8 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/community-program-refresh/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 290,
@@ -63,7 +145,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/mcp-v2/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 291,
@@ -76,7 +159,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/aeo/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 280,
@@ -467,90 +551,6 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T00:00:00.000Z",
     "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 260,
-    "source": "GitHub Engineering",
-    "title": "Using the GitHub Copilot SDK for Java",
-    "summary": "Enterprise Java developers have a new superpower—drive GitHub Copilot from idiomatic Java code with annotations, virtual threads, and more.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 10, 2026",
-    "publishedAt": "2026-08-10T19:30:00.000Z",
-    "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 261,
-    "source": "Cloudflare",
-    "title": "Everything we launched during Agents Week",
-    "summary": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 10, 2026",
-    "publishedAt": "2026-08-10T18:34:10.000Z",
-    "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 250,
-    "source": "GitHub Engineering",
-    "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
-    "summary": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 17, 2026",
-    "publishedAt": "2026-08-17T16:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 251,
-    "source": "Vercel",
-    "title": "Introducing the new v0 API",
-    "summary": "Today we're introducing the new v0 API : programmatic, headless access to v0's app-building agent. Send a prompt and v0 generates an app, starts a dev server in a Vercel Sandbox , and gives you a preview URL you can embed in your own UI.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-the-new-v0-api",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 252,
-    "source": "Vercel",
-    "title": "Next.js 16.3 support on Vercel",
-    "summary": "Yesterday the Next.js team announced the release of Next.js 16.3 , with leaner prefetching, immutable static assets, and instant navigations. As part of this release, we worked with the Next.js team to fully support 16.3 on Vercel, including better performance and additional observability. Applications that have…",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Aug 4, 2026",
-    "publishedAt": "2026-08-04T07:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-supports-next-js-16-3",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 253,
-    "source": "Vercel",
-    "title": "How Factory scaled its cloud backend to one billion monthly requests on Vercel",
-    "summary": "Scaled backend, internal tooling, and security without a dedicated infrastructure team",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 3, 2026",
-    "publishedAt": "2026-08-03T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel",
     "details": [],
     "featured": false
   }
