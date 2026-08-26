@@ -1,5 +1,84 @@
 [
   {
+    "id": 298,
+    "source": "GitHub Engineering",
+    "title": "How to evaluate LLMs before production",
+    "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 25, 2026",
+    "publishedAt": "2026-08-25T21:35:11.000Z",
+    "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 299,
+    "source": "Vercel",
+    "title": "Introducing Run SDK: secure eval for your agents",
+    "summary": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human approval.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 25, 2026",
+    "publishedAt": "2026-08-25T04:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-run",
+    "details": []
+  },
+  {
+    "id": 300,
+    "source": "Vercel",
+    "title": "The end of credential sprawl for agents",
+    "summary": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk lives, because for years, granting it meant provisioning a long-lived token and hoping it never leaked.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Aug 25, 2026",
+    "publishedAt": "2026-08-25T04:00:00.000Z",
+    "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+    "details": []
+  },
+  {
+    "id": 301,
+    "source": "GitHub Engineering",
+    "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+    "summary": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 17, 2026",
+    "publishedAt": "2026-08-17T16:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+    "details": []
+  },
+  {
+    "id": 302,
+    "source": "Cloudflare",
+    "title": "Everything we launched during Agents Week",
+    "summary": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 10, 2026",
+    "publishedAt": "2026-08-10T18:34:10.000Z",
+    "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
+    "details": []
+  },
+  {
+    "id": 303,
+    "source": "Vercel",
+    "title": "Introducing the new v0 API",
+    "summary": "Today we're introducing the new v0 API : programmatic, headless access to v0's app-building agent. Send a prompt and v0 generates an app, starts a dev server in a Vercel Sandbox , and gives you a preview URL you can embed in your own UI.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Aug 5, 2026",
+    "publishedAt": "2026-08-05T04:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-the-new-v0-api",
+    "details": []
+  },
+  {
     "id": 292,
     "source": "GitHub Engineering",
     "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-24T20:56:32.000Z",
     "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 293,
@@ -24,7 +103,8 @@
     "published": "Aug 24, 2026",
     "publishedAt": "2026-08-24T19:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 294,
@@ -37,7 +117,8 @@
     "published": "Aug 24, 2026",
     "publishedAt": "2026-08-24T15:32:15.000Z",
     "url": "https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 295,
@@ -50,7 +131,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/the-agentic-internet/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 296,
@@ -63,7 +145,8 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T00:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-agent-plugins",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 297,
@@ -76,7 +159,8 @@
     "published": "Jul 31, 2026",
     "publishedAt": "2026-07-31T16:01:02.000Z",
     "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 286,
@@ -467,90 +551,6 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 266,
-    "source": "Vercel",
-    "title": "Everything hackable will get hacked",
-    "summary": "Over the past year, AI models have become much more capable of performing cybersecurity work. These changes are reshaping both the threats facing the web and the tools available to defend it. Right now, defenders have an advantage because they can use stronger models for defensive work than the open-weight models…",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Aug 11, 2026",
-    "publishedAt": "2026-08-11T07:00:00.000Z",
-    "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 267,
-    "source": "Vercel",
-    "title": "DeepSeek overtakes Google on volume, cost per token falls 13.6%",
-    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from May , June , and July .",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Aug 11, 2026",
-    "publishedAt": "2026-08-11T04:00:00.000Z",
-    "url": "https://vercel.com/blog/deepseek-overtakes-google-on-volume-cost-per-token-falls",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 256,
-    "source": "Dropbox",
-    "title": "Improving infrastructure efficiency for growing demand in the age of AI",
-    "summary": "As demand for AI continues to grow, so does the infrastructure needed to support it.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 18, 2026",
-    "publishedAt": "2026-08-18T17:00:00.000Z",
-    "url": "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 257,
-    "source": "Cloudflare",
-    "title": "BGP Role model: tracking the adoption of RFC 9234",
-    "summary": "RFC 9234 lets routers reject route leaks on their own, using BGP Roles and the Only to Customer attribute. We measured who has deployed it, and found two Tier 1 networks unexpectedly stripping OTC.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 18, 2026",
-    "publishedAt": "2026-08-18T15:21:32.000Z",
-    "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 258,
-    "source": "Vercel",
-    "title": "$1 million hacker challenge for Vercel Sandbox",
-    "summary": "Agents need to run untrusted code, and the microVM has become the standard way to do it: a dedicated guest kernel per workload, isolated from the host and from every other workload on the same machine.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 18, 2026",
-    "publishedAt": "2026-08-18T13:00:00.000Z",
-    "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 259,
-    "source": "Vercel",
-    "title": "A sandbox without a network boundary is only half a sandbox",
-    "summary": "Running untrusted code safely requires more than separating it from the host. You also have to control what that code can reach.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 11, 2026",
-    "publishedAt": "2026-08-11T00:00:00.000Z",
-    "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
     "details": [],
     "featured": false
   }
