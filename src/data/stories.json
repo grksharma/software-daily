@@ -1,5 +1,84 @@
 [
   {
+    "id": 310,
+    "source": "Netflix",
+    "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
+    "summary": "By Emma Yanyang Kong , Aditya Deshpande , Asad Abbasi , Bowei Yan , David Fagnan , Ashish Rastogi , Dhaval Patel , Ray Zhang",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 28, 2026",
+    "publishedAt": "2026-08-28T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 311,
+    "source": "Cloudflare",
+    "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+    "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 28, 2026",
+    "publishedAt": "2026-08-28T12:59:44.000Z",
+    "url": "https://blog.cloudflare.com/botbase-for-operators/",
+    "details": []
+  },
+  {
+    "id": 312,
+    "source": "Vercel",
+    "title": "The best workflow engine is a programming language",
+    "summary": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown workflow engines for a long time. What we never had was a version of it that felt good to write.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 27, 2026",
+    "publishedAt": "2026-08-27T07:00:00.000Z",
+    "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
+    "details": []
+  },
+  {
+    "id": 313,
+    "source": "GitHub Engineering",
+    "title": "GitHub Copilot app for Beginners: Managing your work",
+    "summary": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 19, 2026",
+    "publishedAt": "2026-08-19T17:50:23.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+    "details": []
+  },
+  {
+    "id": 314,
+    "source": "Cloudflare",
+    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 19, 2026",
+    "publishedAt": "2026-08-19T16:00:28.000Z",
+    "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+    "details": []
+  },
+  {
+    "id": 315,
+    "source": "Vercel",
+    "title": "Introducing Vercel for Slack",
+    "summary": "Vercel Agent now works in Slack. Mention it the way you'd pull a teammate into a thread, and it reads the discussion, answers with the context of the platform running your app, and turns the team's decisions into changes you approve. Vercel for Slack is available today in Public Beta for Pro and Enterprise teams.",
+    "tag": "AI engineering",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Aug 19, 2026",
+    "publishedAt": "2026-08-19T00:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-vercel-for-slack",
+    "details": []
+  },
+  {
     "id": 304,
     "source": "Cloudflare",
     "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-27T17:02:35.000Z",
     "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 305,
@@ -24,7 +103,8 @@
     "published": "Aug 26, 2026",
     "publishedAt": "2026-08-26T20:12:53.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 306,
@@ -37,7 +117,8 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T17:00:00.000Z",
     "url": "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 307,
@@ -50,7 +131,8 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T15:21:32.000Z",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 308,
@@ -63,7 +145,8 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T13:00:00.000Z",
     "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 309,
@@ -76,7 +159,8 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T07:00:00.000Z",
     "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 298,
@@ -467,90 +551,6 @@
     "published": "Aug 13, 2026",
     "publishedAt": "2026-08-13T19:58:01.000Z",
     "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 278,
-    "source": "Spotify",
-    "title": "When Can LLMs Replace Humans in A/B Tests?",
-    "summary": "TL;DR: LLM predictions can stand in for human outcomes in A/B tests, but only by assumption, not by design....",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 13, 2026",
-    "publishedAt": "2026-08-13T18:57:22.000Z",
-    "url": "https://engineering.atspotify.com/2026/8/when-can-llms-replace-humans-in-a-b-tests/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 279,
-    "source": "Cloudflare",
-    "title": "Certificate Transparency Monitoring is now generally available",
-    "summary": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 13, 2026",
-    "publishedAt": "2026-08-13T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 268,
-    "source": "Cloudflare",
-    "title": "From all-or-nothing to task-based OAuth consent",
-    "summary": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 20, 2026",
-    "publishedAt": "2026-08-20T17:03:03.000Z",
-    "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 269,
-    "source": "Vercel",
-    "title": "How v0 authenticates to Snowflake without exposing the user's OAuth token",
-    "summary": "AI-generated applications often need to authenticate to external services on behalf of their users. That creates a problem: generated code shouldn't have access to the user's credentials.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 20, 2026",
-    "publishedAt": "2026-08-20T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 270,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: Write your first prompt",
-    "summary": "Learn how to write your first prompt in the GitHub Copilot app, choose the right context and model, and start your first task with confidence.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 12, 2026",
-    "publishedAt": "2026-08-12T19:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/write-your-first-prompt-with-the-github-copilot-app/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 271,
-    "source": "Vercel",
-    "title": "Building a software factory for AI SDK",
-    "summary": "The AI SDK is one of the most popular open-source AI projects in the world. It serves over 20 million npm downloads a week and the repo has over 26,000 stars. Maintaining the codebase means tracking four moving targets at once:",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 12, 2026",
-    "publishedAt": "2026-08-12T00:00:00.000Z",
-    "url": "https://vercel.com/blog/building-a-software-factory-for-ai-sdk",
     "details": [],
     "featured": false
   }
