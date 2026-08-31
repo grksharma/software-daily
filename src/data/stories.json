@@ -1,5 +1,84 @@
 [
   {
+    "id": 328,
+    "source": "Cloudflare",
+    "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
+    "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated…",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 31, 2026",
+    "publishedAt": "2026-08-31T12:59:00.000Z",
+    "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 329,
+    "source": "GitHub Engineering",
+    "title": "How to bring your software delivery workflow into GitHub with agent apps",
+    "summary": "See how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 14, 2026",
+    "publishedAt": "2026-08-14T16:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+    "details": []
+  },
+  {
+    "id": 330,
+    "source": "Cloudflare",
+    "title": "How Cloudflare detects MCP traffic and helps secure it",
+    "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 14, 2026",
+    "publishedAt": "2026-08-14T13:12:12.000Z",
+    "url": "https://blog.cloudflare.com/mcp-security-updates/",
+    "details": []
+  },
+  {
+    "id": 331,
+    "source": "Cloudflare",
+    "title": "Secure all your internal vibe-coded applications — in one click",
+    "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 14, 2026",
+    "publishedAt": "2026-08-14T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-protected-by-access/",
+    "details": []
+  },
+  {
+    "id": 332,
+    "source": "Vercel",
+    "title": "Inside the Vercel intern experience",
+    "summary": "The best way to learn is by shipping product to users in production, and that's why we don’t treat our interns as temporary guests. Every intern at Vercel is expected to operate like a core part of our engineering team from day one.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 13, 2026",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "url": "https://vercel.com/blog/inside-the-vercel-intern-experience",
+    "details": []
+  },
+  {
+    "id": 333,
+    "source": "Vercel",
+    "title": "A sandbox without a network boundary is only half a sandbox",
+    "summary": "Running untrusted code safely requires more than separating it from the host. You also have to control what that code can reach.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T00:00:00.000Z",
+    "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
+    "details": []
+  },
+  {
     "id": 322,
     "source": "Cloudflare",
     "title": "Say it once: introducing Bot Preference Sync",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-21T23:19:57.000Z",
     "url": "https://blog.cloudflare.com/bot-preference-sync/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 323,
@@ -24,7 +103,8 @@
     "published": "Aug 21, 2026",
     "publishedAt": "2026-08-21T21:00:00.000Z",
     "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 324,
@@ -37,7 +117,8 @@
     "published": "Aug 21, 2026",
     "publishedAt": "2026-08-21T16:01:01.000Z",
     "url": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 325,
@@ -50,7 +131,8 @@
     "published": "Aug 13, 2026",
     "publishedAt": "2026-08-13T19:58:01.000Z",
     "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 326,
@@ -63,7 +145,8 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 327,
@@ -76,7 +159,8 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T04:00:00.000Z",
     "url": "https://vercel.com/blog/deepseek-overtakes-google-on-volume-cost-per-token-falls",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 316,
@@ -467,90 +551,6 @@
     "published": "Aug 6, 2026",
     "publishedAt": "2026-08-06T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/the-agentic-internet/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 296,
-    "source": "Vercel",
-    "title": "Introducing Agent Plugins",
-    "summary": "Today, Agent Plugins 1.0.0 is publicly available. Agent Plugins is an open, vendor-neutral standard for plugins that extend AI agents.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T00:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-agent-plugins",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 297,
-    "source": "Netflix",
-    "title": "Modeling Device Capabilities for Analytics",
-    "summary": "by Aarti Laddha , Richard Diaz-Cool , Rishika Idnani , Venkatesh Selveraj",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Jul 31, 2026",
-    "publishedAt": "2026-07-31T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/modeling-device-capabilities-for-analytics-e7607acebde8",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 286,
-    "source": "Netflix",
-    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC",
-    "summary": "This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part 2 , we discussed how we designed the storage layer to handle…",
-    "tag": "DevOps",
-    "time": "5 min read",
-    "accent": "emerald",
-    "published": "Aug 7, 2026",
-    "publishedAt": "2026-08-07T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 287,
-    "source": "Cloudflare",
-    "title": "Unveiling good and bad behaviors on the Agentic Internet",
-    "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements would be…",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Aug 7, 2026",
-    "publishedAt": "2026-08-07T13:01:00.000Z",
-    "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 288,
-    "source": "Cloudflare",
-    "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
-    "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 7, 2026",
-    "publishedAt": "2026-08-07T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/introducing-radar-researcher/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 289,
-    "source": "Cloudflare",
-    "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
-    "summary": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 7, 2026",
-    "publishedAt": "2026-08-07T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/community-program-refresh/",
     "details": [],
     "featured": false
   }
