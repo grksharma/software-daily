@@ -1,5 +1,84 @@
 [
   {
+    "id": 334,
+    "source": "Lyft",
+    "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator",
+    "summary": "Written by Maheep Myneni , Arda Kuyumcu , and Prem Santosh Udaya Shankar at Lyft.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 31, 2026",
+    "publishedAt": "2026-08-31T19:08:16.000Z",
+    "url": "https://eng.lyft.com/rerouting-the-stream-how-lyft-moved-to-the-apache-flink-operator-36f20246d250",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 335,
+    "source": "Dropbox",
+    "title": "Testing cookie behavior across hundreds of web surfaces with our in-house auditor",
+    "summary": "Our cookie auditor acts like a privacy-conscious user by visiting web pages and checking that they only load cookies consistent with that user’s preferences.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 31, 2026",
+    "publishedAt": "2026-08-31T17:00:00.000Z",
+    "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
+    "details": []
+  },
+  {
+    "id": 336,
+    "source": "Vercel",
+    "title": "How our agents build on-brand pages with design.md",
+    "summary": "Across Vercel, we use coding agents to design and build pages that have to look and feel like Vercel. The typography, color, and composition all need to carry the same judgment that we put into the pages we already ship ourselves.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 31, 2026",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+    "details": []
+  },
+  {
+    "id": 337,
+    "source": "Cloudflare",
+    "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
+    "summary": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to the public sector.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 10, 2026",
+    "publishedAt": "2026-08-10T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
+    "details": []
+  },
+  {
+    "id": 338,
+    "source": "Netflix",
+    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC",
+    "summary": "This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part 2 , we discussed how we designed the storage layer to handle…",
+    "tag": "DevOps",
+    "time": "5 min read",
+    "accent": "purple",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607",
+    "details": []
+  },
+  {
+    "id": 339,
+    "source": "Cloudflare",
+    "title": "Unveiling good and bad behaviors on the Agentic Internet",
+    "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements would be…",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 7, 2026",
+    "publishedAt": "2026-08-07T13:01:00.000Z",
+    "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+    "details": []
+  },
+  {
     "id": 328,
     "source": "Cloudflare",
     "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-31T12:59:00.000Z",
     "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 329,
@@ -24,7 +103,8 @@
     "published": "Aug 14, 2026",
     "publishedAt": "2026-08-14T16:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 330,
@@ -37,7 +117,8 @@
     "published": "Aug 14, 2026",
     "publishedAt": "2026-08-14T13:12:12.000Z",
     "url": "https://blog.cloudflare.com/mcp-security-updates/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 331,
@@ -50,7 +131,8 @@
     "published": "Aug 14, 2026",
     "publishedAt": "2026-08-14T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-protected-by-access/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 332,
@@ -63,7 +145,8 @@
     "published": "Aug 13, 2026",
     "publishedAt": "2026-08-13T04:00:00.000Z",
     "url": "https://vercel.com/blog/inside-the-vercel-intern-experience",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 333,
@@ -76,7 +159,8 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T00:00:00.000Z",
     "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 322,
@@ -467,90 +551,6 @@
     "published": "Aug 17, 2026",
     "publishedAt": "2026-08-17T16:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 302,
-    "source": "Cloudflare",
-    "title": "Everything we launched during Agents Week",
-    "summary": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 10, 2026",
-    "publishedAt": "2026-08-10T18:34:10.000Z",
-    "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 303,
-    "source": "Vercel",
-    "title": "Introducing the new v0 API",
-    "summary": "Today we're introducing the new v0 API : programmatic, headless access to v0's app-building agent. Send a prompt and v0 generates an app, starts a dev server in a Vercel Sandbox , and gives you a preview URL you can embed in your own UI.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Aug 5, 2026",
-    "publishedAt": "2026-08-05T04:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-the-new-v0-api",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 292,
-    "source": "GitHub Engineering",
-    "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
-    "summary": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 24, 2026",
-    "publishedAt": "2026-08-24T20:56:32.000Z",
-    "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 293,
-    "source": "Cloudflare",
-    "title": "The Cloudflare Blog – Brought to you by EmDash",
-    "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
-    "tag": "Frontend",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 24, 2026",
-    "publishedAt": "2026-08-24T19:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 294,
-    "source": "Mozilla Hacks",
-    "title": "Intent to Ship: JPEG XL",
-    "summary": "It isn’t often that new image formats land in browsers. In the early 2000s we had JPEG, GIF, and PNG. The 2010s gave us WebP, which was a modest step up from JPEG. But the 2020s have given us two new image formats that are a big step up from previous formats: AVIF and JPEG",
-    "tag": "Frontend",
-    "time": "5 min read",
-    "accent": "emerald",
-    "published": "Aug 24, 2026",
-    "publishedAt": "2026-08-24T15:32:15.000Z",
-    "url": "https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 295,
-    "source": "Cloudflare",
-    "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
-    "summary": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We're building the open tools and protocols so publishers and agents can cooperate and not collide.",
-    "tag": "Frontend",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Aug 6, 2026",
-    "publishedAt": "2026-08-06T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/the-agentic-internet/",
     "details": [],
     "featured": false
   }
