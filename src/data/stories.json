@@ -1,5 +1,84 @@
 [
   {
+    "id": 340,
+    "source": "Cloudflare",
+    "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
+    "summary": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 1, 2026",
+    "publishedAt": "2026-09-01T12:59:00.000Z",
+    "url": "https://blog.cloudflare.com/cache-transcoding/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 341,
+    "source": "Vercel",
+    "title": "Compute that takes any shape",
+    "summary": "Workloads differ in how long they run, how much memory they take, and how much of the environment they control. That previously meant a different compute primitive for each job, so product iterations required provisioning infrastructure, not just working on a feature.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Sep 1, 2026",
+    "publishedAt": "2026-09-01T07:00:00.000Z",
+    "url": "https://vercel.com/blog/fluid-compute-takes-any-shape",
+    "details": []
+  },
+  {
+    "id": 342,
+    "source": "GitHub Engineering",
+    "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
+    "summary": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 24, 2026",
+    "publishedAt": "2026-08-24T20:56:32.000Z",
+    "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+    "details": []
+  },
+  {
+    "id": 343,
+    "source": "Cloudflare",
+    "title": "The Cloudflare Blog — brought to you by EmDash",
+    "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
+    "tag": "Frontend",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 24, 2026",
+    "publishedAt": "2026-08-24T19:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
+    "details": []
+  },
+  {
+    "id": 344,
+    "source": "Mozilla Hacks",
+    "title": "Intent to Ship: JPEG XL",
+    "summary": "It isn’t often that new image formats land in browsers. In the early 2000s we had JPEG, GIF, and PNG. The 2010s gave us WebP, which was a modest step up from JPEG. But the 2020s have given us two new image formats that are a big step up from previous formats: AVIF and JPEG",
+    "tag": "Frontend",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Aug 24, 2026",
+    "publishedAt": "2026-08-24T15:32:15.000Z",
+    "url": "https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/",
+    "details": []
+  },
+  {
+    "id": 345,
+    "source": "Cloudflare",
+    "title": "Everything we launched during Agents Week",
+    "summary": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 10, 2026",
+    "publishedAt": "2026-08-10T18:34:10.000Z",
+    "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
+    "details": []
+  },
+  {
     "id": 334,
     "source": "Lyft",
     "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-31T19:08:16.000Z",
     "url": "https://eng.lyft.com/rerouting-the-stream-how-lyft-moved-to-the-apache-flink-operator-36f20246d250",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 335,
@@ -24,7 +103,8 @@
     "published": "Aug 31, 2026",
     "publishedAt": "2026-08-31T17:00:00.000Z",
     "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 336,
@@ -37,7 +117,8 @@
     "published": "Aug 31, 2026",
     "publishedAt": "2026-08-31T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 337,
@@ -50,7 +131,8 @@
     "published": "Aug 10, 2026",
     "publishedAt": "2026-08-10T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 338,
@@ -63,7 +145,8 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T16:01:02.000Z",
     "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 339,
@@ -76,7 +159,8 @@
     "published": "Aug 7, 2026",
     "publishedAt": "2026-08-07T13:01:00.000Z",
     "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 328,
@@ -467,90 +551,6 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T15:21:32.000Z",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 308,
-    "source": "Vercel",
-    "title": "$1 million hacker challenge for Vercel Sandbox",
-    "summary": "Agents need to run untrusted code, and the microVM has become the standard way to do it: a dedicated guest kernel per workload, isolated from the host and from every other workload on the same machine.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 18, 2026",
-    "publishedAt": "2026-08-18T13:00:00.000Z",
-    "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 309,
-    "source": "Vercel",
-    "title": "Everything hackable will get hacked",
-    "summary": "Over the past year, AI models have become much more capable of performing cybersecurity work. These changes are reshaping both the threats facing the web and the tools available to defend it. Right now, defenders have an advantage because they can use stronger models for defensive work than the open-weight models…",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Aug 11, 2026",
-    "publishedAt": "2026-08-11T07:00:00.000Z",
-    "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 298,
-    "source": "GitHub Engineering",
-    "title": "How to evaluate LLMs before production",
-    "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 25, 2026",
-    "publishedAt": "2026-08-25T21:35:11.000Z",
-    "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 299,
-    "source": "Vercel",
-    "title": "Introducing Run SDK: secure eval for your agents",
-    "summary": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human approval.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 25, 2026",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-run",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 300,
-    "source": "Vercel",
-    "title": "The end of credential sprawl for agents",
-    "summary": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk lives, because for years, granting it meant provisioning a long-lived token and hoping it never leaked.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Aug 25, 2026",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 301,
-    "source": "GitHub Engineering",
-    "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
-    "summary": "Chat is great for intent, but agent work gets lost in the scroll. Here is how I use canvases with my agentic workflows—and why your workflow also deserves a canvas.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 17, 2026",
-    "publishedAt": "2026-08-17T16:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
     "details": [],
     "featured": false
   }
