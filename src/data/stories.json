@@ -1,5 +1,84 @@
 [
   {
+    "id": 352,
+    "source": "Cloudflare",
+    "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+    "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 3, 2026",
+    "publishedAt": "2026-09-03T21:03:02.000Z",
+    "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 353,
+    "source": "Spotify",
+    "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+    "summary": "Most of what an AI coding agent does for me isn't thinking. It's I/O.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 3, 2026",
+    "publishedAt": "2026-09-03T16:06:40.000Z",
+    "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90/",
+    "details": []
+  },
+  {
+    "id": 354,
+    "source": "GitHub Engineering",
+    "title": "GitHub Copilot app for Beginners: Run several agents at once",
+    "summary": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 3, 2026",
+    "publishedAt": "2026-09-03T16:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
+    "details": []
+  },
+  {
+    "id": 355,
+    "source": "Cloudflare",
+    "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+    "summary": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 27, 2026",
+    "publishedAt": "2026-08-27T17:02:35.000Z",
+    "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+    "details": []
+  },
+  {
+    "id": 356,
+    "source": "GitHub Engineering",
+    "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+    "summary": "Managing library updates can be tedious at times. Learn how the GitHub Copilot app can handle this type of repetitive task.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 26, 2026",
+    "publishedAt": "2026-08-26T20:12:53.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
+    "details": []
+  },
+  {
+    "id": 357,
+    "source": "Cloudflare",
+    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 19, 2026",
+    "publishedAt": "2026-08-19T16:00:28.000Z",
+    "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+    "details": []
+  },
+  {
     "id": 346,
     "source": "GitHub Engineering",
     "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-02T21:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 347,
@@ -24,7 +103,8 @@
     "published": "Sep 2, 2026",
     "publishedAt": "2026-09-02T18:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 348,
@@ -37,7 +117,8 @@
     "published": "Aug 25, 2026",
     "publishedAt": "2026-08-25T21:35:11.000Z",
     "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 349,
@@ -50,7 +131,8 @@
     "published": "Aug 25, 2026",
     "publishedAt": "2026-08-25T04:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-run",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 350,
@@ -63,7 +145,8 @@
     "published": "Aug 25, 2026",
     "publishedAt": "2026-08-25T04:00:00.000Z",
     "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 351,
@@ -76,7 +159,8 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T13:00:00.000Z",
     "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 340,
@@ -467,90 +551,6 @@
     "published": "Aug 13, 2026",
     "publishedAt": "2026-08-13T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 320,
-    "source": "Vercel",
-    "title": "Building a software factory for AI SDK",
-    "summary": "The AI SDK is one of the most popular open-source AI projects in the world. It serves over 20 million npm downloads a week and the repo has over 26,000 stars. Maintaining the codebase means tracking four moving targets at once:",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 12, 2026",
-    "publishedAt": "2026-08-12T00:00:00.000Z",
-    "url": "https://vercel.com/blog/building-a-software-factory-for-ai-sdk",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 321,
-    "source": "Vercel",
-    "title": "How we migrated the database behind every Vercel build",
-    "summary": "Every build on Vercel starts in the build warm pool, which is a set of standby containers that let builds begin without waiting for new compute. The pool runs on state that tracks which containers are ready, the tokens each one uses to authenticate, and the mapping that ties every running build back to the deployment…",
-    "tag": "DevOps",
-    "time": "5 min read",
-    "accent": "amber",
-    "published": "Aug 11, 2026",
-    "publishedAt": "2026-08-11T22:00:00.000Z",
-    "url": "https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 310,
-    "source": "Netflix",
-    "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
-    "summary": "By Emma Yanyang Kong , Aditya Deshpande , Asad Abbasi , Bowei Yan , David Fagnan , Ashish Rastogi , Dhaval Patel , Ray Zhang",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 28, 2026",
-    "publishedAt": "2026-08-28T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 311,
-    "source": "Cloudflare",
-    "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-    "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 28, 2026",
-    "publishedAt": "2026-08-28T12:59:44.000Z",
-    "url": "https://blog.cloudflare.com/botbase-for-operators/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 312,
-    "source": "Vercel",
-    "title": "The best workflow engine is a programming language",
-    "summary": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown workflow engines for a long time. What we never had was a version of it that felt good to write.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Aug 27, 2026",
-    "publishedAt": "2026-08-27T07:00:00.000Z",
-    "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 313,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: Managing your work",
-    "summary": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 19, 2026",
-    "publishedAt": "2026-08-19T17:50:23.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
     "details": [],
     "featured": false
   }
