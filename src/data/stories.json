@@ -1,5 +1,84 @@
 [
   {
+    "id": 370,
+    "source": "Cloudflare",
+    "title": "Say it once: Introducing Bot Preference Sync",
+    "summary": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 21, 2026",
+    "publishedAt": "2026-08-21T23:19:57.000Z",
+    "url": "https://blog.cloudflare.com/bot-preference-sync/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 371,
+    "source": "Vercel",
+    "title": "How Ora benchmarks every major AI agent on Vercel",
+    "summary": "Ora sends agents onto live websites with instructions to sign up for a product, integrate with it, and pay for it. Agents often fail, and by Ora's estimate, 99% of the web isn't agent-ready. The platform shows customers where and why agents fail, and what to change.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Aug 21, 2026",
+    "publishedAt": "2026-08-21T21:00:00.000Z",
+    "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
+    "details": []
+  },
+  {
+    "id": 372,
+    "source": "Netflix",
+    "title": "A Tale of Two Flink Autoscalers",
+    "summary": "Today, Netflix runs two Flink autoscalers. That is exactly one more than we want. We built the first one in-house years ago, when there was no mature option suited to our platform. The second came from the Apache Flink community, and it can scale workloads our homegrown system was never designed for. We now run both…",
+    "tag": "Architecture",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Aug 21, 2026",
+    "publishedAt": "2026-08-21T16:01:01.000Z",
+    "url": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b",
+    "details": []
+  },
+  {
+    "id": 373,
+    "source": "Cloudflare",
+    "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+    "summary": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 13, 2026",
+    "publishedAt": "2026-08-13T19:58:01.000Z",
+    "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
+    "details": []
+  },
+  {
+    "id": 374,
+    "source": "Vercel",
+    "title": "Inside the Vercel intern experience",
+    "summary": "The best way to learn is by shipping product to users in production, and that's why we don’t treat our interns as temporary guests. Every intern at Vercel is expected to operate like a core part of our engineering team from day one.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 13, 2026",
+    "publishedAt": "2026-08-13T04:00:00.000Z",
+    "url": "https://vercel.com/blog/inside-the-vercel-intern-experience",
+    "details": []
+  },
+  {
+    "id": 375,
+    "source": "Vercel",
+    "title": "Building a software factory for AI SDK",
+    "summary": "The AI SDK is one of the most popular open-source AI projects in the world. It serves over 20 million npm downloads a week and the repo has over 26,000 stars. Maintaining the codebase means tracking four moving targets at once:",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 12, 2026",
+    "publishedAt": "2026-08-12T00:00:00.000Z",
+    "url": "https://vercel.com/blog/building-a-software-factory-for-ai-sdk",
+    "details": []
+  },
+  {
     "id": 364,
     "source": "Cloudflare",
     "title": "From all-or-nothing to task-based OAuth consent",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-20T17:03:03.000Z",
     "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 365,
@@ -24,7 +103,8 @@
     "published": "Aug 20, 2026",
     "publishedAt": "2026-08-20T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 366,
@@ -37,7 +117,8 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T17:00:00.000Z",
     "url": "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 367,
@@ -50,7 +131,8 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T15:21:32.000Z",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 368,
@@ -63,7 +145,8 @@
     "published": "Aug 13, 2026",
     "publishedAt": "2026-08-13T18:57:22.000Z",
     "url": "https://engineering.atspotify.com/2026/8/when-can-llms-replace-humans-in-a-b-tests/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 369,
@@ -76,7 +159,8 @@
     "published": "Aug 13, 2026",
     "publishedAt": "2026-08-13T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 358,
@@ -467,90 +551,6 @@
     "published": "Aug 10, 2026",
     "publishedAt": "2026-08-10T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 338,
-    "source": "Netflix",
-    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC",
-    "summary": "This is the third entry of a multi-part blog series describing how we built a Real-Time Distributed Graph (RDG). In Part 1 , we discussed the motivation for creating the RDG and the architecture of the data processing pipeline that populates it. In Part 2 , we discussed how we designed the storage layer to handle…",
-    "tag": "DevOps",
-    "time": "5 min read",
-    "accent": "purple",
-    "published": "Aug 7, 2026",
-    "publishedAt": "2026-08-07T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 339,
-    "source": "Cloudflare",
-    "title": "Unveiling good and bad behaviors on the Agentic Internet",
-    "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements would be…",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Aug 7, 2026",
-    "publishedAt": "2026-08-07T13:01:00.000Z",
-    "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 328,
-    "source": "Cloudflare",
-    "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
-    "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated…",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T12:59:00.000Z",
-    "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 329,
-    "source": "GitHub Engineering",
-    "title": "How to bring your software delivery workflow into GitHub with agent apps",
-    "summary": "See how four GitHub agent apps can help you scope, secure, roll out, and ship a feature across the SDLC–all without leaving GitHub.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 14, 2026",
-    "publishedAt": "2026-08-14T16:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 330,
-    "source": "Cloudflare",
-    "title": "How Cloudflare detects MCP traffic and helps secure it",
-    "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 14, 2026",
-    "publishedAt": "2026-08-14T13:12:12.000Z",
-    "url": "https://blog.cloudflare.com/mcp-security-updates/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 331,
-    "source": "Cloudflare",
-    "title": "Secure all your internal vibe-coded applications — in one click",
-    "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 14, 2026",
-    "publishedAt": "2026-08-14T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-protected-by-access/",
     "details": [],
     "featured": false
   }
