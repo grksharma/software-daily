@@ -1,5 +1,84 @@
 [
   {
+    "id": 376,
+    "source": "Cloudflare",
+    "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
+    "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated…",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 31, 2026",
+    "publishedAt": "2026-08-31T12:59:00.000Z",
+    "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 377,
+    "source": "Cloudflare",
+    "title": "How Cloudflare detects MCP traffic and helps secure it",
+    "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 14, 2026",
+    "publishedAt": "2026-08-14T13:12:12.000Z",
+    "url": "https://blog.cloudflare.com/mcp-security-updates/",
+    "details": []
+  },
+  {
+    "id": 378,
+    "source": "Cloudflare",
+    "title": "Secure all your internal vibe-coded applications — in one click",
+    "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 14, 2026",
+    "publishedAt": "2026-08-14T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-protected-by-access/",
+    "details": []
+  },
+  {
+    "id": 379,
+    "source": "Vercel",
+    "title": "How we migrated the database behind every Vercel build",
+    "summary": "Every build on Vercel starts in the build warm pool, which is a set of standby containers that let builds begin without waiting for new compute. The pool runs on state that tracks which containers are ready, the tokens each one uses to authenticate, and the mapping that ties every running build back to the deployment…",
+    "tag": "DevOps",
+    "time": "5 min read",
+    "accent": "cyan",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T22:00:00.000Z",
+    "url": "https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build",
+    "details": []
+  },
+  {
+    "id": 380,
+    "source": "Cloudflare",
+    "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+    "summary": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+    "details": []
+  },
+  {
+    "id": 381,
+    "source": "Vercel",
+    "title": "Everything hackable will get hacked",
+    "summary": "Over the past year, AI models have become much more capable of performing cybersecurity work. These changes are reshaping both the threats facing the web and the tools available to defend it. Right now, defenders have an advantage because they can use stronger models for defensive work than the open-weight models…",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Aug 11, 2026",
+    "publishedAt": "2026-08-11T07:00:00.000Z",
+    "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
+    "details": []
+  },
+  {
     "id": 370,
     "source": "Cloudflare",
     "title": "Say it once: Introducing Bot Preference Sync",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-21T23:19:57.000Z",
     "url": "https://blog.cloudflare.com/bot-preference-sync/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 371,
@@ -24,7 +103,8 @@
     "published": "Aug 21, 2026",
     "publishedAt": "2026-08-21T21:00:00.000Z",
     "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 372,
@@ -37,7 +117,8 @@
     "published": "Aug 21, 2026",
     "publishedAt": "2026-08-21T16:01:01.000Z",
     "url": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 373,
@@ -50,7 +131,8 @@
     "published": "Aug 13, 2026",
     "publishedAt": "2026-08-13T19:58:01.000Z",
     "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 374,
@@ -63,7 +145,8 @@
     "published": "Aug 13, 2026",
     "publishedAt": "2026-08-13T04:00:00.000Z",
     "url": "https://vercel.com/blog/inside-the-vercel-intern-experience",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 375,
@@ -76,7 +159,8 @@
     "published": "Aug 12, 2026",
     "publishedAt": "2026-08-12T00:00:00.000Z",
     "url": "https://vercel.com/blog/building-a-software-factory-for-ai-sdk",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 364,
@@ -467,90 +551,6 @@
     "published": "Aug 24, 2026",
     "publishedAt": "2026-08-24T19:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 344,
-    "source": "Mozilla Hacks",
-    "title": "Intent to Ship: JPEG XL",
-    "summary": "It isn’t often that new image formats land in browsers. In the early 2000s we had JPEG, GIF, and PNG. The 2010s gave us WebP, which was a modest step up from JPEG. But the 2020s have given us two new image formats that are a big step up from previous formats: AVIF and JPEG",
-    "tag": "Frontend",
-    "time": "5 min read",
-    "accent": "amber",
-    "published": "Aug 24, 2026",
-    "publishedAt": "2026-08-24T15:32:15.000Z",
-    "url": "https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 345,
-    "source": "Cloudflare",
-    "title": "Everything we launched during Agents Week",
-    "summary": "Our latest Agents Week has come to a close. Here’s a recap of all the announcements we made from Wallets to Radar.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 10, 2026",
-    "publishedAt": "2026-08-10T18:34:10.000Z",
-    "url": "https://blog.cloudflare.com/agents-week-review-august-2026/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 334,
-    "source": "Lyft",
-    "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator",
-    "summary": "Written by Maheep Myneni , Arda Kuyumcu , and Prem Santosh Udaya Shankar at Lyft.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T19:08:16.000Z",
-    "url": "https://eng.lyft.com/rerouting-the-stream-how-lyft-moved-to-the-apache-flink-operator-36f20246d250",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 335,
-    "source": "Dropbox",
-    "title": "Testing cookie behavior across hundreds of web surfaces with our in-house auditor",
-    "summary": "Our cookie auditor acts like a privacy-conscious user by visiting web pages and checking that they only load cookies consistent with that user’s preferences.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T17:00:00.000Z",
-    "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 336,
-    "source": "Vercel",
-    "title": "How our agents build on-brand pages with design.md",
-    "summary": "Across Vercel, we use coding agents to design and build pages that have to look and feel like Vercel. The typography, color, and composition all need to carry the same judgment that we put into the pages we already ship ourselves.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 337,
-    "source": "Cloudflare",
-    "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
-    "summary": "Cloudflare for Government achieves FedRAMP Class D (High) Certified status. We also announce our commitment to pursue DoD IL4 authorization. Cloudflare brings world-class security, performance, and developer products to the public sector.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 10, 2026",
-    "publishedAt": "2026-08-10T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/fedramp-class-d-certification/",
     "details": [],
     "featured": false
   }
