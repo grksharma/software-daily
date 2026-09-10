@@ -1,5 +1,84 @@
 [
   {
+    "id": 388,
+    "source": "Cloudflare",
+    "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+    "summary": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 9, 2026",
+    "publishedAt": "2026-09-09T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 389,
+    "source": "Cloudflare",
+    "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
+    "summary": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 1, 2026",
+    "publishedAt": "2026-09-01T12:59:00.000Z",
+    "url": "https://blog.cloudflare.com/cache-transcoding/",
+    "details": []
+  },
+  {
+    "id": 390,
+    "source": "Vercel",
+    "title": "Compute that takes any shape",
+    "summary": "Workloads differ in how long they run, how much memory they take, and how much of the environment they control. That previously meant a different compute primitive for each job, so product iterations required provisioning infrastructure, not just working on a feature.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Sep 1, 2026",
+    "publishedAt": "2026-09-01T07:00:00.000Z",
+    "url": "https://vercel.com/blog/fluid-compute-takes-any-shape",
+    "details": []
+  },
+  {
+    "id": 391,
+    "source": "Vercel",
+    "title": "The end of credential sprawl for agents",
+    "summary": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk lives, because for years, granting it meant provisioning a long-lived token and hoping it never leaked.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Aug 25, 2026",
+    "publishedAt": "2026-08-25T04:00:00.000Z",
+    "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+    "details": []
+  },
+  {
+    "id": 392,
+    "source": "GitHub Engineering",
+    "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
+    "summary": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 24, 2026",
+    "publishedAt": "2026-08-24T20:56:32.000Z",
+    "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
+    "details": []
+  },
+  {
+    "id": 393,
+    "source": "Cloudflare",
+    "title": "The Cloudflare Blog — brought to you by EmDash",
+    "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
+    "tag": "Frontend",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 24, 2026",
+    "publishedAt": "2026-08-24T19:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
+    "details": []
+  },
+  {
     "id": 382,
     "source": "Cloudflare",
     "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-08T13:10:00.000Z",
     "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 383,
@@ -24,7 +103,8 @@
     "published": "Sep 8, 2026",
     "publishedAt": "2026-09-08T04:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-flat-rate-cdn",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 384,
@@ -37,7 +117,8 @@
     "published": "Aug 31, 2026",
     "publishedAt": "2026-08-31T19:08:16.000Z",
     "url": "https://eng.lyft.com/rerouting-the-stream-how-lyft-moved-to-the-apache-flink-operator-36f20246d250",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 385,
@@ -50,7 +131,8 @@
     "published": "Aug 31, 2026",
     "publishedAt": "2026-08-31T17:00:00.000Z",
     "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 386,
@@ -63,7 +145,8 @@
     "published": "Aug 31, 2026",
     "publishedAt": "2026-08-31T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 387,
@@ -76,7 +159,8 @@
     "published": "Aug 24, 2026",
     "publishedAt": "2026-08-24T15:32:15.000Z",
     "url": "https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 376,
@@ -467,90 +551,6 @@
     "published": "Aug 27, 2026",
     "publishedAt": "2026-08-27T17:02:35.000Z",
     "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 356,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
-    "summary": "Managing library updates can be tedious at times. Learn how the GitHub Copilot app can handle this type of repetitive task.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 26, 2026",
-    "publishedAt": "2026-08-26T20:12:53.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 357,
-    "source": "Cloudflare",
-    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
-    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 19, 2026",
-    "publishedAt": "2026-08-19T16:00:28.000Z",
-    "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 346,
-    "source": "GitHub Engineering",
-    "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-    "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 2, 2026",
-    "publishedAt": "2026-09-02T21:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 347,
-    "source": "GitHub Engineering",
-    "title": "How we make AI coding more cost efficient without sacrificing task quality",
-    "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 2, 2026",
-    "publishedAt": "2026-09-02T18:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 348,
-    "source": "GitHub Engineering",
-    "title": "How to evaluate LLMs before production",
-    "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 25, 2026",
-    "publishedAt": "2026-08-25T21:35:11.000Z",
-    "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 349,
-    "source": "Vercel",
-    "title": "Introducing Run SDK: secure eval for your agents",
-    "summary": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human approval.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 25, 2026",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-run",
     "details": [],
     "featured": false
   }
