@@ -1,5 +1,84 @@
 [
   {
+    "id": 394,
+    "source": "GitHub Engineering",
+    "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+    "summary": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 10, 2026",
+    "publishedAt": "2026-09-10T21:31:19.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 395,
+    "source": "Lyft",
+    "title": "Refreshing the Travel-Time Map Behind Lyft’s Marketplace: Rebuilding Neighborhood Reachability",
+    "summary": "Every time Lyft calculates pricing to balance a market, nudges a driver toward an under-served pocket of a city, or paints a heatmap of where demand is building, there is a quiet lookup table doing work in the background. It answers a deceptively simple question: how long does it take to get from here to there? , for…",
+    "tag": "Engineering",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Sep 10, 2026",
+    "publishedAt": "2026-09-10T16:12:28.000Z",
+    "url": "https://eng.lyft.com/refreshing-the-travel-time-map-behind-lyfts-marketplace-rebuilding-neighborhood-reachability-5be3efbc82ea",
+    "details": []
+  },
+  {
+    "id": 396,
+    "source": "Cloudflare",
+    "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+    "summary": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 10, 2026",
+    "publishedAt": "2026-09-10T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+    "details": []
+  },
+  {
+    "id": 397,
+    "source": "Vercel",
+    "title": "How we cut CDN metadata lookup latency by 91%",
+    "summary": "Every request to Vercel passes through our CDN , which executes on average over 80 million routing instructions per second. Part of that work is looking up metadata to determine which paths exist and how to serve them. When that metadata isn’t cached, the CDN has to fetch it before it can serve the response.",
+    "tag": "DevOps",
+    "time": "5 min read",
+    "accent": "purple",
+    "published": "Sep 10, 2026",
+    "publishedAt": "2026-09-10T00:00:00.000Z",
+    "url": "https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent",
+    "details": []
+  },
+  {
+    "id": 398,
+    "source": "GitHub Engineering",
+    "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+    "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 2, 2026",
+    "publishedAt": "2026-09-02T21:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+    "details": []
+  },
+  {
+    "id": 399,
+    "source": "GitHub Engineering",
+    "title": "How we make AI coding more cost efficient without sacrificing task quality",
+    "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 2, 2026",
+    "publishedAt": "2026-09-02T18:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+    "details": []
+  },
+  {
     "id": 388,
     "source": "Cloudflare",
     "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-09T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 389,
@@ -24,7 +103,8 @@
     "published": "Sep 1, 2026",
     "publishedAt": "2026-09-01T12:59:00.000Z",
     "url": "https://blog.cloudflare.com/cache-transcoding/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 390,
@@ -37,7 +117,8 @@
     "published": "Sep 1, 2026",
     "publishedAt": "2026-09-01T07:00:00.000Z",
     "url": "https://vercel.com/blog/fluid-compute-takes-any-shape",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 391,
@@ -50,7 +131,8 @@
     "published": "Aug 25, 2026",
     "publishedAt": "2026-08-25T04:00:00.000Z",
     "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 392,
@@ -63,7 +145,8 @@
     "published": "Aug 24, 2026",
     "publishedAt": "2026-08-24T20:56:32.000Z",
     "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 393,
@@ -76,7 +159,8 @@
     "published": "Aug 24, 2026",
     "publishedAt": "2026-08-24T19:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 382,
@@ -467,90 +551,6 @@
     "published": "Aug 27, 2026",
     "publishedAt": "2026-08-27T07:00:00.000Z",
     "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 362,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: Managing your work",
-    "summary": "If you’re juggling multiple Copilot sessions, use the My work pane to track what's in flight, what's done, and what's next.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 19, 2026",
-    "publishedAt": "2026-08-19T17:50:23.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 363,
-    "source": "Vercel",
-    "title": "Introducing Vercel for Slack",
-    "summary": "Vercel Agent now works in Slack. Mention it the way you'd pull a teammate into a thread, and it reads the discussion, answers with the context of the platform running your app, and turns the team's decisions into changes you approve. Vercel for Slack is available today in Public Beta for Pro and Enterprise teams.",
-    "tag": "AI engineering",
-    "time": "5 min read",
-    "accent": "emerald",
-    "published": "Aug 19, 2026",
-    "publishedAt": "2026-08-19T00:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-vercel-for-slack",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 352,
-    "source": "Cloudflare",
-    "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
-    "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 3, 2026",
-    "publishedAt": "2026-09-03T21:03:02.000Z",
-    "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 353,
-    "source": "Spotify",
-    "title": "Portal by Spotify cut my Claude Code token usage by 90%",
-    "summary": "Most of what an AI coding agent does for me isn't thinking. It's I/O.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 3, 2026",
-    "publishedAt": "2026-09-03T16:06:40.000Z",
-    "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 354,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: Run several agents at once",
-    "summary": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 3, 2026",
-    "publishedAt": "2026-09-03T16:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 355,
-    "source": "Cloudflare",
-    "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
-    "summary": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 27, 2026",
-    "publishedAt": "2026-08-27T17:02:35.000Z",
-    "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
     "details": [],
     "featured": false
   }
