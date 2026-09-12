@@ -1,5 +1,84 @@
 [
   {
+    "id": 400,
+    "source": "GitHub Engineering",
+    "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+    "summary": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 11, 2026",
+    "publishedAt": "2026-09-11T18:26:10.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 401,
+    "source": "Cloudflare",
+    "title": "Introducing automatic remediation policies with Cloudflare CASB",
+    "summary": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 11, 2026",
+    "publishedAt": "2026-09-11T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/casb-policies/",
+    "details": []
+  },
+  {
+    "id": 402,
+    "source": "Vercel",
+    "title": "How Featured's users make 100K media pitches per month on Vercel",
+    "summary": "Migrated 374 Sanity sites from AWS Elastic Beanstalk to Vercel",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 11, 2026",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-featureds-users-make-100k-media-pitches-per-month-on-vercel",
+    "details": []
+  },
+  {
+    "id": 403,
+    "source": "Vercel",
+    "title": "How Tailscale built a customer-facing model router on AI Gateway",
+    "summary": "Went from model routing prototype to paying customers in months",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 11, 2026",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway",
+    "details": []
+  },
+  {
+    "id": 404,
+    "source": "Cloudflare",
+    "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
+    "summary": "Use production traffic and security signals to prioritize findings, prepare edge mitigations when safe, and propose code patches. By combining WAF data with OpenAI Daybreak models, Vulnerability Discovery and Remediation helps teams identify and patch the most critical threats first.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 3, 2026",
+    "publishedAt": "2026-09-03T21:03:02.000Z",
+    "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+    "details": []
+  },
+  {
+    "id": 405,
+    "source": "Spotify",
+    "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+    "summary": "Most of what an AI coding agent does for me isn't thinking. It's I/O.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 3, 2026",
+    "publishedAt": "2026-09-03T16:06:40.000Z",
+    "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90/",
+    "details": []
+  },
+  {
     "id": 394,
     "source": "GitHub Engineering",
     "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-10T21:31:19.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 395,
@@ -24,7 +103,8 @@
     "published": "Sep 10, 2026",
     "publishedAt": "2026-09-10T16:12:28.000Z",
     "url": "https://eng.lyft.com/refreshing-the-travel-time-map-behind-lyfts-marketplace-rebuilding-neighborhood-reachability-5be3efbc82ea",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 396,
@@ -37,7 +117,8 @@
     "published": "Sep 10, 2026",
     "publishedAt": "2026-09-10T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 397,
@@ -50,7 +131,8 @@
     "published": "Sep 10, 2026",
     "publishedAt": "2026-09-10T00:00:00.000Z",
     "url": "https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 398,
@@ -63,7 +145,8 @@
     "published": "Sep 2, 2026",
     "publishedAt": "2026-09-02T21:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 399,
@@ -76,7 +159,8 @@
     "published": "Sep 2, 2026",
     "publishedAt": "2026-09-02T18:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 388,
@@ -467,90 +551,6 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T15:21:32.000Z",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 368,
-    "source": "Spotify",
-    "title": "When Can LLMs Replace Humans in A/B Tests?",
-    "summary": "TL;DR: LLM predictions can stand in for human outcomes in A/B tests, but only by assumption, not by design....",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 13, 2026",
-    "publishedAt": "2026-08-13T18:57:22.000Z",
-    "url": "https://engineering.atspotify.com/2026/8/when-can-llms-replace-humans-in-a-b-tests/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 369,
-    "source": "Cloudflare",
-    "title": "Certificate Transparency Monitoring is now generally available",
-    "summary": "Cloudflare's Certificate Transparency Monitoring is now generally available. The biggest change: we no longer email you about certificates Cloudflare issued for your domain, so when an alert lands in your inbox, it's worth a look.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 13, 2026",
-    "publishedAt": "2026-08-13T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 358,
-    "source": "GitHub Engineering",
-    "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
-    "summary": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 4, 2026",
-    "publishedAt": "2026-09-04T16:04:14.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 359,
-    "source": "Netflix",
-    "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
-    "summary": "By Emma Yanyang Kong , Aditya Deshpande , Asad Abbasi , Bowei Yan , David Fagnan , Ashish Rastogi , Dhaval Patel , Ray Zhang",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 28, 2026",
-    "publishedAt": "2026-08-28T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 360,
-    "source": "Cloudflare",
-    "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-    "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 28, 2026",
-    "publishedAt": "2026-08-28T12:59:44.000Z",
-    "url": "https://blog.cloudflare.com/botbase-for-operators/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 361,
-    "source": "Vercel",
-    "title": "The best workflow engine is a programming language",
-    "summary": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown workflow engines for a long time. What we never had was a version of it that felt good to write.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Aug 27, 2026",
-    "publishedAt": "2026-08-27T07:00:00.000Z",
-    "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
     "details": [],
     "featured": false
   }
