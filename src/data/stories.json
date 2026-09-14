@@ -1,5 +1,84 @@
 [
   {
+    "id": 412,
+    "source": "GitHub Engineering",
+    "title": "GitHub Copilot app for Beginners: Automate Dependabot pull request triage",
+    "summary": "Managing library updates can be tedious at times. Learn how the GitHub Copilot app can handle this type of repetitive task.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 26, 2026",
+    "publishedAt": "2026-08-26T20:12:53.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-automate-dependabot-pull-request-triage/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 413,
+    "source": "GitHub Engineering",
+    "title": "How to evaluate LLMs before production",
+    "summary": "These are the lessons we learned evaluating LLMs for real-world secret scanning.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 25, 2026",
+    "publishedAt": "2026-08-25T21:35:11.000Z",
+    "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+    "details": []
+  },
+  {
+    "id": 414,
+    "source": "Vercel",
+    "title": "Introducing Run SDK: secure eval for your agents",
+    "summary": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human approval.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 25, 2026",
+    "publishedAt": "2026-08-25T04:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-run",
+    "details": []
+  },
+  {
+    "id": 415,
+    "source": "Cloudflare",
+    "title": "From all-or-nothing to task-based OAuth consent",
+    "summary": "Cloudflare OAuth now supports optional scopes, giving users more control over what an app can access and helping developers build secure consent flows around the task at hand.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 20, 2026",
+    "publishedAt": "2026-08-20T17:03:03.000Z",
+    "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
+    "details": []
+  },
+  {
+    "id": 416,
+    "source": "Vercel",
+    "title": "How v0 authenticates to Snowflake without exposing the user's OAuth token",
+    "summary": "AI-generated applications often need to authenticate to external services on behalf of their users. That creates a problem: generated code shouldn't have access to the user's credentials.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 20, 2026",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
+    "details": []
+  },
+  {
+    "id": 417,
+    "source": "Cloudflare",
+    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 19, 2026",
+    "publishedAt": "2026-08-19T16:00:28.000Z",
+    "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
+    "details": []
+  },
+  {
     "id": 406,
     "source": "GitHub Engineering",
     "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-04T16:04:14.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 407,
@@ -24,7 +103,8 @@
     "published": "Sep 3, 2026",
     "publishedAt": "2026-09-03T16:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 408,
@@ -37,7 +117,8 @@
     "published": "Aug 28, 2026",
     "publishedAt": "2026-08-28T16:01:02.000Z",
     "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 409,
@@ -50,7 +131,8 @@
     "published": "Aug 28, 2026",
     "publishedAt": "2026-08-28T12:59:44.000Z",
     "url": "https://blog.cloudflare.com/botbase-for-operators/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 410,
@@ -63,7 +145,8 @@
     "published": "Aug 27, 2026",
     "publishedAt": "2026-08-27T17:02:35.000Z",
     "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 411,
@@ -76,7 +159,8 @@
     "published": "Aug 27, 2026",
     "publishedAt": "2026-08-27T07:00:00.000Z",
     "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 400,
@@ -467,90 +551,6 @@
     "published": "Aug 11, 2026",
     "publishedAt": "2026-08-11T22:00:00.000Z",
     "url": "https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 380,
-    "source": "Cloudflare",
-    "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
-    "summary": "In the first half of 2026, Cloudflare detected a 519% surge in hyper-volumetric DDos attacks across its network. These attacks were driven heavily by DNS and CLDAP reflection vectors. This report breaks down how major geopolitical conflicts reshaped the global cyber threat landscape.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Aug 11, 2026",
-    "publishedAt": "2026-08-11T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 381,
-    "source": "Vercel",
-    "title": "Everything hackable will get hacked",
-    "summary": "Over the past year, AI models have become much more capable of performing cybersecurity work. These changes are reshaping both the threats facing the web and the tools available to defend it. Right now, defenders have an advantage because they can use stronger models for defensive work than the open-weight models…",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Aug 11, 2026",
-    "publishedAt": "2026-08-11T07:00:00.000Z",
-    "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 370,
-    "source": "Cloudflare",
-    "title": "Say it once: Introducing Bot Preference Sync",
-    "summary": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 21, 2026",
-    "publishedAt": "2026-08-21T23:19:57.000Z",
-    "url": "https://blog.cloudflare.com/bot-preference-sync/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 371,
-    "source": "Vercel",
-    "title": "How Ora benchmarks every major AI agent on Vercel",
-    "summary": "Ora sends agents onto live websites with instructions to sign up for a product, integrate with it, and pay for it. Agents often fail, and by Ora's estimate, 99% of the web isn't agent-ready. The platform shows customers where and why agents fail, and what to change.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Aug 21, 2026",
-    "publishedAt": "2026-08-21T21:00:00.000Z",
-    "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 372,
-    "source": "Netflix",
-    "title": "A Tale of Two Flink Autoscalers",
-    "summary": "Today, Netflix runs two Flink autoscalers. That is exactly one more than we want. We built the first one in-house years ago, when there was no mature option suited to our platform. The second came from the Apache Flink community, and it can scale workloads our homegrown system was never designed for. We now run both…",
-    "tag": "Architecture",
-    "time": "5 min read",
-    "accent": "amber",
-    "published": "Aug 21, 2026",
-    "publishedAt": "2026-08-21T16:01:01.000Z",
-    "url": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 373,
-    "source": "Cloudflare",
-    "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
-    "summary": "Cloudflare's data shows a clear impact on Internet traffic from Iceland to Spain and Portugal, following the path of totality of the total solar eclipse that occurred on August 12, 2026.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 13, 2026",
-    "publishedAt": "2026-08-13T19:58:01.000Z",
-    "url": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
     "details": [],
     "featured": false
   }
