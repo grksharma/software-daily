@@ -1,5 +1,84 @@
 [
   {
+    "id": 424,
+    "source": "Cloudflare",
+    "title": "Have it both ways: stay discoverable in search while disallowing AI training",
+    "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 15, 2026",
+    "publishedAt": "2026-09-15T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 425,
+    "source": "Cloudflare",
+    "title": "Give every teammate and agent the right level of access to your Workers",
+    "summary": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 15, 2026",
+    "publishedAt": "2026-09-15T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-granular-authorization/",
+    "details": []
+  },
+  {
+    "id": 426,
+    "source": "Vercel",
+    "title": "How Delphi ships 100 times a day with its Python backend on Vercel",
+    "summary": "Delphi builds digital minds. They capture what someone has written, recorded, and taught, so anyone can tap that expertise on demand. Delphi is “a destination where you can find and interact with interesting minds,” says founding engineer Spencer Schoeben.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 15, 2026",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
+    "details": []
+  },
+  {
+    "id": 427,
+    "source": "Cloudflare",
+    "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
+    "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated…",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 31, 2026",
+    "publishedAt": "2026-08-31T12:59:00.000Z",
+    "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
+    "details": []
+  },
+  {
+    "id": 428,
+    "source": "Vercel",
+    "title": "How our agents build on-brand pages with design.md",
+    "summary": "Across Vercel, we use coding agents to design and build pages that have to look and feel like Vercel. The typography, color, and composition all need to carry the same judgment that we put into the pages we already ship ourselves.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 31, 2026",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+    "details": []
+  },
+  {
+    "id": 429,
+    "source": "Mozilla Hacks",
+    "title": "Intent to Ship: JPEG XL",
+    "summary": "It isn’t often that new image formats land in browsers. In the early 2000s we had JPEG, GIF, and PNG. The 2010s gave us WebP, which was a modest step up from JPEG. But the 2020s have given us two new image formats that are a big step up from previous formats: AVIF and JPEG",
+    "tag": "Frontend",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Aug 24, 2026",
+    "publishedAt": "2026-08-24T15:32:15.000Z",
+    "url": "https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/",
+    "details": []
+  },
+  {
     "id": 418,
     "source": "Cloudflare",
     "title": "Say it once: Introducing Bot Preference Sync",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-08-21T23:19:57.000Z",
     "url": "https://blog.cloudflare.com/bot-preference-sync/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 419,
@@ -24,7 +103,8 @@
     "published": "Aug 21, 2026",
     "publishedAt": "2026-08-21T21:00:00.000Z",
     "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 420,
@@ -37,7 +117,8 @@
     "published": "Aug 21, 2026",
     "publishedAt": "2026-08-21T16:01:01.000Z",
     "url": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 421,
@@ -50,7 +131,8 @@
     "published": "Aug 19, 2026",
     "publishedAt": "2026-08-19T00:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-for-slack",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 422,
@@ -63,7 +145,8 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T17:00:00.000Z",
     "url": "https://dropbox.tech/infrastructure/improving-infrastructure-efficiency-for-growing-demand-in-the-age-of-ai",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 423,
@@ -76,7 +159,8 @@
     "published": "Aug 18, 2026",
     "publishedAt": "2026-08-18T15:21:32.000Z",
     "url": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 412,
@@ -467,90 +551,6 @@
     "published": "Aug 25, 2026",
     "publishedAt": "2026-08-25T04:00:00.000Z",
     "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 392,
-    "source": "GitHub Engineering",
-    "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
-    "summary": "We built a plugin for the GitHub Accessibility Scanner to make sure your alt text is actually accessible. Here's how it works.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 24, 2026",
-    "publishedAt": "2026-08-24T20:56:32.000Z",
-    "url": "https://github.blog/engineering/user-experience/your-alt-text-passes-automated-checks-that-doesnt-mean-its-any-good/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 393,
-    "source": "Cloudflare",
-    "title": "The Cloudflare Blog — brought to you by EmDash",
-    "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
-    "tag": "Frontend",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 24, 2026",
-    "publishedAt": "2026-08-24T19:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 382,
-    "source": "Cloudflare",
-    "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-    "summary": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 8, 2026",
-    "publishedAt": "2026-09-08T13:10:00.000Z",
-    "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 383,
-    "source": "Vercel",
-    "title": "Introducing Flat Rate CDN",
-    "summary": "Over the past year, we have improved Vercel’s Pro pricing to better reflect how teams build, with expanded user roles , flexible credits , access to enterprise features , and more. But one area our customers continued to give us feedback on was CDN pricing.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Sep 8, 2026",
-    "publishedAt": "2026-09-08T04:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-flat-rate-cdn",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 384,
-    "source": "Lyft",
-    "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator",
-    "summary": "Written by Maheep Myneni , Arda Kuyumcu , and Prem Santosh Udaya Shankar at Lyft.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T19:08:16.000Z",
-    "url": "https://eng.lyft.com/rerouting-the-stream-how-lyft-moved-to-the-apache-flink-operator-36f20246d250",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 385,
-    "source": "Dropbox",
-    "title": "Testing cookie behavior across hundreds of web surfaces with our in-house auditor",
-    "summary": "Our cookie auditor acts like a privacy-conscious user by visiting web pages and checking that they only load cookies consistent with that user’s preferences.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T17:00:00.000Z",
-    "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
     "details": [],
     "featured": false
   }
