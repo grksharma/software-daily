@@ -1,5 +1,84 @@
 [
   {
+    "id": 442,
+    "source": "Cloudflare",
+    "title": "Saving another 100TB of RAM with math (and Rust)",
+    "summary": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Sep 18, 2026",
+    "publishedAt": "2026-09-18T17:23:58.000Z",
+    "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 443,
+    "source": "Netflix",
+    "title": "Leave the Class Path in the Rearview Mirror",
+    "summary": "Introducing composable, module system native and agent friendly command line tools for modern Java development",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 18, 2026",
+    "publishedAt": "2026-09-18T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be",
+    "details": []
+  },
+  {
+    "id": 444,
+    "source": "GitHub Engineering",
+    "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
+    "summary": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 18, 2026",
+    "publishedAt": "2026-09-18T15:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
+    "details": []
+  },
+  {
+    "id": 445,
+    "source": "Vercel",
+    "title": "Jev is the fastest-adopted model in AI Gateway history",
+    "summary": "Within 24 hours of launching on AI Gateway, Jev from TypeSafe AI reached more than twice as many paid teams as any previous model launch, making it the fastest-adopted model in gateway history.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 18, 2026",
+    "publishedAt": "2026-09-18T07:00:00.000Z",
+    "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
+    "details": []
+  },
+  {
+    "id": 446,
+    "source": "Vercel",
+    "title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
+    "summary": "In August 2026, Hacktron reported what looked like a remote code execution (RCE) vulnerability in Next.js image optimization. Their investigation found that the vulnerable code was not in Next.js itself, but upstream in libheif, an AVIF image decoder used by Next.js, ImageMagick , WordPress , sharp , and much of the…",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Sep 18, 2026",
+    "publishedAt": "2026-09-18T00:00:00.000Z",
+    "url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
+    "details": []
+  },
+  {
+    "id": 447,
+    "source": "GitHub Engineering",
+    "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+    "summary": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 10, 2026",
+    "publishedAt": "2026-09-10T21:31:19.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
+    "details": []
+  },
+  {
     "id": 436,
     "source": "Vercel",
     "title": "Open-weight models take 56% of token volume, Astra doubles Fable 5.1 spend",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-17T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-production-index-september-2026",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 437,
@@ -24,7 +103,8 @@
     "published": "Sep 16, 2026",
     "publishedAt": "2026-09-16T19:13:53.000Z",
     "url": "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 438,
@@ -37,7 +117,8 @@
     "published": "Sep 9, 2026",
     "publishedAt": "2026-09-09T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 439,
@@ -50,7 +131,8 @@
     "published": "Sep 2, 2026",
     "publishedAt": "2026-09-02T21:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 440,
@@ -63,7 +145,8 @@
     "published": "Sep 2, 2026",
     "publishedAt": "2026-09-02T18:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 441,
@@ -76,7 +159,8 @@
     "published": "Sep 1, 2026",
     "publishedAt": "2026-09-01T12:59:00.000Z",
     "url": "https://blog.cloudflare.com/cache-transcoding/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 430,
@@ -467,90 +551,6 @@
     "published": "Aug 28, 2026",
     "publishedAt": "2026-08-28T12:59:44.000Z",
     "url": "https://blog.cloudflare.com/botbase-for-operators/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 410,
-    "source": "Cloudflare",
-    "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
-    "summary": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 27, 2026",
-    "publishedAt": "2026-08-27T17:02:35.000Z",
-    "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 411,
-    "source": "Vercel",
-    "title": "The best workflow engine is a programming language",
-    "summary": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown workflow engines for a long time. What we never had was a version of it that felt good to write.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Aug 27, 2026",
-    "publishedAt": "2026-08-27T07:00:00.000Z",
-    "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 400,
-    "source": "GitHub Engineering",
-    "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
-    "summary": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 11, 2026",
-    "publishedAt": "2026-09-11T18:26:10.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 401,
-    "source": "Cloudflare",
-    "title": "Introducing automatic remediation policies with Cloudflare CASB",
-    "summary": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 11, 2026",
-    "publishedAt": "2026-09-11T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/casb-policies/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 402,
-    "source": "Vercel",
-    "title": "How Featured's users make 100K media pitches per month on Vercel",
-    "summary": "Migrated 374 Sanity sites from AWS Elastic Beanstalk to Vercel",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 11, 2026",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-featureds-users-make-100k-media-pitches-per-month-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 403,
-    "source": "Vercel",
-    "title": "How Tailscale built a customer-facing model router on AI Gateway",
-    "summary": "Went from model routing prototype to paying customers in months",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 11, 2026",
-    "publishedAt": "2026-09-11T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway",
     "details": [],
     "featured": false
   }
