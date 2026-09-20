@@ -1,5 +1,84 @@
 [
   {
+    "id": 448,
+    "source": "GitHub Engineering",
+    "title": "Marketing ops as code: Automating events from planning to follow-up on GitHub",
+    "summary": "If you can write down how you do your work, you can automate it. Here's what I did to support GitHub's APAC marketing team.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 11, 2026",
+    "publishedAt": "2026-09-11T18:26:10.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 449,
+    "source": "Cloudflare",
+    "title": "Introducing automatic remediation policies with Cloudflare CASB",
+    "summary": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 11, 2026",
+    "publishedAt": "2026-09-11T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/casb-policies/",
+    "details": []
+  },
+  {
+    "id": 450,
+    "source": "Vercel",
+    "title": "How Featured's users make 100K media pitches per month on Vercel",
+    "summary": "Migrated 374 Sanity sites from AWS Elastic Beanstalk to Vercel",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 11, 2026",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-featureds-users-make-100k-media-pitches-per-month-on-vercel",
+    "details": []
+  },
+  {
+    "id": 451,
+    "source": "Vercel",
+    "title": "How Tailscale built a customer-facing model router on AI Gateway",
+    "summary": "Went from model routing prototype to paying customers in months",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 11, 2026",
+    "publishedAt": "2026-09-11T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway",
+    "details": []
+  },
+  {
+    "id": 452,
+    "source": "Lyft",
+    "title": "Refreshing the Travel-Time Map Behind Lyft’s Marketplace: Rebuilding Neighborhood Reachability",
+    "summary": "Every time Lyft calculates pricing to balance a market, nudges a driver toward an under-served pocket of a city, or paints a heatmap of where demand is building, there is a quiet lookup table doing work in the background. It answers a deceptively simple question: how long does it take to get from here to there? , for…",
+    "tag": "Engineering",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Sep 10, 2026",
+    "publishedAt": "2026-09-10T16:12:28.000Z",
+    "url": "https://eng.lyft.com/refreshing-the-travel-time-map-behind-lyfts-marketplace-rebuilding-neighborhood-reachability-5be3efbc82ea",
+    "details": []
+  },
+  {
+    "id": 453,
+    "source": "Cloudflare",
+    "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+    "summary": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 10, 2026",
+    "publishedAt": "2026-09-10T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+    "details": []
+  },
+  {
     "id": 442,
     "source": "Cloudflare",
     "title": "Saving another 100TB of RAM with math (and Rust)",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-18T17:23:58.000Z",
     "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 443,
@@ -24,7 +103,8 @@
     "published": "Sep 18, 2026",
     "publishedAt": "2026-09-18T16:01:02.000Z",
     "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 444,
@@ -37,7 +117,8 @@
     "published": "Sep 18, 2026",
     "publishedAt": "2026-09-18T15:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 445,
@@ -50,7 +131,8 @@
     "published": "Sep 18, 2026",
     "publishedAt": "2026-09-18T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 446,
@@ -63,7 +145,8 @@
     "published": "Sep 18, 2026",
     "publishedAt": "2026-09-18T00:00:00.000Z",
     "url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 447,
@@ -76,7 +159,8 @@
     "published": "Sep 10, 2026",
     "publishedAt": "2026-09-10T21:31:19.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 436,
@@ -467,90 +551,6 @@
     "published": "Aug 20, 2026",
     "publishedAt": "2026-08-20T17:03:03.000Z",
     "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 416,
-    "source": "Vercel",
-    "title": "How v0 authenticates to Snowflake without exposing the user's OAuth token",
-    "summary": "AI-generated applications often need to authenticate to external services on behalf of their users. That creates a problem: generated code shouldn't have access to the user's credentials.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 20, 2026",
-    "publishedAt": "2026-08-20T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 417,
-    "source": "Cloudflare",
-    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
-    "summary": "In 2024 and 2025, we reassessed remote Spectre attacks on our Workers infrastructure. We share details about the new attack primitives like Spectre gadgets, remote timers, achieving co-location and how new defenses further harden Cloudflare Workers.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 19, 2026",
-    "publishedAt": "2026-08-19T16:00:28.000Z",
-    "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 406,
-    "source": "GitHub Engineering",
-    "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
-    "summary": "In controlled offline evaluations, HydraFusion’s selective coding workflows matched or exceeded the evaluated Opus 5 baseline while reducing estimated workflow cost. Now available as a research preview in GitHub Copilot.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 4, 2026",
-    "publishedAt": "2026-09-04T16:04:14.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 407,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: Run several agents at once",
-    "summary": "Learn how to run parallel agents in the GitHub Copilot app, and experience the moment it stops feeling scary and starts feeling powerful.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 3, 2026",
-    "publishedAt": "2026-09-03T16:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 408,
-    "source": "Netflix",
-    "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
-    "summary": "By Emma Yanyang Kong , Aditya Deshpande , Asad Abbasi , Bowei Yan , David Fagnan , Ashish Rastogi , Dhaval Patel , Ray Zhang",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 28, 2026",
-    "publishedAt": "2026-08-28T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 409,
-    "source": "Cloudflare",
-    "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-    "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 28, 2026",
-    "publishedAt": "2026-08-28T12:59:44.000Z",
-    "url": "https://blog.cloudflare.com/botbase-for-operators/",
     "details": [],
     "featured": false
   }
