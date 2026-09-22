@@ -1,5 +1,84 @@
 [
   {
+    "id": 460,
+    "source": "Dropbox",
+    "title": "Introducing Our New Dropbox API Documentation",
+    "summary": "Learn about the newly launched version of the Dropbox API documentation and its modern design and features.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 21, 2026",
+    "publishedAt": "2026-09-21T14:30:00.000Z",
+    "url": "https://dropbox.tech/developers/new-dropbox-api-documentation",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 461,
+    "source": "Cloudflare",
+    "title": "Python Workers are now generally available",
+    "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 21, 2026",
+    "publishedAt": "2026-09-21T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/python-workers-ga/",
+    "details": []
+  },
+  {
+    "id": 462,
+    "source": "Netflix",
+    "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
+    "summary": "By Emma Yanyang Kong , Aditya Deshpande , Asad Abbasi , Bowei Yan , David Fagnan , Ashish Rastogi , Dhaval Patel , Ray Zhang",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Aug 28, 2026",
+    "publishedAt": "2026-08-28T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e",
+    "details": []
+  },
+  {
+    "id": 463,
+    "source": "Cloudflare",
+    "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+    "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 28, 2026",
+    "publishedAt": "2026-08-28T12:59:44.000Z",
+    "url": "https://blog.cloudflare.com/botbase-for-operators/",
+    "details": []
+  },
+  {
+    "id": 464,
+    "source": "Cloudflare",
+    "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+    "summary": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Aug 27, 2026",
+    "publishedAt": "2026-08-27T17:02:35.000Z",
+    "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+    "details": []
+  },
+  {
+    "id": 465,
+    "source": "Vercel",
+    "title": "The best workflow engine is a programming language",
+    "summary": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown workflow engines for a long time. What we never had was a version of it that felt good to write.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Aug 27, 2026",
+    "publishedAt": "2026-08-27T07:00:00.000Z",
+    "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
+    "details": []
+  },
+  {
     "id": 454,
     "source": "Vercel",
     "title": "How we cut CDN metadata lookup latency by 91%",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-10T00:00:00.000Z",
     "url": "https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 455,
@@ -24,7 +103,8 @@
     "published": "Sep 4, 2026",
     "publishedAt": "2026-09-04T16:04:14.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 456,
@@ -37,7 +117,8 @@
     "published": "Sep 3, 2026",
     "publishedAt": "2026-09-03T21:03:02.000Z",
     "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 457,
@@ -50,7 +131,8 @@
     "published": "Sep 3, 2026",
     "publishedAt": "2026-09-03T16:06:40.000Z",
     "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 458,
@@ -63,7 +145,8 @@
     "published": "Sep 3, 2026",
     "publishedAt": "2026-09-03T16:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 459,
@@ -76,7 +159,8 @@
     "published": "Sep 1, 2026",
     "publishedAt": "2026-09-01T07:00:00.000Z",
     "url": "https://vercel.com/blog/fluid-compute-takes-any-shape",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 448,
@@ -467,90 +551,6 @@
     "published": "Aug 31, 2026",
     "publishedAt": "2026-08-31T12:59:00.000Z",
     "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 428,
-    "source": "Vercel",
-    "title": "How our agents build on-brand pages with design.md",
-    "summary": "Across Vercel, we use coding agents to design and build pages that have to look and feel like Vercel. The typography, color, and composition all need to carry the same judgment that we put into the pages we already ship ourselves.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 429,
-    "source": "Mozilla Hacks",
-    "title": "Intent to Ship: JPEG XL",
-    "summary": "It isn’t often that new image formats land in browsers. In the early 2000s we had JPEG, GIF, and PNG. The 2010s gave us WebP, which was a modest step up from JPEG. But the 2020s have given us two new image formats that are a big step up from previous formats: AVIF and JPEG",
-    "tag": "Frontend",
-    "time": "5 min read",
-    "accent": "amber",
-    "published": "Aug 24, 2026",
-    "publishedAt": "2026-08-24T15:32:15.000Z",
-    "url": "https://hacks.mozilla.org/2026/08/intent-to-ship-jpeg-xl/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 418,
-    "source": "Cloudflare",
-    "title": "Say it once: Introducing Bot Preference Sync",
-    "summary": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 21, 2026",
-    "publishedAt": "2026-08-21T23:19:57.000Z",
-    "url": "https://blog.cloudflare.com/bot-preference-sync/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 419,
-    "source": "Vercel",
-    "title": "How Ora benchmarks every major AI agent on Vercel",
-    "summary": "Ora sends agents onto live websites with instructions to sign up for a product, integrate with it, and pay for it. Agents often fail, and by Ora's estimate, 99% of the web isn't agent-ready. The platform shows customers where and why agents fail, and what to change.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Aug 21, 2026",
-    "publishedAt": "2026-08-21T21:00:00.000Z",
-    "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 420,
-    "source": "Netflix",
-    "title": "A Tale of Two Flink Autoscalers",
-    "summary": "Today, Netflix runs two Flink autoscalers. That is exactly one more than we want. We built the first one in-house years ago, when there was no mature option suited to our platform. The second came from the Apache Flink community, and it can scale workloads our homegrown system was never designed for. We now run both…",
-    "tag": "Architecture",
-    "time": "5 min read",
-    "accent": "cyan",
-    "published": "Aug 21, 2026",
-    "publishedAt": "2026-08-21T16:01:01.000Z",
-    "url": "https://netflixtechblog.com/a-tale-of-two-flink-autoscalers-e9f6a1b1492b",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 421,
-    "source": "Vercel",
-    "title": "Introducing Vercel for Slack",
-    "summary": "Vercel Agent now works in Slack. Mention it the way you'd pull a teammate into a thread, and it reads the discussion, answers with the context of the platform running your app, and turns the team's decisions into changes you approve. Vercel for Slack is available today in Public Beta for Pro and Enterprise teams.",
-    "tag": "AI engineering",
-    "time": "5 min read",
-    "accent": "purple",
-    "published": "Aug 19, 2026",
-    "publishedAt": "2026-08-19T00:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-vercel-for-slack",
     "details": [],
     "featured": false
   }
