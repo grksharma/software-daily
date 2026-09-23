@@ -1,5 +1,84 @@
 [
   {
+    "id": 466,
+    "source": "Dropbox",
+    "title": "What Dropbox has learned from deploying AI at company scale",
+    "summary": "Learnings from deploying AI at company scale, and what organizations need to consider as they move from AI adoption to broader transformation.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 23, 2026",
+    "publishedAt": "2026-09-23T07:00:00.000Z",
+    "url": "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 467,
+    "source": "Cloudflare",
+    "title": "We just shipped support for the ugliest part of HTTP: Vary",
+    "summary": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 22, 2026",
+    "publishedAt": "2026-09-22T14:04:31.000Z",
+    "url": "https://blog.cloudflare.com/vary-support/",
+    "details": []
+  },
+  {
+    "id": 468,
+    "source": "Cloudflare",
+    "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
+    "summary": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 22, 2026",
+    "publishedAt": "2026-09-22T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/worker-previews/",
+    "details": []
+  },
+  {
+    "id": 469,
+    "source": "Vercel",
+    "title": "How our agents build on-brand pages with design.md",
+    "summary": "Across Vercel, we use coding agents to design and build pages that have to look and feel like Vercel. The typography, color, and composition all need to carry the same judgment that we put into the pages we already ship ourselves.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Aug 31, 2026",
+    "publishedAt": "2026-08-31T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+    "details": []
+  },
+  {
+    "id": 470,
+    "source": "Vercel",
+    "title": "Introducing Run SDK: secure eval for your agents",
+    "summary": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human approval.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Aug 25, 2026",
+    "publishedAt": "2026-08-25T04:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-run",
+    "details": []
+  },
+  {
+    "id": 471,
+    "source": "Vercel",
+    "title": "The end of credential sprawl for agents",
+    "summary": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk lives, because for years, granting it meant provisioning a long-lived token and hoping it never leaked.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Aug 25, 2026",
+    "publishedAt": "2026-08-25T04:00:00.000Z",
+    "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+    "details": []
+  },
+  {
     "id": 460,
     "source": "Dropbox",
     "title": "Introducing Our New Dropbox API Documentation",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-21T14:30:00.000Z",
     "url": "https://dropbox.tech/developers/new-dropbox-api-documentation",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 461,
@@ -24,7 +103,8 @@
     "published": "Sep 21, 2026",
     "publishedAt": "2026-09-21T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/python-workers-ga/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 462,
@@ -37,7 +117,8 @@
     "published": "Aug 28, 2026",
     "publishedAt": "2026-08-28T16:01:02.000Z",
     "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 463,
@@ -50,7 +131,8 @@
     "published": "Aug 28, 2026",
     "publishedAt": "2026-08-28T12:59:44.000Z",
     "url": "https://blog.cloudflare.com/botbase-for-operators/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 464,
@@ -63,7 +145,8 @@
     "published": "Aug 27, 2026",
     "publishedAt": "2026-08-27T17:02:35.000Z",
     "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 465,
@@ -76,7 +159,8 @@
     "published": "Aug 27, 2026",
     "publishedAt": "2026-08-27T07:00:00.000Z",
     "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 454,
@@ -467,90 +551,6 @@
     "published": "Sep 8, 2026",
     "publishedAt": "2026-09-08T04:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-flat-rate-cdn",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 434,
-    "source": "Lyft",
-    "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator",
-    "summary": "Written by Maheep Myneni , Arda Kuyumcu , and Prem Santosh Udaya Shankar at Lyft.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T19:08:16.000Z",
-    "url": "https://eng.lyft.com/rerouting-the-stream-how-lyft-moved-to-the-apache-flink-operator-36f20246d250",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 435,
-    "source": "Dropbox",
-    "title": "Testing cookie behavior across hundreds of web surfaces with our in-house auditor",
-    "summary": "Our cookie auditor acts like a privacy-conscious user by visiting web pages and checking that they only load cookies consistent with that user’s preferences.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T17:00:00.000Z",
-    "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 424,
-    "source": "Cloudflare",
-    "title": "Have it both ways: stay discoverable in search while disallowing AI training",
-    "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 15, 2026",
-    "publishedAt": "2026-09-15T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 425,
-    "source": "Cloudflare",
-    "title": "Give every teammate and agent the right level of access to your Workers",
-    "summary": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 15, 2026",
-    "publishedAt": "2026-09-15T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-granular-authorization/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 426,
-    "source": "Vercel",
-    "title": "How Delphi ships 100 times a day with its Python backend on Vercel",
-    "summary": "Delphi builds digital minds. They capture what someone has written, recorded, and taught, so anyone can tap that expertise on demand. Delphi is “a destination where you can find and interact with interesting minds,” says founding engineer Spencer Schoeben.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 15, 2026",
-    "publishedAt": "2026-09-15T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 427,
-    "source": "Cloudflare",
-    "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
-    "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated…",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T12:59:00.000Z",
-    "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
     "details": [],
     "featured": false
   }
