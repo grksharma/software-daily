@@ -1,5 +1,84 @@
 [
   {
+    "id": 478,
+    "source": "GitHub Engineering",
+    "title": "When chat is the wrong UI",
+    "summary": "What is a developer to do when they need something more tangible than a chat box? Enter canvases.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 24, 2026",
+    "publishedAt": "2026-09-24T20:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 479,
+    "source": "GitHub Engineering",
+    "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+    "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 24, 2026",
+    "publishedAt": "2026-09-24T18:26:12.000Z",
+    "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+    "details": []
+  },
+  {
+    "id": 480,
+    "source": "Cloudflare",
+    "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+    "summary": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 24, 2026",
+    "publishedAt": "2026-09-24T15:00:00.000Z",
+    "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+    "details": []
+  },
+  {
+    "id": 481,
+    "source": "Vercel",
+    "title": "The Vercel Bug Bounty Program is now publicly available",
+    "summary": "In 2022, we launched a private bug bounty program through HackerOne. Over the last several years, we've worked with HackerOne's VIP program to refine our process, targets, and scope, onboarding thousands of their best researchers and hardening security across our platform.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 24, 2026",
+    "publishedAt": "2026-09-24T07:00:00.000Z",
+    "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
+    "details": []
+  },
+  {
+    "id": 482,
+    "source": "Vercel",
+    "title": "How Klaviyo shipped 356 internal apps in two weeks on Vercel",
+    "summary": "Klaviyo is a B2C CRM for more than 200,000 brands. It brings marketing, service, agents, and data together in one platform so brands can deliver customer experiences at scale. Klaviyo built a platform on Vercel for shipping internal apps, then opened it to every employee through a citizen developer program.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Sep 24, 2026",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel",
+    "details": []
+  },
+  {
+    "id": 483,
+    "source": "GitHub Engineering",
+    "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+    "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 17, 2026",
+    "publishedAt": "2026-09-17T00:26:43.000Z",
+    "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+    "details": []
+  },
+  {
     "id": 472,
     "source": "GitHub Engineering",
     "title": "Rendering huge pull requests in the GitHub Copilot app",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-23T18:29:49.000Z",
     "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 473,
@@ -24,7 +103,8 @@
     "published": "Sep 15, 2026",
     "publishedAt": "2026-09-15T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 474,
@@ -37,7 +117,8 @@
     "published": "Sep 15, 2026",
     "publishedAt": "2026-09-15T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-granular-authorization/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 475,
@@ -50,7 +131,8 @@
     "published": "Sep 15, 2026",
     "publishedAt": "2026-09-15T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 476,
@@ -63,7 +145,8 @@
     "published": "Aug 31, 2026",
     "publishedAt": "2026-08-31T19:08:16.000Z",
     "url": "https://eng.lyft.com/rerouting-the-stream-how-lyft-moved-to-the-apache-flink-operator-36f20246d250",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 477,
@@ -76,7 +159,8 @@
     "published": "Aug 31, 2026",
     "publishedAt": "2026-08-31T17:00:00.000Z",
     "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 466,
@@ -467,90 +551,6 @@
     "published": "Sep 18, 2026",
     "publishedAt": "2026-09-18T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 446,
-    "source": "Vercel",
-    "title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
-    "summary": "In August 2026, Hacktron reported what looked like a remote code execution (RCE) vulnerability in Next.js image optimization. Their investigation found that the vulnerable code was not in Next.js itself, but upstream in libheif, an AVIF image decoder used by Next.js, ImageMagick , WordPress , sharp , and much of the…",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Sep 18, 2026",
-    "publishedAt": "2026-09-18T00:00:00.000Z",
-    "url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 447,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-    "summary": "Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 10, 2026",
-    "publishedAt": "2026-09-10T21:31:19.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 436,
-    "source": "Vercel",
-    "title": "Open-weight models take 56% of token volume, Astra doubles Fable 5.1 spend",
-    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from June , July , and August .",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Sep 17, 2026",
-    "publishedAt": "2026-09-17T07:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-production-index-september-2026",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 437,
-    "source": "Spotify",
-    "title": "AI Changed How Spotify Builds. What We Learned (and Fixed) About Quality at Higher Velocity",
-    "summary": "Quality and reliability have always been a point of pride for Spotify. We run an extraordinarily complex...",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 16, 2026",
-    "publishedAt": "2026-09-16T19:13:53.000Z",
-    "url": "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 438,
-    "source": "Cloudflare",
-    "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
-    "summary": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 9, 2026",
-    "publishedAt": "2026-09-09T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 439,
-    "source": "GitHub Engineering",
-    "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
-    "summary": "From loop engineering to harnesses, squads, and open weights, the GitHub Podcast breaks down the AI terms showing up in developer conversations.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 2, 2026",
-    "publishedAt": "2026-09-02T21:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
     "details": [],
     "featured": false
   }
