@@ -1,5 +1,84 @@
 [
   {
+    "id": 502,
+    "source": "GitHub Engineering",
+    "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+    "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 28, 2026",
+    "publishedAt": "2026-09-28T19:00:00.000Z",
+    "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 503,
+    "source": "Cloudflare",
+    "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+    "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 28, 2026",
+    "publishedAt": "2026-09-28T15:50:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+    "details": []
+  },
+  {
+    "id": 504,
+    "source": "Cloudflare",
+    "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+    "summary": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 28, 2026",
+    "publishedAt": "2026-09-28T14:51:57.000Z",
+    "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
+    "details": []
+  },
+  {
+    "id": 505,
+    "source": "Cloudflare",
+    "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
+    "summary": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metrics, and performance breakdowns across browsers and regions.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 28, 2026",
+    "publishedAt": "2026-09-28T14:43:05.000Z",
+    "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
+    "details": []
+  },
+  {
+    "id": 506,
+    "source": "Cloudflare",
+    "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+    "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Sep 27, 2026",
+    "publishedAt": "2026-09-27T17:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+    "details": []
+  },
+  {
+    "id": 507,
+    "source": "Cloudflare",
+    "title": "Introducing automatic remediation policies with Cloudflare CASB",
+    "summary": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 11, 2026",
+    "publishedAt": "2026-09-11T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/casb-policies/",
+    "details": []
+  },
+  {
     "id": 496,
     "source": "Cloudflare",
     "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-28T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/voidzero-update/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 497,
@@ -24,7 +103,8 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 498,
@@ -37,7 +117,8 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/kitesurf-update/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 499,
@@ -50,7 +131,8 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/introducing-the-cold-start/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 500,
@@ -63,7 +145,8 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 501,
@@ -76,7 +159,8 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 490,
@@ -467,90 +551,6 @@
     "published": "Aug 31, 2026",
     "publishedAt": "2026-08-31T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 470,
-    "source": "Vercel",
-    "title": "Introducing Run SDK: secure eval for your agents",
-    "summary": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human approval.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 25, 2026",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-run",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 471,
-    "source": "Vercel",
-    "title": "The end of credential sprawl for agents",
-    "summary": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk lives, because for years, granting it meant provisioning a long-lived token and hoping it never leaked.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Aug 25, 2026",
-    "publishedAt": "2026-08-25T04:00:00.000Z",
-    "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 460,
-    "source": "Dropbox",
-    "title": "Introducing Our New Dropbox API Documentation",
-    "summary": "Learn about the newly launched version of the Dropbox API documentation and its modern design and features.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 21, 2026",
-    "publishedAt": "2026-09-21T14:30:00.000Z",
-    "url": "https://dropbox.tech/developers/new-dropbox-api-documentation",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 461,
-    "source": "Cloudflare",
-    "title": "Python Workers are now generally available",
-    "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 21, 2026",
-    "publishedAt": "2026-09-21T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/python-workers-ga/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 462,
-    "source": "Netflix",
-    "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
-    "summary": "By Emma Yanyang Kong , Aditya Deshpande , Asad Abbasi , Bowei Yan , David Fagnan , Ashish Rastogi , Dhaval Patel , Ray Zhang",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Aug 28, 2026",
-    "publishedAt": "2026-08-28T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 463,
-    "source": "Cloudflare",
-    "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-    "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Aug 28, 2026",
-    "publishedAt": "2026-08-28T12:59:44.000Z",
-    "url": "https://blog.cloudflare.com/botbase-for-operators/",
     "details": [],
     "featured": false
   }
