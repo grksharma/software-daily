@@ -1,5 +1,84 @@
 [
   {
+    "id": 508,
+    "source": "Cloudflare",
+    "title": "Using AI to chart a course for our post-quantum migration",
+    "summary": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve learned so far.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 29, 2026",
+    "publishedAt": "2026-09-29T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 509,
+    "source": "Cloudflare",
+    "title": "Building a certificate authority for the whole Internet",
+    "summary": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a post-quantum CA for the open web.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 29, 2026",
+    "publishedAt": "2026-09-29T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+    "details": []
+  },
+  {
+    "id": 510,
+    "source": "Cloudflare",
+    "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+    "summary": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 29, 2026",
+    "publishedAt": "2026-09-29T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/ai-era-framework/",
+    "details": []
+  },
+  {
+    "id": 511,
+    "source": "Cloudflare",
+    "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+    "summary": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will support MTC issuance at scale.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 29, 2026",
+    "publishedAt": "2026-09-29T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
+    "details": []
+  },
+  {
+    "id": 512,
+    "source": "Cloudflare",
+    "title": "We tested our own WAF with frontier AI models. Here’s what we found",
+    "summary": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging environment and discovered detection gaps worth fixing. Here’s how the loop worked, what got through,…",
+    "tag": "AI engineering",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Sep 29, 2026",
+    "publishedAt": "2026-09-29T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
+    "details": []
+  },
+  {
+    "id": 513,
+    "source": "Cloudflare",
+    "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
+    "summary": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 29, 2026",
+    "publishedAt": "2026-09-29T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/threat-signals/",
+    "details": []
+  },
+  {
     "id": 502,
     "source": "GitHub Engineering",
     "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-28T19:00:00.000Z",
     "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 503,
@@ -24,7 +103,8 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T15:50:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 504,
@@ -37,7 +117,8 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T14:51:57.000Z",
     "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 505,
@@ -50,7 +131,8 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T14:43:05.000Z",
     "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 506,
@@ -63,7 +145,8 @@
     "published": "Sep 27, 2026",
     "publishedAt": "2026-09-27T17:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 507,
@@ -76,7 +159,8 @@
     "published": "Sep 11, 2026",
     "publishedAt": "2026-09-11T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/casb-policies/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 496,
@@ -467,90 +551,6 @@
     "published": "Sep 15, 2026",
     "publishedAt": "2026-09-15T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 476,
-    "source": "Lyft",
-    "title": "Rerouting the Stream: How Lyft Moved to the Apache Flink Operator",
-    "summary": "Written by Maheep Myneni , Arda Kuyumcu , and Prem Santosh Udaya Shankar at Lyft.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T19:08:16.000Z",
-    "url": "https://eng.lyft.com/rerouting-the-stream-how-lyft-moved-to-the-apache-flink-operator-36f20246d250",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 477,
-    "source": "Dropbox",
-    "title": "Testing cookie behavior across hundreds of web surfaces with our in-house auditor",
-    "summary": "Our cookie auditor acts like a privacy-conscious user by visiting web pages and checking that they only load cookies consistent with that user’s preferences.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T17:00:00.000Z",
-    "url": "https://dropbox.tech/security/how-our-inhouse-auditor-tests-cookie-behavior-across-hundreds-of-web-surfaces",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 466,
-    "source": "Dropbox",
-    "title": "What Dropbox has learned from deploying AI at company scale",
-    "summary": "Learnings from deploying AI at company scale, and what organizations need to consider as they move from AI adoption to broader transformation.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 23, 2026",
-    "publishedAt": "2026-09-23T07:00:00.000Z",
-    "url": "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 467,
-    "source": "Cloudflare",
-    "title": "We just shipped support for the ugliest part of HTTP: Vary",
-    "summary": "Vary support is now available in Cache Rules on every plan. You can normalize known negotiation headers, pass exact values through to the origin when those small differences matter, or bypass cache when the variation is too unpredictable.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 22, 2026",
-    "publishedAt": "2026-09-22T14:04:31.000Z",
-    "url": "https://blog.cloudflare.com/vary-support/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 468,
-    "source": "Cloudflare",
-    "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
-    "summary": "Worker Previews gives every branch its own URL, configuration, state, and observability, so you and your agents can test changes in parallel without affecting production.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 22, 2026",
-    "publishedAt": "2026-09-22T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/worker-previews/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 469,
-    "source": "Vercel",
-    "title": "How our agents build on-brand pages with design.md",
-    "summary": "Across Vercel, we use coding agents to design and build pages that have to look and feel like Vercel. The typography, color, and composition all need to carry the same judgment that we put into the pages we already ship ourselves.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Aug 31, 2026",
-    "publishedAt": "2026-08-31T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
     "details": [],
     "featured": false
   }
