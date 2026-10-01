@@ -1,5 +1,84 @@
 [
   {
+    "id": 514,
+    "source": "Cloudflare",
+    "title": "One year later: Sovereign AI and the fight for choice",
+    "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T13:04:19.000Z",
+    "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 515,
+    "source": "Cloudflare",
+    "title": "Introducing Workers KV Instant — powered by Quicksilver",
+    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-kv-instant/",
+    "details": []
+  },
+  {
+    "id": 516,
+    "source": "Cloudflare",
+    "title": "Cloudflare OS: your company’s agent workspace, managed for you",
+    "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few clicks.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
+    "details": []
+  },
+  {
+    "id": 517,
+    "source": "Cloudflare",
+    "title": "Announcing Cloudflare K2: serverless event streams",
+    "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log streams without the operational overhead of traditional broker clusters.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
+    "details": []
+  },
+  {
+    "id": 518,
+    "source": "Cloudflare",
+    "title": "We want you to build the next Git platform on Cloudflare",
+    "summary": "Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+    "details": []
+  },
+  {
+    "id": 519,
+    "source": "Cloudflare",
+    "title": "AI Search is now generally available",
+    "summary": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new and how pricing works.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/ai-search-ga/",
+    "details": []
+  },
+  {
     "id": 508,
     "source": "Cloudflare",
     "title": "Using AI to chart a course for our post-quantum migration",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-09-29T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 509,
@@ -24,7 +103,8 @@
     "published": "Sep 29, 2026",
     "publishedAt": "2026-09-29T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 510,
@@ -37,7 +117,8 @@
     "published": "Sep 29, 2026",
     "publishedAt": "2026-09-29T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/ai-era-framework/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 511,
@@ -50,7 +131,8 @@
     "published": "Sep 29, 2026",
     "publishedAt": "2026-09-29T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 512,
@@ -63,7 +145,8 @@
     "published": "Sep 29, 2026",
     "publishedAt": "2026-09-29T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 513,
@@ -76,7 +159,8 @@
     "published": "Sep 29, 2026",
     "publishedAt": "2026-09-29T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/threat-signals/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 502,
@@ -467,90 +551,6 @@
     "published": "Sep 24, 2026",
     "publishedAt": "2026-09-24T07:00:00.000Z",
     "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 482,
-    "source": "Vercel",
-    "title": "How Klaviyo shipped 356 internal apps in two weeks on Vercel",
-    "summary": "Klaviyo is a B2C CRM for more than 200,000 brands. It brings marketing, service, agents, and data together in one platform so brands can deliver customer experiences at scale. Klaviyo built a platform on Vercel for shipping internal apps, then opened it to every employee through a citizen developer program.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Sep 24, 2026",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 483,
-    "source": "GitHub Engineering",
-    "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
-    "summary": "A rewrite this size wasn't affordable before agents. Here's what porting the Copilot agent runtime to 800,000 lines of production Rust actually took.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 17, 2026",
-    "publishedAt": "2026-09-17T00:26:43.000Z",
-    "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 472,
-    "source": "GitHub Engineering",
-    "title": "Rendering huge pull requests in the GitHub Copilot app",
-    "summary": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 23, 2026",
-    "publishedAt": "2026-09-23T18:29:49.000Z",
-    "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 473,
-    "source": "Cloudflare",
-    "title": "Have it both ways: stay discoverable in search while disallowing AI training",
-    "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 15, 2026",
-    "publishedAt": "2026-09-15T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 474,
-    "source": "Cloudflare",
-    "title": "Give every teammate and agent the right level of access to your Workers",
-    "summary": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 15, 2026",
-    "publishedAt": "2026-09-15T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-granular-authorization/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 475,
-    "source": "Vercel",
-    "title": "How Delphi ships 100 times a day with its Python backend on Vercel",
-    "summary": "Delphi builds digital minds. They capture what someone has written, recorded, and taught, so anyone can tap that expertise on demand. Delphi is “a destination where you can find and interact with interesting minds,” says founding engineer Spencer Schoeben.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 15, 2026",
-    "publishedAt": "2026-09-15T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
     "details": [],
     "featured": false
   }
