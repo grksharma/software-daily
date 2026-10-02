@@ -1,5 +1,84 @@
 [
   {
+    "id": 520,
+    "source": "Cloudflare",
+    "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+    "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T15:34:02.000Z",
+    "url": "https://blog.cloudflare.com/clef-decision-models/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 521,
+    "source": "Cloudflare",
+    "title": "Support for modern cryptographic algorithms in Workers",
+    "summary": "Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
+    "details": []
+  },
+  {
+    "id": 522,
+    "source": "Cloudflare",
+    "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
+    "summary": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T12:58:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-basin/",
+    "details": []
+  },
+  {
+    "id": 523,
+    "source": "Cloudflare",
+    "title": "Cloudflare Impact reaches $100 million in donations",
+    "summary": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management bodies, and public schools are being protected from cyberattacks.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 30, 2026",
+    "publishedAt": "2026-09-30T13:01:55.000Z",
+    "url": "https://blog.cloudflare.com/100-million-donations/",
+    "details": []
+  },
+  {
+    "id": 524,
+    "source": "Cloudflare",
+    "title": "Cut your AI spend with AI Gateway's Auto Router",
+    "summary": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations can dramatically cut AI spend while maintaining performance.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 30, 2026",
+    "publishedAt": "2026-09-30T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/auto-router/",
+    "details": []
+  },
+  {
+    "id": 525,
+    "source": "Cloudflare",
+    "title": "Detect and send production issues straight to your agent",
+    "summary": "You can now use built-in error monitoring in Cloudflare Workers to group production failures and send stack traces, logs, traces, and application context directly to a coding agent to investigate further and open a pull request.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 30, 2026",
+    "publishedAt": "2026-09-30T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/real-time-issue-detection/",
+    "details": []
+  },
+  {
     "id": 514,
     "source": "Cloudflare",
     "title": "One year later: Sovereign AI and the fight for choice",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-01T13:04:19.000Z",
     "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 515,
@@ -24,7 +103,8 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-kv-instant/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 516,
@@ -37,7 +117,8 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 517,
@@ -50,7 +131,8 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 518,
@@ -63,7 +145,8 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 519,
@@ -76,7 +159,8 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/ai-search-ga/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 508,
@@ -467,90 +551,6 @@
     "published": "Sep 25, 2026",
     "publishedAt": "2026-09-25T06:00:00.000Z",
     "url": "https://vercel.com/blog/state-of-agent-skills",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 488,
-    "source": "Vercel",
-    "title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
-    "summary": "In August 2026, Hacktron reported what looked like a remote code execution (RCE) vulnerability in Next.js image optimization. Their investigation found that the vulnerable code was not in Next.js itself, but upstream in libheif, an AVIF image decoder used by Next.js, ImageMagick , WordPress , sharp , and much of the…",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Sep 18, 2026",
-    "publishedAt": "2026-09-18T00:00:00.000Z",
-    "url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 489,
-    "source": "Vercel",
-    "title": "Open-weight models take 56% of token volume, Astra doubles Fable 5.1 spend",
-    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from June , July , and August .",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Sep 17, 2026",
-    "publishedAt": "2026-09-17T07:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-production-index-september-2026",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 478,
-    "source": "GitHub Engineering",
-    "title": "When chat is the wrong UI",
-    "summary": "What is a developer to do when they need something more tangible than a chat box? Enter canvases.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 24, 2026",
-    "publishedAt": "2026-09-24T20:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 479,
-    "source": "GitHub Engineering",
-    "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
-    "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 24, 2026",
-    "publishedAt": "2026-09-24T18:26:12.000Z",
-    "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 480,
-    "source": "Cloudflare",
-    "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
-    "summary": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 24, 2026",
-    "publishedAt": "2026-09-24T15:00:00.000Z",
-    "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 481,
-    "source": "Vercel",
-    "title": "The Vercel Bug Bounty Program is now publicly available",
-    "summary": "In 2022, we launched a private bug bounty program through HackerOne. Over the last several years, we've worked with HackerOne's VIP program to refine our process, targets, and scope, onboarding thousands of their best researchers and hardening security across our platform.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 24, 2026",
-    "publishedAt": "2026-09-24T07:00:00.000Z",
-    "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
     "details": [],
     "featured": false
   }
