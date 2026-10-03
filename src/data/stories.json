@@ -1,5 +1,84 @@
 [
   {
+    "id": 526,
+    "source": "Cloudflare",
+    "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+    "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T16:13:45.000Z",
+    "url": "https://blog.cloudflare.com/streamline/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 527,
+    "source": "GitHub Engineering",
+    "title": "AI is changing developer work. Here are three skills to strengthen.",
+    "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T15:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+    "details": []
+  },
+  {
+    "id": 528,
+    "source": "Cloudflare",
+    "title": "Introducing Web Search API via AI Gateway",
+    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:28:10.000Z",
+    "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+    "details": []
+  },
+  {
+    "id": 529,
+    "source": "Cloudflare",
+    "title": "8 major updates to Cloudflare Observability",
+    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/one-observability-platform/",
+    "details": []
+  },
+  {
+    "id": 530,
+    "source": "Cloudflare",
+    "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+    "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-tracing/",
+    "details": []
+  },
+  {
+    "id": 531,
+    "source": "Cloudflare",
+    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+    "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
+    "details": []
+  },
+  {
     "id": 520,
     "source": "Cloudflare",
     "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-01T15:34:02.000Z",
     "url": "https://blog.cloudflare.com/clef-decision-models/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 521,
@@ -24,7 +103,8 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 522,
@@ -37,7 +117,8 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T12:58:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-basin/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 523,
@@ -50,7 +131,8 @@
     "published": "Sep 30, 2026",
     "publishedAt": "2026-09-30T13:01:55.000Z",
     "url": "https://blog.cloudflare.com/100-million-donations/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 524,
@@ -63,7 +145,8 @@
     "published": "Sep 30, 2026",
     "publishedAt": "2026-09-30T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/auto-router/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 525,
@@ -76,7 +159,8 @@
     "published": "Sep 30, 2026",
     "publishedAt": "2026-09-30T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/real-time-issue-detection/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 514,
@@ -467,90 +551,6 @@
     "published": "Sep 18, 2026",
     "publishedAt": "2026-09-18T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 494,
-    "source": "Cloudflare",
-    "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
-    "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 16, 2026",
-    "publishedAt": "2026-09-16T20:06:17.000Z",
-    "url": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 495,
-    "source": "Spotify",
-    "title": "AI Changed How Spotify Builds. What We Learned (and Fixed) About Quality at Higher Velocity",
-    "summary": "Quality and reliability have always been a point of pride for Spotify. We run an extraordinarily complex...",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 16, 2026",
-    "publishedAt": "2026-09-16T19:13:53.000Z",
-    "url": "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 484,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-    "summary": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 25, 2026",
-    "publishedAt": "2026-09-25T18:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 485,
-    "source": "Netflix",
-    "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
-    "summary": "Organizations that have been around for a while usually run two identity systems side by side. One belongs to the cloud provider: IAM roles, instance profiles, execution roles. The other is your own, and it is the one your internal services actually check when they decide whether to answer a request.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Sep 25, 2026",
-    "publishedAt": "2026-09-25T16:01:03.000Z",
-    "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 486,
-    "source": "Cloudflare",
-    "title": "Agents can now set up your website’s security with Turnstile Spin",
-    "summary": "Misconfiguring Turnstile by skipping backend validation leaves sites exposed to bots. Turnstile Spin fixes incomplete setups by using your preferred AI coding agent to wire up server-side verification.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 25, 2026",
-    "publishedAt": "2026-09-25T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/turnstile-spin/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 487,
-    "source": "Vercel",
-    "title": "State of agent skills",
-    "summary": "In seven months, the skills.sh registry grew to one million agent skills and recorded nearly 280 million installs.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 25, 2026",
-    "publishedAt": "2026-09-25T06:00:00.000Z",
-    "url": "https://vercel.com/blog/state-of-agent-skills",
     "details": [],
     "featured": false
   }
