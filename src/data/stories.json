@@ -1,5 +1,84 @@
 [
   {
+    "id": 532,
+    "source": "Cloudflare",
+    "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+    "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 533,
+    "source": "Cloudflare",
+    "title": "Follow the thread: a new dashboard to investigate account abuse",
+    "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
+    "details": []
+  },
+  {
+    "id": 534,
+    "source": "Cloudflare",
+    "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+    "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
+    "details": []
+  },
+  {
+    "id": 535,
+    "source": "Cloudflare",
+    "title": "Building for good: How civil society organizations are automating on Cloudflare",
+    "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/civil-society-automation/",
+    "details": []
+  },
+  {
+    "id": 536,
+    "source": "Cloudflare",
+    "title": "2026 Birthday week: network performance update",
+    "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
+    "details": []
+  },
+  {
+    "id": 537,
+    "source": "Vercel",
+    "title": "Jev for Python engineers",
+    "summary": "It's simply impossible to not hear about Jev. Seemingly everyone is tinkering with it in some way, from using it to make trading decisions (what could possibly go wrong?) to generating UIs with it (maybe we're onto something here!) .",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T07:00:00.000Z",
+    "url": "https://vercel.com/blog/jev-for-python-engineers",
+    "details": []
+  },
+  {
     "id": 526,
     "source": "Cloudflare",
     "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-02T16:13:45.000Z",
     "url": "https://blog.cloudflare.com/streamline/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 527,
@@ -24,7 +103,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T15:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 528,
@@ -37,7 +117,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:28:10.000Z",
     "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 529,
@@ -50,7 +131,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/one-observability-platform/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 530,
@@ -63,7 +145,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-tracing/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 531,
@@ -76,7 +159,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 520,
@@ -467,90 +551,6 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/introducing-the-cold-start/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 500,
-    "source": "Cloudflare",
-    "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
-    "summary": "EmDash 1.0 is a stable, open source CMS built for Astro, with agent-friendly workflows, secure sandboxed plugins, and a decentralized registry that keeps publishers in control.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 501,
-    "source": "Cloudflare",
-    "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
-    "summary": "With the new experimental support for the Emscripten target in Rust Workers, many previously unsupported Rust libraries and applications can now be built and deployed directly to Cloudflare’s global Workers platform, including upcoming support for Tokio async.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 490,
-    "source": "Cloudflare",
-    "title": "Saving another 100TB of RAM with math (and Rust)",
-    "summary": "Cloudflare's global network is immense but not limitless. As we look for small ways to trim our resource usage, we sometimes get lucky and we can cut significantly more. Here’s how we reduced one of our Pingora-based service's RAM usage with statistics.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Sep 18, 2026",
-    "publishedAt": "2026-09-18T17:23:58.000Z",
-    "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 491,
-    "source": "Netflix",
-    "title": "Leave the Class Path in the Rearview Mirror",
-    "summary": "Introducing composable, module system native and agent friendly command line tools for modern Java development",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 18, 2026",
-    "publishedAt": "2026-09-18T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 492,
-    "source": "GitHub Engineering",
-    "title": "Should you read the code, is RAG dead, and did Skills kill MCP?",
-    "summary": "We dive into these questions and other AI hot takes on the latest episode of the GitHub Podcast.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 18, 2026",
-    "publishedAt": "2026-09-18T15:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/should-you-read-the-code-is-rag-dead-and-did-skills-kill-mcp/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 493,
-    "source": "Vercel",
-    "title": "Jev is the fastest-adopted model in AI Gateway history",
-    "summary": "Within 24 hours of launching on AI Gateway, Jev from TypeSafe AI reached more than twice as many paid teams as any previous model launch, making it the fastest-adopted model in gateway history.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 18, 2026",
-    "publishedAt": "2026-09-18T07:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
     "details": [],
     "featured": false
   }
