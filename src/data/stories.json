@@ -1,5 +1,84 @@
 [
   {
+    "id": 538,
+    "source": "Cloudflare",
+    "title": "Everything we launched during Birthday Week 2026",
+    "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 5, 2026",
+    "publishedAt": "2026-10-05T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 539,
+    "source": "Cloudflare",
+    "title": "One year later: the power of 1.1.1.1 interns",
+    "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Oct 5, 2026",
+    "publishedAt": "2026-10-05T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+    "details": []
+  },
+  {
+    "id": 540,
+    "source": "Vercel",
+    "title": "How Rogo ships agent-written code to production in 5 minutes on Vercel",
+    "summary": "6 production AI agents automating work from churn analysis to deal desk",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
+    "details": []
+  },
+  {
+    "id": 541,
+    "source": "Dropbox",
+    "title": "Evolving our calendar assistant Reclaim to be AI-native without starting over",
+    "summary": "How we redesigned Reclaim for AI and natural-language requests while preserving the scheduling experience people rely on.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 29, 2026",
+    "publishedAt": "2026-09-29T13:00:00.000Z",
+    "url": "https://dropbox.tech/machine-learning/evolving-calendar-assistant-reclaim-to-be-ai-native",
+    "details": []
+  },
+  {
+    "id": 542,
+    "source": "GitHub Engineering",
+    "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+    "summary": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 25, 2026",
+    "publishedAt": "2026-09-25T18:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+    "details": []
+  },
+  {
+    "id": 543,
+    "source": "Netflix",
+    "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
+    "summary": "Organizations that have been around for a while usually run two identity systems side by side. One belongs to the cloud provider: IAM roles, instance profiles, execution roles. The other is your own, and it is the one your internal services actually check when they decide whether to answer a request.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Sep 25, 2026",
+    "publishedAt": "2026-09-25T16:01:03.000Z",
+    "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252",
+    "details": []
+  },
+  {
     "id": 532,
     "source": "Cloudflare",
     "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 533,
@@ -24,7 +103,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 534,
@@ -37,7 +117,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 535,
@@ -50,7 +131,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/civil-society-automation/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 536,
@@ -63,7 +145,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 537,
@@ -76,7 +159,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T07:00:00.000Z",
     "url": "https://vercel.com/blog/jev-for-python-engineers",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 526,
@@ -467,90 +551,6 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T14:43:05.000Z",
     "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 506,
-    "source": "Cloudflare",
-    "title": "Cloudflare’s 2026 Annual Founders’ Letter",
-    "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Sep 27, 2026",
-    "publishedAt": "2026-09-27T17:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 507,
-    "source": "Cloudflare",
-    "title": "Introducing automatic remediation policies with Cloudflare CASB",
-    "summary": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 11, 2026",
-    "publishedAt": "2026-09-11T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/casb-policies/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 496,
-    "source": "Cloudflare",
-    "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
-    "summary": "Since joining Cloudflare, VoidZero has delivered more than 80 releases that drastically speed up JavaScript compilation, linting, and testing. From a 10x faster React compiler to Vite+ 1.0, here’s how we are building faster tools for developers and AI agents.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/voidzero-update/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 497,
-    "source": "Cloudflare",
-    "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
-    "summary": "Forge is a pluggable, open-source pipeline that runs in CI to generate SDKs, CLIs, and documentation directly from API definitions. By shifting generation upstream into individual team repositories, Forge keeps developer tools continuously in sync.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 498,
-    "source": "Cloudflare",
-    "title": "The road to the agentic browser: A Kitesurf update",
-    "summary": "We’ve updated Kitesurf, our Workers-based browser for AI agents, with WebMCP support, improved DOM performance, and terminal-based rendering. With over 730,000 Web Platform subtests passing, agents can now navigate complex sites faster.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/kitesurf-update/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 499,
-    "source": "Cloudflare",
-    "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
-    "summary": "Cloudflare is launching The Cold Start, a startup competition giving five early-stage companies five minutes on stage at Cloudflare Connect. Grand Prize winner receives $500,000 in credits, a San Francisco billboard, and an invitation to our VIP speakers dinner.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/introducing-the-cold-start/",
     "details": [],
     "featured": false
   }
