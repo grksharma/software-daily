@@ -1,5 +1,84 @@
 [
   {
+    "id": 544,
+    "source": "GitHub Engineering",
+    "title": "ReviewBench: An open benchmark for AI code review",
+    "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 5, 2026",
+    "publishedAt": "2026-10-05T15:59:40.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 545,
+    "source": "Vercel",
+    "title": "State of agent skills",
+    "summary": "In seven months, the skills.sh registry grew to one million agent skills and recorded nearly 280 million installs.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 25, 2026",
+    "publishedAt": "2026-09-25T06:00:00.000Z",
+    "url": "https://vercel.com/blog/state-of-agent-skills",
+    "details": []
+  },
+  {
+    "id": 546,
+    "source": "GitHub Engineering",
+    "title": "When chat is the wrong UI",
+    "summary": "What is a developer to do when they need something more tangible than a chat box? Enter canvases.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 24, 2026",
+    "publishedAt": "2026-09-24T20:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+    "details": []
+  },
+  {
+    "id": 547,
+    "source": "GitHub Engineering",
+    "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+    "summary": "In this blog post, I explain how to use the new fuzzing taskflow based on the GitHub Security Lab Taskflow Agent AI framework.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 24, 2026",
+    "publishedAt": "2026-09-24T18:26:12.000Z",
+    "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+    "details": []
+  },
+  {
+    "id": 548,
+    "source": "Vercel",
+    "title": "The Vercel Bug Bounty Program is now publicly available",
+    "summary": "In 2022, we launched a private bug bounty program through HackerOne. Over the last several years, we've worked with HackerOne's VIP program to refine our process, targets, and scope, onboarding thousands of their best researchers and hardening security across our platform.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Sep 24, 2026",
+    "publishedAt": "2026-09-24T07:00:00.000Z",
+    "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
+    "details": []
+  },
+  {
+    "id": 549,
+    "source": "Vercel",
+    "title": "How Klaviyo shipped 356 internal apps in two weeks on Vercel",
+    "summary": "Klaviyo is a B2C CRM for more than 200,000 brands. It brings marketing, service, agents, and data together in one platform so brands can deliver customer experiences at scale. Klaviyo built a platform on Vercel for shipping internal apps, then opened it to every employee through a citizen developer program.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Sep 24, 2026",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel",
+    "details": []
+  },
+  {
     "id": 538,
     "source": "Cloudflare",
     "title": "Everything we launched during Birthday Week 2026",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-05T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 539,
@@ -24,7 +103,8 @@
     "published": "Oct 5, 2026",
     "publishedAt": "2026-10-05T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 540,
@@ -37,7 +117,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 541,
@@ -50,7 +131,8 @@
     "published": "Sep 29, 2026",
     "publishedAt": "2026-09-29T13:00:00.000Z",
     "url": "https://dropbox.tech/machine-learning/evolving-calendar-assistant-reclaim-to-be-ai-native",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 542,
@@ -63,7 +145,8 @@
     "published": "Sep 25, 2026",
     "publishedAt": "2026-09-25T18:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 543,
@@ -76,7 +159,8 @@
     "published": "Sep 25, 2026",
     "publishedAt": "2026-09-25T16:01:03.000Z",
     "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 532,
@@ -467,90 +551,6 @@
     "published": "Sep 29, 2026",
     "publishedAt": "2026-09-29T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 512,
-    "source": "Cloudflare",
-    "title": "We tested our own WAF with frontier AI models. Here’s what we found",
-    "summary": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging environment and discovered detection gaps worth fixing. Here’s how the loop worked, what got through,…",
-    "tag": "AI engineering",
-    "time": "5 min read",
-    "accent": "amber",
-    "published": "Sep 29, 2026",
-    "publishedAt": "2026-09-29T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 513,
-    "source": "Cloudflare",
-    "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
-    "summary": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 29, 2026",
-    "publishedAt": "2026-09-29T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/threat-signals/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 502,
-    "source": "GitHub Engineering",
-    "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-    "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T19:00:00.000Z",
-    "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 503,
-    "source": "Cloudflare",
-    "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
-    "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T15:50:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 504,
-    "source": "Cloudflare",
-    "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
-    "summary": "Vinext 1.0 graduates from an AI experiment to a production-ready framework, letting developers run Next.js apps on Vite. This release brings advanced cache warming, broader compatibility, and an automated testing pipeline.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T14:51:57.000Z",
-    "url": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 505,
-    "source": "Cloudflare",
-    "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
-    "summary": "Cloudflare is open-sourcing the BEACON dataset, making billions of anonymized Real User Monitoring (RUM) performance records publicly available on Google BigQuery. Explore real-world Core Web Vitals, soft navigation metrics, and performance breakdowns across browsers and regions.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T14:43:05.000Z",
-    "url": "https://blog.cloudflare.com/how-fast-is-the-web/",
     "details": [],
     "featured": false
   }
