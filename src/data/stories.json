@@ -1,5 +1,84 @@
 [
   {
+    "id": 550,
+    "source": "GitHub Engineering",
+    "title": "Building Git infrastructure for agent-scale development",
+    "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 6, 2026",
+    "publishedAt": "2026-10-06T20:57:56.000Z",
+    "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 551,
+    "source": "Cloudflare",
+    "title": "The keys to the Internet change on October 11. Are you ready?",
+    "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 6, 2026",
+    "publishedAt": "2026-10-06T17:50:11.000Z",
+    "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+    "details": []
+  },
+  {
+    "id": 552,
+    "source": "GitHub Engineering",
+    "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+    "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 28, 2026",
+    "publishedAt": "2026-09-28T19:00:00.000Z",
+    "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+    "details": []
+  },
+  {
+    "id": 553,
+    "source": "Dropbox",
+    "title": "Dropbox CTO Ali Dasdan on moving from AI adoption to transformation",
+    "summary": "Meaningful AI gains depend on rethinking workflows, measuring real outcomes, and keeping human judgment at the center of how work gets done.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 23, 2026",
+    "publishedAt": "2026-09-23T07:00:00.000Z",
+    "url": "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale",
+    "details": []
+  },
+  {
+    "id": 554,
+    "source": "Dropbox",
+    "title": "Introducing our new Dropbox API documentation",
+    "summary": "Learn about the newly launched version of the Dropbox API documentation and its modern design and features.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 21, 2026",
+    "publishedAt": "2026-09-21T14:30:00.000Z",
+    "url": "https://dropbox.tech/developers/new-dropbox-api-documentation",
+    "details": []
+  },
+  {
+    "id": 555,
+    "source": "Netflix",
+    "title": "Leave the Class Path in the Rearview Mirror",
+    "summary": "Introducing composable, module system native and agent friendly command line tools for modern Java development",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Sep 18, 2026",
+    "publishedAt": "2026-09-18T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be",
+    "details": []
+  },
+  {
     "id": 544,
     "source": "GitHub Engineering",
     "title": "ReviewBench: An open benchmark for AI code review",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-05T15:59:40.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 545,
@@ -24,7 +103,8 @@
     "published": "Sep 25, 2026",
     "publishedAt": "2026-09-25T06:00:00.000Z",
     "url": "https://vercel.com/blog/state-of-agent-skills",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 546,
@@ -37,7 +117,8 @@
     "published": "Sep 24, 2026",
     "publishedAt": "2026-09-24T20:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 547,
@@ -50,7 +131,8 @@
     "published": "Sep 24, 2026",
     "publishedAt": "2026-09-24T18:26:12.000Z",
     "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 548,
@@ -63,7 +145,8 @@
     "published": "Sep 24, 2026",
     "publishedAt": "2026-09-24T07:00:00.000Z",
     "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 549,
@@ -76,7 +159,8 @@
     "published": "Sep 24, 2026",
     "publishedAt": "2026-09-24T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 538,
@@ -467,90 +551,6 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 518,
-    "source": "Cloudflare",
-    "title": "We want you to build the next Git platform on Cloudflare",
-    "summary": "Cloudflare is hosting a competition to see who will build the next Git platform for an era of AI agents. Artifacts is in open beta, with Workers bindings, data jurisdiction controls, and event subscriptions for repository changes.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 519,
-    "source": "Cloudflare",
-    "title": "AI Search is now generally available",
-    "summary": "AI Search is now generally available. It embeds image pixels directly for visual search, runs optical character recognition on scanned PDFs, accepts files up to 10 MiB, and works with any chat model. Here's what's new and how pricing works.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/ai-search-ga/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 508,
-    "source": "Cloudflare",
-    "title": "Using AI to chart a course for our post-quantum migration",
-    "summary": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve learned so far.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 29, 2026",
-    "publishedAt": "2026-09-29T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 509,
-    "source": "Cloudflare",
-    "title": "Building a certificate authority for the whole Internet",
-    "summary": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a post-quantum CA for the open web.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 29, 2026",
-    "publishedAt": "2026-09-29T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 510,
-    "source": "Cloudflare",
-    "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
-    "summary": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 29, 2026",
-    "publishedAt": "2026-09-29T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/ai-era-framework/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 511,
-    "source": "Cloudflare",
-    "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
-    "summary": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will support MTC issuance at scale.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 29, 2026",
-    "publishedAt": "2026-09-29T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
     "details": [],
     "featured": false
   }
