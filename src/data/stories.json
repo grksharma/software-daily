@@ -1,5 +1,84 @@
 [
   {
+    "id": 556,
+    "source": "Cloudflare",
+    "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+    "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while preserving technical depth.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 8, 2026",
+    "publishedAt": "2026-10-08T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/radar-redesign/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 557,
+    "source": "GitHub Engineering",
+    "title": "Secret protection must scale with software",
+    "summary": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 7, 2026",
+    "publishedAt": "2026-10-07T17:45:34.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
+    "details": []
+  },
+  {
+    "id": 558,
+    "source": "Cloudflare",
+    "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+    "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 7, 2026",
+    "publishedAt": "2026-10-07T16:30:36.000Z",
+    "url": "https://blog.cloudflare.com/agentic-security-operations/",
+    "details": []
+  },
+  {
+    "id": 559,
+    "source": "Vercel",
+    "title": "Jev is the fastest-adopted model in AI Gateway history",
+    "summary": "Within 24 hours of launching on AI Gateway, Jev from TypeSafe AI reached more than twice as many paid teams as any previous model launch, making it the fastest-adopted model in gateway history.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 18, 2026",
+    "publishedAt": "2026-09-18T07:00:00.000Z",
+    "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
+    "details": []
+  },
+  {
+    "id": 560,
+    "source": "Vercel",
+    "title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
+    "summary": "In August 2026, Hacktron reported what looked like a remote code execution (RCE) vulnerability in Next.js image optimization. Their investigation found that the vulnerable code was not in Next.js itself, but upstream in libheif, an AVIF image decoder used by Next.js, ImageMagick , WordPress , sharp , and much of the…",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Sep 18, 2026",
+    "publishedAt": "2026-09-18T00:00:00.000Z",
+    "url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
+    "details": []
+  },
+  {
+    "id": 561,
+    "source": "Vercel",
+    "title": "Open-weight models take 56% of token volume, Astra doubles Fable 5.1 spend",
+    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from June , July , and August .",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Sep 17, 2026",
+    "publishedAt": "2026-09-17T07:00:00.000Z",
+    "url": "https://vercel.com/blog/ai-gateway-production-index-september-2026",
+    "details": []
+  },
+  {
     "id": 550,
     "source": "GitHub Engineering",
     "title": "Building Git infrastructure for agent-scale development",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-06T20:57:56.000Z",
     "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 551,
@@ -24,7 +103,8 @@
     "published": "Oct 6, 2026",
     "publishedAt": "2026-10-06T17:50:11.000Z",
     "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 552,
@@ -37,7 +117,8 @@
     "published": "Sep 28, 2026",
     "publishedAt": "2026-09-28T19:00:00.000Z",
     "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 553,
@@ -50,7 +131,8 @@
     "published": "Sep 23, 2026",
     "publishedAt": "2026-09-23T07:00:00.000Z",
     "url": "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 554,
@@ -63,7 +145,8 @@
     "published": "Sep 21, 2026",
     "publishedAt": "2026-09-21T14:30:00.000Z",
     "url": "https://dropbox.tech/developers/new-dropbox-api-documentation",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 555,
@@ -76,7 +159,8 @@
     "published": "Sep 18, 2026",
     "publishedAt": "2026-09-18T16:01:02.000Z",
     "url": "https://netflixtechblog.com/leave-the-class-path-in-the-rearview-mirror-67a85b15b6be",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 544,
@@ -467,90 +551,6 @@
     "published": "Sep 30, 2026",
     "publishedAt": "2026-09-30T13:01:55.000Z",
     "url": "https://blog.cloudflare.com/100-million-donations/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 524,
-    "source": "Cloudflare",
-    "title": "Cut your AI spend with AI Gateway's Auto Router",
-    "summary": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations can dramatically cut AI spend while maintaining performance.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 30, 2026",
-    "publishedAt": "2026-09-30T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/auto-router/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 525,
-    "source": "Cloudflare",
-    "title": "Detect and send production issues straight to your agent",
-    "summary": "You can now use built-in error monitoring in Cloudflare Workers to group production failures and send stack traces, logs, traces, and application context directly to a coding agent to investigate further and open a pull request.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Sep 30, 2026",
-    "publishedAt": "2026-09-30T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/real-time-issue-detection/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 514,
-    "source": "Cloudflare",
-    "title": "One year later: Sovereign AI and the fight for choice",
-    "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T13:04:19.000Z",
-    "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 515,
-    "source": "Cloudflare",
-    "title": "Introducing Workers KV Instant — powered by Quicksilver",
-    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-kv-instant/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 516,
-    "source": "Cloudflare",
-    "title": "Cloudflare OS: your company’s agent workspace, managed for you",
-    "summary": "Cloudflare OS gives everyone in your organization an agent workspace that knows how your company works and connects to its data and systems. We’re opening the waitlist for fully managed deployments that you’ll be able to launch in a few clicks.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/managed-cloudflare-os/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 517,
-    "source": "Cloudflare",
-    "title": "Announcing Cloudflare K2: serverless event streams",
-    "summary": "Cloudflare K2 is a serverless event streaming service built directly on top of R2 object storage for high-scale data movement and long-term retention. By decoupling producers and consumers at the edge, K2 enables durable, ordered log streams without the operational overhead of traditional broker clusters.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-k2-streams/",
     "details": [],
     "featured": false
   }
