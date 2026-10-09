@@ -1,5 +1,84 @@
 [
   {
+    "id": 562,
+    "source": "Cloudflare",
+    "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+    "summary": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 9, 2026",
+    "publishedAt": "2026-10-09T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 563,
+    "source": "Cloudflare",
+    "title": "Deno is joining Cloudflare",
+    "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 9, 2026",
+    "publishedAt": "2026-10-09T12:50:00.000Z",
+    "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+    "details": []
+  },
+  {
+    "id": 564,
+    "source": "GitHub Engineering",
+    "title": "How one bug bounty researcher chooses the features they investigate",
+    "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 8, 2026",
+    "publishedAt": "2026-10-08T17:02:52.000Z",
+    "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
+    "details": []
+  },
+  {
+    "id": 565,
+    "source": "Cloudflare",
+    "title": "One year later: Sovereign AI and the fight for choice",
+    "summary": "AI sovereignty is not a zero-sum game, but many governments now believe it is. Cloudflare's answer: more local open-source models, model-agnostic security tools, and a commitment to giving nations genuine choice.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T13:04:19.000Z",
+    "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
+    "details": []
+  },
+  {
+    "id": 566,
+    "source": "Cloudflare",
+    "title": "Introducing Workers KV Instant — powered by Quicksilver",
+    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-kv-instant/",
+    "details": []
+  },
+  {
+    "id": 567,
+    "source": "Spotify",
+    "title": "AI Changed How Spotify Builds. What We Learned (and Fixed) About Quality at Higher Velocity",
+    "summary": "Quality and reliability have always been a point of pride for Spotify. We run an extraordinarily complex...",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 16, 2026",
+    "publishedAt": "2026-09-16T19:13:53.000Z",
+    "url": "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity/",
+    "details": []
+  },
+  {
     "id": 556,
     "source": "Cloudflare",
     "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-08T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/radar-redesign/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 557,
@@ -24,7 +103,8 @@
     "published": "Oct 7, 2026",
     "publishedAt": "2026-10-07T17:45:34.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 558,
@@ -37,7 +117,8 @@
     "published": "Oct 7, 2026",
     "publishedAt": "2026-10-07T16:30:36.000Z",
     "url": "https://blog.cloudflare.com/agentic-security-operations/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 559,
@@ -50,7 +131,8 @@
     "published": "Sep 18, 2026",
     "publishedAt": "2026-09-18T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 560,
@@ -63,7 +145,8 @@
     "published": "Sep 18, 2026",
     "publishedAt": "2026-09-18T00:00:00.000Z",
     "url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 561,
@@ -76,7 +159,8 @@
     "published": "Sep 17, 2026",
     "publishedAt": "2026-09-17T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-production-index-september-2026",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 550,
@@ -467,90 +551,6 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/one-observability-platform/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 530,
-    "source": "Cloudflare",
-    "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
-    "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-tracing/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 531,
-    "source": "Cloudflare",
-    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-    "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 520,
-    "source": "Cloudflare",
-    "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
-    "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T15:34:02.000Z",
-    "url": "https://blog.cloudflare.com/clef-decision-models/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 521,
-    "source": "Cloudflare",
-    "title": "Support for modern cryptographic algorithms in Workers",
-    "summary": "Cloudflare Workers is adding opt-in support for post-quantum-resistant algorithms ML-KEM and ML-DSA. You can try it today.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-ml-kem-ml-dsa-support/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 522,
-    "source": "Cloudflare",
-    "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
-    "summary": "Cloudflare Basin is built on Apache Iceberg and R2 Object Storage. With general availability, developers can ingest, manage, and query large datasets at scale without paying data egress fees.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T12:58:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-basin/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 523,
-    "source": "Cloudflare",
-    "title": "Cloudflare Impact reaches $100 million in donations",
-    "summary": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management bodies, and public schools are being protected from cyberattacks.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 30, 2026",
-    "publishedAt": "2026-09-30T13:01:55.000Z",
-    "url": "https://blog.cloudflare.com/100-million-donations/",
     "details": [],
     "featured": false
   }
