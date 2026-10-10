@@ -1,5 +1,84 @@
 [
   {
+    "id": 568,
+    "source": "Cloudflare",
+    "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+    "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 9, 2026",
+    "publishedAt": "2026-10-09T18:27:34.000Z",
+    "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 569,
+    "source": "Vercel",
+    "title": "How Rillet ships 3× faster with AI agents on Vercel",
+    "summary": "Tripled shipping rate in three months with eve agents deployed on Vercel",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 9, 2026",
+    "publishedAt": "2026-10-09T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel",
+    "details": []
+  },
+  {
+    "id": 570,
+    "source": "Cloudflare",
+    "title": "Introducing Cloudflare Traces: follow requests through our entire platform",
+    "summary": "Cloudflare Traces shows how a request moves through security rules, transformations, cache, routing, Workers, and your origin, then follows it across services running anywhere in your stack.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/cloudflare-tracing/",
+    "details": []
+  },
+  {
+    "id": 571,
+    "source": "Cloudflare",
+    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
+    "summary": "A year after pledging to eliminate two-tier product access, Cloudflare has expanded Logpush, multi-account governance, and higher platform limits to all accounts. Here is an update on our progress, how we dogfood these tools internally, and what is coming next.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
+    "details": []
+  },
+  {
+    "id": 572,
+    "source": "Cloudflare",
+    "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+    "summary": "We are introducing Clef and Clef-flash, open-source decision models hosted on Workers AI for high-speed classification and agentic workflows. Also launching: a new reinforcement learning platform that allows developers to fine-tune decision models using their own data.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 1, 2026",
+    "publishedAt": "2026-10-01T15:34:02.000Z",
+    "url": "https://blog.cloudflare.com/clef-decision-models/",
+    "details": []
+  },
+  {
+    "id": 573,
+    "source": "Vercel",
+    "title": "How Delphi ships 100 times a day with its Python backend on Vercel",
+    "summary": "Delphi builds digital minds. They capture what someone has written, recorded, and taught, so anyone can tap that expertise on demand. Delphi is “a destination where you can find and interact with interesting minds,” says founding engineer Spencer Schoeben.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Sep 15, 2026",
+    "publishedAt": "2026-09-15T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
+    "details": []
+  },
+  {
     "id": 562,
     "source": "Cloudflare",
     "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-09T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 563,
@@ -24,7 +103,8 @@
     "published": "Oct 9, 2026",
     "publishedAt": "2026-10-09T12:50:00.000Z",
     "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 564,
@@ -37,7 +117,8 @@
     "published": "Oct 8, 2026",
     "publishedAt": "2026-10-08T17:02:52.000Z",
     "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 565,
@@ -50,7 +131,8 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T13:04:19.000Z",
     "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 566,
@@ -63,7 +145,8 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-kv-instant/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 567,
@@ -76,7 +159,8 @@
     "published": "Sep 16, 2026",
     "publishedAt": "2026-09-16T19:13:53.000Z",
     "url": "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 556,
@@ -467,90 +551,6 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/civil-society-automation/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 536,
-    "source": "Cloudflare",
-    "title": "2026 Birthday week: network performance update",
-    "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 537,
-    "source": "Vercel",
-    "title": "Jev for Python engineers",
-    "summary": "It's simply impossible to not hear about Jev. Seemingly everyone is tinkering with it in some way, from using it to make trading decisions (what could possibly go wrong?) to generating UIs with it (maybe we're onto something here!) .",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T07:00:00.000Z",
-    "url": "https://vercel.com/blog/jev-for-python-engineers",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 526,
-    "source": "Cloudflare",
-    "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
-    "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T16:13:45.000Z",
-    "url": "https://blog.cloudflare.com/streamline/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 527,
-    "source": "GitHub Engineering",
-    "title": "AI is changing developer work. Here are three skills to strengthen.",
-    "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T15:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 528,
-    "source": "Cloudflare",
-    "title": "Introducing Web Search API via AI Gateway",
-    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:28:10.000Z",
-    "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 529,
-    "source": "Cloudflare",
-    "title": "8 major updates to Cloudflare Observability",
-    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/one-observability-platform/",
     "details": [],
     "featured": false
   }
