@@ -1,5 +1,84 @@
 [
   {
+    "id": 574,
+    "source": "Cloudflare",
+    "title": "8 major updates to Cloudflare Observability",
+    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T18:00:00.000Z",
+    "url": "https://blog.cloudflare.com/one-observability-platform/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 575,
+    "source": "Cloudflare",
+    "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
+    "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T16:13:45.000Z",
+    "url": "https://blog.cloudflare.com/streamline/",
+    "details": []
+  },
+  {
+    "id": 576,
+    "source": "GitHub Engineering",
+    "title": "AI is changing developer work. Here are three skills to strengthen.",
+    "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T15:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+    "details": []
+  },
+  {
+    "id": 577,
+    "source": "Cloudflare",
+    "title": "Introducing Web Search API via AI Gateway",
+    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:28:10.000Z",
+    "url": "https://blog.cloudflare.com/introducing-web-search-api/",
+    "details": []
+  },
+  {
+    "id": 578,
+    "source": "Cloudflare",
+    "title": "2026 Birthday week: network performance update",
+    "summary": "Cloudflare now ranks as the fastest provider across 74% of the top 1,000 global networks. By incorporating background telemetry from Cloudflare Challenge Pages, we have expanded our real-user measurement scale while maintaining user privacy.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
+    "details": []
+  },
+  {
+    "id": 579,
+    "source": "Vercel",
+    "title": "Jev for Python engineers",
+    "summary": "It's simply impossible to not hear about Jev. Seemingly everyone is tinkering with it in some way, from using it to make trading decisions (what could possibly go wrong?) to generating UIs with it (maybe we're onto something here!) .",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T07:00:00.000Z",
+    "url": "https://vercel.com/blog/jev-for-python-engineers",
+    "details": []
+  },
+  {
     "id": 568,
     "source": "Cloudflare",
     "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-09T18:27:34.000Z",
     "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 569,
@@ -24,7 +103,8 @@
     "published": "Oct 9, 2026",
     "publishedAt": "2026-10-09T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 570,
@@ -37,7 +117,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-tracing/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 571,
@@ -50,7 +131,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/enterprise-for-all-update/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 572,
@@ -63,7 +145,8 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T15:34:02.000Z",
     "url": "https://blog.cloudflare.com/clef-decision-models/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 573,
@@ -76,7 +159,8 @@
     "published": "Sep 15, 2026",
     "publishedAt": "2026-09-15T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 562,
@@ -467,90 +551,6 @@
     "published": "Sep 29, 2026",
     "publishedAt": "2026-09-29T13:00:00.000Z",
     "url": "https://dropbox.tech/machine-learning/evolving-calendar-assistant-reclaim-to-be-ai-native",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 542,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-    "summary": "Describe the interface you need in plain English, then let the agent build a live surface you can both use and update—so you spend less time adapting to tools and more time getting work done.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 25, 2026",
-    "publishedAt": "2026-09-25T18:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 543,
-    "source": "Netflix",
-    "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
-    "summary": "Organizations that have been around for a while usually run two identity systems side by side. One belongs to the cloud provider: IAM roles, instance profiles, execution roles. The other is your own, and it is the one your internal services actually check when they decide whether to answer a request.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Sep 25, 2026",
-    "publishedAt": "2026-09-25T16:01:03.000Z",
-    "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 532,
-    "source": "Cloudflare",
-    "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-    "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 533,
-    "source": "Cloudflare",
-    "title": "Follow the thread: a new dashboard to investigate account abuse",
-    "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 534,
-    "source": "Cloudflare",
-    "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
-    "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 535,
-    "source": "Cloudflare",
-    "title": "Building for good: How civil society organizations are automating on Cloudflare",
-    "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/civil-society-automation/",
     "details": [],
     "featured": false
   }
