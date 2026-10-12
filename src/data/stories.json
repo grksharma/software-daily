@@ -1,5 +1,84 @@
 [
   {
+    "id": 580,
+    "source": "Cloudflare",
+    "title": "Filter, reshape, and redact logs before export with Transformers",
+    "summary": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 12, 2026",
+    "publishedAt": "2026-10-12T14:44:59.000Z",
+    "url": "https://blog.cloudflare.com/transformers-on-logpush/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 581,
+    "source": "Cloudflare",
+    "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
+    "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
+    "details": []
+  },
+  {
+    "id": 582,
+    "source": "Cloudflare",
+    "title": "Follow the thread: a new dashboard to investigate account abuse",
+    "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
+    "details": []
+  },
+  {
+    "id": 583,
+    "source": "Cloudflare",
+    "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
+    "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
+    "details": []
+  },
+  {
+    "id": 584,
+    "source": "Cloudflare",
+    "title": "Building for good: How civil society organizations are automating on Cloudflare",
+    "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 2, 2026",
+    "publishedAt": "2026-10-02T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/civil-society-automation/",
+    "details": []
+  },
+  {
+    "id": 585,
+    "source": "Netflix",
+    "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
+    "summary": "Organizations that have been around for a while usually run two identity systems side by side. One belongs to the cloud provider: IAM roles, instance profiles, execution roles. The other is your own, and it is the one your internal services actually check when they decide whether to answer a request.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Sep 25, 2026",
+    "publishedAt": "2026-09-25T16:01:03.000Z",
+    "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252",
+    "details": []
+  },
+  {
     "id": 574,
     "source": "Cloudflare",
     "title": "8 major updates to Cloudflare Observability",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-02T18:00:00.000Z",
     "url": "https://blog.cloudflare.com/one-observability-platform/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 575,
@@ -24,7 +103,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T16:13:45.000Z",
     "url": "https://blog.cloudflare.com/streamline/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 576,
@@ -37,7 +117,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T15:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 577,
@@ -50,7 +131,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:28:10.000Z",
     "url": "https://blog.cloudflare.com/introducing-web-search-api/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 578,
@@ -63,7 +145,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/network-performance-birthday-week-2026/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 579,
@@ -76,7 +159,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T07:00:00.000Z",
     "url": "https://vercel.com/blog/jev-for-python-engineers",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 568,
@@ -467,90 +551,6 @@
     "published": "Sep 24, 2026",
     "publishedAt": "2026-09-24T18:26:12.000Z",
     "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 548,
-    "source": "Vercel",
-    "title": "The Vercel Bug Bounty Program is now publicly available",
-    "summary": "In 2022, we launched a private bug bounty program through HackerOne. Over the last several years, we've worked with HackerOne's VIP program to refine our process, targets, and scope, onboarding thousands of their best researchers and hardening security across our platform.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 24, 2026",
-    "publishedAt": "2026-09-24T07:00:00.000Z",
-    "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 549,
-    "source": "Vercel",
-    "title": "How Klaviyo shipped 356 internal apps in two weeks on Vercel",
-    "summary": "Klaviyo is a B2C CRM for more than 200,000 brands. It brings marketing, service, agents, and data together in one platform so brands can deliver customer experiences at scale. Klaviyo built a platform on Vercel for shipping internal apps, then opened it to every employee through a citizen developer program.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Sep 24, 2026",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 538,
-    "source": "Cloudflare",
-    "title": "Everything we launched during Birthday Week 2026",
-    "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 5, 2026",
-    "publishedAt": "2026-10-05T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 539,
-    "source": "Cloudflare",
-    "title": "One year later: the power of 1.1.1.1 interns",
-    "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Oct 5, 2026",
-    "publishedAt": "2026-10-05T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 540,
-    "source": "Vercel",
-    "title": "How Rogo ships agent-written code to production in 5 minutes on Vercel",
-    "summary": "6 production AI agents automating work from churn analysis to deal desk",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 541,
-    "source": "Dropbox",
-    "title": "Evolving our calendar assistant Reclaim to be AI-native without starting over",
-    "summary": "How we redesigned Reclaim for AI and natural-language requests while preserving the scheduling experience people rely on.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 29, 2026",
-    "publishedAt": "2026-09-29T13:00:00.000Z",
-    "url": "https://dropbox.tech/machine-learning/evolving-calendar-assistant-reclaim-to-be-ai-native",
     "details": [],
     "featured": false
   }
