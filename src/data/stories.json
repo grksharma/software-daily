@@ -1,5 +1,84 @@
 [
   {
+    "id": 592,
+    "source": "GitHub Engineering",
+    "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+    "summary": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 13, 2026",
+    "publishedAt": "2026-10-13T17:56:33.000Z",
+    "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 593,
+    "source": "Cloudflare",
+    "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+    "summary": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 13, 2026",
+    "publishedAt": "2026-10-13T16:20:18.000Z",
+    "url": "https://blog.cloudflare.com/d1-control-plane/",
+    "details": []
+  },
+  {
+    "id": 594,
+    "source": "Cloudflare",
+    "title": "Rewinding the exponential: How we keep hardware usage down",
+    "summary": "Our strategies to optimize our data pipeline throughput without compromising data quality.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 13, 2026",
+    "publishedAt": "2026-10-13T15:51:41.000Z",
+    "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
+    "details": []
+  },
+  {
+    "id": 595,
+    "source": "GitHub Engineering",
+    "title": "ReviewBench: An open benchmark for AI code review",
+    "summary": "We’re launching ReviewBench, a benchmark for code review agents built on representative GitHub pull requests, multi-source ground truth, calibrated evaluation, and production-aligned metrics.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 5, 2026",
+    "publishedAt": "2026-10-05T15:59:40.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+    "details": []
+  },
+  {
+    "id": 596,
+    "source": "Vercel",
+    "title": "State of agent skills",
+    "summary": "In seven months, the skills.sh registry grew to one million agent skills and recorded nearly 280 million installs.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Sep 25, 2026",
+    "publishedAt": "2026-09-25T06:00:00.000Z",
+    "url": "https://vercel.com/blog/state-of-agent-skills",
+    "details": []
+  },
+  {
+    "id": 597,
+    "source": "Vercel",
+    "title": "How Klaviyo shipped 356 internal apps in two weeks on Vercel",
+    "summary": "Klaviyo is a B2C CRM for more than 200,000 brands. It brings marketing, service, agents, and data together in one platform so brands can deliver customer experiences at scale. Klaviyo built a platform on Vercel for shipping internal apps, then opened it to every employee through a citizen developer program.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Sep 24, 2026",
+    "publishedAt": "2026-09-24T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel",
+    "details": []
+  },
+  {
     "id": 586,
     "source": "GitHub Engineering",
     "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-12T17:43:59.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 587,
@@ -24,7 +103,8 @@
     "published": "Oct 5, 2026",
     "publishedAt": "2026-10-05T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 588,
@@ -37,7 +117,8 @@
     "published": "Oct 5, 2026",
     "publishedAt": "2026-10-05T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 589,
@@ -50,7 +131,8 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 590,
@@ -63,7 +145,8 @@
     "published": "Sep 29, 2026",
     "publishedAt": "2026-09-29T13:00:00.000Z",
     "url": "https://dropbox.tech/machine-learning/evolving-calendar-assistant-reclaim-to-be-ai-native",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 591,
@@ -76,7 +159,8 @@
     "published": "Sep 24, 2026",
     "publishedAt": "2026-09-24T07:00:00.000Z",
     "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 580,
@@ -467,90 +551,6 @@
     "published": "Sep 18, 2026",
     "publishedAt": "2026-09-18T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 560,
-    "source": "Vercel",
-    "title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
-    "summary": "In August 2026, Hacktron reported what looked like a remote code execution (RCE) vulnerability in Next.js image optimization. Their investigation found that the vulnerable code was not in Next.js itself, but upstream in libheif, an AVIF image decoder used by Next.js, ImageMagick , WordPress , sharp , and much of the…",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Sep 18, 2026",
-    "publishedAt": "2026-09-18T00:00:00.000Z",
-    "url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 561,
-    "source": "Vercel",
-    "title": "Open-weight models take 56% of token volume, Astra doubles Fable 5.1 spend",
-    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from June , July , and August .",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Sep 17, 2026",
-    "publishedAt": "2026-09-17T07:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-production-index-september-2026",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 550,
-    "source": "GitHub Engineering",
-    "title": "Building Git infrastructure for agent-scale development",
-    "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 6, 2026",
-    "publishedAt": "2026-10-06T20:57:56.000Z",
-    "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 551,
-    "source": "Cloudflare",
-    "title": "The keys to the Internet change on October 11. Are you ready?",
-    "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 6, 2026",
-    "publishedAt": "2026-10-06T17:50:11.000Z",
-    "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 552,
-    "source": "GitHub Engineering",
-    "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
-    "summary": "A look at the targeted AI taskflows behind these findings, the critical Android bugs they uncovered, and how to run the same open-source agent on your own app.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 28, 2026",
-    "publishedAt": "2026-09-28T19:00:00.000Z",
-    "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 553,
-    "source": "Dropbox",
-    "title": "Dropbox CTO Ali Dasdan on moving from AI adoption to transformation",
-    "summary": "Meaningful AI gains depend on rethinking workflows, measuring real outcomes, and keeping human judgment at the center of how work gets done.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 23, 2026",
-    "publishedAt": "2026-09-23T07:00:00.000Z",
-    "url": "https://dropbox.tech/culture/learnings-from-deploying-ai-at-company-scale",
     "details": [],
     "featured": false
   }
