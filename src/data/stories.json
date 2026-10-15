@@ -1,5 +1,84 @@
 [
   {
+    "id": 598,
+    "source": "Cloudflare",
+    "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
+    "summary": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T20:24:19.000Z",
+    "url": "https://blog.cloudflare.com/yandex-outage/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 599,
+    "source": "Netflix",
+    "title": "Integrating Netflix’s Foundation Model into Personalization applications",
+    "summary": "Authors: Divya Gadde , Ko-Jen Hsiao , Dhaval Patel and Moumita Bhattacharya",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T20:02:22.000Z",
+    "url": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb",
+    "details": []
+  },
+  {
+    "id": 600,
+    "source": "Netflix",
+    "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack",
+    "summary": "Our Netflix journey from data to dashboards, particularly within the space of the experimentation platform, always presented a unique set of challenges. This blog post aims to illuminate these hurdles and explain how an innovative open-source metric platform became instrumental in overcoming some of them. We’ll…",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:59:08.000Z",
+    "url": "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5",
+    "details": []
+  },
+  {
+    "id": 601,
+    "source": "Netflix",
+    "title": "Measuring the Impact of Personalized Recommendations",
+    "summary": "By Kevin Zielnicki, Guy Aridor, Aurélien Bibaut, Allen Tran, Winston Chou, and Nathan Kallus",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:57:43.000Z",
+    "url": "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96",
+    "details": []
+  },
+  {
+    "id": 602,
+    "source": "Netflix",
+    "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads",
+    "summary": "By Oleksii Tkachuk , Rajiv Shringi , Chris Lohfink , Abe Ratnofsky , Kartik Sathyanarayanan",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:56:08.000Z",
+    "url": "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60",
+    "details": []
+  },
+  {
+    "id": 603,
+    "source": "Netflix",
+    "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
+    "summary": "In Part 1 of this series , we shared how Netflix built the Ads Event pipeline and approached it as a system design problem: replacing fragmented pipelines with a centralized collection, enrichment, and a standard data contract. The result was Ads Event Publisher, the system that collects ad telemetry from client…",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:51:35.000Z",
+    "url": "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb",
+    "details": []
+  },
+  {
     "id": 592,
     "source": "GitHub Engineering",
     "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-13T17:56:33.000Z",
     "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 593,
@@ -24,7 +103,8 @@
     "published": "Oct 13, 2026",
     "publishedAt": "2026-10-13T16:20:18.000Z",
     "url": "https://blog.cloudflare.com/d1-control-plane/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 594,
@@ -37,7 +117,8 @@
     "published": "Oct 13, 2026",
     "publishedAt": "2026-10-13T15:51:41.000Z",
     "url": "https://blog.cloudflare.com/rewinding-the-exponential/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 595,
@@ -50,7 +131,8 @@
     "published": "Oct 5, 2026",
     "publishedAt": "2026-10-05T15:59:40.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 596,
@@ -63,7 +145,8 @@
     "published": "Sep 25, 2026",
     "publishedAt": "2026-09-25T06:00:00.000Z",
     "url": "https://vercel.com/blog/state-of-agent-skills",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 597,
@@ -76,7 +159,8 @@
     "published": "Sep 24, 2026",
     "publishedAt": "2026-09-24T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 586,
@@ -467,90 +551,6 @@
     "published": "Oct 1, 2026",
     "publishedAt": "2026-10-01T13:04:19.000Z",
     "url": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 566,
-    "source": "Cloudflare",
-    "title": "Introducing Workers KV Instant — powered by Quicksilver",
-    "summary": "Workers KV Instant delivers sub-2ms p99 read latencies and 250ms global replication across Cloudflare’s 300+ edge locations. KV Instant eliminates cold-read penalties and uses the familiar Workers KV API.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 1, 2026",
-    "publishedAt": "2026-10-01T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/workers-kv-instant/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 567,
-    "source": "Spotify",
-    "title": "AI Changed How Spotify Builds. What We Learned (and Fixed) About Quality at Higher Velocity",
-    "summary": "Quality and reliability have always been a point of pride for Spotify. We run an extraordinarily complex...",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 16, 2026",
-    "publishedAt": "2026-09-16T19:13:53.000Z",
-    "url": "https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 556,
-    "source": "Cloudflare",
-    "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
-    "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while preserving technical depth.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 8, 2026",
-    "publishedAt": "2026-10-08T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/radar-redesign/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 557,
-    "source": "GitHub Engineering",
-    "title": "Secret protection must scale with software",
-    "summary": "Developers aren’t becoming more careless; they’re being outpaced. The tools that let developers create more software should also take on more of the work of protecting it.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 7, 2026",
-    "publishedAt": "2026-10-07T17:45:34.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/secret-protection-must-scale-with-software/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 558,
-    "source": "Cloudflare",
-    "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
-    "summary": "Cloudflare Managed Defense uses a team of specialized AI agents built on Workers and global network telemetry to analyze security alerts. By separating deterministic evidence collection from model inference, the system delivers grounded recommendations to Managed Defense Analysts.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 7, 2026",
-    "publishedAt": "2026-10-07T16:30:36.000Z",
-    "url": "https://blog.cloudflare.com/agentic-security-operations/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 559,
-    "source": "Vercel",
-    "title": "Jev is the fastest-adopted model in AI Gateway history",
-    "summary": "Within 24 hours of launching on AI Gateway, Jev from TypeSafe AI reached more than twice as many paid teams as any previous model launch, making it the fastest-adopted model in gateway history.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Sep 18, 2026",
-    "publishedAt": "2026-09-18T07:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
     "details": [],
     "featured": false
   }
