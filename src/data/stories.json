@@ -1,5 +1,84 @@
 [
   {
+    "id": 616,
+    "source": "Vercel",
+    "title": "Backends on Vercel: Python, containers, and Daemons",
+    "summary": "Last year, we expanded zero-config support for Python and TypeScript backend frameworks. By this summer, developers could deploy their frontend and backend together with Vercel Services and coordinate background work with queues and durable workflows .",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 15, 2026",
+    "publishedAt": "2026-10-15T07:00:00.000Z",
+    "url": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 617,
+    "source": "Vercel",
+    "title": "Python on Vercel is now generally available",
+    "summary": "Python on Vercel is now generally available. Build and run Python applications with the frameworks, libraries, and tools you already use.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 15, 2026",
+    "publishedAt": "2026-10-15T07:00:00.000Z",
+    "url": "https://vercel.com/blog/python-on-vercel-is-now-generally-available",
+    "details": []
+  },
+  {
+    "id": 618,
+    "source": "Netflix",
+    "title": "Netflix Conductor: The Next Chapter",
+    "summary": "Conductor is the workflow orchestration engine Netflix uses to stitch micro-services into reliable, observable business processes.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:50:17.000Z",
+    "url": "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649",
+    "details": []
+  },
+  {
+    "id": 619,
+    "source": "Netflix",
+    "title": "Running Apache Spark experiments in my sleep (and on a plane)",
+    "summary": "As one of Netflix’s largest and critical data pipelines, member-sessionizer consolidates tens of billions of hourly client events, encompassing user taps, playbacks, and engagement signals, into individual viewing sessions per profile.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:49:11.000Z",
+    "url": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8",
+    "details": []
+  },
+  {
+    "id": 620,
+    "source": "Netflix",
+    "title": "The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale",
+    "summary": "By Emma Yanyang Kong , JJ Tan , Ishan Gupta , Lars Olds , Claire Campbell , David Fagnan , Ratna Kavuri , Rohan Gosain , Veli Balin , Minsu Jang , Louis Garcia",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:48:49.000Z",
+    "url": "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508",
+    "details": []
+  },
+  {
+    "id": 621,
+    "source": "Netflix",
+    "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing",
+    "summary": "Stratum is Netflix’s internal serverless media processing platform, shaped by over a decade of experience developing large-scale distributed systems. It powers a wide range of media workloads — including encoding, packaging, inspection, and quality scoring — behind playback, advertising, studio workflows, AI…",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:48:20.000Z",
+    "url": "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801",
+    "details": []
+  },
+  {
     "id": 610,
     "source": "Netflix",
     "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-16T16:01:02.000Z",
     "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 611,
@@ -24,7 +103,8 @@
     "published": "Oct 16, 2026",
     "publishedAt": "2026-10-16T14:29:18.000Z",
     "url": "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 612,
@@ -37,7 +117,8 @@
     "published": "Oct 16, 2026",
     "publishedAt": "2026-10-16T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/verified-bots-accountability/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 613,
@@ -50,7 +131,8 @@
     "published": "Oct 16, 2026",
     "publishedAt": "2026-10-16T07:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 614,
@@ -63,7 +145,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-for-enterprise",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 615,
@@ -76,7 +159,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 604,
@@ -467,90 +551,6 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 584,
-    "source": "Cloudflare",
-    "title": "Building for good: How civil society organizations are automating on Cloudflare",
-    "summary": "Some of the world's leading organizations are building the future of non-profit work with Cloudflare.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/civil-society-automation/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 585,
-    "source": "Netflix",
-    "title": "Trading a Cloud Identity for Your Own: Workload Attestation on Managed Compute",
-    "summary": "Organizations that have been around for a while usually run two identity systems side by side. One belongs to the cloud provider: IAM roles, instance profiles, execution roles. The other is your own, and it is the one your internal services actually check when they decide whether to answer a request.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Sep 25, 2026",
-    "publishedAt": "2026-09-25T16:01:03.000Z",
-    "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 574,
-    "source": "Cloudflare",
-    "title": "8 major updates to Cloudflare Observability",
-    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T18:00:00.000Z",
-    "url": "https://blog.cloudflare.com/one-observability-platform/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 575,
-    "source": "Cloudflare",
-    "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
-    "summary": "Streamline demonstrates how to build long-running, continuous video processing pipelines by pairing Cloudflare Workers and Durable Objects with a containerized media engine.",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T16:13:45.000Z",
-    "url": "https://blog.cloudflare.com/streamline/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 576,
-    "source": "GitHub Engineering",
-    "title": "AI is changing developer work. Here are three skills to strengthen.",
-    "summary": "Learn to direct AI agents, critically review their output, and keep technical judgment at the center of your workflow.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T15:00:00.000Z",
-    "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 577,
-    "source": "Cloudflare",
-    "title": "Introducing Web Search API via AI Gateway",
-    "summary": "Cloudflare AI Gateway now supports native web search API integration in partnership with Ceramic.ai, Exa, and Linkup. Developers can now inject real-time web context into model inference calls via AI Gateway, REST APIs, or Workers bindings.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:28:10.000Z",
-    "url": "https://blog.cloudflare.com/introducing-web-search-api/",
     "details": [],
     "featured": false
   }
