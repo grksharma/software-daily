@@ -1,5 +1,84 @@
 [
   {
+    "id": 622,
+    "source": "GitHub Engineering",
+    "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
+    "summary": "Our new repo star history API now provides trends without returning individual identities or requiring unbounded database work. These are the engineering tradeoffs we made.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:11:33.000Z",
+    "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 623,
+    "source": "Cloudflare",
+    "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
+    "summary": "While adding MySQL support to Hyperdrive, we found a subtle protocol bug when caching query results. Here is how we tracked down a 0.001% rate error and made Hyperdrive MySQL generally available.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
+    "details": []
+  },
+  {
+    "id": 624,
+    "source": "Vercel",
+    "title": "Findings from the $1M Vercel Sandbox challenge",
+    "summary": "In August, we launched the $1M hacker challenge for Vercel Sandbox , inviting security researchers to try and escape Vercel Sandbox. We also coordinated with cybersecurity experts Trail of Bits to review the source code and security architecture.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T07:00:00.000Z",
+    "url": "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge",
+    "details": []
+  },
+  {
+    "id": 625,
+    "source": "Cloudflare",
+    "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
+    "summary": "We are expanding the Clef decision model family with Clef-omni, natively processing audio, video, images, and text in a single pipeline. We’ve also lowered Clef-flash pricing and boosted Clef inference speeds by up to 2.0x.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 9, 2026",
+    "publishedAt": "2026-10-09T18:27:34.000Z",
+    "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
+    "details": []
+  },
+  {
+    "id": 626,
+    "source": "Cloudflare",
+    "title": "Introducing on-demand CPU and memory profiling with flamegraphs for Workers and Durable Objects",
+    "summary": "On-demand CPU and memory profiling for Cloudflare Workers and Durable Objects is now available. Now you can generate interactive flamegraphs directly in production to quickly track down memory leaks and performance bottlenecks.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 9, 2026",
+    "publishedAt": "2026-10-09T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
+    "details": []
+  },
+  {
+    "id": 627,
+    "source": "Cloudflare",
+    "title": "Deno is joining Cloudflare",
+    "summary": "The Deno team is joining Cloudflare to radically simplify self-hosting Workers and Durable Objects, so developers can use the same primitives in more places.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 9, 2026",
+    "publishedAt": "2026-10-09T12:50:00.000Z",
+    "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
+    "details": []
+  },
+  {
     "id": 616,
     "source": "Vercel",
     "title": "Backends on Vercel: Python, containers, and Daemons",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 617,
@@ -24,7 +103,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/python-on-vercel-is-now-generally-available",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 618,
@@ -37,7 +117,8 @@
     "published": "Oct 14, 2026",
     "publishedAt": "2026-10-14T19:50:17.000Z",
     "url": "https://netflixtechblog.com/netflix-conductor-the-next-chapter-41ad21067649",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 619,
@@ -50,7 +131,8 @@
     "published": "Oct 14, 2026",
     "publishedAt": "2026-10-14T19:49:11.000Z",
     "url": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 620,
@@ -63,7 +145,8 @@
     "published": "Oct 14, 2026",
     "publishedAt": "2026-10-14T19:48:49.000Z",
     "url": "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 621,
@@ -76,7 +159,8 @@
     "published": "Oct 14, 2026",
     "publishedAt": "2026-10-14T19:48:20.000Z",
     "url": "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 610,
@@ -467,90 +551,6 @@
     "published": "Oct 2, 2026",
     "publishedAt": "2026-10-02T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 590,
-    "source": "Dropbox",
-    "title": "Evolving our calendar assistant Reclaim to be AI-native without starting over",
-    "summary": "How we redesigned Reclaim for AI and natural-language requests while preserving the scheduling experience people rely on.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Sep 29, 2026",
-    "publishedAt": "2026-09-29T13:00:00.000Z",
-    "url": "https://dropbox.tech/machine-learning/evolving-calendar-assistant-reclaim-to-be-ai-native",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 591,
-    "source": "Vercel",
-    "title": "The Vercel Bug Bounty Program is now publicly available",
-    "summary": "In 2022, we launched a private bug bounty program through HackerOne. Over the last several years, we've worked with HackerOne's VIP program to refine our process, targets, and scope, onboarding thousands of their best researchers and hardening security across our platform.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 24, 2026",
-    "publishedAt": "2026-09-24T07:00:00.000Z",
-    "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 580,
-    "source": "Cloudflare",
-    "title": "Filter, reshape, and redact logs before export with Transformers",
-    "summary": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 12, 2026",
-    "publishedAt": "2026-10-12T14:44:59.000Z",
-    "url": "https://blog.cloudflare.com/transformers-on-logpush/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 581,
-    "source": "Cloudflare",
-    "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-    "summary": "We’re announcing the closed beta of a self-serve Cloudflare OHTTP Gateway. We’re also renaming our Privacy Gateway to Cloudflare OHTTP Relay to better distinguish the two products.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 582,
-    "source": "Cloudflare",
-    "title": "Follow the thread: a new dashboard to investigate account abuse",
-    "summary": "Fraudsters are increasingly using AI to bypass stateless security checks. Cloudflare's new Account Abuse Protection dashboard uses stateful analysis and edge-generated Hashed User IDs to help teams investigate and block account abuse.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 583,
-    "source": "Cloudflare",
-    "title": "Protected Quick Tunnels: simple accountless authentication for your next dev project",
-    "summary": "Quick Tunnels now support email authentication. Add --allowed-mail to one cloudflared command, and only the addresses or domains you list can reach your local app. No Cloudflare account required on either side.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/protected-quick-tunnels/",
     "details": [],
     "featured": false
   }
