@@ -1,5 +1,84 @@
 [
   {
+    "id": 628,
+    "source": "Cloudflare",
+    "title": "Cutting our inference bill by 68% by being obsessive about optimization",
+    "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 19, 2026",
+    "publishedAt": "2026-10-19T19:12:53.000Z",
+    "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 629,
+    "source": "GitHub Engineering",
+    "title": "How to continue a GitHub Copilot app session in VS Code",
+    "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 19, 2026",
+    "publishedAt": "2026-10-19T18:47:22.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+    "details": []
+  },
+  {
+    "id": 630,
+    "source": "Cloudflare",
+    "title": "Introducing Clairic, a new System One class of extraction models",
+    "summary": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 19, 2026",
+    "publishedAt": "2026-10-19T17:48:26.000Z",
+    "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+    "details": []
+  },
+  {
+    "id": 631,
+    "source": "Cloudflare",
+    "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+    "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 19, 2026",
+    "publishedAt": "2026-10-19T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+    "details": []
+  },
+  {
+    "id": 632,
+    "source": "Cloudflare",
+    "title": "Filter, reshape, and redact logs before export with Transformers",
+    "summary": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 12, 2026",
+    "publishedAt": "2026-10-12T14:44:59.000Z",
+    "url": "https://blog.cloudflare.com/transformers-on-logpush/",
+    "details": []
+  },
+  {
+    "id": 633,
+    "source": "Vercel",
+    "title": "How Rillet ships 3× faster with AI agents on Vercel",
+    "summary": "Tripled shipping rate in three months with eve agents deployed on Vercel",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 9, 2026",
+    "publishedAt": "2026-10-09T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel",
+    "details": []
+  },
+  {
     "id": 622,
     "source": "GitHub Engineering",
     "title": "From 2,500 requests to 24: Rebuilding star history without the stargazers",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-14T19:11:33.000Z",
     "url": "https://github.blog/engineering/architecture-optimization/from-2500-requests-to-24-rebuilding-star-history-without-the-stargazers/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 623,
@@ -24,7 +103,8 @@
     "published": "Oct 14, 2026",
     "publishedAt": "2026-10-14T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/hyperdrive-mysql/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 624,
@@ -37,7 +117,8 @@
     "published": "Oct 14, 2026",
     "publishedAt": "2026-10-14T07:00:00.000Z",
     "url": "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 625,
@@ -50,7 +131,8 @@
     "published": "Oct 9, 2026",
     "publishedAt": "2026-10-09T18:27:34.000Z",
     "url": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 626,
@@ -63,7 +145,8 @@
     "published": "Oct 9, 2026",
     "publishedAt": "2026-10-09T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/workers-on-demand-profiling/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 627,
@@ -76,7 +159,8 @@
     "published": "Oct 9, 2026",
     "publishedAt": "2026-10-09T12:50:00.000Z",
     "url": "https://blog.cloudflare.com/deno-joins-cloudflare/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 616,
@@ -467,90 +551,6 @@
     "published": "Oct 5, 2026",
     "publishedAt": "2026-10-05T15:59:40.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 596,
-    "source": "Vercel",
-    "title": "State of agent skills",
-    "summary": "In seven months, the skills.sh registry grew to one million agent skills and recorded nearly 280 million installs.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Sep 25, 2026",
-    "publishedAt": "2026-09-25T06:00:00.000Z",
-    "url": "https://vercel.com/blog/state-of-agent-skills",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 597,
-    "source": "Vercel",
-    "title": "How Klaviyo shipped 356 internal apps in two weeks on Vercel",
-    "summary": "Klaviyo is a B2C CRM for more than 200,000 brands. It brings marketing, service, agents, and data together in one platform so brands can deliver customer experiences at scale. Klaviyo built a platform on Vercel for shipping internal apps, then opened it to every employee through a citizen developer program.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Sep 24, 2026",
-    "publishedAt": "2026-09-24T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 586,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
-    "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 12, 2026",
-    "publishedAt": "2026-10-12T17:43:59.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 587,
-    "source": "Cloudflare",
-    "title": "Everything we launched during Birthday Week 2026",
-    "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 5, 2026",
-    "publishedAt": "2026-10-05T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 588,
-    "source": "Cloudflare",
-    "title": "One year later: the power of 1.1.1.1 interns",
-    "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Oct 5, 2026",
-    "publishedAt": "2026-10-05T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/one-year-later-1111-interns/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 589,
-    "source": "Vercel",
-    "title": "How Rogo ships agent-written code to production in 5 minutes on Vercel",
-    "summary": "6 production AI agents automating work from churn analysis to deal desk",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 2, 2026",
-    "publishedAt": "2026-10-02T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
     "details": [],
     "featured": false
   }
