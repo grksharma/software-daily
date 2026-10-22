@@ -1,5 +1,84 @@
 [
   {
+    "id": 640,
+    "source": "GitHub Engineering",
+    "title": "The bridge to agent-scale Git infrastructure",
+    "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T16:00:00.000Z",
+    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 641,
+    "source": "Cloudflare",
+    "title": "Introducing full transaction detection for Cloudflare WAF",
+    "summary": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T14:10:42.000Z",
+    "url": "https://blog.cloudflare.com/full-transaction-waf/",
+    "details": []
+  },
+  {
+    "id": 642,
+    "source": "Cloudflare",
+    "title": "Cloudflare deploys protections against php2shell vulnerability",
+    "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T13:56:45.000Z",
+    "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+    "details": []
+  },
+  {
+    "id": 643,
+    "source": "Cloudflare",
+    "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+    "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/webmcp-commerce/",
+    "details": []
+  },
+  {
+    "id": 644,
+    "source": "Netflix",
+    "title": "TimeSeries Tiered Storage Journey: Kafka/Flink Streams to Native Cassandra Cold Reads",
+    "summary": "By Oleksii Tkachuk , Rajiv Shringi , Chris Lohfink , Abe Ratnofsky , Kartik Sathyanarayanan",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:56:08.000Z",
+    "url": "https://netflixtechblog.com/timeseries-tiered-storage-journey-kafka-flink-streams-to-native-cassandra-cold-reads-e59d597c9d60",
+    "details": []
+  },
+  {
+    "id": 645,
+    "source": "Netflix",
+    "title": "Behind the Scenes: Evolving Netflix’s Ads Event Pipeline for Live — Part II",
+    "summary": "In Part 1 of this series , we shared how Netflix built the Ads Event pipeline and approached it as a system design problem: replacing fragmented pipelines with a centralized collection, enrichment, and a standard data contract. The result was Ads Event Publisher, the system that collects ad telemetry from client…",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:51:35.000Z",
+    "url": "https://netflixtechblog.com/behind-the-scenes-evolving-netflixs-ads-event-pipeline-for-live-part-ii-826ebf9ad9fb",
+    "details": []
+  },
+  {
     "id": 634,
     "source": "Cloudflare",
     "title": "8 eMudhra certificates are compromised. Here's what you need to know",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-20T22:20:16.000Z",
     "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 635,
@@ -24,7 +103,8 @@
     "published": "Oct 20, 2026",
     "publishedAt": "2026-10-20T16:05:03.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 636,
@@ -37,7 +117,8 @@
     "published": "Oct 20, 2026",
     "publishedAt": "2026-10-20T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/typescript-rust-port/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 637,
@@ -50,7 +131,8 @@
     "published": "Oct 19, 2026",
     "publishedAt": "2026-10-19T13:00:00.000Z",
     "url": "https://vercel.com/blog/making-every-harness-durable",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 638,
@@ -63,7 +145,8 @@
     "published": "Oct 12, 2026",
     "publishedAt": "2026-10-12T17:43:59.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 639,
@@ -76,7 +159,8 @@
     "published": "Oct 8, 2026",
     "publishedAt": "2026-10-08T17:02:52.000Z",
     "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 628,
@@ -467,90 +551,6 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/deploy-with-void/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 608,
-    "source": "Cloudflare",
-    "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
-    "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 609,
-    "source": "Vercel",
-    "title": "Open weight takes 71.5% of tokens and 23% of spend",
-    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from July , August , and September .",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T07:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 598,
-    "source": "Cloudflare",
-    "title": "Yandex outage: Data shows that instead of going dark, malicious bots went on the move",
-    "summary": "When strikes hit Yandex data centers, many assumed Russian bot operations went dark. Cloudflare data reveals that while search crawling stopped, malicious bots simply migrated to other networks.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 14, 2026",
-    "publishedAt": "2026-10-14T20:24:19.000Z",
-    "url": "https://blog.cloudflare.com/yandex-outage/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 599,
-    "source": "Netflix",
-    "title": "Integrating Netflix’s Foundation Model into Personalization applications",
-    "summary": "Authors: Divya Gadde , Ko-Jen Hsiao , Dhaval Patel and Moumita Bhattacharya",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 14, 2026",
-    "publishedAt": "2026-10-14T20:02:22.000Z",
-    "url": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 600,
-    "source": "Netflix",
-    "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack",
-    "summary": "Our Netflix journey from data to dashboards, particularly within the space of the experimentation platform, always presented a unique set of challenges. This blog post aims to illuminate these hurdles and explain how an innovative open-source metric platform became instrumental in overcoming some of them. We’ll…",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Oct 14, 2026",
-    "publishedAt": "2026-10-14T19:59:08.000Z",
-    "url": "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 601,
-    "source": "Netflix",
-    "title": "Measuring the Impact of Personalized Recommendations",
-    "summary": "By Kevin Zielnicki, Guy Aridor, Aurélien Bibaut, Allen Tran, Winston Chou, and Nathan Kallus",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 14, 2026",
-    "publishedAt": "2026-10-14T19:57:43.000Z",
-    "url": "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96",
     "details": [],
     "featured": false
   }
