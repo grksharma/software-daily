@@ -1,5 +1,84 @@
 [
   {
+    "id": 652,
+    "source": "Vercel",
+    "title": "How Vercel Agent accesses production safely",
+    "summary": "An agent working on production systems needs permission to act. A request like “fix this deployment” doesn’t tell you upfront which actions it will take or what access it will need. Grant agents broad access and a mistake can affect unrelated resources. Ask for approval at every step and the user has to approve…",
+    "tag": "AI engineering",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T20:29:00.000Z",
+    "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 653,
+    "source": "Netflix",
+    "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
+    "summary": "At Netflix, shared Java libraries support applications developed across a large, independently evolving repository ecosystem. A library change begins in one repository, but its impact can reach many others. Producers can see the API diff in front of them. What they often cannot see is who still depends on the symbols…",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T18:32:51.000Z",
+    "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90",
+    "details": []
+  },
+  {
+    "id": 654,
+    "source": "Cloudflare",
+    "title": "Origin Range Requests: Serving large files without range-request tuning",
+    "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T18:22:59.000Z",
+    "url": "https://blog.cloudflare.com/origin-range-requests/",
+    "details": []
+  },
+  {
+    "id": 655,
+    "source": "Cloudflare",
+    "title": "Bringing post-quantum cryptography to geographically fenced key management",
+    "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T18:06:56.000Z",
+    "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+    "details": []
+  },
+  {
+    "id": 656,
+    "source": "Vercel",
+    "title": "How Interfaze serves 50 million requests a month on Vercel",
+    "summary": "Multiple model providers behind one fallback layer with AI Gateway",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
+    "details": []
+  },
+  {
+    "id": 657,
+    "source": "GitHub Engineering",
+    "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
+    "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories.",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 15, 2026",
+    "publishedAt": "2026-10-15T18:00:00.000Z",
+    "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
+    "details": []
+  },
+  {
     "id": 646,
     "source": "Netflix",
     "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-22T22:19:12.000Z",
     "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 647,
@@ -24,7 +103,8 @@
     "published": "Oct 22, 2026",
     "publishedAt": "2026-10-22T17:21:30.000Z",
     "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 648,
@@ -37,7 +117,8 @@
     "published": "Oct 22, 2026",
     "publishedAt": "2026-10-22T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/k-isms/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 649,
@@ -50,7 +131,8 @@
     "published": "Oct 22, 2026",
     "publishedAt": "2026-10-22T04:00:00.000Z",
     "url": "https://vercel.com/blog/death-to-long-lived-static-credentials",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 650,
@@ -63,7 +145,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 651,
@@ -76,7 +159,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 640,
@@ -467,90 +551,6 @@
     "published": "Oct 14, 2026",
     "publishedAt": "2026-10-14T19:49:11.000Z",
     "url": "https://netflixtechblog.com/running-apache-spark-experiments-in-my-sleep-and-on-a-plane-588816b6b5f8",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 620,
-    "source": "Netflix",
-    "title": "The Lifecycle of LLM-as-a-Judge: Building, Aligning, and Monitoring at scale",
-    "summary": "By Emma Yanyang Kong , JJ Tan , Ishan Gupta , Lars Olds , Claire Campbell , David Fagnan , Ratna Kavuri , Rohan Gosain , Veli Balin , Minsu Jang , Louis Garcia",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 14, 2026",
-    "publishedAt": "2026-10-14T19:48:49.000Z",
-    "url": "https://netflixtechblog.com/the-lifecycle-of-llm-as-a-judge-building-aligning-and-monitoring-at-scale-c95bd8283508",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 621,
-    "source": "Netflix",
-    "title": "Netflix Stratum Media Processing: Automated Container Right-Sizing",
-    "summary": "Stratum is Netflix’s internal serverless media processing platform, shaped by over a decade of experience developing large-scale distributed systems. It powers a wide range of media workloads — including encoding, packaging, inspection, and quality scoring — behind playback, advertising, studio workflows, AI…",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Oct 14, 2026",
-    "publishedAt": "2026-10-14T19:48:20.000Z",
-    "url": "https://netflixtechblog.com/netflix-stratum-media-processing-automated-container-right-sizing-ddf9aa68a801",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 610,
-    "source": "Netflix",
-    "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
-    "summary": "When Jake Paul and Mike Tyson stepped into the ring in November 2024, we delivered the fight to roughly 65 million concurrent streams. On an ordinary day our infrastructure takes in more than 2 billion requests and handles upwards of 38 million real-time logging events every second. At that scale, the whole picture…",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Oct 16, 2026",
-    "publishedAt": "2026-10-16T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 611,
-    "source": "Spotify",
-    "title": "Advancing Generative Recommendation Inference: our collaboration with NVIDIA on TensorRT LLM",
-    "summary": "At Spotify, every surface and interaction is personalized to you as a user: the content on the Home page, the...",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 16, 2026",
-    "publishedAt": "2026-10-16T14:29:18.000Z",
-    "url": "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 612,
-    "source": "Cloudflare",
-    "title": "Continuous accountability for Verified bots",
-    "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 16, 2026",
-    "publishedAt": "2026-10-16T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/verified-bots-accountability/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 613,
-    "source": "Vercel",
-    "title": "Vercel and Shopify make agents first-class shoppers",
-    "summary": "Agents already shop on the web, but they often use pages and tools originally built for people and search engines. Building a better shopping experience for agents means treating them as first-class shoppers, with product information they can read directly and tools designed for agents to shop.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Oct 16, 2026",
-    "publishedAt": "2026-10-16T07:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
     "details": [],
     "featured": false
   }
