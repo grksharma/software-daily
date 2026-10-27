@@ -1,5 +1,84 @@
 [
   {
+    "id": 670,
+    "source": "Cloudflare",
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+    "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 26, 2026",
+    "publishedAt": "2026-10-26T22:01:23.000Z",
+    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 671,
+    "source": "Netflix",
+    "title": "Making Failure Diagnosis Reliable with Pensive AI",
+    "summary": "By Praneeth Yenugutala , Victor Dusa , Anastasia Samoilova , Megan Ren , Justin Wei , Marcelo Mayworm",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 26, 2026",
+    "publishedAt": "2026-10-26T17:04:57.000Z",
+    "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015",
+    "details": []
+  },
+  {
+    "id": 672,
+    "source": "Netflix",
+    "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
+    "summary": "Serdar Cellat , Yuchen Xie , Bernadette Marcu , Blaid Burgess , Cody Jarrett , Carlos Pereira , Qing Shi , Samuel Carvajal , Manuel Pamplona , Dorothy Jung , Feiko Ritsema , Benjamin Klein , Alex Woo , Eugene Lok , Anna Pulido , Rebecka Swe , Sanford Holsapple , Ranjith Kumar Shetty",
+    "tag": "Architecture",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Oct 26, 2026",
+    "publishedAt": "2026-10-26T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49",
+    "details": []
+  },
+  {
+    "id": 673,
+    "source": "Netflix",
+    "title": "Integrating Netflix’s Foundation Model into Personalization applications",
+    "summary": "Authors: Divya Gadde , Ko-Jen Hsiao , Dhaval Patel and Moumita Bhattacharya",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T20:02:22.000Z",
+    "url": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb",
+    "details": []
+  },
+  {
+    "id": 674,
+    "source": "Netflix",
+    "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack",
+    "summary": "Our Netflix journey from data to dashboards, particularly within the space of the experimentation platform, always presented a unique set of challenges. This blog post aims to illuminate these hurdles and explain how an innovative open-source metric platform became instrumental in overcoming some of them. We’ll…",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:59:08.000Z",
+    "url": "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5",
+    "details": []
+  },
+  {
+    "id": 675,
+    "source": "Netflix",
+    "title": "Measuring the Impact of Personalized Recommendations",
+    "summary": "By Kevin Zielnicki, Guy Aridor, Aurélien Bibaut, Allen Tran, Winston Chou, and Nathan Kallus",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 14, 2026",
+    "publishedAt": "2026-10-14T19:57:43.000Z",
+    "url": "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96",
+    "details": []
+  },
+  {
     "id": 664,
     "source": "Cloudflare",
     "title": "Deploy with Void",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-15T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/deploy-with-void/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 665,
@@ -24,7 +103,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-for-enterprise",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 666,
@@ -37,7 +117,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 667,
@@ -50,7 +131,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 668,
@@ -63,7 +145,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/python-on-vercel-is-now-generally-available",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 669,
@@ -76,7 +159,8 @@
     "published": "Oct 14, 2026",
     "publishedAt": "2026-10-14T20:24:19.000Z",
     "url": "https://blog.cloudflare.com/yandex-outage/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 658,
@@ -467,90 +551,6 @@
     "published": "Oct 19, 2026",
     "publishedAt": "2026-10-19T13:00:00.000Z",
     "url": "https://vercel.com/blog/making-every-harness-durable",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 638,
-    "source": "GitHub Engineering",
-    "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
-    "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 12, 2026",
-    "publishedAt": "2026-10-12T17:43:59.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 639,
-    "source": "GitHub Engineering",
-    "title": "How one bug bounty researcher chooses the features they investigate",
-    "summary": "As we kick off Cybersecurity Awareness Month, the GitHub Bug Bounty team spotlights @vaib25vicky, exploring their methodology, techniques, and experiences hacking on GitHub.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 8, 2026",
-    "publishedAt": "2026-10-08T17:02:52.000Z",
-    "url": "https://github.blog/security/how-one-bug-bounty-researcher-chooses-the-features-they-investigate/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 628,
-    "source": "Cloudflare",
-    "title": "Cutting our inference bill by 68% by being obsessive about optimization",
-    "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 19, 2026",
-    "publishedAt": "2026-10-19T19:12:53.000Z",
-    "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 629,
-    "source": "GitHub Engineering",
-    "title": "How to continue a GitHub Copilot app session in VS Code",
-    "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 19, 2026",
-    "publishedAt": "2026-10-19T18:47:22.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 630,
-    "source": "Cloudflare",
-    "title": "Introducing Clairic, a new System One class of extraction models",
-    "summary": "Clairic is a new model from Cloudflare that is a System One extraction modeI, capable of extracting, computing, estimating, and forecasting data from unstructured inputs.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 19, 2026",
-    "publishedAt": "2026-10-19T17:48:26.000Z",
-    "url": "https://blog.cloudflare.com/clairic-extraction-model/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 631,
-    "source": "Cloudflare",
-    "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
-    "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 19, 2026",
-    "publishedAt": "2026-10-19T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
     "details": [],
     "featured": false
   }
