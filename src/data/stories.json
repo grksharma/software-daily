@@ -1,5 +1,84 @@
 [
   {
+    "id": 682,
+    "source": "Vercel",
+    "title": "Introducing Virtual Models on AI Gateway",
+    "summary": "Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update models, configure fallbacks and priority, and enforce Zero Data Retention centrally. The virtual model configuration applies wherever the ID is used.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Oct 28, 2026",
+    "publishedAt": "2026-10-28T07:25:00.000Z",
+    "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 683,
+    "source": "Vercel",
+    "title": "Introducing Vercel CI",
+    "summary": "Coding agents are opening more pull requests than ever, and each one waits on CI before anyone can review or merge it. Most CI systems run the entire workflow on every push, even a one-line change. The more your agents push, the more time you spend waiting on CI.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Oct 28, 2026",
+    "publishedAt": "2026-10-28T07:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-vercel-ci",
+    "details": []
+  },
+  {
+    "id": 684,
+    "source": "Cloudflare",
+    "title": "8 eMudhra certificates are compromised. Here's what you need to know",
+    "summary": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 20, 2026",
+    "publishedAt": "2026-10-20T22:20:16.000Z",
+    "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
+    "details": []
+  },
+  {
+    "id": 685,
+    "source": "GitHub Engineering",
+    "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+    "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 20, 2026",
+    "publishedAt": "2026-10-20T16:05:03.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+    "details": []
+  },
+  {
+    "id": 686,
+    "source": "Cloudflare",
+    "title": "Introducing tsrs: A port of TypeScript to Rust",
+    "summary": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 20, 2026",
+    "publishedAt": "2026-10-20T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/typescript-rust-port/",
+    "details": []
+  },
+  {
+    "id": 687,
+    "source": "Vercel",
+    "title": "Making every harness durable",
+    "summary": "Developers are familiar with running coding agents locally through harnesses like Pi, Claude Code, and others. They are reliable daily drivers for generating code, but keeping agents running around the clock requires your computer to be on and awake, which led to the laptop lid memes and Mac mini demand spike.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Oct 19, 2026",
+    "publishedAt": "2026-10-19T13:00:00.000Z",
+    "url": "https://vercel.com/blog/making-every-harness-durable",
+    "details": []
+  },
+  {
     "id": 676,
     "source": "Cloudflare",
     "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-27T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/php-ctf/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 677,
@@ -24,7 +103,8 @@
     "published": "Oct 27, 2026",
     "publishedAt": "2026-10-27T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 678,
@@ -37,7 +117,8 @@
     "published": "Oct 27, 2026",
     "publishedAt": "2026-10-27T07:00:00.000Z",
     "url": "https://vercel.com/blog/elevenlabs-on-ai-gateway",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 679,
@@ -50,7 +131,8 @@
     "published": "Oct 19, 2026",
     "publishedAt": "2026-10-19T19:12:53.000Z",
     "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 680,
@@ -63,7 +145,8 @@
     "published": "Oct 19, 2026",
     "publishedAt": "2026-10-19T18:47:22.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 681,
@@ -76,7 +159,8 @@
     "published": "Oct 19, 2026",
     "publishedAt": "2026-10-19T17:48:26.000Z",
     "url": "https://blog.cloudflare.com/clairic-extraction-model/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 670,
@@ -467,90 +551,6 @@
     "published": "Oct 22, 2026",
     "publishedAt": "2026-10-22T04:00:00.000Z",
     "url": "https://vercel.com/blog/death-to-long-lived-static-credentials",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 650,
-    "source": "Cloudflare",
-    "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
-    "summary": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 651,
-    "source": "Vercel",
-    "title": "Open weight takes 71.5% of tokens and 23% of spend",
-    "summary": "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from July , August , and September .",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T07:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 640,
-    "source": "GitHub Engineering",
-    "title": "The bridge to agent-scale Git infrastructure",
-    "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T16:00:00.000Z",
-    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 641,
-    "source": "Cloudflare",
-    "title": "Introducing full transaction detection for Cloudflare WAF",
-    "summary": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T14:10:42.000Z",
-    "url": "https://blog.cloudflare.com/full-transaction-waf/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 642,
-    "source": "Cloudflare",
-    "title": "Cloudflare deploys protections against php2shell vulnerability",
-    "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T13:56:45.000Z",
-    "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 643,
-    "source": "Cloudflare",
-    "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
-    "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/webmcp-commerce/",
     "details": [],
     "featured": false
   }
