@@ -1,5 +1,84 @@
 [
   {
+    "id": 688,
+    "source": "Cloudflare",
+    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+    "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 29, 2026",
+    "publishedAt": "2026-10-29T12:55:00.000Z",
+    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 689,
+    "source": "GitHub Engineering",
+    "title": "The bridge to agent-scale Git infrastructure",
+    "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T16:00:00.000Z",
+    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+    "details": []
+  },
+  {
+    "id": 690,
+    "source": "Cloudflare",
+    "title": "Introducing full transaction detection for Cloudflare WAF",
+    "summary": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T14:10:42.000Z",
+    "url": "https://blog.cloudflare.com/full-transaction-waf/",
+    "details": []
+  },
+  {
+    "id": 691,
+    "source": "Cloudflare",
+    "title": "Cloudflare deploys protections against php2shell vulnerability",
+    "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T13:56:45.000Z",
+    "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+    "details": []
+  },
+  {
+    "id": 692,
+    "source": "Cloudflare",
+    "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+    "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/webmcp-commerce/",
+    "details": []
+  },
+  {
+    "id": 693,
+    "source": "Cloudflare",
+    "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
+    "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 19, 2026",
+    "publishedAt": "2026-10-19T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
+    "details": []
+  },
+  {
     "id": 682,
     "source": "Vercel",
     "title": "Introducing Virtual Models on AI Gateway",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-28T07:25:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-virtual-models",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 683,
@@ -24,7 +103,8 @@
     "published": "Oct 28, 2026",
     "publishedAt": "2026-10-28T07:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-ci",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 684,
@@ -37,7 +117,8 @@
     "published": "Oct 20, 2026",
     "publishedAt": "2026-10-20T22:20:16.000Z",
     "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 685,
@@ -50,7 +131,8 @@
     "published": "Oct 20, 2026",
     "publishedAt": "2026-10-20T16:05:03.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 686,
@@ -63,7 +145,8 @@
     "published": "Oct 20, 2026",
     "publishedAt": "2026-10-20T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/typescript-rust-port/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 687,
@@ -76,7 +159,8 @@
     "published": "Oct 19, 2026",
     "publishedAt": "2026-10-19T13:00:00.000Z",
     "url": "https://vercel.com/blog/making-every-harness-durable",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 676,
@@ -467,90 +551,6 @@
     "published": "Oct 23, 2026",
     "publishedAt": "2026-10-23T18:06:56.000Z",
     "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 656,
-    "source": "Vercel",
-    "title": "How Interfaze serves 50 million requests a month on Vercel",
-    "summary": "Multiple model providers behind one fallback layer with AI Gateway",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 657,
-    "source": "GitHub Engineering",
-    "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
-    "summary": "Put native GitHub features to work to review outside collaborator access and archive stale repositories.",
-    "tag": "Engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T18:00:00.000Z",
-    "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 646,
-    "source": "Netflix",
-    "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
-    "summary": "You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them run on Titus, our internal container platform. Titus is, in essence, a Kubernetes-based container hosting platform: we keep both the control plane and the data plane (the container hosts that…",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T22:19:12.000Z",
-    "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 647,
-    "source": "GitHub Engineering",
-    "title": "How bug bounty sharpens one researcher’s security skills",
-    "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T17:21:30.000Z",
-    "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 648,
-    "source": "Cloudflare",
-    "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
-    "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/k-isms/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 649,
-    "source": "Vercel",
-    "title": "Death to long-lived static credentials",
-    "summary": "Fifteen years ago, TLS was something you'd use to protect the most sensitive areas of your app. Then Google, Let's Encrypt, the EFF, and others led the push for HTTPS everywhere, making encryption the default for every request. Without it, anyone between the browser and server can read and tamper with the traffic.",
-    "tag": "Security",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "url": "https://vercel.com/blog/death-to-long-lived-static-credentials",
     "details": [],
     "featured": false
   }
