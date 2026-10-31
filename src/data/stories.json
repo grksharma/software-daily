@@ -1,5 +1,84 @@
 [
   {
+    "id": 694,
+    "source": "Cloudflare",
+    "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
+    "summary": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Oct 30, 2026",
+    "publishedAt": "2026-10-30T17:38:50.000Z",
+    "url": "https://blog.cloudflare.com/emudhra-patching/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 695,
+    "source": "Cloudflare",
+    "title": "Cloudflare services for private origins is now generally available",
+    "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 30, 2026",
+    "publishedAt": "2026-10-30T14:23:43.000Z",
+    "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
+    "details": []
+  },
+  {
+    "id": 696,
+    "source": "Vercel",
+    "title": "Introducing Geist Serif",
+    "summary": "Geist started as a monospace typeface for developers, built for the editors and terminals where they spend their day doing their work. From there it grew into Geist Sans for product interfaces, and then into Geist Pixel, which was inspired by the grids of early computer screens.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Oct 30, 2026",
+    "publishedAt": "2026-10-30T13:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-geist-serif",
+    "details": []
+  },
+  {
+    "id": 697,
+    "source": "Vercel",
+    "title": "Simplifying runtime caching on Vercel",
+    "summary": "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks and APIs. If you use Next.js fetch caching or unstable_cache , you won’t need to change your code. Pro and Enterprise projects will get larger storage allocations.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Oct 30, 2026",
+    "publishedAt": "2026-10-30T04:00:00.000Z",
+    "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
+    "details": []
+  },
+  {
+    "id": 698,
+    "source": "Vercel",
+    "title": "How Interfaze serves 50 million requests a month on Vercel",
+    "summary": "Multiple model providers behind one fallback layer with AI Gateway",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
+    "details": []
+  },
+  {
+    "id": 699,
+    "source": "Netflix",
+    "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
+    "summary": "You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them run on Titus, our internal container platform. Titus is, in essence, a Kubernetes-based container hosting platform: we keep both the control plane and the data plane (the container hosts that…",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Oct 22, 2026",
+    "publishedAt": "2026-10-22T22:19:12.000Z",
+    "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163",
+    "details": []
+  },
+  {
     "id": 688,
     "source": "Cloudflare",
     "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-29T12:55:00.000Z",
     "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 689,
@@ -24,7 +103,8 @@
     "published": "Oct 21, 2026",
     "publishedAt": "2026-10-21T16:00:00.000Z",
     "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 690,
@@ -37,7 +117,8 @@
     "published": "Oct 21, 2026",
     "publishedAt": "2026-10-21T14:10:42.000Z",
     "url": "https://blog.cloudflare.com/full-transaction-waf/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 691,
@@ -50,7 +131,8 @@
     "published": "Oct 21, 2026",
     "publishedAt": "2026-10-21T13:56:45.000Z",
     "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 692,
@@ -63,7 +145,8 @@
     "published": "Oct 21, 2026",
     "publishedAt": "2026-10-21T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/webmcp-commerce/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 693,
@@ -76,7 +159,8 @@
     "published": "Oct 19, 2026",
     "publishedAt": "2026-10-19T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 682,
@@ -467,90 +551,6 @@
     "published": "Oct 16, 2026",
     "publishedAt": "2026-10-16T07:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 662,
-    "source": "Cloudflare",
-    "title": "A fully programmable secure web gateway",
-    "summary": "Cloudflare Gateway and Data Loss Prevention have inherited the flexibility and power of Cloudflare Workers through our full-stack integration with the Cloudflare Developer platform.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T17:11:12.000Z",
-    "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 663,
-    "source": "Vercel",
-    "title": "Vercel Ship 2026 recap",
-    "summary": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and thousands of people gathered across London, Berlin, New York, Sydney, and San Francisco to do just that at Vercel Ship…",
-    "tag": "Infrastructure",
-    "time": "5 min read",
-    "accent": "amber",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T16:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-ship-2026-recap",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 652,
-    "source": "Vercel",
-    "title": "How Vercel Agent accesses production safely",
-    "summary": "An agent working on production systems needs permission to act. A request like “fix this deployment” doesn’t tell you upfront which actions it will take or what access it will need. Grant agents broad access and a mistake can affect unrelated resources. Ask for approval at every step and the user has to approve…",
-    "tag": "AI engineering",
-    "time": "5 min read",
-    "accent": "amber",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T20:29:00.000Z",
-    "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 653,
-    "source": "Netflix",
-    "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
-    "summary": "At Netflix, shared Java libraries support applications developed across a large, independently evolving repository ecosystem. A library change begins in one repository, but its impact can reach many others. Producers can see the API diff in front of them. What they often cannot see is who still depends on the symbols…",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T18:32:51.000Z",
-    "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 654,
-    "source": "Cloudflare",
-    "title": "Origin Range Requests: Serving large files without range-request tuning",
-    "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T18:22:59.000Z",
-    "url": "https://blog.cloudflare.com/origin-range-requests/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 655,
-    "source": "Cloudflare",
-    "title": "Bringing post-quantum cryptography to geographically fenced key management",
-    "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T18:06:56.000Z",
-    "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
     "details": [],
     "featured": false
   }
