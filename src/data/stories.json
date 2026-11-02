@@ -1,5 +1,84 @@
 [
   {
+    "id": 706,
+    "source": "Cloudflare",
+    "title": "How we halved DNS build delay and cut memory use by 85%",
+    "summary": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Nov 2, 2026",
+    "publishedAt": "2026-11-02T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 707,
+    "source": "Vercel",
+    "title": "Death to long-lived static credentials",
+    "summary": "Fifteen years ago, TLS was something you'd use to protect the most sensitive areas of your app. Then Google, Let's Encrypt, the EFF, and others led the push for HTTPS everywhere, making encryption the default for every request. Without it, anyone between the browser and server can read and tamper with the traffic.",
+    "tag": "Security",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Oct 22, 2026",
+    "publishedAt": "2026-10-22T04:00:00.000Z",
+    "url": "https://vercel.com/blog/death-to-long-lived-static-credentials",
+    "details": []
+  },
+  {
+    "id": 708,
+    "source": "Netflix",
+    "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
+    "summary": "When Jake Paul and Mike Tyson stepped into the ring in November 2024, we delivered the fight to roughly 65 million concurrent streams. On an ordinary day our infrastructure takes in more than 2 billion requests and handles upwards of 38 million real-time logging events every second. At that scale, the whole picture…",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Oct 16, 2026",
+    "publishedAt": "2026-10-16T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf",
+    "details": []
+  },
+  {
+    "id": 709,
+    "source": "Spotify",
+    "title": "Advancing Generative Recommendation Inference: our collaboration with NVIDIA on TensorRT LLM",
+    "summary": "At Spotify, every surface and interaction is personalized to you as a user: the content on the Home page, the...",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 16, 2026",
+    "publishedAt": "2026-10-16T14:29:18.000Z",
+    "url": "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm/",
+    "details": []
+  },
+  {
+    "id": 710,
+    "source": "Cloudflare",
+    "title": "Continuous accountability for Verified bots",
+    "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 16, 2026",
+    "publishedAt": "2026-10-16T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+    "details": []
+  },
+  {
+    "id": 711,
+    "source": "Vercel",
+    "title": "Vercel and Shopify make agents first-class shoppers",
+    "summary": "Agents already shop on the web, but they often use pages and tools originally built for people and search engines. Building a better shopping experience for agents means treating them as first-class shoppers, with product information they can read directly and tools designed for agents to shop.",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Oct 16, 2026",
+    "publishedAt": "2026-10-16T07:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers",
+    "details": []
+  },
+  {
     "id": 700,
     "source": "Vercel",
     "title": "How Vercel Agent accesses production safely",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-23T20:29:00.000Z",
     "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 701,
@@ -24,7 +103,8 @@
     "published": "Oct 23, 2026",
     "publishedAt": "2026-10-23T18:32:51.000Z",
     "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 702,
@@ -37,7 +117,8 @@
     "published": "Oct 23, 2026",
     "publishedAt": "2026-10-23T18:22:59.000Z",
     "url": "https://blog.cloudflare.com/origin-range-requests/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 703,
@@ -50,7 +131,8 @@
     "published": "Oct 23, 2026",
     "publishedAt": "2026-10-23T18:06:56.000Z",
     "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 704,
@@ -63,7 +145,8 @@
     "published": "Oct 22, 2026",
     "publishedAt": "2026-10-22T17:21:30.000Z",
     "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 705,
@@ -76,7 +159,8 @@
     "published": "Oct 22, 2026",
     "publishedAt": "2026-10-22T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/k-isms/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 694,
@@ -467,90 +551,6 @@
     "published": "Oct 14, 2026",
     "publishedAt": "2026-10-14T20:02:22.000Z",
     "url": "https://netflixtechblog.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 674,
-    "source": "Netflix",
-    "title": "DataJunction as Netflix’s answer to the missing piece of the modern data stack",
-    "summary": "Our Netflix journey from data to dashboards, particularly within the space of the experimentation platform, always presented a unique set of challenges. This blog post aims to illuminate these hurdles and explain how an innovative open-source metric platform became instrumental in overcoming some of them. We’ll…",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Oct 14, 2026",
-    "publishedAt": "2026-10-14T19:59:08.000Z",
-    "url": "https://netflixtechblog.com/datajunction-as-netflixs-answer-to-the-missing-piece-of-the-modern-data-stack-92af926b40a5",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 675,
-    "source": "Netflix",
-    "title": "Measuring the Impact of Personalized Recommendations",
-    "summary": "By Kevin Zielnicki, Guy Aridor, Aurélien Bibaut, Allen Tran, Winston Chou, and Nathan Kallus",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 14, 2026",
-    "publishedAt": "2026-10-14T19:57:43.000Z",
-    "url": "https://netflixtechblog.com/measuring-the-impact-of-personalized-recommendations-4c26be3a4d96",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 664,
-    "source": "Cloudflare",
-    "title": "Deploy with Void",
-    "summary": "Introducing Void: an open-source SDK, CLI, and self-hosted platform for building full-stack Vite apps and deploying them to Cloudflare.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/deploy-with-void/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 665,
-    "source": "Vercel",
-    "title": "Vercel for Enterprise",
-    "summary": "AI adoption in the enterprise is growing rapidly, and expanding beyond engineering users.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T07:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-for-enterprise",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 666,
-    "source": "Vercel",
-    "title": "Introducing Vercel Drives: persistent storage for agents",
-    "summary": "Agents often handle complex work that continues across runs. As that work evolves, they may need a new environment with different tools, runtimes, or compute. They should be able to continue working with the same files when they change environments.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T07:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 667,
-    "source": "Vercel",
-    "title": "Backends on Vercel: Python, containers, and Daemons",
-    "summary": "Last year, we expanded zero-config support for Python and TypeScript backend frameworks. By this summer, developers could deploy their frontend and backend together with Vercel Services and coordinate background work with queues and durable workflows .",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T07:00:00.000Z",
-    "url": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
     "details": [],
     "featured": false
   }
