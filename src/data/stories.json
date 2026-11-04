@@ -1,5 +1,84 @@
 [
   {
+    "id": 718,
+    "source": "Cloudflare",
+    "title": "See the agents, set the terms: new visibility and control for personal agents",
+    "summary": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 4, 2026",
+    "publishedAt": "2026-11-04T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 719,
+    "source": "Cloudflare",
+    "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+    "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 3, 2026",
+    "publishedAt": "2026-11-03T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/zero-wire/",
+    "details": []
+  },
+  {
+    "id": 720,
+    "source": "Vercel",
+    "title": "How Zapier turns ideas into working software in hours with Vercel",
+    "summary": "Interactive partner demos in under two hours with v0, replacing a process that could take weeks",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 3, 2026",
+    "publishedAt": "2026-11-03T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
+    "details": []
+  },
+  {
+    "id": 721,
+    "source": "Vercel",
+    "title": "How Mercor ships internal apps and billions of production tokens on one platform",
+    "summary": "18M requests and 63B tokens routed through AI Gateway in 10 days",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 3, 2026",
+    "publishedAt": "2026-11-03T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
+    "details": []
+  },
+  {
+    "id": 722,
+    "source": "Vercel",
+    "title": "How OpenEvidence scales medical search for 650K doctors",
+    "summary": "Absorbs traffic spikes without additional capacity provisioning",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Nov 3, 2026",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
+    "details": []
+  },
+  {
+    "id": 723,
+    "source": "Vercel",
+    "title": "Introducing Vercel Security Review",
+    "summary": "Today, we are launching Vercel Security Review in public beta.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 2, 2026",
+    "publishedAt": "2026-11-02T13:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-security-review",
+    "details": []
+  },
+  {
     "id": 712,
     "source": "GitHub Engineering",
     "title": "Staying Evergreen: How we automated secure access and repo hygiene in a shared org",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-15T18:00:00.000Z",
     "url": "https://github.blog/engineering/platform-security/staying-evergreen-how-we-automated-secure-access-and-repo-hygiene-in-a-shared-org/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 713,
@@ -24,7 +103,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T17:11:12.000Z",
     "url": "https://blog.cloudflare.com/programmable-gateway-dlp/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 714,
@@ -37,7 +117,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T16:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-ship-2026-recap",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 715,
@@ -50,7 +131,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 716,
@@ -63,7 +145,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-for-enterprise",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 717,
@@ -76,7 +159,8 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 706,
@@ -467,90 +551,6 @@
     "published": "Oct 20, 2026",
     "publishedAt": "2026-10-20T16:05:03.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 686,
-    "source": "Cloudflare",
-    "title": "Introducing tsrs: A port of TypeScript to Rust",
-    "summary": "Cloudflare is collaborating on tsrs, a Rust port of TypeScript that is up to 8x faster and uses 70% less memory.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 20, 2026",
-    "publishedAt": "2026-10-20T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/typescript-rust-port/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 687,
-    "source": "Vercel",
-    "title": "Making every harness durable",
-    "summary": "Developers are familiar with running coding agents locally through harnesses like Pi, Claude Code, and others. They are reliable daily drivers for generating code, but keeping agents running around the clock requires your computer to be on and awake, which led to the laptop lid memes and Mac mini demand spike.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Oct 19, 2026",
-    "publishedAt": "2026-10-19T13:00:00.000Z",
-    "url": "https://vercel.com/blog/making-every-harness-durable",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 676,
-    "source": "Cloudflare",
-    "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-    "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 27, 2026",
-    "publishedAt": "2026-10-27T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/php-ctf/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 677,
-    "source": "Cloudflare",
-    "title": "What took the Internet offline in Q3 2026",
-    "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 27, 2026",
-    "publishedAt": "2026-10-27T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 678,
-    "source": "Vercel",
-    "title": "ElevenLabs on AI Gateway",
-    "summary": "Vercel and ElevenLabs are partnering to bring 14 ElevenLabs models to AI Gateway . To celebrate the launch, all ElevenLabs models are 50% off on AI Gateway for the first 14 days, through November 9th.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 27, 2026",
-    "publishedAt": "2026-10-27T07:00:00.000Z",
-    "url": "https://vercel.com/blog/elevenlabs-on-ai-gateway",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 679,
-    "source": "Cloudflare",
-    "title": "Cutting our inference bill by 68% by being obsessive about optimization",
-    "summary": "When our AI code reviewer's cost per run doubled, we dug into the token usage to find out why. Learn how we used prompt caching and intelligent model routing to slash our inference bill by 68% while speeding up reviews.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 19, 2026",
-    "publishedAt": "2026-10-19T19:12:53.000Z",
-    "url": "https://blog.cloudflare.com/obsessive-inference-optimization/",
     "details": [],
     "featured": false
   }
