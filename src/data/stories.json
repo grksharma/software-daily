@@ -1,5 +1,84 @@
 [
   {
+    "id": 724,
+    "source": "Dropbox",
+    "title": "How two engineer side projects became the agent taking action inside Dropbox",
+    "summary": "Two side projects explored a new way to get work done with files already in Dropbox. Here’s how engineers brought them together and turned those experiments into a new customer experience.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 5, 2026",
+    "publishedAt": "2026-11-05T14:00:00.000Z",
+    "url": "https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 725,
+    "source": "Dropbox",
+    "title": "How AI-assisted development helped us build the new Dropbox experience",
+    "summary": "From sharing features across web and desktop to testing the details customers depend on, this is how AI-assisted development helped our engineers deliver the updated Dropbox experience.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 5, 2026",
+    "publishedAt": "2026-11-05T14:00:00.000Z",
+    "url": "https://dropbox.tech/machine-learning/how-aiassisted-development-helped-us-build-the-new-dropbox-experience",
+    "details": []
+  },
+  {
+    "id": 726,
+    "source": "Cloudflare",
+    "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+    "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 27, 2026",
+    "publishedAt": "2026-10-27T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/php-ctf/",
+    "details": []
+  },
+  {
+    "id": 727,
+    "source": "Cloudflare",
+    "title": "What took the Internet offline in Q3 2026",
+    "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 27, 2026",
+    "publishedAt": "2026-10-27T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+    "details": []
+  },
+  {
+    "id": 728,
+    "source": "Vercel",
+    "title": "ElevenLabs on AI Gateway",
+    "summary": "Vercel and ElevenLabs are partnering to bring 14 ElevenLabs models to AI Gateway . To celebrate the launch, all ElevenLabs models are 50% off on AI Gateway for the first 14 days, through November 9th.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 27, 2026",
+    "publishedAt": "2026-10-27T07:00:00.000Z",
+    "url": "https://vercel.com/blog/elevenlabs-on-ai-gateway",
+    "details": []
+  },
+  {
+    "id": 729,
+    "source": "Cloudflare",
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+    "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 26, 2026",
+    "publishedAt": "2026-10-26T22:01:23.000Z",
+    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "details": []
+  },
+  {
     "id": 718,
     "source": "Cloudflare",
     "title": "See the agents, set the terms: new visibility and control for personal agents",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-04T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 719,
@@ -24,7 +103,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/zero-wire/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 720,
@@ -37,7 +117,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 721,
@@ -50,7 +131,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 722,
@@ -63,7 +145,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 723,
@@ -76,7 +159,8 @@
     "published": "Nov 2, 2026",
     "publishedAt": "2026-11-02T13:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-security-review",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 712,
@@ -467,90 +551,6 @@
     "published": "Oct 21, 2026",
     "publishedAt": "2026-10-21T13:56:45.000Z",
     "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 692,
-    "source": "Cloudflare",
-    "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
-    "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/webmcp-commerce/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 693,
-    "source": "Cloudflare",
-    "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
-    "summary": "CVE-2026-88771 lets attackers run commands on NetScaler Gateway before anyone signs in. Patching takes time most teams don't have, so the sign-in decision has to move in front of the vulnerable code.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 19, 2026",
-    "publishedAt": "2026-10-19T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 682,
-    "source": "Vercel",
-    "title": "Introducing Virtual Models on AI Gateway",
-    "summary": "Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update models, configure fallbacks and priority, and enforce Zero Data Retention centrally. The virtual model configuration applies wherever the ID is used.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Oct 28, 2026",
-    "publishedAt": "2026-10-28T07:25:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-virtual-models",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 683,
-    "source": "Vercel",
-    "title": "Introducing Vercel CI",
-    "summary": "Coding agents are opening more pull requests than ever, and each one waits on CI before anyone can review or merge it. Most CI systems run the entire workflow on every push, even a one-line change. The more your agents push, the more time you spend waiting on CI.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Oct 28, 2026",
-    "publishedAt": "2026-10-28T07:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-vercel-ci",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 684,
-    "source": "Cloudflare",
-    "title": "8 eMudhra certificates are compromised. Here's what you need to know",
-    "summary": "Following the discovery that eight eMudhra intermediate certificates use weak keys, Cloudflare is deploying mitigations and releasing client updates. We explain the impact, our response, and what customers and developers should do next.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 20, 2026",
-    "publishedAt": "2026-10-20T22:20:16.000Z",
-    "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 685,
-    "source": "GitHub Engineering",
-    "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
-    "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 20, 2026",
-    "publishedAt": "2026-10-20T16:05:03.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
     "details": [],
     "featured": false
   }
