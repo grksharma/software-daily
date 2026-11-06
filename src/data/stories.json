@@ -1,5 +1,84 @@
 [
   {
+    "id": 730,
+    "source": "Cloudflare",
+    "title": "The post-quantum future of web privacy",
+    "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Nov 6, 2026",
+    "publishedAt": "2026-11-06T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/vole-mole/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 731,
+    "source": "GitHub Engineering",
+    "title": "Inside GitHub’s new Git storage architecture",
+    "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 5, 2026",
+    "publishedAt": "2026-11-05T20:23:21.000Z",
+    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+    "details": []
+  },
+  {
+    "id": 732,
+    "source": "Cloudflare",
+    "title": "Agents aren’t humans (but they kinda are)",
+    "summary": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 5, 2026",
+    "publishedAt": "2026-11-05T17:03:04.000Z",
+    "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+    "details": []
+  },
+  {
+    "id": 733,
+    "source": "Vercel",
+    "title": "Introducing Vercel Schedules",
+    "summary": "Cron jobs are useful for work that needs to happen regularly. You can use them to do things such as back up your database on a schedule, or keep data in sync between two systems.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Nov 4, 2026",
+    "publishedAt": "2026-11-04T13:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-vercel-schedules",
+    "details": []
+  },
+  {
+    "id": 734,
+    "source": "Vercel",
+    "title": "Introducing Virtual Models on AI Gateway",
+    "summary": "Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update models, configure fallbacks and priority, and enforce Zero Data Retention centrally. The virtual model configuration applies wherever the ID is used.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Oct 28, 2026",
+    "publishedAt": "2026-10-28T07:25:00.000Z",
+    "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+    "details": []
+  },
+  {
+    "id": 735,
+    "source": "Vercel",
+    "title": "Introducing Vercel CI",
+    "summary": "Coding agents are opening more pull requests than ever, and each one waits on CI before anyone can review or merge it. Most CI systems run the entire workflow on every push, even a one-line change. The more your agents push, the more time you spend waiting on CI.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Oct 28, 2026",
+    "publishedAt": "2026-10-28T07:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-vercel-ci",
+    "details": []
+  },
+  {
     "id": 724,
     "source": "Dropbox",
     "title": "How two engineer side projects became the agent taking action inside Dropbox",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-05T14:00:00.000Z",
     "url": "https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 725,
@@ -24,7 +103,8 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T14:00:00.000Z",
     "url": "https://dropbox.tech/machine-learning/how-aiassisted-development-helped-us-build-the-new-dropbox-experience",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 726,
@@ -37,7 +117,8 @@
     "published": "Oct 27, 2026",
     "publishedAt": "2026-10-27T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/php-ctf/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 727,
@@ -50,7 +131,8 @@
     "published": "Oct 27, 2026",
     "publishedAt": "2026-10-27T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 728,
@@ -63,7 +145,8 @@
     "published": "Oct 27, 2026",
     "publishedAt": "2026-10-27T07:00:00.000Z",
     "url": "https://vercel.com/blog/elevenlabs-on-ai-gateway",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 729,
@@ -76,7 +159,8 @@
     "published": "Oct 26, 2026",
     "publishedAt": "2026-10-26T22:01:23.000Z",
     "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 718,
@@ -467,90 +551,6 @@
     "published": "Oct 30, 2026",
     "publishedAt": "2026-10-30T04:00:00.000Z",
     "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 698,
-    "source": "Vercel",
-    "title": "How Interfaze serves 50 million requests a month on Vercel",
-    "summary": "Multiple model providers behind one fallback layer with AI Gateway",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 699,
-    "source": "Netflix",
-    "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
-    "summary": "You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them run on Titus, our internal container platform. Titus is, in essence, a Kubernetes-based container hosting platform: we keep both the control plane and the data plane (the container hosts that…",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T22:19:12.000Z",
-    "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 688,
-    "source": "Cloudflare",
-    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
-    "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 29, 2026",
-    "publishedAt": "2026-10-29T12:55:00.000Z",
-    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 689,
-    "source": "GitHub Engineering",
-    "title": "The bridge to agent-scale Git infrastructure",
-    "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T16:00:00.000Z",
-    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 690,
-    "source": "Cloudflare",
-    "title": "Introducing full transaction detection for Cloudflare WAF",
-    "summary": "Cloudflare's web application firewall can now correlate an HTTP request with its response. Full transaction detection helps every customer find successful exploits, data exposure, and risky misconfigurations that request-only inspection can miss.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T14:10:42.000Z",
-    "url": "https://blog.cloudflare.com/full-transaction-waf/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 691,
-    "source": "Cloudflare",
-    "title": "Cloudflare deploys protections against php2shell vulnerability",
-    "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T13:56:45.000Z",
-    "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
     "details": [],
     "featured": false
   }
