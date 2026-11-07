@@ -1,5 +1,84 @@
 [
   {
+    "id": 736,
+    "source": "GitHub Engineering",
+    "title": "Beyond code generation: A developer’s guide to agentic engineering",
+    "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 6, 2026",
+    "publishedAt": "2026-11-06T22:15:59.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 737,
+    "source": "Cloudflare",
+    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+    "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 29, 2026",
+    "publishedAt": "2026-10-29T12:55:00.000Z",
+    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+    "details": []
+  },
+  {
+    "id": 738,
+    "source": "Netflix",
+    "title": "Making Failure Diagnosis Reliable with Pensive AI",
+    "summary": "By Praneeth Yenugutala , Victor Dusa , Anastasia Samoilova , Megan Ren , Justin Wei , Marcelo Mayworm",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 26, 2026",
+    "publishedAt": "2026-10-26T17:04:57.000Z",
+    "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015",
+    "details": []
+  },
+  {
+    "id": 739,
+    "source": "Netflix",
+    "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
+    "summary": "Serdar Cellat , Yuchen Xie , Bernadette Marcu , Blaid Burgess , Cody Jarrett , Carlos Pereira , Qing Shi , Samuel Carvajal , Manuel Pamplona , Dorothy Jung , Feiko Ritsema , Benjamin Klein , Alex Woo , Eugene Lok , Anna Pulido , Rebecka Swe , Sanford Holsapple , Ranjith Kumar Shetty",
+    "tag": "Architecture",
+    "time": "5 min read",
+    "accent": "emerald",
+    "published": "Oct 26, 2026",
+    "publishedAt": "2026-10-26T16:01:02.000Z",
+    "url": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49",
+    "details": []
+  },
+  {
+    "id": 740,
+    "source": "Vercel",
+    "title": "How Interfaze serves 50 million requests a month on Vercel",
+    "summary": "Multiple model providers behind one fallback layer with AI Gateway",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
+    "details": []
+  },
+  {
+    "id": 741,
+    "source": "Netflix",
+    "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
+    "summary": "You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them run on Titus, our internal container platform. Titus is, in essence, a Kubernetes-based container hosting platform: we keep both the control plane and the data plane (the container hosts that…",
+    "tag": "DevOps",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Oct 22, 2026",
+    "publishedAt": "2026-10-22T22:19:12.000Z",
+    "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163",
+    "details": []
+  },
+  {
     "id": 730,
     "source": "Cloudflare",
     "title": "The post-quantum future of web privacy",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-06T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/vole-mole/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 731,
@@ -24,7 +103,8 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T20:23:21.000Z",
     "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 732,
@@ -37,7 +117,8 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T17:03:04.000Z",
     "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 733,
@@ -50,7 +131,8 @@
     "published": "Nov 4, 2026",
     "publishedAt": "2026-11-04T13:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-schedules",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 734,
@@ -63,7 +145,8 @@
     "published": "Oct 28, 2026",
     "publishedAt": "2026-10-28T07:25:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-virtual-models",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 735,
@@ -76,7 +159,8 @@
     "published": "Oct 28, 2026",
     "publishedAt": "2026-10-28T07:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-ci",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 724,
@@ -467,90 +551,6 @@
     "published": "Oct 23, 2026",
     "publishedAt": "2026-10-23T18:06:56.000Z",
     "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 704,
-    "source": "GitHub Engineering",
-    "title": "How bug bounty sharpens one researcher’s security skills",
-    "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T17:21:30.000Z",
-    "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 705,
-    "source": "Cloudflare",
-    "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
-    "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/k-isms/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 694,
-    "source": "Cloudflare",
-    "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
-    "summary": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T17:38:50.000Z",
-    "url": "https://blog.cloudflare.com/emudhra-patching/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 695,
-    "source": "Cloudflare",
-    "title": "Cloudflare services for private origins is now generally available",
-    "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T14:23:43.000Z",
-    "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 696,
-    "source": "Vercel",
-    "title": "Introducing Geist Serif",
-    "summary": "Geist started as a monospace typeface for developers, built for the editors and terminals where they spend their day doing their work. From there it grew into Geist Sans for product interfaces, and then into Geist Pixel, which was inspired by the grids of early computer screens.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T13:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-geist-serif",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 697,
-    "source": "Vercel",
-    "title": "Simplifying runtime caching on Vercel",
-    "summary": "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks and APIs. If you use Next.js fetch caching or unstable_cache , you won’t need to change your code. Pro and Enterprise projects will get larger storage allocations.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T04:00:00.000Z",
-    "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
     "details": [],
     "featured": false
   }
