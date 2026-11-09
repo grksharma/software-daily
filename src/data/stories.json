@@ -1,5 +1,84 @@
 [
   {
+    "id": 748,
+    "source": "Cloudflare",
+    "title": "Launching the Vite Ecosystem Fund",
+    "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 9, 2026",
+    "publishedAt": "2026-11-09T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 749,
+    "source": "Vercel",
+    "title": "How Vercel Agent accesses production safely",
+    "summary": "An agent working on production systems needs permission to act. A request like “fix this deployment” doesn’t tell you upfront which actions it will take or what access it will need. Grant agents broad access and a mistake can affect unrelated resources. Ask for approval at every step and the user has to approve…",
+    "tag": "AI engineering",
+    "time": "5 min read",
+    "accent": "amber",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T20:29:00.000Z",
+    "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+    "details": []
+  },
+  {
+    "id": 750,
+    "source": "Netflix",
+    "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
+    "summary": "At Netflix, shared Java libraries support applications developed across a large, independently evolving repository ecosystem. A library change begins in one repository, but its impact can reach many others. Producers can see the API diff in front of them. What they often cannot see is who still depends on the symbols…",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T18:32:51.000Z",
+    "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90",
+    "details": []
+  },
+  {
+    "id": 751,
+    "source": "Cloudflare",
+    "title": "Origin Range Requests: Serving large files without range-request tuning",
+    "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T18:22:59.000Z",
+    "url": "https://blog.cloudflare.com/origin-range-requests/",
+    "details": []
+  },
+  {
+    "id": 752,
+    "source": "Cloudflare",
+    "title": "Bringing post-quantum cryptography to geographically fenced key management",
+    "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T18:06:56.000Z",
+    "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+    "details": []
+  },
+  {
+    "id": 753,
+    "source": "GitHub Engineering",
+    "title": "The bridge to agent-scale Git infrastructure",
+    "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T16:00:00.000Z",
+    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+    "details": []
+  },
+  {
     "id": 742,
     "source": "Cloudflare",
     "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-30T17:38:50.000Z",
     "url": "https://blog.cloudflare.com/emudhra-patching/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 743,
@@ -24,7 +103,8 @@
     "published": "Oct 30, 2026",
     "publishedAt": "2026-10-30T14:23:43.000Z",
     "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 744,
@@ -37,7 +117,8 @@
     "published": "Oct 30, 2026",
     "publishedAt": "2026-10-30T13:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-geist-serif",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 745,
@@ -50,7 +131,8 @@
     "published": "Oct 30, 2026",
     "publishedAt": "2026-10-30T04:00:00.000Z",
     "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 746,
@@ -63,7 +145,8 @@
     "published": "Oct 22, 2026",
     "publishedAt": "2026-10-22T17:21:30.000Z",
     "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 747,
@@ -76,7 +159,8 @@
     "published": "Oct 22, 2026",
     "publishedAt": "2026-10-22T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/k-isms/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 736,
@@ -467,90 +551,6 @@
     "published": "Oct 15, 2026",
     "publishedAt": "2026-10-15T07:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 716,
-    "source": "Vercel",
-    "title": "Vercel for Enterprise",
-    "summary": "AI adoption in the enterprise is growing rapidly, and expanding beyond engineering users.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T07:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-for-enterprise",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 717,
-    "source": "Vercel",
-    "title": "Introducing Vercel Drives: persistent storage for agents",
-    "summary": "Agents often handle complex work that continues across runs. As that work evolves, they may need a new environment with different tools, runtimes, or compute. They should be able to continue working with the same files when they change environments.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 15, 2026",
-    "publishedAt": "2026-10-15T07:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 706,
-    "source": "Cloudflare",
-    "title": "How we halved DNS build delay and cut memory use by 85%",
-    "summary": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Nov 2, 2026",
-    "publishedAt": "2026-11-02T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 707,
-    "source": "Vercel",
-    "title": "Death to long-lived static credentials",
-    "summary": "Fifteen years ago, TLS was something you'd use to protect the most sensitive areas of your app. Then Google, Let's Encrypt, the EFF, and others led the push for HTTPS everywhere, making encryption the default for every request. Without it, anyone between the browser and server can read and tamper with the traffic.",
-    "tag": "Security",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T04:00:00.000Z",
-    "url": "https://vercel.com/blog/death-to-long-lived-static-credentials",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 708,
-    "source": "Netflix",
-    "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
-    "summary": "When Jake Paul and Mike Tyson stepped into the ring in November 2024, we delivered the fight to roughly 65 million concurrent streams. On an ordinary day our infrastructure takes in more than 2 billion requests and handles upwards of 38 million real-time logging events every second. At that scale, the whole picture…",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Oct 16, 2026",
-    "publishedAt": "2026-10-16T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 709,
-    "source": "Spotify",
-    "title": "Advancing Generative Recommendation Inference: our collaboration with NVIDIA on TensorRT LLM",
-    "summary": "At Spotify, every surface and interaction is personalized to you as a user: the content on the Home page, the...",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 16, 2026",
-    "publishedAt": "2026-10-16T14:29:18.000Z",
-    "url": "https://engineering.atspotify.com/2026/10/advancing-generative-recommendation-inference-our-collaboration-with-nvidia-on-tensorrt-llm/",
     "details": [],
     "featured": false
   }
