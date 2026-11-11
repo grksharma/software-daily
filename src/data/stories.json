@@ -1,5 +1,84 @@
 [
   {
+    "id": 760,
+    "source": "Lyft",
+    "title": "Beyond Test Cards: A Fake Payment Provider for Testing at Scale",
+    "summary": "Lyft processes billions in payments annually, and that volume continues to grow. Agentic coding has drastically accelerated feature development, but it raises the stakes for the one phase that cannot be rushed: ensuring the highest standards of reliability and correctness in critical payment systems.",
+    "tag": "Engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Nov 10, 2026",
+    "publishedAt": "2026-11-10T20:55:40.000Z",
+    "url": "https://eng.lyft.com/beyond-test-cards-a-fake-payment-provider-for-testing-at-scale-c69dddadb115",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 761,
+    "source": "Lyft",
+    "title": "Hiring Junior Engineers",
+    "summary": "Several people have asked me what the qualifications are for junior software engineers to be hired these days. This level is often referred to as “new grad,” but people with lots of different backgrounds, not just recent university graduates, can use the entry-level software engineering role as their first job in big…",
+    "tag": "Engineering",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Nov 10, 2026",
+    "publishedAt": "2026-11-10T17:08:06.000Z",
+    "url": "https://eng.lyft.com/hiring-junior-engineers-1edc53e0fd5f",
+    "details": []
+  },
+  {
+    "id": 762,
+    "source": "Vercel",
+    "title": "How OpenEvidence scales medical search for 650K doctors",
+    "summary": "Absorbs traffic spikes without additional capacity provisioning",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 3, 2026",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
+    "details": []
+  },
+  {
+    "id": 763,
+    "source": "Vercel",
+    "title": "Introducing Vercel Security Review",
+    "summary": "Today, we are launching Vercel Security Review in public beta.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 2, 2026",
+    "publishedAt": "2026-11-02T13:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-security-review",
+    "details": []
+  },
+  {
+    "id": 764,
+    "source": "Cloudflare",
+    "title": "Cloudflare deploys protections against php2shell vulnerability",
+    "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T13:56:45.000Z",
+    "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
+    "details": []
+  },
+  {
+    "id": 765,
+    "source": "Cloudflare",
+    "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
+    "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 21, 2026",
+    "publishedAt": "2026-10-21T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/webmcp-commerce/",
+    "details": []
+  },
+  {
     "id": 754,
     "source": "Spotify",
     "title": "AI Product Management at Spotify: A View From Three Angles",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-09T17:53:35.000Z",
     "url": "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 755,
@@ -24,7 +103,8 @@
     "published": "Nov 9, 2026",
     "publishedAt": "2026-11-09T17:01:02.000Z",
     "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 756,
@@ -37,7 +117,8 @@
     "published": "Nov 9, 2026",
     "publishedAt": "2026-11-09T05:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-production-index-november-2026",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 757,
@@ -50,7 +131,8 @@
     "published": "Nov 2, 2026",
     "publishedAt": "2026-11-02T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 758,
@@ -63,7 +145,8 @@
     "published": "Oct 22, 2026",
     "publishedAt": "2026-10-22T04:00:00.000Z",
     "url": "https://vercel.com/blog/death-to-long-lived-static-credentials",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 759,
@@ -76,7 +159,8 @@
     "published": "Oct 21, 2026",
     "publishedAt": "2026-10-21T14:10:42.000Z",
     "url": "https://blog.cloudflare.com/full-transaction-waf/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 748,
@@ -467,90 +551,6 @@
     "published": "Oct 27, 2026",
     "publishedAt": "2026-10-27T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 728,
-    "source": "Vercel",
-    "title": "ElevenLabs on AI Gateway",
-    "summary": "Vercel and ElevenLabs are partnering to bring 14 ElevenLabs models to AI Gateway . To celebrate the launch, all ElevenLabs models are 50% off on AI Gateway for the first 14 days, through November 9th.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 27, 2026",
-    "publishedAt": "2026-10-27T07:00:00.000Z",
-    "url": "https://vercel.com/blog/elevenlabs-on-ai-gateway",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 729,
-    "source": "Cloudflare",
-    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
-    "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 26, 2026",
-    "publishedAt": "2026-10-26T22:01:23.000Z",
-    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 718,
-    "source": "Cloudflare",
-    "title": "See the agents, set the terms: new visibility and control for personal agents",
-    "summary": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 4, 2026",
-    "publishedAt": "2026-11-04T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 719,
-    "source": "Cloudflare",
-    "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
-    "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Nov 3, 2026",
-    "publishedAt": "2026-11-03T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/zero-wire/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 720,
-    "source": "Vercel",
-    "title": "How Zapier turns ideas into working software in hours with Vercel",
-    "summary": "Interactive partner demos in under two hours with v0, replacing a process that could take weeks",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 3, 2026",
-    "publishedAt": "2026-11-03T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 721,
-    "source": "Vercel",
-    "title": "How Mercor ships internal apps and billions of production tokens on one platform",
-    "summary": "18M requests and 63B tokens routed through AI Gateway in 10 days",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Nov 3, 2026",
-    "publishedAt": "2026-11-03T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
     "details": [],
     "featured": false
   }
