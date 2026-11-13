@@ -1,5 +1,84 @@
 [
   {
+    "id": 772,
+    "source": "Cloudflare",
+    "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+    "summary": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 13, 2026",
+    "publishedAt": "2026-11-13T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/spend-management/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 773,
+    "source": "GitHub Engineering",
+    "title": "Build once, run on any agent: A practical guide to agent skills",
+    "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 12, 2026",
+    "publishedAt": "2026-11-12T22:54:52.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+    "details": []
+  },
+  {
+    "id": 774,
+    "source": "Dropbox",
+    "title": "How two engineer side projects became the agent taking action inside Dropbox",
+    "summary": "Two side projects explored a new way to get work done with files already in Dropbox. Here’s how engineers brought them together and turned those experiments into a new customer experience.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 5, 2026",
+    "publishedAt": "2026-11-05T14:00:00.000Z",
+    "url": "https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox",
+    "details": []
+  },
+  {
+    "id": 775,
+    "source": "Dropbox",
+    "title": "How AI-assisted development helped us build the new Dropbox experience",
+    "summary": "From sharing features across web and desktop to testing the details customers depend on, this is how AI-assisted development helped our engineers deliver the updated Dropbox experience.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 5, 2026",
+    "publishedAt": "2026-11-05T14:00:00.000Z",
+    "url": "https://dropbox.tech/machine-learning/how-aiassisted-development-helped-us-build-the-new-dropbox-experience",
+    "details": []
+  },
+  {
+    "id": 776,
+    "source": "Vercel",
+    "title": "Introducing Virtual Models on AI Gateway",
+    "summary": "Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update models, configure fallbacks and priority, and enforce Zero Data Retention centrally. The virtual model configuration applies wherever the ID is used.",
+    "tag": "AI engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Oct 28, 2026",
+    "publishedAt": "2026-10-28T07:25:00.000Z",
+    "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+    "details": []
+  },
+  {
+    "id": 777,
+    "source": "Vercel",
+    "title": "Introducing Vercel CI",
+    "summary": "Coding agents are opening more pull requests than ever, and each one waits on CI before anyone can review or merge it. Most CI systems run the entire workflow on every push, even a one-line change. The more your agents push, the more time you spend waiting on CI.",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "amber",
+    "published": "Oct 28, 2026",
+    "publishedAt": "2026-10-28T07:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-vercel-ci",
+    "details": []
+  },
+  {
     "id": 766,
     "source": "Cloudflare",
     "title": "Choosing QuePaxa, an unusual consensus algorithm",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-11T14:24:46.000Z",
     "url": "https://blog.cloudflare.com/choosing-quepaxa/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 767,
@@ -24,7 +103,8 @@
     "published": "Nov 4, 2026",
     "publishedAt": "2026-11-04T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 768,
@@ -37,7 +117,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/zero-wire/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 769,
@@ -50,7 +131,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 770,
@@ -63,7 +145,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 771,
@@ -76,7 +159,8 @@
     "published": "Oct 27, 2026",
     "publishedAt": "2026-10-27T07:00:00.000Z",
     "url": "https://vercel.com/blog/elevenlabs-on-ai-gateway",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 760,
@@ -467,90 +551,6 @@
     "published": "Oct 26, 2026",
     "publishedAt": "2026-10-26T16:01:02.000Z",
     "url": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 740,
-    "source": "Vercel",
-    "title": "How Interfaze serves 50 million requests a month on Vercel",
-    "summary": "Multiple model providers behind one fallback layer with AI Gateway",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 741,
-    "source": "Netflix",
-    "title": "Single-tenant Titus: VM-level isolation on a multi-tenant container platform",
-    "summary": "You click play on a Friday night, and in the second that follows, dozens of services answer in milliseconds. Most of them run on Titus, our internal container platform. Titus is, in essence, a Kubernetes-based container hosting platform: we keep both the control plane and the data plane (the container hosts that…",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T22:19:12.000Z",
-    "url": "https://netflixtechblog.com/single-tenant-titus-vm-level-isolation-on-a-multi-tenant-container-platform-6d8b1909d163",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 730,
-    "source": "Cloudflare",
-    "title": "The post-quantum future of web privacy",
-    "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Nov 6, 2026",
-    "publishedAt": "2026-11-06T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/vole-mole/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 731,
-    "source": "GitHub Engineering",
-    "title": "Inside GitHub’s new Git storage architecture",
-    "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 5, 2026",
-    "publishedAt": "2026-11-05T20:23:21.000Z",
-    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 732,
-    "source": "Cloudflare",
-    "title": "Agents aren’t humans (but they kinda are)",
-    "summary": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 5, 2026",
-    "publishedAt": "2026-11-05T17:03:04.000Z",
-    "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 733,
-    "source": "Vercel",
-    "title": "Introducing Vercel Schedules",
-    "summary": "Cron jobs are useful for work that needs to happen regularly. You can use them to do things such as back up your database on a schedule, or keep data in sync between two systems.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Nov 4, 2026",
-    "publishedAt": "2026-11-04T13:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-vercel-schedules",
     "details": [],
     "featured": false
   }
