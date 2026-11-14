@@ -1,5 +1,84 @@
 [
   {
+    "id": 778,
+    "source": "Cloudflare",
+    "title": "Kitesurf is now open source",
+    "summary": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 13, 2026",
+    "publishedAt": "2026-11-13T20:20:21.000Z",
+    "url": "https://blog.cloudflare.com/kitesurf-open-source/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 779,
+    "source": "Cloudflare",
+    "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+    "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Nov 13, 2026",
+    "publishedAt": "2026-11-13T19:26:07.000Z",
+    "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+    "details": []
+  },
+  {
+    "id": 780,
+    "source": "Vercel",
+    "title": "Workflow SDK 5: built for production",
+    "summary": "When we first launched Workflow SDK, the goal was simple: write regular async JavaScript, and let the SDK keep it running through crashes, deployments, and long waits.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 12, 2026",
+    "publishedAt": "2026-11-12T13:00:00.000Z",
+    "url": "https://vercel.com/blog/workflow-sdk-5",
+    "details": []
+  },
+  {
+    "id": 781,
+    "source": "Cloudflare",
+    "title": "The post-quantum future of web privacy",
+    "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 6, 2026",
+    "publishedAt": "2026-11-06T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/vole-mole/",
+    "details": []
+  },
+  {
+    "id": 782,
+    "source": "GitHub Engineering",
+    "title": "Inside GitHub’s new Git storage architecture",
+    "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 5, 2026",
+    "publishedAt": "2026-11-05T20:23:21.000Z",
+    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+    "details": []
+  },
+  {
+    "id": 783,
+    "source": "Cloudflare",
+    "title": "Agents aren’t humans (but they kinda are)",
+    "summary": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 5, 2026",
+    "publishedAt": "2026-11-05T17:03:04.000Z",
+    "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
+    "details": []
+  },
+  {
     "id": 772,
     "source": "Cloudflare",
     "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-13T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/spend-management/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 773,
@@ -24,7 +103,8 @@
     "published": "Nov 12, 2026",
     "publishedAt": "2026-11-12T22:54:52.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 774,
@@ -37,7 +117,8 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T14:00:00.000Z",
     "url": "https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 775,
@@ -50,7 +131,8 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T14:00:00.000Z",
     "url": "https://dropbox.tech/machine-learning/how-aiassisted-development-helped-us-build-the-new-dropbox-experience",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 776,
@@ -63,7 +145,8 @@
     "published": "Oct 28, 2026",
     "publishedAt": "2026-10-28T07:25:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-virtual-models",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 777,
@@ -76,7 +159,8 @@
     "published": "Oct 28, 2026",
     "publishedAt": "2026-10-28T07:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-ci",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 766,
@@ -467,90 +551,6 @@
     "published": "Oct 30, 2026",
     "publishedAt": "2026-10-30T04:00:00.000Z",
     "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 746,
-    "source": "GitHub Engineering",
-    "title": "How bug bounty sharpens one researcher’s security skills",
-    "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T17:21:30.000Z",
-    "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 747,
-    "source": "Cloudflare",
-    "title": "Localizing compliance at scale: achieving South Korea’s ISMS certification",
-    "summary": "Cloudflare has achieved South Korea's ISMS certification following an audit across 80 controls. Learn how we localized user consent flows, adapted social sign-up paths at the edge, and validated our global security program.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 22, 2026",
-    "publishedAt": "2026-10-22T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/k-isms/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 736,
-    "source": "GitHub Engineering",
-    "title": "Beyond code generation: A developer’s guide to agentic engineering",
-    "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 6, 2026",
-    "publishedAt": "2026-11-06T22:15:59.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 737,
-    "source": "Cloudflare",
-    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
-    "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 29, 2026",
-    "publishedAt": "2026-10-29T12:55:00.000Z",
-    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 738,
-    "source": "Netflix",
-    "title": "Making Failure Diagnosis Reliable with Pensive AI",
-    "summary": "By Praneeth Yenugutala , Victor Dusa , Anastasia Samoilova , Megan Ren , Justin Wei , Marcelo Mayworm",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 26, 2026",
-    "publishedAt": "2026-10-26T17:04:57.000Z",
-    "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 739,
-    "source": "Netflix",
-    "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
-    "summary": "Serdar Cellat , Yuchen Xie , Bernadette Marcu , Blaid Burgess , Cody Jarrett , Carlos Pereira , Qing Shi , Samuel Carvajal , Manuel Pamplona , Dorothy Jung , Feiko Ritsema , Benjamin Klein , Alex Woo , Eugene Lok , Anna Pulido , Rebecka Swe , Sanford Holsapple , Ranjith Kumar Shetty",
-    "tag": "Architecture",
-    "time": "5 min read",
-    "accent": "emerald",
-    "published": "Oct 26, 2026",
-    "publishedAt": "2026-10-26T16:01:02.000Z",
-    "url": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49",
     "details": [],
     "featured": false
   }
