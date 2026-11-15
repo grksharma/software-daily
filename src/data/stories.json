@@ -1,5 +1,84 @@
 [
   {
+    "id": 784,
+    "source": "GitHub Engineering",
+    "title": "Beyond code generation: A developer’s guide to agentic engineering",
+    "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 6, 2026",
+    "publishedAt": "2026-11-06T22:15:59.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 785,
+    "source": "Vercel",
+    "title": "Introducing Vercel Schedules",
+    "summary": "Cron jobs are useful for work that needs to happen regularly. You can use them to do things such as back up your database on a schedule, or keep data in sync between two systems.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 4, 2026",
+    "publishedAt": "2026-11-04T13:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-vercel-schedules",
+    "details": []
+  },
+  {
+    "id": 786,
+    "source": "Cloudflare",
+    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
+    "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent botnet takedowns.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Oct 29, 2026",
+    "publishedAt": "2026-10-29T12:55:00.000Z",
+    "url": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
+    "details": []
+  },
+  {
+    "id": 787,
+    "source": "Cloudflare",
+    "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+    "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Oct 27, 2026",
+    "publishedAt": "2026-10-27T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/php-ctf/",
+    "details": []
+  },
+  {
+    "id": 788,
+    "source": "Cloudflare",
+    "title": "What took the Internet offline in Q3 2026",
+    "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 27, 2026",
+    "publishedAt": "2026-10-27T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+    "details": []
+  },
+  {
+    "id": 789,
+    "source": "Cloudflare",
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+    "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 26, 2026",
+    "publishedAt": "2026-10-26T22:01:23.000Z",
+    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "details": []
+  },
+  {
     "id": 778,
     "source": "Cloudflare",
     "title": "Kitesurf is now open source",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-13T20:20:21.000Z",
     "url": "https://blog.cloudflare.com/kitesurf-open-source/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 779,
@@ -24,7 +103,8 @@
     "published": "Nov 13, 2026",
     "publishedAt": "2026-11-13T19:26:07.000Z",
     "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 780,
@@ -37,7 +117,8 @@
     "published": "Nov 12, 2026",
     "publishedAt": "2026-11-12T13:00:00.000Z",
     "url": "https://vercel.com/blog/workflow-sdk-5",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 781,
@@ -50,7 +131,8 @@
     "published": "Nov 6, 2026",
     "publishedAt": "2026-11-06T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/vole-mole/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 782,
@@ -63,7 +145,8 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T20:23:21.000Z",
     "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 783,
@@ -76,7 +159,8 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T17:03:04.000Z",
     "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 772,
@@ -467,90 +551,6 @@
     "published": "Oct 23, 2026",
     "publishedAt": "2026-10-23T18:22:59.000Z",
     "url": "https://blog.cloudflare.com/origin-range-requests/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 752,
-    "source": "Cloudflare",
-    "title": "Bringing post-quantum cryptography to geographically fenced key management",
-    "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T18:06:56.000Z",
-    "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 753,
-    "source": "GitHub Engineering",
-    "title": "The bridge to agent-scale Git infrastructure",
-    "summary": "We moved a copy of 99.99999% of GitHub's repositories to Azure. Here's how per-reference quorums will bring over the rest, and how object storage lets reads scale independently.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T16:00:00.000Z",
-    "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 742,
-    "source": "Cloudflare",
-    "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
-    "summary": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T17:38:50.000Z",
-    "url": "https://blog.cloudflare.com/emudhra-patching/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 743,
-    "source": "Cloudflare",
-    "title": "Cloudflare services for private origins is now generally available",
-    "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T14:23:43.000Z",
-    "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 744,
-    "source": "Vercel",
-    "title": "Introducing Geist Serif",
-    "summary": "Geist started as a monospace typeface for developers, built for the editors and terminals where they spend their day doing their work. From there it grew into Geist Sans for product interfaces, and then into Geist Pixel, which was inspired by the grids of early computer screens.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T13:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-geist-serif",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 745,
-    "source": "Vercel",
-    "title": "Simplifying runtime caching on Vercel",
-    "summary": "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks and APIs. If you use Next.js fetch caching or unstable_cache , you won’t need to change your code. Pro and Enterprise projects will get larger storage allocations.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T04:00:00.000Z",
-    "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
     "details": [],
     "featured": false
   }
