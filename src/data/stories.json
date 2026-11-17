@@ -1,5 +1,84 @@
 [
   {
+    "id": 796,
+    "source": "Lyft",
+    "title": "Smooth Cruiser at Lyft: Built for Safety and Transparency",
+    "summary": "At Lyft, we want to ensure everyone on the Lyft platform is supported by smart, fair tools to improve their experience. This is the guiding principle behind Smooth Cruiser, our feature that provides Drivers with insights into their driving behavior. For a tool like this to truly help Drivers make informed decisions…",
+    "tag": "Engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Nov 17, 2026",
+    "publishedAt": "2026-11-17T14:27:11.000Z",
+    "url": "https://eng.lyft.com/smooth-cruiser-at-lyft-built-for-safety-and-transparency-b6a461e16f2a",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 797,
+    "source": "Vercel",
+    "title": "Agents are users, so your software needs evals",
+    "summary": "Agents are now users of software, doing work on people's behalf. Whether you're building the agent or the software it uses (API, CLI, MCP server, SDK), evals give you a way to measure how well that work gets done.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 16, 2026",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "url": "https://vercel.com/blog/agent-evals",
+    "details": []
+  },
+  {
+    "id": 798,
+    "source": "Cloudflare",
+    "title": "Launching the Vite Ecosystem Fund",
+    "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 9, 2026",
+    "publishedAt": "2026-11-09T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+    "details": []
+  },
+  {
+    "id": 799,
+    "source": "Netflix",
+    "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
+    "summary": "At Netflix, shared Java libraries support applications developed across a large, independently evolving repository ecosystem. A library change begins in one repository, but its impact can reach many others. Producers can see the API diff in front of them. What they often cannot see is who still depends on the symbols…",
+    "tag": "Architecture",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T18:32:51.000Z",
+    "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90",
+    "details": []
+  },
+  {
+    "id": 800,
+    "source": "Cloudflare",
+    "title": "Origin Range Requests: Serving large files without range-request tuning",
+    "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T18:22:59.000Z",
+    "url": "https://blog.cloudflare.com/origin-range-requests/",
+    "details": []
+  },
+  {
+    "id": 801,
+    "source": "Cloudflare",
+    "title": "Bringing post-quantum cryptography to geographically fenced key management",
+    "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Oct 23, 2026",
+    "publishedAt": "2026-10-23T18:06:56.000Z",
+    "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+    "details": []
+  },
+  {
     "id": 790,
     "source": "Cloudflare",
     "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-10-30T17:38:50.000Z",
     "url": "https://blog.cloudflare.com/emudhra-patching/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 791,
@@ -24,7 +103,8 @@
     "published": "Oct 30, 2026",
     "publishedAt": "2026-10-30T14:23:43.000Z",
     "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 792,
@@ -37,7 +117,8 @@
     "published": "Oct 30, 2026",
     "publishedAt": "2026-10-30T13:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-geist-serif",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 793,
@@ -50,7 +131,8 @@
     "published": "Oct 30, 2026",
     "publishedAt": "2026-10-30T04:00:00.000Z",
     "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 794,
@@ -63,7 +145,8 @@
     "published": "Oct 26, 2026",
     "publishedAt": "2026-10-26T17:04:57.000Z",
     "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 795,
@@ -76,7 +159,8 @@
     "published": "Oct 26, 2026",
     "publishedAt": "2026-10-26T16:01:02.000Z",
     "url": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 784,
@@ -467,90 +551,6 @@
     "published": "Nov 2, 2026",
     "publishedAt": "2026-11-02T13:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-security-review",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 764,
-    "source": "Cloudflare",
-    "title": "Cloudflare deploys protections against php2shell vulnerability",
-    "summary": "Cloudflare has deployed default web application firewall (WAF) protections for newly disclosed PHP vulnerabilities before public disclosure. The rules use request and response signals to stop exploit attempts and prevent exposed data from reaching attackers.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T13:56:45.000Z",
-    "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 765,
-    "source": "Cloudflare",
-    "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
-    "summary": "Almost 100,000 Commerce.com domains now give AI agents real shopping tools through WebMCP on Cloudflare. Here's how we turned it on across every store at once, while keeping each merchant in control.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 21, 2026",
-    "publishedAt": "2026-10-21T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/webmcp-commerce/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 754,
-    "source": "Spotify",
-    "title": "AI Product Management at Spotify: A View From Three Angles",
-    "summary": "Almost every article or podcast about product management and AI refers to \"the AI PM\" as one job. But what...",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 9, 2026",
-    "publishedAt": "2026-11-09T17:53:35.000Z",
-    "url": "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 755,
-    "source": "Netflix",
-    "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
-    "summary": "By Shreya S Ramanujam , Yongce Li , Afshine Amidi , Sina Ghiassian , Benjamin Klein .",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 9, 2026",
-    "publishedAt": "2026-11-09T17:01:02.000Z",
-    "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 756,
-    "source": "Vercel",
-    "title": "Decision models take 26% of requests; Anthropic now wins new teams 2:1",
-    "summary": "Every month, AI Gateway routes more than 100 trillion tokens between production applications and AI labs. That traffic gives us a view of what AI usage looks like in today’s enterprise and startup landscape across language, decision, voice, image, and video models. We publish it here monthly. See the Production Index…",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Nov 9, 2026",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-production-index-november-2026",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 757,
-    "source": "Cloudflare",
-    "title": "How we halved DNS build delay and cut memory use by 85%",
-    "summary": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Nov 2, 2026",
-    "publishedAt": "2026-11-02T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
     "details": [],
     "featured": false
   }
