@@ -1,5 +1,84 @@
 [
   {
+    "id": 808,
+    "source": "Cloudflare",
+    "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+    "summary": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 19, 2026",
+    "publishedAt": "2026-11-19T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 809,
+    "source": "Spotify",
+    "title": "When Can You Ship on Offline Evals Alone?",
+    "summary": "TL;DR Teams building AI features want to skip slow A/B tests and decide from offline evals alone. This post...",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 19, 2026",
+    "publishedAt": "2026-11-19T13:34:19.000Z",
+    "url": "https://engineering.atspotify.com/2026/11/when-can-you-ship-on-offline-evals-alone/",
+    "details": []
+  },
+  {
+    "id": 810,
+    "source": "Cloudflare",
+    "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+    "summary": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 18, 2026",
+    "publishedAt": "2026-11-18T22:00:00.000Z",
+    "url": "https://blog.cloudflare.com/open-clairic/",
+    "details": []
+  },
+  {
+    "id": 811,
+    "source": "Vercel",
+    "title": "Introducing Vercel Board",
+    "summary": "Software development is moving from individual agents completing tasks to teams of agents working on more complex projects.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 18, 2026",
+    "publishedAt": "2026-11-18T08:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-vercel-board",
+    "details": []
+  },
+  {
+    "id": 812,
+    "source": "Vercel",
+    "title": "Introducing Vercel X",
+    "summary": "Today we’re launching Vercel X , a six-week accelerator for AI founders at the idea and pre-seed stages.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 18, 2026",
+    "publishedAt": "2026-11-18T00:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-x",
+    "details": []
+  },
+  {
+    "id": 813,
+    "source": "Lyft",
+    "title": "Beyond Test Cards: A Fake Payment Provider for Testing at Scale",
+    "summary": "Lyft processes billions in payments annually, and that volume continues to grow. Agentic coding has drastically accelerated feature development, but it raises the stakes for the one phase that cannot be rushed: ensuring the highest standards of reliability and correctness in critical payment systems.",
+    "tag": "Engineering",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Nov 10, 2026",
+    "publishedAt": "2026-11-10T20:55:40.000Z",
+    "url": "https://eng.lyft.com/beyond-test-cards-a-fake-payment-provider-for-testing-at-scale-c69dddadb115",
+    "details": []
+  },
+  {
     "id": 802,
     "source": "Cloudflare",
     "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-18T14:52:10.000Z",
     "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 803,
@@ -24,7 +103,8 @@
     "published": "Nov 17, 2026",
     "publishedAt": "2026-11-17T20:24:27.000Z",
     "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 804,
@@ -37,7 +117,8 @@
     "published": "Nov 17, 2026",
     "publishedAt": "2026-11-17T18:20:40.000Z",
     "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 805,
@@ -50,7 +131,8 @@
     "published": "Nov 17, 2026",
     "publishedAt": "2026-11-17T17:01:02.000Z",
     "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 806,
@@ -63,7 +145,8 @@
     "published": "Nov 17, 2026",
     "publishedAt": "2026-11-17T00:00:00.000Z",
     "url": "https://vercel.com/blog/eve-is-now-generally-available",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 807,
@@ -76,7 +159,8 @@
     "published": "Nov 9, 2026",
     "publishedAt": "2026-11-09T17:53:35.000Z",
     "url": "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 796,
@@ -467,90 +551,6 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T14:00:00.000Z",
     "url": "https://dropbox.tech/machine-learning/how-aiassisted-development-helped-us-build-the-new-dropbox-experience",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 776,
-    "source": "Vercel",
-    "title": "Introducing Virtual Models on AI Gateway",
-    "summary": "Virtual Models are an abstraction of the model string and configurations your apps and developers use. With a single virtual model ID, you can change and update models, configure fallbacks and priority, and enforce Zero Data Retention centrally. The virtual model configuration applies wherever the ID is used.",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Oct 28, 2026",
-    "publishedAt": "2026-10-28T07:25:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-virtual-models",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 777,
-    "source": "Vercel",
-    "title": "Introducing Vercel CI",
-    "summary": "Coding agents are opening more pull requests than ever, and each one waits on CI before anyone can review or merge it. Most CI systems run the entire workflow on every push, even a one-line change. The more your agents push, the more time you spend waiting on CI.",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Oct 28, 2026",
-    "publishedAt": "2026-10-28T07:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-vercel-ci",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 766,
-    "source": "Cloudflare",
-    "title": "Choosing QuePaxa, an unusual consensus algorithm",
-    "summary": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 11, 2026",
-    "publishedAt": "2026-11-11T14:24:46.000Z",
-    "url": "https://blog.cloudflare.com/choosing-quepaxa/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 767,
-    "source": "Cloudflare",
-    "title": "See the agents, set the terms: New visibility and control for personal agents",
-    "summary": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Nov 4, 2026",
-    "publishedAt": "2026-11-04T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 768,
-    "source": "Cloudflare",
-    "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
-    "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Nov 3, 2026",
-    "publishedAt": "2026-11-03T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/zero-wire/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 769,
-    "source": "Vercel",
-    "title": "How Zapier turns ideas into working software in hours with Vercel",
-    "summary": "Interactive partner demos in under two hours with v0, replacing a process that could take weeks",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 3, 2026",
-    "publishedAt": "2026-11-03T04:00:00.000Z",
-    "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
     "details": [],
     "featured": false
   }
