@@ -1,5 +1,84 @@
 [
   {
+    "id": 820,
+    "source": "Cloudflare",
+    "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+    "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 20, 2026",
+    "publishedAt": "2026-11-20T20:24:38.000Z",
+    "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 821,
+    "source": "Cloudflare",
+    "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+    "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 20, 2026",
+    "publishedAt": "2026-11-20T20:00:45.000Z",
+    "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+    "details": []
+  },
+  {
+    "id": 822,
+    "source": "Vercel",
+    "title": "Vercel completes ISO/IEC 42001:2023 certification",
+    "summary": "Vercel has completed its ISO/IEC 42001:2023 certification, meeting the international standard for AI management systems.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 20, 2026",
+    "publishedAt": "2026-11-20T05:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-completes-iso-iec-42001-2023-certification",
+    "details": []
+  },
+  {
+    "id": 823,
+    "source": "Cloudflare",
+    "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
+    "summary": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 13, 2026",
+    "publishedAt": "2026-11-13T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/spend-management/",
+    "details": []
+  },
+  {
+    "id": 824,
+    "source": "GitHub Engineering",
+    "title": "Build once, run on any agent: A practical guide to agent skills",
+    "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 12, 2026",
+    "publishedAt": "2026-11-12T22:54:52.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+    "details": []
+  },
+  {
+    "id": 825,
+    "source": "GitHub Engineering",
+    "title": "Inside GitHub’s new Git storage architecture",
+    "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 5, 2026",
+    "publishedAt": "2026-11-05T20:23:21.000Z",
+    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+    "details": []
+  },
+  {
     "id": 814,
     "source": "Cloudflare",
     "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-20T01:58:29.000Z",
     "url": "https://blog.cloudflare.com/nginx2root/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 815,
@@ -24,7 +103,8 @@
     "published": "Nov 11, 2026",
     "publishedAt": "2026-11-11T14:24:46.000Z",
     "url": "https://blog.cloudflare.com/choosing-quepaxa/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 816,
@@ -37,7 +117,8 @@
     "published": "Nov 10, 2026",
     "publishedAt": "2026-11-10T17:08:06.000Z",
     "url": "https://eng.lyft.com/hiring-junior-engineers-1edc53e0fd5f",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 817,
@@ -50,7 +131,8 @@
     "published": "Nov 9, 2026",
     "publishedAt": "2026-11-09T17:01:02.000Z",
     "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 818,
@@ -63,7 +145,8 @@
     "published": "Nov 9, 2026",
     "publishedAt": "2026-11-09T05:00:00.000Z",
     "url": "https://vercel.com/blog/ai-gateway-production-index-november-2026",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 819,
@@ -76,7 +159,8 @@
     "published": "Nov 4, 2026",
     "publishedAt": "2026-11-04T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 808,
@@ -467,90 +551,6 @@
     "published": "Oct 27, 2026",
     "publishedAt": "2026-10-27T13:00:00.000Z",
     "url": "https://blog.cloudflare.com/php-ctf/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 788,
-    "source": "Cloudflare",
-    "title": "What took the Internet offline in Q3 2026",
-    "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 27, 2026",
-    "publishedAt": "2026-10-27T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 789,
-    "source": "Cloudflare",
-    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
-    "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 26, 2026",
-    "publishedAt": "2026-10-26T22:01:23.000Z",
-    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 778,
-    "source": "Cloudflare",
-    "title": "Kitesurf is now open source",
-    "summary": "Kitesurf, our experimental browser engine for AI agents, is now open source. Inspect the code, run it locally, or deploy your own instance on Cloudflare Workers.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Nov 13, 2026",
-    "publishedAt": "2026-11-13T20:20:21.000Z",
-    "url": "https://blog.cloudflare.com/kitesurf-open-source/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 779,
-    "source": "Cloudflare",
-    "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
-    "summary": "AI-orchestrated penetration testing platforms like ARTEX have become increasingly powerful tools enabling effective attacks on exposed infrastructure. Here we share Cloudflare’s observations and recommended countermeasures.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Nov 13, 2026",
-    "publishedAt": "2026-11-13T19:26:07.000Z",
-    "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 780,
-    "source": "Vercel",
-    "title": "Workflow SDK 5: built for production",
-    "summary": "When we first launched Workflow SDK, the goal was simple: write regular async JavaScript, and let the SDK keep it running through crashes, deployments, and long waits.",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 12, 2026",
-    "publishedAt": "2026-11-12T13:00:00.000Z",
-    "url": "https://vercel.com/blog/workflow-sdk-5",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 781,
-    "source": "Cloudflare",
-    "title": "The post-quantum future of web privacy",
-    "summary": "Cryptographic protocols like Privacy Pass help keep web sites safe from abuse while keeping their users private. This post looks at the quantum threat to these protocols, and some new post-quantum cryptography that may help close the gap.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 6, 2026",
-    "publishedAt": "2026-11-06T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/vole-mole/",
     "details": [],
     "featured": false
   }
