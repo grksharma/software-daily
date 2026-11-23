@@ -1,5 +1,84 @@
 [
   {
+    "id": 832,
+    "source": "Cloudflare",
+    "title": "Probing DNS at Cloudflare",
+    "summary": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 23, 2026",
+    "publishedAt": "2026-11-23T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 833,
+    "source": "Vercel",
+    "title": "Introducing Audited ZDR on AI Gateway",
+    "summary": "AI is now used in every part of a business, and as a result, companies send source code, customer records, and regulated data through inference providers.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 23, 2026",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway",
+    "details": []
+  },
+  {
+    "id": 834,
+    "source": "GitHub Engineering",
+    "title": "Beyond code generation: A developer’s guide to agentic engineering",
+    "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 6, 2026",
+    "publishedAt": "2026-11-06T22:15:59.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+    "details": []
+  },
+  {
+    "id": 835,
+    "source": "Dropbox",
+    "title": "How AI-assisted development helped us build the new Dropbox experience",
+    "summary": "From sharing features across web and desktop to testing the details customers depend on, this is how AI-assisted development helped our engineers deliver the updated Dropbox experience.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 5, 2026",
+    "publishedAt": "2026-11-05T14:00:00.000Z",
+    "url": "https://dropbox.tech/machine-learning/how-aiassisted-development-helped-us-build-the-new-dropbox-experience",
+    "details": []
+  },
+  {
+    "id": 836,
+    "source": "Vercel",
+    "title": "Introducing Vercel Schedules",
+    "summary": "Cron jobs are useful for work that needs to happen regularly. You can use them to do things such as back up your database on a schedule, or keep data in sync between two systems.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 4, 2026",
+    "publishedAt": "2026-11-04T13:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-vercel-schedules",
+    "details": []
+  },
+  {
+    "id": 837,
+    "source": "Cloudflare",
+    "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
+    "summary": "Zero Wire on Cloudflare Radar pairs plain-language briefings with global attack telemetry and remediation steps. Triage critical CVEs faster and decide how to protect your infrastructure.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Nov 3, 2026",
+    "publishedAt": "2026-11-03T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/zero-wire/",
+    "details": []
+  },
+  {
     "id": 826,
     "source": "Cloudflare",
     "title": "Kitesurf is now open source",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-13T20:20:21.000Z",
     "url": "https://blog.cloudflare.com/kitesurf-open-source/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 827,
@@ -24,7 +103,8 @@
     "published": "Nov 13, 2026",
     "publishedAt": "2026-11-13T19:26:07.000Z",
     "url": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 828,
@@ -37,7 +117,8 @@
     "published": "Nov 12, 2026",
     "publishedAt": "2026-11-12T13:00:00.000Z",
     "url": "https://vercel.com/blog/workflow-sdk-5",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 829,
@@ -50,7 +131,8 @@
     "published": "Nov 6, 2026",
     "publishedAt": "2026-11-06T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/vole-mole/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 830,
@@ -63,7 +145,8 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T17:03:04.000Z",
     "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 831,
@@ -76,7 +159,8 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T14:00:00.000Z",
     "url": "https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 820,
@@ -467,90 +551,6 @@
     "published": "Oct 23, 2026",
     "publishedAt": "2026-10-23T18:32:51.000Z",
     "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 800,
-    "source": "Cloudflare",
-    "title": "Origin Range Requests: Serving large files without range-request tuning",
-    "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T18:22:59.000Z",
-    "url": "https://blog.cloudflare.com/origin-range-requests/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 801,
-    "source": "Cloudflare",
-    "title": "Bringing post-quantum cryptography to geographically fenced key management",
-    "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T18:06:56.000Z",
-    "url": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 790,
-    "source": "Cloudflare",
-    "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
-    "summary": "Four, just four: that’s the key to break into any unpatched connection on the Internet that is using eMudhra certificates. Here’s how we quickly patched Cloudflare, what evidence we can see of attempted exploitation, and how much of the rest of the Internet remains exposed.",
-    "tag": "Infrastructure",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T17:38:50.000Z",
-    "url": "https://blog.cloudflare.com/emudhra-patching/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 791,
-    "source": "Cloudflare",
-    "title": "Cloudflare services for private origins is now generally available",
-    "summary": "Public traffic to private origins, with WAF, bot management, caching, and Workers, is now available to every customer with Cloudflare One connectivity.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T14:23:43.000Z",
-    "url": "https://blog.cloudflare.com/private-origins-public-to-private/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 792,
-    "source": "Vercel",
-    "title": "Introducing Geist Serif",
-    "summary": "Geist started as a monospace typeface for developers, built for the editors and terminals where they spend their day doing their work. From there it grew into Geist Sans for product interfaces, and then into Geist Pixel, which was inspired by the grids of early computer screens.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T13:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-geist-serif",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 793,
-    "source": "Vercel",
-    "title": "Simplifying runtime caching on Vercel",
-    "summary": "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks and APIs. If you use Next.js fetch caching or unstable_cache , you won’t need to change your code. Pro and Enterprise projects will get larger storage allocations.",
-    "tag": "DevOps",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Oct 30, 2026",
-    "publishedAt": "2026-10-30T04:00:00.000Z",
-    "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
     "details": [],
     "featured": false
   }
