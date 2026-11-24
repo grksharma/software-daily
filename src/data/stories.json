@@ -1,5 +1,84 @@
 [
   {
+    "id": 838,
+    "source": "Vercel",
+    "title": "Kazunari Hanao joins Vercel as Country Manager, Japan",
+    "summary": "Kazunari Hanao has joined Vercel as Country Manager for Japan, based in Tokyo. His appointment is part of our continued investment in the Japanese market, including plans to expand our local team.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 23, 2026",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "url": "https://vercel.com/blog/kazunari-hanao-joins-vercel-as-country-manager-japan",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 839,
+    "source": "Vercel",
+    "title": "Vercel日本法人の代表に花尾和成が就任いたしました",
+    "summary": "Vercel日本法人の代表に、 花尾和成 が就任いたしました（東京拠点）。今後、Vercelは花尾とともに国内のチームを拡充し、日本市場への投資をさらに進めていきます。",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 23, 2026",
+    "publishedAt": "2026-11-23T05:00:00.000Z",
+    "url": "https://vercel.com/blog/ja-kazunari-hanao-joins-vercel-as-country-manager-japan",
+    "details": []
+  },
+  {
+    "id": 840,
+    "source": "Vercel",
+    "title": "How Zapier turns ideas into working software in hours with Vercel",
+    "summary": "Interactive partner demos in under two hours with v0, replacing a process that could take weeks",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 3, 2026",
+    "publishedAt": "2026-11-03T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
+    "details": []
+  },
+  {
+    "id": 841,
+    "source": "Vercel",
+    "title": "How Mercor ships internal apps and billions of production tokens on one platform",
+    "summary": "18M requests and 63B tokens routed through AI Gateway in 10 days",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Nov 3, 2026",
+    "publishedAt": "2026-11-03T04:00:00.000Z",
+    "url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
+    "details": []
+  },
+  {
+    "id": 842,
+    "source": "Vercel",
+    "title": "How OpenEvidence scales medical search for 650K doctors",
+    "summary": "Absorbs traffic spikes without additional capacity provisioning",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 3, 2026",
+    "publishedAt": "2026-11-03T00:00:00.000Z",
+    "url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
+    "details": []
+  },
+  {
+    "id": 843,
+    "source": "Cloudflare",
+    "title": "How we halved DNS build delay and cut memory use by 85%",
+    "summary": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
+    "tag": "Infrastructure",
+    "time": "4 min read",
+    "accent": "emerald",
+    "published": "Nov 2, 2026",
+    "publishedAt": "2026-11-02T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
+    "details": []
+  },
+  {
     "id": 832,
     "source": "Cloudflare",
     "title": "Probing DNS at Cloudflare",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-23T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 833,
@@ -24,7 +103,8 @@
     "published": "Nov 23, 2026",
     "publishedAt": "2026-11-23T05:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 834,
@@ -37,7 +117,8 @@
     "published": "Nov 6, 2026",
     "publishedAt": "2026-11-06T22:15:59.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 835,
@@ -50,7 +131,8 @@
     "published": "Nov 5, 2026",
     "publishedAt": "2026-11-05T14:00:00.000Z",
     "url": "https://dropbox.tech/machine-learning/how-aiassisted-development-helped-us-build-the-new-dropbox-experience",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 836,
@@ -63,7 +145,8 @@
     "published": "Nov 4, 2026",
     "publishedAt": "2026-11-04T13:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-schedules",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 837,
@@ -76,7 +159,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/zero-wire/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 826,
@@ -467,90 +551,6 @@
     "published": "Nov 17, 2026",
     "publishedAt": "2026-11-17T17:01:02.000Z",
     "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 806,
-    "source": "Vercel",
-    "title": "Introducing eve 1.0",
-    "summary": "Today we're announcing eve 1.0 , the open-source framework for building production-ready agents.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 17, 2026",
-    "publishedAt": "2026-11-17T00:00:00.000Z",
-    "url": "https://vercel.com/blog/eve-is-now-generally-available",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 807,
-    "source": "Spotify",
-    "title": "AI Product Management at Spotify: A View From Three Angles",
-    "summary": "Almost every article or podcast about product management and AI refers to \"the AI PM\" as one job. But what...",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 9, 2026",
-    "publishedAt": "2026-11-09T17:53:35.000Z",
-    "url": "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 796,
-    "source": "Lyft",
-    "title": "Smooth Cruiser at Lyft: Built for Safety and Transparency",
-    "summary": "At Lyft, we want to ensure everyone on the Lyft platform is supported by smart, fair tools to improve their experience. This is the guiding principle behind Smooth Cruiser, our feature that provides Drivers with insights into their driving behavior. For a tool like this to truly help Drivers make informed decisions…",
-    "tag": "Engineering",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Nov 17, 2026",
-    "publishedAt": "2026-11-17T14:27:11.000Z",
-    "url": "https://eng.lyft.com/smooth-cruiser-at-lyft-built-for-safety-and-transparency-b6a461e16f2a",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 797,
-    "source": "Vercel",
-    "title": "Agents are users, so your software needs evals",
-    "summary": "Agents are now users of software, doing work on people's behalf. Whether you're building the agent or the software it uses (API, CLI, MCP server, SDK), evals give you a way to measure how well that work gets done.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 16, 2026",
-    "publishedAt": "2026-11-16T05:00:00.000Z",
-    "url": "https://vercel.com/blog/agent-evals",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 798,
-    "source": "Cloudflare",
-    "title": "Launching the Vite Ecosystem Fund",
-    "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 9, 2026",
-    "publishedAt": "2026-11-09T13:00:00.000Z",
-    "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 799,
-    "source": "Netflix",
-    "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
-    "summary": "At Netflix, shared Java libraries support applications developed across a large, independently evolving repository ecosystem. A library change begins in one repository, but its impact can reach many others. Producers can see the API diff in front of them. What they often cannot see is who still depends on the symbols…",
-    "tag": "Architecture",
-    "time": "4 min read",
-    "accent": "purple",
-    "published": "Oct 23, 2026",
-    "publishedAt": "2026-10-23T18:32:51.000Z",
-    "url": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90",
     "details": [],
     "featured": false
   }
