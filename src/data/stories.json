@@ -1,5 +1,84 @@
 [
   {
+    "id": 844,
+    "source": "Cloudflare",
+    "title": "Introducing Search for Agents",
+    "summary": "Flip one toggle to make your site searchable by AI agents — complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 25, 2026",
+    "publishedAt": "2026-11-25T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/search-for-agents/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 845,
+    "source": "Vercel",
+    "title": "How Cozey turns its operators into software builders on Vercel",
+    "summary": "Employees outside engineering, including warehouse, finance, and support staff, are now building applications and deploying them to Vercel",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 25, 2026",
+    "publishedAt": "2026-11-25T05:00:00.000Z",
+    "url": "https://vercel.com/blog/how-cozey-turns-its-operators-into-software-builders-on-vercel",
+    "details": []
+  },
+  {
+    "id": 846,
+    "source": "Lyft",
+    "title": "Smooth Cruiser at Lyft: Built for Safety and Transparency",
+    "summary": "At Lyft, we want to ensure everyone on the Lyft platform is supported by smart, fair tools to improve their experience. This is the guiding principle behind Smooth Cruiser, our feature that provides Drivers with insights into their driving behavior. For a tool like this to truly help Drivers make informed decisions…",
+    "tag": "Engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Nov 17, 2026",
+    "publishedAt": "2026-11-17T14:27:11.000Z",
+    "url": "https://eng.lyft.com/smooth-cruiser-at-lyft-built-for-safety-and-transparency-b6a461e16f2a",
+    "details": []
+  },
+  {
+    "id": 847,
+    "source": "Vercel",
+    "title": "Introducing eve 1.0",
+    "summary": "Today we're announcing eve 1.0 , the open-source framework for building production-ready agents.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 17, 2026",
+    "publishedAt": "2026-11-17T00:00:00.000Z",
+    "url": "https://vercel.com/blog/eve-is-now-generally-available",
+    "details": []
+  },
+  {
+    "id": 848,
+    "source": "Vercel",
+    "title": "Agents are users, so your software needs evals",
+    "summary": "Agents are now users of software, doing work on people's behalf. Whether you're building the agent or the software it uses (API, CLI, MCP server, SDK), evals give you a way to measure how well that work gets done.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 16, 2026",
+    "publishedAt": "2026-11-16T05:00:00.000Z",
+    "url": "https://vercel.com/blog/agent-evals",
+    "details": []
+  },
+  {
+    "id": 849,
+    "source": "Spotify",
+    "title": "AI Product Management at Spotify: A View From Three Angles",
+    "summary": "Almost every article or podcast about product management and AI refers to \"the AI PM\" as one job. But what...",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 9, 2026",
+    "publishedAt": "2026-11-09T17:53:35.000Z",
+    "url": "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/",
+    "details": []
+  },
+  {
     "id": 838,
     "source": "Vercel",
     "title": "Kazunari Hanao joins Vercel as Country Manager, Japan",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-23T05:00:00.000Z",
     "url": "https://vercel.com/blog/kazunari-hanao-joins-vercel-as-country-manager-japan",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 839,
@@ -24,7 +103,8 @@
     "published": "Nov 23, 2026",
     "publishedAt": "2026-11-23T05:00:00.000Z",
     "url": "https://vercel.com/blog/ja-kazunari-hanao-joins-vercel-as-country-manager-japan",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 840,
@@ -37,7 +117,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 841,
@@ -50,7 +131,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T04:00:00.000Z",
     "url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 842,
@@ -63,7 +145,8 @@
     "published": "Nov 3, 2026",
     "publishedAt": "2026-11-03T00:00:00.000Z",
     "url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 843,
@@ -76,7 +159,8 @@
     "published": "Nov 2, 2026",
     "publishedAt": "2026-11-02T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 832,
@@ -467,90 +551,6 @@
     "published": "Nov 18, 2026",
     "publishedAt": "2026-11-18T08:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-board",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 812,
-    "source": "Vercel",
-    "title": "Introducing Vercel X",
-    "summary": "Today we’re launching Vercel X , a six-week accelerator for AI founders at the idea and pre-seed stages.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 18, 2026",
-    "publishedAt": "2026-11-18T00:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-x",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 813,
-    "source": "Lyft",
-    "title": "Beyond Test Cards: A Fake Payment Provider for Testing at Scale",
-    "summary": "Lyft processes billions in payments annually, and that volume continues to grow. Agentic coding has drastically accelerated feature development, but it raises the stakes for the one phase that cannot be rushed: ensuring the highest standards of reliability and correctness in critical payment systems.",
-    "tag": "Engineering",
-    "time": "4 min read",
-    "accent": "emerald",
-    "published": "Nov 10, 2026",
-    "publishedAt": "2026-11-10T20:55:40.000Z",
-    "url": "https://eng.lyft.com/beyond-test-cards-a-fake-payment-provider-for-testing-at-scale-c69dddadb115",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 802,
-    "source": "Cloudflare",
-    "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
-    "summary": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Nov 18, 2026",
-    "publishedAt": "2026-11-18T14:52:10.000Z",
-    "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 803,
-    "source": "Cloudflare",
-    "title": "Quad9’s withdrawal from France: A canary in the coal mine",
-    "summary": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Nov 17, 2026",
-    "publishedAt": "2026-11-17T20:24:27.000Z",
-    "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 804,
-    "source": "GitHub Engineering",
-    "title": "Building the Agent Host Protocol for sessions that continue across devices",
-    "summary": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 17, 2026",
-    "publishedAt": "2026-11-17T18:20:40.000Z",
-    "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 805,
-    "source": "Netflix",
-    "title": "Engineering AI Discover",
-    "summary": "The challenges and decisions behind AI Discover’s intelligence layer",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Nov 17, 2026",
-    "publishedAt": "2026-11-17T17:01:02.000Z",
-    "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38",
     "details": [],
     "featured": false
   }
