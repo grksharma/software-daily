@@ -1,5 +1,84 @@
 [
   {
+    "id": 850,
+    "source": "GitHub Engineering",
+    "title": "How to choose the next safe step in application modernization",
+    "summary": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 25, 2026",
+    "publishedAt": "2026-11-25T15:00:00.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 851,
+    "source": "Cloudflare",
+    "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+    "summary": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
+    "tag": "Security",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 18, 2026",
+    "publishedAt": "2026-11-18T14:52:10.000Z",
+    "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
+    "details": []
+  },
+  {
+    "id": 852,
+    "source": "Vercel",
+    "title": "Introducing Vercel X",
+    "summary": "Today we’re launching Vercel X , a six-week accelerator for AI founders at the idea and pre-seed stages.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 18, 2026",
+    "publishedAt": "2026-11-18T00:00:00.000Z",
+    "url": "https://vercel.com/blog/vercel-x",
+    "details": []
+  },
+  {
+    "id": 853,
+    "source": "Cloudflare",
+    "title": "Quad9’s withdrawal from France: A canary in the coal mine",
+    "summary": "Quad9's forced withdrawal from France highlights the dangers of mandating DNS-level blocking. We explore why forcing public resolvers to act as content filters is technically flawed and threatens the open Internet.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 17, 2026",
+    "publishedAt": "2026-11-17T20:24:27.000Z",
+    "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+    "details": []
+  },
+  {
+    "id": 854,
+    "source": "GitHub Engineering",
+    "title": "Building the Agent Host Protocol for sessions that continue across devices",
+    "summary": "Discover how we built the open Agent Host Protocol to keep your agent sessions accessible across editors, apps, phones, and the cloud.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 17, 2026",
+    "publishedAt": "2026-11-17T18:20:40.000Z",
+    "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+    "details": []
+  },
+  {
+    "id": 855,
+    "source": "Netflix",
+    "title": "Engineering AI Discover",
+    "summary": "The challenges and decisions behind AI Discover’s intelligence layer",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 17, 2026",
+    "publishedAt": "2026-11-17T17:01:02.000Z",
+    "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38",
+    "details": []
+  },
+  {
     "id": 844,
     "source": "Cloudflare",
     "title": "Introducing Search for Agents",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-25T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/search-for-agents/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 845,
@@ -24,7 +103,8 @@
     "published": "Nov 25, 2026",
     "publishedAt": "2026-11-25T05:00:00.000Z",
     "url": "https://vercel.com/blog/how-cozey-turns-its-operators-into-software-builders-on-vercel",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 846,
@@ -37,7 +117,8 @@
     "published": "Nov 17, 2026",
     "publishedAt": "2026-11-17T14:27:11.000Z",
     "url": "https://eng.lyft.com/smooth-cruiser-at-lyft-built-for-safety-and-transparency-b6a461e16f2a",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 847,
@@ -50,7 +131,8 @@
     "published": "Nov 17, 2026",
     "publishedAt": "2026-11-17T00:00:00.000Z",
     "url": "https://vercel.com/blog/eve-is-now-generally-available",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 848,
@@ -63,7 +145,8 @@
     "published": "Nov 16, 2026",
     "publishedAt": "2026-11-16T05:00:00.000Z",
     "url": "https://vercel.com/blog/agent-evals",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 849,
@@ -76,7 +159,8 @@
     "published": "Nov 9, 2026",
     "publishedAt": "2026-11-09T17:53:35.000Z",
     "url": "https://engineering.atspotify.com/2026/11/ai-product-management-at-spotify-a-view-from-three-angles/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 838,
@@ -467,90 +551,6 @@
     "published": "Nov 9, 2026",
     "publishedAt": "2026-11-09T17:01:02.000Z",
     "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 818,
-    "source": "Vercel",
-    "title": "Decision models take 26% of requests; Anthropic now wins new teams 2:1",
-    "summary": "Every month, AI Gateway routes more than 100 trillion tokens between production applications and AI labs. That traffic gives us a view of what AI usage looks like in today’s enterprise and startup landscape across language, decision, voice, image, and video models. We publish it here monthly. See the Production Index…",
-    "tag": "AI engineering",
-    "time": "4 min read",
-    "accent": "cyan",
-    "published": "Nov 9, 2026",
-    "publishedAt": "2026-11-09T05:00:00.000Z",
-    "url": "https://vercel.com/blog/ai-gateway-production-index-november-2026",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 819,
-    "source": "Cloudflare",
-    "title": "See the agents, set the terms: New visibility and control for personal agents",
-    "summary": "Personal AI agents have changed how users interact with the web, blurring the lines between automated and human traffic. Learn how Cloudflare gives site owners visibility and control to manage personal agent access.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Nov 4, 2026",
-    "publishedAt": "2026-11-04T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 808,
-    "source": "Cloudflare",
-    "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
-    "summary": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 19, 2026",
-    "publishedAt": "2026-11-19T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 809,
-    "source": "Spotify",
-    "title": "When Can You Ship on Offline Evals Alone?",
-    "summary": "TL;DR Teams building AI features want to skip slow A/B tests and decide from offline evals alone. This post...",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 19, 2026",
-    "publishedAt": "2026-11-19T13:34:19.000Z",
-    "url": "https://engineering.atspotify.com/2026/11/when-can-you-ship-on-offline-evals-alone/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 810,
-    "source": "Cloudflare",
-    "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
-    "summary": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 18, 2026",
-    "publishedAt": "2026-11-18T22:00:00.000Z",
-    "url": "https://blog.cloudflare.com/open-clairic/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 811,
-    "source": "Vercel",
-    "title": "Introducing Vercel Board",
-    "summary": "Software development is moving from individual agents completing tasks to teams of agents working on more complex projects.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 18, 2026",
-    "publishedAt": "2026-11-18T08:00:00.000Z",
-    "url": "https://vercel.com/blog/introducing-vercel-board",
     "details": [],
     "featured": false
   }
