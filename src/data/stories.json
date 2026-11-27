@@ -1,5 +1,84 @@
 [
   {
+    "id": 856,
+    "source": "Spotify",
+    "title": "September 29 Outage Incident Report: What we learnt",
+    "summary": "On September 29, Spotify experienced an outage that disrupted users’ access to the platform. This outage was...",
+    "tag": "Engineering",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 27, 2026",
+    "publishedAt": "2026-11-27T14:00:11.000Z",
+    "url": "https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 857,
+    "source": "Cloudflare",
+    "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
+    "summary": "On November 3, 2026 U.S. voters headed to the polls. Here’s what Cloudflare data across more than 1,400 protected sites tells us about Election Day Internet traffic and cyberattacks.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Nov 19, 2026",
+    "publishedAt": "2026-11-19T14:00:00.000Z",
+    "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
+    "details": []
+  },
+  {
+    "id": 858,
+    "source": "Spotify",
+    "title": "When Can You Ship on Offline Evals Alone?",
+    "summary": "TL;DR Teams building AI features want to skip slow A/B tests and decide from offline evals alone. This post...",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 19, 2026",
+    "publishedAt": "2026-11-19T13:34:19.000Z",
+    "url": "https://engineering.atspotify.com/2026/11/when-can-you-ship-on-offline-evals-alone/",
+    "details": []
+  },
+  {
+    "id": 859,
+    "source": "Cloudflare",
+    "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+    "summary": "Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 18, 2026",
+    "publishedAt": "2026-11-18T22:00:00.000Z",
+    "url": "https://blog.cloudflare.com/open-clairic/",
+    "details": []
+  },
+  {
+    "id": 860,
+    "source": "Vercel",
+    "title": "Introducing Vercel Board",
+    "summary": "Software development is moving from individual agents completing tasks to teams of agents working on more complex projects.",
+    "tag": "DevOps",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 18, 2026",
+    "publishedAt": "2026-11-18T08:00:00.000Z",
+    "url": "https://vercel.com/blog/introducing-vercel-board",
+    "details": []
+  },
+  {
+    "id": 861,
+    "source": "Lyft",
+    "title": "Beyond Test Cards: A Fake Payment Provider for Testing at Scale",
+    "summary": "Lyft processes billions in payments annually, and that volume continues to grow. Agentic coding has drastically accelerated feature development, but it raises the stakes for the one phase that cannot be rushed: ensuring the highest standards of reliability and correctness in critical payment systems.",
+    "tag": "Engineering",
+    "time": "4 min read",
+    "accent": "cyan",
+    "published": "Nov 10, 2026",
+    "publishedAt": "2026-11-10T20:55:40.000Z",
+    "url": "https://eng.lyft.com/beyond-test-cards-a-fake-payment-provider-for-testing-at-scale-c69dddadb115",
+    "details": []
+  },
+  {
     "id": 850,
     "source": "GitHub Engineering",
     "title": "How to choose the next safe step in application modernization",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-25T15:00:00.000Z",
     "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 851,
@@ -24,7 +103,8 @@
     "published": "Nov 18, 2026",
     "publishedAt": "2026-11-18T14:52:10.000Z",
     "url": "https://blog.cloudflare.com/java4shell-waf-protection/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 852,
@@ -37,7 +117,8 @@
     "published": "Nov 18, 2026",
     "publishedAt": "2026-11-18T00:00:00.000Z",
     "url": "https://vercel.com/blog/vercel-x",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 853,
@@ -50,7 +131,8 @@
     "published": "Nov 17, 2026",
     "publishedAt": "2026-11-17T20:24:27.000Z",
     "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 854,
@@ -63,7 +145,8 @@
     "published": "Nov 17, 2026",
     "publishedAt": "2026-11-17T18:20:40.000Z",
     "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 855,
@@ -76,7 +159,8 @@
     "published": "Nov 17, 2026",
     "publishedAt": "2026-11-17T17:01:02.000Z",
     "url": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 844,
@@ -467,90 +551,6 @@
     "published": "Nov 13, 2026",
     "publishedAt": "2026-11-13T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/spend-management/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 824,
-    "source": "GitHub Engineering",
-    "title": "Build once, run on any agent: A practical guide to agent skills",
-    "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 12, 2026",
-    "publishedAt": "2026-11-12T22:54:52.000Z",
-    "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 825,
-    "source": "GitHub Engineering",
-    "title": "Inside GitHub’s new Git storage architecture",
-    "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works.",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 5, 2026",
-    "publishedAt": "2026-11-05T20:23:21.000Z",
-    "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 814,
-    "source": "Cloudflare",
-    "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
-    "summary": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 20, 2026",
-    "publishedAt": "2026-11-20T01:58:29.000Z",
-    "url": "https://blog.cloudflare.com/nginx2root/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 815,
-    "source": "Cloudflare",
-    "title": "Choosing QuePaxa, an unusual consensus algorithm",
-    "summary": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Nov 11, 2026",
-    "publishedAt": "2026-11-11T14:24:46.000Z",
-    "url": "https://blog.cloudflare.com/choosing-quepaxa/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 816,
-    "source": "Lyft",
-    "title": "Hiring Junior Engineers",
-    "summary": "Several people have asked me what the qualifications are for junior software engineers to be hired these days. This level is often referred to as “new grad,” but people with lots of different backgrounds, not just recent university graduates, can use the entry-level software engineering role as their first job in big…",
-    "tag": "Engineering",
-    "time": "4 min read",
-    "accent": "amber",
-    "published": "Nov 10, 2026",
-    "publishedAt": "2026-11-10T17:08:06.000Z",
-    "url": "https://eng.lyft.com/hiring-junior-engineers-1edc53e0fd5f",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 817,
-    "source": "Netflix",
-    "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
-    "summary": "By Shreya S Ramanujam , Yongce Li , Afshine Amidi , Sina Ghiassian , Benjamin Klein .",
-    "tag": "Architecture",
-    "time": "3 min read",
-    "accent": "emerald",
-    "published": "Nov 9, 2026",
-    "publishedAt": "2026-11-09T17:01:02.000Z",
-    "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808",
     "details": [],
     "featured": false
   }
