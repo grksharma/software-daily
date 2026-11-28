@@ -1,5 +1,84 @@
 [
   {
+    "id": 862,
+    "source": "Cloudflare",
+    "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
+    "summary": "Five memory corruption bugs in nginx, called nginx2root, can let an unauthenticated attacker run code on a server. Here’s how they work, and why origins behind Cloudflare's proxy are shielded from the most serious of these bugs.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 20, 2026",
+    "publishedAt": "2026-11-20T01:58:29.000Z",
+    "url": "https://blog.cloudflare.com/nginx2root/",
+    "details": [],
+    "featured": true
+  },
+  {
+    "id": 863,
+    "source": "GitHub Engineering",
+    "title": "Build once, run on any agent: A practical guide to agent skills",
+    "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+    "tag": "AI engineering",
+    "time": "3 min read",
+    "accent": "cyan",
+    "published": "Nov 12, 2026",
+    "publishedAt": "2026-11-12T22:54:52.000Z",
+    "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+    "details": []
+  },
+  {
+    "id": 864,
+    "source": "Cloudflare",
+    "title": "Choosing QuePaxa, an unusual consensus algorithm",
+    "summary": "Cloudflare is building an experimental consensus service using a never-before-deployed consensus algorithm, QuePaxa. In this post we explain how QuePaxa works and why we chose it.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "purple",
+    "published": "Nov 11, 2026",
+    "publishedAt": "2026-11-11T14:24:46.000Z",
+    "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+    "details": []
+  },
+  {
+    "id": 865,
+    "source": "Lyft",
+    "title": "Hiring Junior Engineers",
+    "summary": "Several people have asked me what the qualifications are for junior software engineers to be hired these days. This level is often referred to as “new grad,” but people with lots of different backgrounds, not just recent university graduates, can use the entry-level software engineering role as their first job in big…",
+    "tag": "Engineering",
+    "time": "4 min read",
+    "accent": "purple",
+    "published": "Nov 10, 2026",
+    "publishedAt": "2026-11-10T17:08:06.000Z",
+    "url": "https://eng.lyft.com/hiring-junior-engineers-1edc53e0fd5f",
+    "details": []
+  },
+  {
+    "id": 866,
+    "source": "Netflix",
+    "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
+    "summary": "By Shreya S Ramanujam , Yongce Li , Afshine Amidi , Sina Ghiassian , Benjamin Klein .",
+    "tag": "Architecture",
+    "time": "3 min read",
+    "accent": "emerald",
+    "published": "Nov 9, 2026",
+    "publishedAt": "2026-11-09T17:01:02.000Z",
+    "url": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808",
+    "details": []
+  },
+  {
+    "id": 867,
+    "source": "Cloudflare",
+    "title": "Launching the Vite Ecosystem Fund",
+    "summary": "Cloudflare is distributing the first $301,300 of the Vite Ecosystem Fund to open source projects and maintainers. The recipients were chosen by a panel of Vite stack core team members, including maintainers not employed by Cloudflare.",
+    "tag": "Infrastructure",
+    "time": "3 min read",
+    "accent": "amber",
+    "published": "Nov 9, 2026",
+    "publishedAt": "2026-11-09T13:00:00.000Z",
+    "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+    "details": []
+  },
+  {
     "id": 856,
     "source": "Spotify",
     "title": "September 29 Outage Incident Report: What we learnt",
@@ -11,7 +90,7 @@
     "publishedAt": "2026-11-27T14:00:11.000Z",
     "url": "https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt/",
     "details": [],
-    "featured": true
+    "featured": false
   },
   {
     "id": 857,
@@ -24,7 +103,8 @@
     "published": "Nov 19, 2026",
     "publishedAt": "2026-11-19T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 858,
@@ -37,7 +117,8 @@
     "published": "Nov 19, 2026",
     "publishedAt": "2026-11-19T13:34:19.000Z",
     "url": "https://engineering.atspotify.com/2026/11/when-can-you-ship-on-offline-evals-alone/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 859,
@@ -50,7 +131,8 @@
     "published": "Nov 18, 2026",
     "publishedAt": "2026-11-18T22:00:00.000Z",
     "url": "https://blog.cloudflare.com/open-clairic/",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 860,
@@ -63,7 +145,8 @@
     "published": "Nov 18, 2026",
     "publishedAt": "2026-11-18T08:00:00.000Z",
     "url": "https://vercel.com/blog/introducing-vercel-board",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 861,
@@ -76,7 +159,8 @@
     "published": "Nov 10, 2026",
     "publishedAt": "2026-11-10T20:55:40.000Z",
     "url": "https://eng.lyft.com/beyond-test-cards-a-fake-payment-provider-for-testing-at-scale-c69dddadb115",
-    "details": []
+    "details": [],
+    "featured": false
   },
   {
     "id": 850,
@@ -467,90 +551,6 @@
     "published": "Nov 6, 2026",
     "publishedAt": "2026-11-06T14:00:00.000Z",
     "url": "https://blog.cloudflare.com/vole-mole/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 830,
-    "source": "Cloudflare",
-    "title": "Agents aren’t humans (but they kinda are)",
-    "summary": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 5, 2026",
-    "publishedAt": "2026-11-05T17:03:04.000Z",
-    "url": "https://blog.cloudflare.com/trusted-agent-delegation/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 831,
-    "source": "Dropbox",
-    "title": "How two engineer side projects became the agent taking action inside Dropbox",
-    "summary": "Two side projects explored a new way to get work done with files already in Dropbox. Here’s how engineers brought them together and turned those experiments into a new customer experience.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 5, 2026",
-    "publishedAt": "2026-11-05T14:00:00.000Z",
-    "url": "https://dropbox.tech/machine-learning/how-two-engineer-side-projects-became-the-agent-taking-action-inside-dropbox",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 820,
-    "source": "Cloudflare",
-    "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
-    "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
-    "tag": "Security",
-    "time": "3 min read",
-    "accent": "cyan",
-    "published": "Nov 20, 2026",
-    "publishedAt": "2026-11-20T20:24:38.000Z",
-    "url": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 821,
-    "source": "Cloudflare",
-    "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
-    "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
-    "tag": "Infrastructure",
-    "time": "3 min read",
-    "accent": "purple",
-    "published": "Nov 20, 2026",
-    "publishedAt": "2026-11-20T20:00:45.000Z",
-    "url": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 822,
-    "source": "Vercel",
-    "title": "Vercel completes ISO/IEC 42001:2023 certification",
-    "summary": "Vercel has completed its ISO/IEC 42001:2023 certification, meeting the international standard for AI management systems.",
-    "tag": "AI engineering",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Nov 20, 2026",
-    "publishedAt": "2026-11-20T05:00:00.000Z",
-    "url": "https://vercel.com/blog/vercel-completes-iso-iec-42001-2023-certification",
-    "details": [],
-    "featured": false
-  },
-  {
-    "id": 823,
-    "source": "Cloudflare",
-    "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
-    "summary": "Spend Management adds opt-in spending caps for Cloudflare Workers and Durable Objects, and more products soon. Here is how we built the metering pipeline that turns usage into runtime decisions.",
-    "tag": "DevOps",
-    "time": "3 min read",
-    "accent": "amber",
-    "published": "Nov 13, 2026",
-    "publishedAt": "2026-11-13T14:00:00.000Z",
-    "url": "https://blog.cloudflare.com/spend-management/",
     "details": [],
     "featured": false
   }
